@@ -8,18 +8,19 @@
 %\captionsetup{font=small}
 \usepackage{nameref}
 \usepackage{graphicx}
-\usepackage[a4paper, width=160mm, top=25mm, bottom=25mm, bindingoffset=6mm {geometry}
+\usepackage[a4paper, width=160mm, top=25mm, bottom=25mm, bindingoffset=6mm] {geometry}
+\usepackage[onehalfspacing]{setspace}
 \usepackage{fancyhdr}
-\pagestyle{fancy}
-%\fancyhead[CO]{\scshape\MakeLowercase{\leftmark}}
+\pagestyle{headings}
+\fancyhead[CO]{\scshape\MakeLowercase{\leftmark}}
 \fancyhead{}
 \fancyhead[LE,RO]{}
-%\fancyhead[CE,CO]{\leftmark}
-%\fancyfoot[CE,CO]{\thepage}
+\fancyhead[CE,CO]{\leftmark}
+\fancyfoot[CE,CO]{\thepage}
 \usepackage{titlesec}
 \usepackage{tikz}
 \usepackage{float}
-\titleformat{\chapter}{\normalfont\huge}{\bf{\thechapter}}{20pt}{\huge\bf}
+%\titleformat{\chapter}{\normalfont\huge}{\bf{\thechapter}}{20pt}{\huge\bf}
 %\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
 \usepackage{acronym}
 \usepackage{multicol}
@@ -33,6 +34,7 @@
 \usepackage{xcolor}
 \usepackage{amsmath}
 \usepackage{amssymb}
+
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
