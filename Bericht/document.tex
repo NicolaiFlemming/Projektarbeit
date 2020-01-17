@@ -1,0 +1,866 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[ngerman]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[parfill]{parskip}
+\usepackage{float}
+\usepackage{caption}
+%\captionsetup{font=small}
+\usepackage{nameref}
+\usepackage{graphicx}
+\usepackage[a4paper, width=160mm, top=25mm, bottom=25mm, bindingoffset=6mm {geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\fancyhead[CO]{\scshape\MakeLowercase{\leftmark}}
+\fancyhead{}
+\fancyhead[LE,RO]{}
+%\fancyhead[CE,CO]{\leftmark}
+%\fancyfoot[CE,CO]{\thepage}
+\usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{float}
+\titleformat{\chapter}{\normalfont\huge}{\bf{\thechapter}}{20pt}{\huge\bf}
+%\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+\usepackage{acronym}
+\usepackage{multicol}
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\title{Projektarbeit WS1920}
+\renewcommand{\listtablename}{Tabellenverzeichnis} 
+\renewcommand{\listfigurename}{Abbildungsverzeichnis}
+\usepackage{caption,subcaption}
+\usepackage{gensymb}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{blue},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\begin{document}
+	\begin{titlepage}
+		
+		\begin{center}
+			\vspace*{1cm}
+			
+			\LARGE
+			\textbf{Experiment am D-förmigen Stumpfkörper bzw. Hitzdrahtunterschung der Nachlaufdynamik am D-förmigen Stumpfkörper mit Coanda Aktuation }
+			
+			
+			\vspace{3cm}
+			\includegraphics[width=0.5\linewidth]{Bilder/Tu_Braunschweig.png}\\
+			\vspace{3cm}
+			\Large
+			Nicolai Flemming(4839640), Tilman Langhammer(4875138), Ahmet Ugur Nergiz(4619022), Maike Wollschläger(4807931)\\
+			
+			\vfill
+			
+			
+			Projektarbeit \\ 
+			Betreuer: M.Sc Philipp Oswald \\
+			Prüfer  : Prof. Dr.-Ing. Rolf Radespiel 
+			
+			
+			
+		\end{center}
+	\end{titlepage}
+		
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+
+	\section{Einleitung}
+	
+	Die effiziente Nutzung von Energie steht im Mittelpunkt der Technologieentwicklung. Hierzu kann die Aerodynamik einen wichtigen Beitrag leisten, indem mit ihrer Hilfe versucht wird den Strömungswiderstand umströmter Körper zu verringern. Umströmte Körper lassen sich in aerodynamische und stumpfe Körpern aufteilen. Im Folgenden soll eine Betrachtung stumpfer Körper erfolgen.\\
+	Der Strömungswiderstand stumpfer Körper ist deutlich höher als derjenige aerodynamisch geformter Körper. Daher kann es zu großen Energieersparnissen kommen, wenn die Aerodynamik stumpfer Körper optimiert wird. Zum Beispiel kann der Kraftstoffverbrauch eines Fahrzeugs durch Reduktion seines Strömungswiderstandes gesenkt werden.\\
+	Besitzt ein stumpfer Körper eine Hinterkante, so ist ein Ansatz zur Verringerung des Widerstandes das Ausblasen von Luft an der Hinterkante des Körpers. Die Grundidee besteht in der Anhebung des Basisdrucks am stumpfen Körper und somit der Verringerung des Druckwiderstandes. Im Experiment, das in dieser Projektarbeit beschrieben wird, wird ein Luftstrahl über eine Coanda-Fläche ausgeblasen, wodurch die Luft hinter der Basis einwärts strömt. Hierdurch lässt sich laut Geropp der Widerstand eines Körpers mit stumpfem Heck um 40 \% verringern.[Quelle]\\
+	Ziel der Projektarbeit ist es nicht, erneut nachzuweisen, dass eine Verringerung des Widerstandes durch das Ausblasen von Luft möglich ist. Stattdessen geht es darum, die Dynamik des Nachlaufs mittels Hitzdrahtmessungen bei unterschiedlichen Ausblasefrequenzen zu charakterisieren. Dies verspricht einen Einblick in die verantwortlichen Wirkmechanismen.\\
+	Für das Experiment müssen umfangreiche Vorbereitungen wie die Planung einer Halterung mit Traversiermechanismus, die Kalibrierung der Hitzdrahtsonde und die Spalteinstellung am Modell getroffen werden.
+
+	\newpage
+	\section{Theoretische Grundlagen}
+	
+	\subsection{Stumpfkörperaerodynamik}
+	
+	\subsubsection{Definition stumpfer Körper}
+	Nach [Aerodynamik stumpfer Körper] fällt eine genaue Definition des Begriffes \glqq stumpfer Körper \grqq{} schwer. Dies liegt auch daran, dass der Übergang von einem schlanken zu einem stumpfen Körper fließend ist. Qualitativ gelingt eine Abtrennung, wenn stumpfe Körper im Vergleich zu schlanken Körpern als \glqq dick\grqq{} bezeichnet werden. \glqq Dick\grqq{} bedeutet, dass ihre Querschnittsfläche senkrecht zur Anströmung vergleichbar zur Querschnittsfläche längs der Antströmung ist. Für eine quantitative Einschätzung wurde der sogenannte Schlankheitsgrad $ \lambda $ definiert, der das Verhältnis von Länge zu Dicke darstellt: 
+	
+	\begin{equation}
+	\lambda = \frac{l}{d}    
+	\end{equation}
+	
+	Dessen Kehrwert ist das Dickenverhältnis $\delta$.
+	
+	\subsubsection{Widerstand stumpfer Körper}
+	Der Extremfall eines stumpfen Körpers ist die quer angeströmte Platte ($\delta \rightarrow \infty$), während die längs angeströmte Platte ($\lambda \rightarrow \infty$) umgekehrt einen maximal schlanken Körper repräsentiert. Die Strömung kann der Kontur einer längs angeströmten Platte problemlos folgen. Dagegen ist die Umströmung eines stumpfen Körpers von Ablösungen geprägt. Hinter dem stumpfen Körper bildet sich Totwasser aus, in dem die Strömung verwirbelt und reibungsbehaftet ist. Dieses Totwasser wechselwirkt mit der umliegenden Strömung, die an der Hinterkante des stumpfen Körpers abreißt. Zwischen der Strömung und dem Totwasser bildet sich eine Scherschicht. An dieser Scherschicht setzt sich das Fluid im Totwasser in Bewegung, wodurch der Druck an der Basis des Stumpfkörpers abnimmt. Entsprechend überwiegt bei stumpfen Körpern der Druckwiderstand gegenüber dem Reibungswiderstand (vgl. Abb.\ref{fig:Widerstaende}).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1]{Bilder/Widerstaende.png}
+		\caption{Druck- und Reibungswiderstände verschiedener Körper [Quelle]}
+		\label{fig:Widerstaende}
+		\vspace{1cm}
+	\end{figure}
+	
+	\subsubsection{Maßnahmen zur Verringerung des Widerstandes}
+	
+	Um den Widerstand stumpfer Körper zu verringern, ist es also naheliegend, den Basisdruck hinter dem stumpfen Körper zu steigern. Hierzu werden in \glqq Aerodynamik der stumpfen Körper\grqq{} von Wolf-Heinrich Hucho [Quelle] zwei Ansätze vorgestellt. Einmal die Veränderung der Geometrie des stumpfen Körpers und zum zweiten die Beeinflussung der Struktur der Strömung im Totwasser. Dabei lässt sich die Beeinflussung der Struktur der Strömung in aktive und passive Maßnahmen unterscheiden. Bei aktiven Maßnahmen wird im Gegensatz zu passiven Maßnahmen zusätzlich Energie aufgewendet.\\
+	In dem Experiment, das in dieser Projektarbeit betrachtet wird, findet eine aktive Beeinflussung der Strömung statt. Hierbei wird ein dünner Luftstrahl an der Hinterkante über eine Coanda-Fläche ausgeblasen. Die Luft wird sowohl konstant, als auch mit verschiedenen Frequenzen ausgeblasen. Aufgrund des Coanda-Effektes wird der Luftstrahl abgelenkt und verkleinert das Totwasser hinter dem Modell. Hierdurch steigt der Basisdruck und der Widerstand des Körpers sinkt. Angesichts der Zielsetzung einer Energieersparnis muss berücksichtigt werden, dass das aktive Ausblasen von Luft Energie benötigt.
+	
+	\subsubsection{Berechnung des Widerstandes stumpfer Körper}
+	
+	Der Widerstand eines stumpfen Körpers lässt sich mithilfe des Impulssatzes aus der Form des Nachlaufs berechnen. Der Impulssatz besagt, dass die Impulsänderung aus der Durchströmung der Oberfläche eines Kontrollvolumens gleich der Änderung der an diesem Kontrollvolumen angreifenden Kräfte ist. (Schlichting Truckenbrodt)\\
+	Für ein Kontrollvolumen (siehe Abb.\ref{fig:Kontrollvolumen}), auf dessen Oberfläche der Druck p$_{\infty}$ der ungestörten Anströmung herrscht, ergibt sich für den Widerstand 
+	
+	\begin{equation}
+	\label{eq:Widerstand}
+	W = - \rho \int_{(K)}^{} u_1 dQ 
+	\end{equation}
+	
+	$u_1$ ist die x-Komponente der Geschwindigkeit, $\rho$ die Luftdichte und Q der Volumenstrom.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width = \linewidth]{Bilder/Kontrollvolumen.png}
+		\caption{Kontrollfläche K zur Ermittlung des Widerstandes mittels Impulssatz[Quelle]}
+		\label{fig:Kontrollvolumen}
+		\vspace{1cm}
+	\end{figure}
+
+	Wertet man diese Gleichung für das gezeigte Kontrollvolumen aus, ergibt sich
+	
+	\begin{equation}
+	W = - \rho b \int_{(l)}^{} u_1(U_\infty - u_1) dy    
+	\end{equation}
+	
+	Dabei ist b die Breite des Körpers senkrecht zur Zeicheneben und l die Länge des Nachlaufes in y-Richtung.\\
+	Für den Widerstandsbeiwert des umströmten Körpers folgt
+	
+	\begin{equation}
+	c_W = \frac{W}{\frac{\rho}{2}{U_\infty}^2bd} = 
+	2\int_{(l)}^{}\frac{u_1}{U_\infty}(1-\frac{u_1}{U_\infty})d\frac{y}{d}   
+	\end{equation}
+	
+	[Aerodynmik stumpfer Körper]
+	Ist die Geschwindigkeitsverteilung $u_1(y)$ im Nachlauf bekannt, lässt sich der $c_W$-Wert des Körpers ermitteln.
+	
+	\subsubsection{Kármánsche Wirbelstraße}
+	Bei höheren Reynoldszahlen bilden sich hinter einem Zylinder alternierende Wirbel aus, die als Kármánsche Wirbelstraße bezeichnet werden. [Schlichtung Truckenbrodt] Mithilfe von Druckmessungen haben Oswald et al. [Philipps Paper] gezeigt, dass eine solche Wirbelanordnung auch hinter dem in dieser Projektarbeit verwendeten Modell auftritt.\\
+	Die Frequenz, mit der die Wirbel ablösen kann durch die dimensionslose Strouhal-Zahl beschrieben werden.
+	
+	\begin{equation}
+	Sr=\frac{f  L}{v}    
+	\end{equation}
+	
+	Dabei ist f die Wirbelablösefrequenz, L die charakteristische Länge des umströmten Körpers und v die Strömungsgeschwindigkeit. [2]
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{Bilder/Wirbelstrasse.png}
+		\caption{Kármánsche Wirbelstraße [Quelle]}
+		\label{fig:Wirbelstrasse}
+		\vspace{1cm}
+	\end{figure}
+	
+	\subsection{Grundlagen der Spektralanalyse}
+	Die Spektralanalyse, die auf der  Fourier-Transformation basiert, hat das Ziel aus einem Originalsignal die Frequenzkomponenten herauszufinden. [matlab internet] Die Grundlage der Fourier-Transformation ist, dass sich jedes periodische Signal in eine sinusförmige Grundfrequenz und ihre Harmonischen zerlegen lässt. Die Harmonischen sind ganzzahlige Vielfache der Grundfrequenz.\\
+	Häufig liegt das Originalsignal in Form eines zeitlich diskreten Signals vor. Dies ist auch in dieser Projektarbeit der Fall, in der die kontinuierliche Spannung an einer Hitzdrahtsonde abgetastet wurde. Hieraus ergibt sich eine Zahlenfolge von Spannungswerten $(x_i)_(i=1;...;n)$  für jede Position der Hitzdrahtsonde. Um die hauptsächlich vorkommenden Frequenzen dieses zeitdiskreten Signals herauszufinden, wird die im Zeitbereich vorliegende Folge $(x_i)_(i=1;...;n)$ in die kontinuierliche Spektralfunktion X($e^{j\Omega}$) transformiert. Diese Transformation ist mathematisch folgendermaßen definiert:
+	
+	\begin{equation}
+	X(e^{i\Omega}) = \sum_{i=-\infty}^{i=\infty} x_i e^{-j\Omega k}  
+	\end{equation}
+	
+	$\omega$ ist die Kreisfrequenz. $\Omega$ ist die durch die Abtastrate fa =1/T normierte Kreisfrequenz.
+	
+	\begin{equation}
+	\Omega=\frac{\omega}{f_a}=\omega T   
+	\end{equation}
+	
+	Für Transformation eines zeitdiskreten Signals mit einem Digitalrechner, muss eine mit einem Digitalrechner auswertbare Transformation definiert werden. Diese Transformation wird als diskrete Fourier-Transformation (DFT) bezeichnet. Für die DFT gibt es eine Vielzahl an Algorithmen, die sich in einen Rechner implementieren lassen. Beispiele sind der Winograd-Algorithmus oder der Primfaktor-Algorithmus. In Matlab wird die DFT mittels eines Fast Fourier Transform (FFT) Algorithmus` ausgeführt. Der genaue Aufbau des Algorithmus wird hier nicht weiter besprochen. Siehe dazu [4] Kapitel 6.4.
+	
+	\subsection{Coand?-Effekt}
+	\subsubsection{Definition}
+	Der Coand?-Effekt beschreibt die Tatsache dass ausströmende Strahl dazu neigt, sich an nähen Wänden zu befestigen und sogar konvexen Oberflächen zu folgen. Der Fluid hat diese Fahigkeit, solange auf sich wirkende durch Druckgradiet erzeugte Druckkraft (als Zentripetalkraft) und die Zentrifugal Kraft in Glecihgewicht sind.\\
+	Bei einer konvexen Kontur unterscheiden wegen der Stromlinienkrümmung Druckverteilungen an der Wand und am Außenrand der Grenzschicht von einander. Entlang der Kontur findet die Umsetzung von kinetischer Energie eines Fluidteilchens in der Außenströmung in Druck deutlicht mehr als die Umsetzung bei einer Fluidteilchen an der Wandnahe statt. Die durch diese Druckunterschied erzeugte Druckkraft (Druckgradient)  tritt als Kompensation für Zentrifugalkrafte auf. [grenzschichttheorie]\\
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.5]{Bilder/Coanda-Flache.png}
+		\caption{Strahlumlenkung und Druckgradient (Coanda-Effekt)}
+		\label{fig:my_label}
+		\vspace{1cm}
+	\end{figure}
+	
+	Diese Beziehung kann auch mit Eulersche Bewegungsgleichung in Stromlinienkoordinaten berechnet werden.[Strömungslehre Heinz Schade]\\
+	\newpage 
+	Eulersche Bewegungsgleichung  lautet in Bahnkoordinaten:\\
+	\begin{equation}
+	\frac{\partial c}{\partial t}+c\frac{\partial c}{\partial s} = -g\frac{\partial z }{\partial s}-\frac{1}{\rho}\frac{\partial p}{\partial s}
+	\end{equation}
+	Wenn der Einfluss des Schwerfeldes vernachlassigt werden kann und vor allem im stationaren Fall, lautet die sog. Radiale Druckglecigung:
+	\begin{equation}
+	\frac{c^2}{R}=-\frac{1}{\rho}\frac{p}{n}    
+	\end{equation}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1]{Bilder/Gradient.png}
+		\caption{Die Druckgradient bei gekrümmten Linie}
+		\label{fig:my_label}
+		\vspace{1cm}
+	\end{figure}
+	In Abb 2.5 wird ein positive Druckgradient entlang der Stromlinie s von der konkaven zur konvexen Seite veranschaulicht.  Da die Druckkraft in entgegengesetzte Richtung von der Druckgradient herrscht, ist die Zentripetalkraft gleich nach der Gleichung 2.9 die negative vorgezeichnete Druckgradient: dh die für die gekrümmte Bahnlinie erforderliche Zentripetalkraft wird von dem Druckfeld erzeugt.
+	
+	\subsubsection{Coanda Effekt im Alltag}
+	
+	
+	Coand?-Effekt kann im Alltag auftreten, beispielweise als man Tee aus dem Ausgießer einer Teekanne gießt. Dabei ist es zu beobachten, dass der Tee bei den niedrigeren Ausgießwinkeln an der Tülle hinunter bis zur Unterseite der Kanne fließt anstatt er sich von der Oberflache des Kannes ablöst. Wenn der Ausgießwinkel allmähnlich vergrößert wird, löst der Flüssigkeitsstrahl sich zuerst nur teilweise von der Oberflache. Wenn der Strahl vollstandig ablöst, ist eine Umlenkung des Strahles aus der Senkrechten zu beobachten. Muss die Teekanne weiter nach unten gekippt werden, damit der Durchfluss noch erhöht, erhält man schließlich der erwarteten Fließweg. Hierbei wird diese Wechselwirkung zwischen Flüssigkeit und Oberfläche als Coand?-Effekt bezeichnet.
+	
+	\subsubsection{Ausblasungseffekt}
+	\subsubsection{Ablösung}
+	Um die Effekt von Ausblasung in dieser Projekt zu erlautern, muss zuerst die Ablösung der Grenzschicht erklart werden. Die Ablösung von Grenzschichten an der langsangeströmten ebenen Platte oder um die schlanken Körpern nur durch der Reibungswiderstand auftreten. Da die Druckanstieg bei schlanken Körpern gegen das Heck sehr schwach oder entlang einer ebenen Platte nicht existiert. Bei stumpfer Körper oder an der gekrümmten Flachen besteht jedoch Ablösungsgefahr für die Grenzschicht, wenn Längs der anströmenden Körperkontur die Druckanstieg zu steil ist.\\
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1]{Bilder/AA.png}
+		\caption{Ablösungsilliustration auf gekrümmten Flache}
+		\label{fig:my_label}
+		\vspace{1cm}
+	\end{figure}
+	Bei der Coanda-Flachen tritt die Ablösung wegen der Druckanstieg entlang der gekrümmten Kontur auf. Wie in Kap. Definition erklarte Umwandlung von Energie einer wandnahen Fluideteilchen in Druck kann sich ab einem Punkt nicht vollziehen. Hierbei dissipiert die kinetische Energie von dier Teilchen infolge Reibung. Deswegen reicht die kinetische Energie der Fluidteilchen in unmittelbar Wandnahe nicht mehr aus, um langs der ganzen Flache gegen den von der Aussenströmung aufgepragten Druckanstieg anströmen zu können. In einem Punkt kommt sie zum Stillstand und fangt langsam damit an, ihre Strömungsrichtung durch die Druckverteilung der Strömung von Aussen der Grenzschicht umzukehren.(Abb. 2.6) Und dann löst sich die Grenzschicht von der Oberflache ab.
+	
+	\subsubsection{Die Effekt von Ausblasung auf die Ablösung}
+	Die Ausblasung ist eine Möglichkeit, der energieschwachen Strömung an der Wandnahe Energie zuzuführen somit ablösung zu vermeiden. Durch eine Schlitzt wird ein Luftstrahl an der Coanda Flache parallel zur Hauptströmung eingeblasen. Diese Strahl und von der Profilobereflache anströmende Grenzschicht von Hauptströmung bilden eine Scherschicht zusammen und mit dieser genügend kinetische Energie geladenen Scherschicht wird die Ablösung verhindert werden.(Abb. 2.7)
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1]{Bilder/Ausblaseneffekt.png}
+		\caption{Ausblaseneffekt}
+		\label{fig:my_label}
+		\vspace{1cm}
+	\end{figure}
+	
+	\subsubsection{Coand?-Effekt in der Stumpfkörperaerodynamik}
+	
+	Obwohl dieser Phänomen bekannt war und wurde von Young im 18. Jahrhundert dokumentiert, hat er Dank von Henri Marie Coand?  (1886-1972) und seinen verschiedenen Konzeptionen, die auf den sog. Coand?-Effekt bezogen sind, in Wissenschaftswelt an Bedeutung  gewonnen. \\
+	Wie in Kapitel 2.1 erwähnt wurde,in dem Experiment wird die Druckwiderstand durch aktive Beeinflussung der Strömung reduziert. Dabei werden zwei Coand?-Flächen an der oberen und unteren Kanten der Hinterseite des Profils platziert und wird Luft von den Ausblaseschlitzen zwischen die Coanda-Flächen und Kanten ausgeblasen.(Abb. 2.8) Bei Unterschall-Ausströmgeschwindigkeiten befestigt der Strahl an die Coanda-Flachen und vermischt sich mit der turbulenten Grenze, die von der oberen und unteren Seiten des Profil ankommende Schichtströmung. 
+	
+	
+	
+	\begin{figure}[H]
+		
+		\centering
+		\includegraphics[scale=0.5]{Bilder/Coandaflache2_x.jpeg}
+		\caption{Coanda-Flache}
+		\label{fig:my_label}
+		\vspace{3cm}
+	\end{figure}
+	
+	\subsection{Hitzdrahtmessung}
+	
+	Nach \glqq Grundlagen der Strömungsmechanik\grqq{} von Franz Durst [Quelle] gehört die Hitzdrahtanemometrie der Gruppe der thermoelektrischen Geschwindigkeitsmessverfahren an. Sie ist eine indirekte Messmethodik, da nicht die Strömungsgeschwindigkeit, sondern die Wärmeabgabe eines erhitzten Drahtes gegenüber dem Strömungsmedium gemessen wird. Mit Hitzdrahtsonden werden schnell veränderliche Strömungsgeschwindigkeiten bestimmt. Daher sind sie ein geeignetes Messinstrument, um die Turbulenzen in einer Strömung zu ermitteln.
+	
+	\subsubsection{Physikalisches Wirkprinzip}
+	
+	Der Hitzdraht besteht in der Regel aus einem platinierten
+	Wolframdraht, der zwischen zwei Spitzen von zwei Haltestiften aufgespannt wird. Dieser ist mit einem Durchmesser von 5\,$\mu$m und einer Länge von 1-2\,mm für seine kurze Reaktionszeit bekannt. Die Drahtenden werden auf die Haltestifte, die in den Keramikkörper eingefügt werden, geschweißt. Des Weiteren besteht die Möglichkeit den Hitzdraht an den Enden zu verkupfern, beziehungsweise zu vergolden, um die Wärmeleitung zwischen den Haltestiften und dem Draht zu verringern. Eine Darstellung einer einfachen Hitzdrahtsonde zeigt Abbildung \ref{fig:Hitzdrahtsonde}. \\
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{Bilder/Hitzdraht.png}
+		\caption{Ausführung einer einzelnen Hitzdrahtsonde [Quelle]}
+		\label{fig:Hitzdrahtsonde}
+		\vspace{1cm}
+	\end{figure}
+	
+	Die Funktionsweise der Hitzdrahtanemometrie besteht darin, einen kontrolliert erhitzten Draht mittels einer elektrischen Brückenschaltung auf eine Temperatur aufzuheizen, die merklich über der Temperatur des vorliegenden Strömungsmediums liegt. Dadurch wird eine starke Empfindlichkeit gegenüber Geschwindigkeitsänderungen und eine Reduzierung des Einflusses der Temperaturschwankungen des Strömungsmediums erzielt. Als Brückenschaltung wird hierbei meistens die Wheatstone-Brücke verwendet. Diese registriert die durch Geschwindigkeitsänderungen verursachten Temperatur- und damit auch Widerstandsänderungen, wobei Widerstand und Temperatur nahezu linear voneinander abhängen. Es gibt zwei Möglichkeiten die Geschwindigkeit zu messen. Entweder wird der Heizstrom durch den Hitzdraht (CCA, Constant-Current-Anemometer) oder die Temperatur (CTA, Constant-Temperature-Anemometer) konstant gehalten. In unserer Projektarbeit wird die Methode des Konstant-Temperatur-Anemometers angewendet. Hierbei stellt die notwendige elektrische Heizspannung, um die Temperatur der Sonde konstant zu halten, ein Maß für die Geschwindigkeit dar.\\
+	
+	Die Konstant-Temperatur-Regelung erfolgt unter Ausnutzung einer schnellen elektronischen Signalrückführung, die die Wärmeträgheit der Hitzdrahtsonde ausgleichen soll, siehe Abbildung \ref{fig:Prinzipschaltung}. Für die abgeglichene Wheatstone-Brücke liegt am Eingang des Servoverstärkers keine Differenz-Spannung an. Die Temperatur- bzw. Widerstandsänderungen der Sonde verursachen hingegen diese Differenzspannungen am Servoverstärkereingang. Durch die Rückkopplung des Servoverstärkerausgangs mit dem Brückenoberteil wird die Brücke selbsttätig abgeglichen. Ein Signal wird erzeugt, das kaum von der Wärmeträgheit der Sonde abhängt. Dabei wird die Grenzfrequenz hauptsächlich durch den Frequenzgang des Rückführungsverstärkers angegeben.\\
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1]{Bilder/Prinzipschaltung.png}
+		\caption{Aufbau eines Konstant-Temperatur-Anemometers (CTA) [Quelle]}
+		\label{fig:Prinzipschaltung}
+		\vspace{1cm}
+	\end{figure}
+	
+	Die Wärmeabgabe des Drahtes hängt nicht nur von der Strömungsgeschwindigkeit, sondern auch von der Differenz der Strömungs- und Hitzdrahttemperaturen ab. Zur Korrektur dieses Temperatureinflusses wendet man laut [Quelle] folgende Korrekturformel an, die durch die anfallende Brückenspannung $U_B$, der Sensortemperatur $T_S$, der Basiskalibrierung $U_{B,0}$ und einer Ausgangstemperatur $T_{F,0}$ die gegenwärtige Temperatur $T_F$ berechnet:\\
+	
+	\begin{equation}
+	\label{eq:Temp_corr}
+		U^{2}_{B} = U^{2}_{B,0} \times \frac{T_{S}-T_{F}}{T_{S}-T_{F,0}}
+	\end{equation}
+	
+	Ferner beeinflussen nach [Quelle] die physikalischen Eigenschaften, die Abmessungen des Drahtes und die Gestaltung der Hitzdrahthalterungen den Wärmehaushalt. Insofern die eben aufgeführten Parameter konstant gehalten werden, steht die erforderliche Heizspannung direkt in Verbindung mit der am Draht anliegenden Strömungsgeschwindigkeit.\\
+	
+	Als Vorteile der Hitzdrahtanemometrie sind die vielfältigen Einsatzbereiche und die hohen Arbeitstemperaturen des Hitzdrahtes zu nennen, wodurch eine hohe zeitliche Auflösung von Geschwindigkeitsveränderungen erreicht wird. Im Vergleich zur Konstant-Strom-Regelung lassen sich nach [Quelle] Vorteile der Konstant-Temperatur-Regelung herausstellen. Zum einen ist die Empfindlichkeit des Messwertes gegenüber der Geschwindigkeit der Strömung größer und die Trägheit der Hitzdrahtsonde wird durch die Rückkopplung vereinzelt besser ausgeglichen. Zum anderen kann die Konstant-Temperatur-Regelung auch bei instationären Strömungen mit großen Geschwindigkeitsschwankungen angewandt werden. Bei einer plötzlichen Verringerung der mittleren Strömungsgeschwindigkeit besteht zudem nicht die Gefahr, dass der Hitzdraht durchbrennt.\\
+	
+	Ein Nachteil der Konstant-Temperatur-Regelung im Vergleich zum Konstant-Strom-Betrieb besteht in der höheren relativen Rauschlautstärke. Dieser schränkt das Auflösungsvermögen der Amplitude stark ein. Ebenfalls ist der messtechnische Aufbau wesentlich anspruchsvoller und bei falscher Bedienung können freie gedämpfte oder auch freie ungedämpfte Schwingungen auftreten. Diese Schwingungen können Messfehler hervorrufen und für die freie ungedämpfte Schwingung besteht die Möglichkeit des Durchbrennens der Hitzdrahtsonde. Nach [Quelle] lässt sich für CTA und CCA noch der Nachteil des instabilen Verhaltens des Servoverstärkers in Grenzfällen festhalten. Des Weiteren ist bei der Verwendung von einfachen Hitzdrahtsonden eine Unterscheidung der Strömungsrichtung nicht möglich.\\
+	
+	\subsubsection{Kalibrierung}
+	
+	Es besteht die Möglichkeit durch die Bestimmung des Wärmeverlustes bei Hitzdrähten den Geschwindigkeitsverlauf aus den aufgenommenen Messdaten ohne Eichung zu folgern. Dazu ist eine genaue Angabe der geometrischen Abmessungen des Messfühlers und der Betriebswerte des Messapparats erforderlich. Da die Genauigkeit der Kenntnisse der Einflussgrößen von Hitzdrahtsonden nur unzureichend ist, wird eine Kalibrierung im Eichkanal bevorzugt.\\
+	
+	Die Sonde wird hierfür in einem Luftstrom niedrigen Turbulenzgrades mit bekannter und veränderlicher Geschwindigkeit positioniert und die Anemometer-Ausgangsspannung mit der zugehörigen Geschwindigkeit dokumentiert. Dabei ist zu beachten, dass die Sonde unmittelbar oder kurz hinter der Öffnung des Eichkanals entgegen der Strömungsrichtung ausgerichtet wird. Für den entsprechenden Geschwindigkeitsbereich wird anschließend die Kalibrierung bei möglichst vielen Geschwindigkeitspunkten vorgenommen.\\
+	
+	In \glqq Strömungsmesstechnik 2\grqq{} von Nitsche und Brunn [Quelle] wird ein Ansatz für die Bestimmung der statischen Eichkurve vorgestellt. Durch das Auftragen der Anemometer-Ausgangsspannung über die Geschwindigkeit erhält man die statische Eichkurve, die einen nicht-linearen Zusammenhang aufweist. Diese Abhängigkeit kann für den vorgesehenen Geschwindigkeitsbereich durch das Kingsche Gesetz abgebildet werden:\\
+	\begin{equation}
+	U^{2} = A + B*u^{n}
+	\end{equation}
+	
+	Das Kingsche Gesetz stellt einen einfachen Zusammenhang zwischen der Heizspannung U und der Strömungsgeschwindigkeit u dar, wobei A, B und n Kalibrierkonstanten sind und durch die abgenommenen Messdaten bestimmt werden können. \\
+	
+	Die Werte für die Kalibrierkonstanten können numerisch ermittelt werden, indem diese statischen Eichkurven durch eine Polynomapproximation dargestellt werden. Die Polynomapproximation liefert über den gesamten Messbereich eine recht zuverlässige Genauigkeit. Die gleichbleibend gute Genauigkeit ist insbesondere bei der Kalibrierung von Hitzdrähten von großer Bedeutung, damit in den nachfolgenden Experimenten keine deutlichen Abweichungen zwischen tatsächlicher und gemessener Strömungsgeschwingkeit auftreten.
+	
+	\newpage
+	\section{Kalibrierung}
+	\label{sec:Kalibrierung}
+	\subsection{Zielsetzung}
+	Das Ziel der Kalibrierung ist es zwei unterschiedliche Hitzdrahtsonden, eine mit 3,35\,$ \Omega $ und eine mit 3.5\,$\Omega$ Widerstand zu kalibrieren. Um die Kalibrierfunktion zu bestimmen, wird jeweils eine Messreihe im Kalibrierkanal aufgenommen, bei der die Spannung der Messbrücke bei bestimmten Strömungsgeschwindigkeiten gemessen wird. Auf diesen Datensatz soll dann eine Funktion gefittet und so eine Kalibrierfunktion erstellt werden. Das fitting soll so genau wie möglich den Datensatz darstellen. Kalibriert wird zwischen 5\,m/s und 40\,m/s, da für das Experiment im Windkanal mit Geschwindigkeiten in dieser Größenordnung zu rechnen ist. Die Abtastrate der Aufnahmeprogramme soll bei ca 1\,kHz liegen, da im Messbetrieb mit Frequenzen von ca 70-80\,Hz zu rechnen ist. 
+	
+	\subsection{Versuchsaufbau}
+	Die 2 Messreihen werden nacheinander am Kalibrierwindkanal des IFAS gemessen. Hierzu wird die Sonde in eine Hitzdrahtsondenhalterung eingespannt und mittels einer Aluprofil-Konstruktion im Kernstrahl des Kanals platziert.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\textwidth]{kalibrierkanal}
+		\caption{Ausrichten der Hitzdrahtsonde am Kalibrierkanal}
+		\label{fig:calkanal}
+	\end{figure}
+	
+	Die Hitzdrahtsonde wird mittig und schlüssig mit dem Kanalausgang platziert um eine möglichst konstante Anströmung zu erreichen (siehe 2.4.2). Zur genauen Ausrichtung wird ein Laser verwendet, zu sehen in Abb.~\ref{fig:calkanal}.
+	
+	Bei den Hitzdrahtsonden handelt es sich um 2 Sonden der Firma Dantec Dynamics. % hier noch mehr schreiben  
+	
+	Die Hitzdrahtsonde wird mit einer passenden Messbrücke verbunden, welche mittels einer Wheatstoneschen Brücke, die Widerstandsänderungen am Hitzdraht aufgrund des konvektiven Wärmetransports in ein messbare Spannung umwandelt(siehe 2.4.1). Die Messbrücke wird vor der Kalibrierung mit den Kabelwiderständen und Hitzdrahtwiderständen ausbalanciert. Die von der Messbrücke ausgegebenen Spannungen werden dann an ein Compact Reconfigureable Input/Output Modul (cRIO), dem cRIO NI9067 von National Instruments, weitergegeben und dort mit einem LabVIEW Programm aufgenommen. Die Daten werden von dort aus dann an den Messrechner weitergegeben und abgespeichert.
+	%Überschneidung mit Maikes Text ausgleichen
+	
+	\subsection{Programmierung} 
+	Das Programm zur Kalibrierung der Hitzdrahtsonde ist in zwei Einzelprogramme unterteilt. Ein LabVIEW Programm, das nur die Spannungen, Geschwindigkeiten und Parameter aufnehmen soll und ein Matlab Script, das die aufgenommenen Daten zur Kalibrierfunktion verarbeitet.
+	
+	\subsubsection{LabVIEW Programm}
+	Das LabVIEW Programm ist in 2 Virtual Instruments (VI) unterteilt. Das erste VI läuft auf dem cRIO und das zweite auf dem Messrechner.
+	Die Aufgabe des Programms auf der cRIO Seite (Abb. \ref{fig:labview1}) ist es die von der Messbrücke ausgegebenen Spannungen mit einer Abtastrate von 1\,kHz für jeweils 10 Sekunden aufzunehmen und in einem Array abzulegen. Die gezeitete Schleife, die dafür benutzt wird ist Null basiert, liefert über die 10 Sekunden also 10\,001 Werte. Nach Ablauf der 10 Sekunden zeigt das Skript die gemessenen Daten als Waveform Chart zur optischen Überprüfung an und schickt das Array per LAN-Verbindung an den Messrechner. Eine Echtzeit-Übertragung an den Messrechner ist wegen einer zu geringen Datenrate nicht möglich.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{labview_crio1}
+		\caption{Messkarten Seite des LabVIEW Skripts}
+		\label{fig:labview1}
+	\end{figure}
+	
+	Das VI auf der Messrechnerseite (Abb.\ref{fig:labview2}) empfängt das Array und bietet die Möglichkeit, die für die Kalibrierung erforderliche Raumtemperatur und Kanalgeschwindigkeit einzugeben. Das Overheat-Ratio wird direkt im Skript als Konstante verankert, da sie während der Kalibrierung nicht variabel ist. Zusätzlich kann ein Speicherpfad und ein Name für den gerade gemessenen Datensatz eingegeben werden. Alle eingegebenen Variablen und Konstanten werden dann zusammen von einem integrierten Matlab Script-Block in ein Matlab (.mat) Dateiformat formatiert und abgespeichert. So soll sichergestellt werden, dass alle benötigten Daten und Parameter in einem Format zentral gesichert sind.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\textwidth]{Labviewskript_cut}
+		\caption{Messrechnerseite des LabVIEW Skripts}
+		\label{fig:labview2}
+	\end{figure}
+	
+				\subsubsection{Matlab Script}
+	Das Matlab Skript (s. Anhang) soll die von dem LabVIEW Skript bereitgestellten Daten einlesen, verarbeiten und die Kalibrierkurve auf den entstandenen Datensatz anpassen. Dazu erstellt es eine Liste mit allen Dateien in dem ausgewählten Ordner und reserviert Speicherplatz, um später die Daten einzulesen. 
+	
+	\vspace{2mm}
+	\begin{lstlisting}[language=MATLAB,caption={Laden des Speicherorts}]
+	folder = uigetdir(); % Auswahl Datenschpeicherort
+	files = dir([folder, '\*.mat']); % Struct mit file-Namen
+	Values = zeros(180,3); % Speicherzuweisung
+	ydata = zeros(36,1); % Speicherzuweisung
+	xdata = zeros(36,1); % Speicherzuweisung
+	\end{lstlisting}
+	
+	Dann öffnet es alle Dateien nacheinander und speichert die gemittelten Spannungen, Raumtemperatur und zugehörige Geschwindigkeit in einem Array ab. Dieses Array (Values) wird dann aufsteigend nach den Geschwindigkeiten sortiert und die Spannungen in Abhängigkeit der Geschwindigkeit als rote Kreise geplottet.
+	
+	\vspace{2mm}
+	\begin{lstlisting}[language=MATLAB,caption={Speichern, sortieren und visualisieren}]
+	for i=1: length(files)
+	load([folder,'\', files(i).name]) % Lädt files
+	Values(i,1) = mean(data(1,:)); % schreibt Spannungen
+	Values(i,2) = Speed; % Schreibt Geschwindigkeit
+	Values(i,3) = Temp; % Schreibt Temperatur
+	end
+	
+	[~,idx] = sort(Values(:,2)); % Erstellt Indizes
+	Sorted = Values(idx,:); % Sortiert nach Indizies 
+	
+	plot(Sorted(:,2), Sorted(:,1),'ro') % Plottet Sorted
+	axis([0 45 1.7 2.6]) % Achsenbemaßung
+	\end{lstlisting}
+	
+	Da immer 5 Werte bei gleicher Geschwindigkeit vorhanden sind, bildet das Skript als nächstes den Mittelwert aller bei einer Geschwindigkeit gemessenen Spannungen und speichert sie in einem neuen Array ab (ydata). Zusätzlich wird jeder Geschwindigkeitswert einmal in einem 2. Array abgespeichert (xdata). Zur Überprüfung werden xdata und ydata nochmal in das schon vorhandene Plot als blaue Punkte gezeichnet. 
+	
+	\vspace{2mm}
+	\begin{lstlisting}[language=MATLAB,caption={Mittelwertbildung}]
+	for i=1 : 36 % Mittelwert 5 Spannungen
+	if i == 1
+	ydata(i) = mean(Sorted(1:5,1));
+	else
+	ydata(i) = mean(Sorted((i-1)*5+1:i*5,1));
+	end
+	end
+	
+	for i=1 : 36 % Geschwindigkeiten in xdata
+	xdata(i) = Sorted(i*5,2);
+	end
+	
+	plot(xdata, ydata, 'b.') % Plottet xdata und ydata
+	\end{lstlisting}
+	
+	Um die Kalibrierfunktion auf die Daten anzupassen, wird die lsqcurvefit Funktion der Matlab Optimization Toolbox verwendet. Diese nimmt eine vorgefertigte Funktion mit eingepassten Parametern, ein Array mit vermuteten Anfangsparametern (param0) und unsere x (xdata) und y (ydata) Daten entgegen. Die Parameter werden dann so optimiert, dass sie möglichst gut zu unserem vorhandenen Datensatz passen. Als Grundfunktion wurde das King'sche Gesetz (siehe 2.4.2) verwendet. Nach der Optimierung gibt die Funktion ein Array mit den optimierten Parametern aus (param).
+	
+	\vspace{2mm}
+	\begin{lstlisting}[language=MATLAB,caption={Curvefitting}]
+	param0 = [0, 0, 0.45]; % Array mit vermuteten Anfangsparametern
+	fun = @(param, x) sqrt(param(1) + param(2) * x.^param(3)); % Funktion
+	param = lsqcurvefit(fun, param0, xdata, ydata); % Optimieren
+	\end{lstlisting}
+	
+	Diese werden dann in eine Funktion (voltage) eingesetzt, die wieder das King'sche Gesetz als Grundlage nimmt und so eine Funktion entsteht, die die Volt-zahlen bei bestimmten Geschwindigkeiten errechnen kann. Zur optischen Überprüfung wird diese Funktion mit den schon gemessenen Geschwindigkeiten (xdata) in das schon vorhandene Plot gezeichnet.
+	
+	\vspace{2mm} 
+	\begin{lstlisting}[language=MATLAB,caption={Funktion erstellen und Testen}]
+	function v = voltage(param, x) % Funktion V(u)
+	v = sqrt(param(1) + param(2)*x.^ param(3));
+	end
+	
+	Volt = voltage(param, xdata); % Berechnen der Spannungen anhand der neuen Funktion mit den berechneten Parametern
+	plot(xdata, Volt,'r')
+	\end{lstlisting}
+	
+	Die Inverse dieser Funktion ist die eigentlich gesuchte Kalibrierfunktion (speed), die die Geschwindigkeit bei gegebenen Spannungen berechnet. Diese wird als eigene Funktion abgespeichert und später zu Berechnung der Geschwindigkeiten am Modell verwendet. Als letztes wird die Inverse nochmal in ein neues Plot gezeichnet.
+	
+	\vspace{2mm}
+	\begin{lstlisting}[language=MATLAB,caption={Inverse Funktion}]
+	function u = speed(param,x) % Funktion u(V)
+	u = ((x.^(2) + (-1)* param(1))/param(2)).^(1/param(3));
+	end
+	
+	speed_calc = speed(param, ydata); % Berechnen der Geschwindigkeiten aus den gemessenen Spannungen mithilfe der invertierten Funktion 
+	plot(ydata, speed_calc)
+	\end{lstlisting}   
+	
+	\subsection{Fehlerabschätzung} % Standartabweichung muss noch berechnet werden
+	Verschiebungen von 10\,cm in den Kanal, gemessen vom Kanalausgang, sowie 10\,cm aus dem Kanal heraus ergeben nur kleine Änderungen der gemessenen Strömungsgeschwindigkeit von weniger als 1\%. Daher wurde beschlossen den Hitzdraht direkt am Kanalausgang zu positionieren. Kleine Änderungen des Anströmwinkels (<1$\degree$) ergaben Änderungen kleiner 1\%. Es wurde darauf geachtet die Sonde immer möglichst im rechten Winkel zur Strömung zu platzieren.
+	
+	Um die Qualität der gefitteten Kurve einschätzen zu können, wurde die Standardabweichung zwischen gefitteter Kurve und tatsächlichem Geschwindigkeitsverlauf ermittelt.[Zahlenwerte nennen]
+	
+	\newpage
+	\section{Windkanalversuche}
+	\subsection{Aufbau}
+	\subsubsection{Windkanal LNB}
+	
+	Das Experiment am D-förmigen Stumpfkörper für die Projektarbeit wird im Leiser Niedergeschwindigkeits-Windkanal Braunschweig (LNB) am Institut für Strömungsmechanik durchgeführt. Die Abbildung \ref{fig:Windkanal} zeigt einen schematischen Aufbau des Windkanals.\\
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/Windkanal.jpg}
+		\caption{Windkanal LNB}
+		\label{fig:Windkanal}
+		\vspace{1cm}
+	\end{figure}
+	
+	Der LNB ist nach [Quelle] ein kontinuierlicher, atmosphärischer Windkanal nach Eiffel-Bauart mit einer geschlossenen Messstrecke, wobei ein Rücklauf der Luft ermöglicht wird. Dieser besitzt eine Lagerung aus Gummiklötzen auf einem Stahlgestell, damit Vibrationen reduziert werden können. Motor und Fan sind dabei vom übrigen Teil des Windkanals abgesondert. Der Windkanal wird mit einer Leistung von 3\,kW angetrieben und erreicht eine maximale Strömungsgeschwindigkeit von 19\,m/s. Die Düse, der Diffusor sowie die Motoraufhängung bestehen aus einer glasfaserverstärkten Kunststoffbauweise. \\
+	
+	Die Düse nach Börger-Bauart hat eine rechteckige Form und besitzt ein Kontraktionsverhältnis von 16:1. Die Luft strömt zunächst durch eine 30 mm dicke Vliesmatte und durch Aluminiumwaben mit einer Tiefe von 133 mm und einem mittleren Durchmesser der Waben von 14 mm. Um Turbulenzen zu minimieren, fließt die Luft anschließend noch durch ein engmaschiges Sieb. Der Turbulenzgrad liegt unter 0,1\% bei 10\,m/s. \\
+	
+	Die Messtrecke besitzt eine Länge von 1500\,mm, eine Breite von 400\,mm und eine Höhe von 600\,mm. Mit einem Flügelradmessgerät werden die Geschwindigkeiten in diesem Abschnitt ermittelt, wobei sich die Abweichungen bezüglich der Geschwindigkeit in der Messstrecke hierbei auf 1\% bei 10\,m/s belaufen. \\
+	
+	
+	\subsubsection{Planung der Halterung}
+	Während die Halterung für die Hitzdrahtsonde am Kalibrierwindkanal bereits vorhanden war, musste die Halterung am LNB noch gebaut werden.
+	Sie soll gewährleisten, dass die Hitzdrahtsonde im Windkanal vertikal traversiert werden kann. Bei einer vorherigen Messung mittels eines Nachlaufrechens wurden etwa 200 mm Breite der Nachlaufdelle gemessen. Dabei war der Nachlaufrechen wenige Zentimeter stromabwärts hinter dem Modell platziert. Die zur Verfügung stehende Traverse erreicht einen Verfahrweg von 184 mm. Die Halterung wird auf dem Windkanal montiert. Durch ein Loch in der Deckenplatte des Windkanals ist die Hitzdrahtsonde über eine Stange mit der Traverse verbunden.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.35\linewidth]{Bilder/Traverse.jpeg}
+		\caption{Bau der Halterung}
+		\label{fig:Traverse}
+		\vspace{0cm}
+	\end{figure}
+	
+	\newpage
+	\subsubsection{Modell}
+	
+	Der für diese Projektarbeit verwendete D-förmige Stumpfkörper mit einer stumpfen Hinterkante ist nach [Quelle] 190,6\,mm lang, 390\,mm breit und 53,4\,mm hoch. Am stumpfen Teil des Modells sind Coanda-Flächen mit einer runden Form und einem Radius von 9,4\,mm befestigt. Der Stumpfkörper wird horizontal im Windkanal positioniert. Dieser erstreckt sich über die gesamte Breite der Messstrecke und wird von einem Stahlrohr auf jeder Seite festgehalten. Dabei wird die Strömung an den Seitenwänden des Kanals als zweidimensional angenommen. Die Abbildung \ref{fig:Stumpfkörper} zeigt den D-förmigen Stumpfkörper im Windkanal sowie die Hitzdrahtsonde in ihrer Halterung.\\
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{Bilder/Stumpfkoerper.jpg}
+		\caption{D-förmiger Stumpfkörper im Windkanal}
+		\label{fig:Stumpfkörper}
+		\vspace{1cm}
+	\end{figure}
+	
+	An der Hinterkante verfügt der Stumpfkörper über zwei Ausblaseschlitze. Über Schnellschaltventile wird die Ausblasung ein- und ausgeschaltet. Eine Schlitzhöhe von 0,2 mm wird mit einer Fühlerlehre vorab geprüft und mit Hilfe einer Fischmaulsonde wird der Schlitz auf gleichmäßige Ausblasung hin überprüft, siehe Abschnitt 4.1.4.\\
+	
+	Zur genauen Ausrichtung des eingebauten Modells im Kanal werden mit eingeschaltetem Windkanal die statischen Drücke von der Ober- und Unterseite über Druckbohrungen abgenommen und miteinander verglichen. Gegebenenfalls wird anschließend die Modellnase neu ausgerichtet.\\
+	
+	\subsubsection{Einstellung des Modells}
+	\subsubsection{Verwendete Messtechnik}
+	
+	Zur Aufnahme der Messungen wird der D-förmige Stumpfkörper und die Hitzdrahtsonde, die mittels einer Konstruktion aus Aluprofilen und einem Traversiermechanismus in die Strömung gehalten wird, in den Windkanal eingebaut. Hierbei wird beachtet, dass die gleiche Halterung für die Hitzdrahtsonde wie für den Kalibrier-Windkanal des IFAS verwendet wird. Die Hitzdrahtsonde wird im Windkanal mit einem Abstand von ungefähr 400 mm zum Stumpfkörper platziert. 
+	
+	Der D-förmige Stumpfkörper wird über einen Drucktank und über ein Volumenstrommessgerät an das Druckmesssystem angeschlossen. Die Oberflächendruckhähne des Modells werden durch ein DTC Initium Druckmesssystem mit einem ESP-32HD Druckscanner gemessen, der über 32 Kanäle verfügt. Ebenfalls sind TOM-1545P-R Mikrofone an der Messkarte des cRIOs angeschlossen, die sich entlang der vertikalen Mittellinie auf der Rückseite des Stumpfkörpers befinden. Die Ausblasung von der Ober- und Unterkante des Modells kann über das Compact Reconfigureable Input/0utput Modul (cRIO NI9067) von einem Messrechner angesteuert werden Siehe(Teil Nicolai). Die Hitzdrahtsonde wird hierbei mit der Wheatstoneschen Messbrücke verbunden, siehe Kapitel 2.4. Anschließend werden die ausgegebenen Spannungen über ein Compact Reconfigureable Input/0utput Modul an das LabView Programm weitergeleitet und zur weiteren Analyse gespeichert (siehe gleicher abschnitt). In Abbildung (muss noch eingefügt werden) ist der verwendete messtechnische Aufbau am Windkanal dargestellt.
+	
+	Bild!
+	
+	\subsubsection{Programmierung}
+	Wie schon bei der Kalibrierung (3.3) wird auch bei der Datenaufnahme im Kanal ein zweigeteiltes LabVIEW Programm verwendet. Das schon bestehende LabVIEW Programm wurde auf der Messkartenseite um fünf Datenkanäle erweitert, um die Spannungen des Hitzdrahts sowie die Signale der Mikrofone auf der Rückseite des Modells aufzunehmen (zu sehen in Abb. \ref{fig:labview3})
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\textwidth]{labview_crio}
+		\caption{LabVIEW auf der Messkarte}
+		\label{fig:labview3}
+	\end{figure}
+	
+	Auf der Messrechnerseite ändert sich nichts und die Daten werden wieder über ein integriertes Matlabskript in ein .mat Format gebracht und abgespeichert.(siehe Kapitel: \nameref{fig:labview2}, Abb.\ref{fig:labview2})
+	
+	Zur Steuerung der aktuierten Ausblasung über die Coandafläche wird ein 2. LabVIEW Programm genutzt, das die Ventile über eine gezeitete Schleife steuert. Die Frequenz kann so über die Periode (T) der angepeilten Schwingung eingestellt werden. Dabei entstehen Probleme, weil nur ganzzahlige Millisekunden Werte eingegeben werden können, die dann zu Abweichungen bei der eingestellten Frequenz führen. Aus diesem Grund konnten nur die Frequenzen 62\,Hz, 72\,Hz und 83\,Hz angesteuert werden. 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\textwidth]{labview_trigger}
+		\caption{LabView Code Ausblasung}
+		\label{fig:labview4}
+	\end{figure}
+	
+	\subsection{Testfälle mit zugehörigen Ausblaseparametern}
+	
+	Es werden am Leiser Niedergeschwindigkeits-Windkanal für die Projektarbeit Messungen von einem Schnitt stromabwärts bei zehn Betriebsbedingungen vorgenommen. Pro Betriebsbedingung werden jeweils 24 Punkte angefahren, was einem Verfahrweg von 184 mm entspricht. Die Druckdaten werden dabei über einen Zeitraum von 10 Sekunden gemittelt.
+	
+	Hierbei werden bei einer Strömungsgeschwindigkeit von 16 m/s verschiedene Betriebszustände eingestellt. Es wird zunächst ohne Ausblasung, daraufhin mit konstanter Ausblasung bei 1 und 2 Bar Versorgungsdruck der Ausblasung und abschließend mit gepulster Ausblasung gemessen. Bei der gepulsten Ausblasung werden die Frequenzen 62 Hz, 72 Hz und 83 Hz angesteuert (siehe oben). Die Tabelle \ref{tab:table1} listet die verschiedenen Betriebszustände mit den zugehörigen Ausblaseparametern auf.
+	
+	\begin{table}[H]
+		\begin{center}
+			\caption{Betriebszustände}
+			\label{tab:table1}
+			\begin{tabular}{c|c}
+				\textbf{1Bar} & \textbf{2Bar}\\
+				\hline
+				\multicolumn{2}{c}{ohne}\\
+				\hline
+				\multicolumn{2}{c}{konstant}\\
+				\hline
+				\multicolumn{2}{c}{62\,Hz}\\
+				\hline
+				\multicolumn{2}{c}{72\,Hz}\\
+				\hline
+				\multicolumn{2}{c}{83\,Hz}\\
+				
+			\end{tabular}
+		\end{center}	
+	\end{table}
+	
+	\newpage
+	\section{Auswertung}
+	\subsection{Umrechnen der Daten}
+	\subsubsection{Temperaturkorrektur, Mittelwerte und Widerstände}
+	Da die Messungen bei anderen Raumtemperaturen stattfinden können als die Kalibrierung des Hitzdrahts, müssen die im Kanal gemessenen Spannungswerte erst temperaturkorrigiert werden. Dafür wird wie in Abschnitt(2.4.2) die Formel (\ref{eq:Temp_corr}) genutzt. Die Korrektur geschieht direkt beim Einlesen der Daten in das Matlabskript. Zusätzlich werden noch die nicht korrigierten Daten abgespeichert, um später einen Vergleich ziehen zu können.
+	
+	Um die Geschwindigkeit aus den eingelesenen Daten zu berechnen, werden die eingelesenen Spannungsdaten in die kalibrierte Geschwindigkeitsfunktion aus \ref{sec:Kalibrierung} eingesetzt und als neuer Datensatz gespeichert. Diese Daten werden später noch zur Berechnung der Frequenzen verwendet (siehe Sektion Spektra). Um die Nachlaufdelle abzubilden, müssen zunächst die Mittelwerte der einzelnen Positionen gebildet werden. Dies geschieht mit der \glqq mean \grqq{} Funktion im Matlab Skript. Wenn man die gemittelten Geschwindigkeiten über die Positionen aufträgt, erhält man die Nachlaufdelle. (siehe Abb.\ref{fig:Nachlaufdelle_bsp})
+	
+	Die Ermittlung der Widerstände erfolgt über eine Matlab Funktion (siehe Anhang). Diese fittet eine Funktion mittels linearer Regression (lsqcurvefit) auf die bereits ermittelten Geschwindigkeitswerte der Nachlaufdelle. Wie in Abschnitt(2.1.4) schon besprochen kann der Widerstand mit dem Impulssatz berechnet werden(siehe Formel \ref{eq:Widerstand}). Die Formel wird dann mit der im Fit ermittelten Funktion, der vorherrschenden Kanalgeschwindigkeit und der charakteristischen Länge unseres Körpers in Matlab implementiert und dann integriert. Das Ergebnis ist der $c_W$-Wert.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[width=1.2\linewidth]{tempcorr_bsp.jpg}
+			\caption{Beispiel einer korrigierten und nicht-korrigierten Nachlaufdelle}
+			\label{fig:Nachlaufdelle_bsp}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[width=1.2\linewidth]{Nachlaufdellefit.jpg}
+			\caption{Beispiel eines Nachlaufdellen Fits mittels lsqcurvefit}
+			\label{fig:Nachlaufdellefit_bsp}
+		\end{subfigure}\hfil 
+	\end{figure}
+	
+	\subsubsection{Varianzen}
+	Um die Turbulenzen an den Messstellen abschätzen zu können, wird für jeden Messpunkt einer Reihe die Standardabweichung der Geschwindigkeit gebildet (siehe Matlabskript Anhang). Mit der Annahme, dass eine höhere Standardabweichung auch einen höheren Turbulenzgrad zufolge hat, kann man so die räumlich auftretenden Turbulenzgrade gut darstellen. Um eine visuelle Darstellung zu erhalten, werden die Standardabweichungen über die dazugehörigen Messpositionen geplottet.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\textwidth]{Standardabweichung_bsp.jpg}
+		\caption{Beispiel Standardabweichungen}
+		\label{fig:Standardabweichung_bsp}
+	\end{figure}
+	
+	\subsubsection{Spektra}
+	Die im Nachlauf auftretenden Frequenzen werden mittels einer Spektralanalyse ( siehe 2.2) aufgelöst. Die einzelnen zeitabhängigen Geschwindigkeiten werden hierfür mit einer Fast Fourier Transformation (FFT) in ihre Frequenzanteile zerlegt und als Spektrum geplottet. Da immer nur eine Messposition in der Nachlaufdelle als Spektrum in einem Graphen dargestellt werden kann, muss man die Position, die man betrachten möchte, manuell im Skript anpassen. Um einen besseren Überblick über die verschiedenen auftretenden Frequenzen zu bekommen, wird die gesamte FFT als Contourplot dargestellt.
+	
+	\begin{figure}[H]
+		\centering % <-- added
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\linewidth]{Spektrum_bsp.jpg}
+			\caption{Beispiel eines Spektrums}
+			\label{fig:spektrum_bsp}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\linewidth]{Contour_bsp.jpg}
+			\caption{Beispiel eines Contourplots}
+			\label{fig:contour_bsp}
+		\end{subfigure}
+	\caption{} 
+	\end{figure}
+	
+	Wie in Abb.\ref{fig:spektrum_bsp} kann man in dem Spektrum stark auftretende Frequenzen gut erkennen. Das Contourplot bietet allerdings wie in Abb.\ref{fig:contour_bsp} die Möglichkeit alle über den Messbereich auftretenden Frequenzen einzusehen. Um zu verifizieren, dass die Daten auch wirklich sinnvoll sind, wurden die erhaltenen Spektra der Hitzdrahtmessung auch noch ein mal mit den Spektra der Mikrofondaten verglichen.
+	
+	
+	\subsection{Zustand ohne Ausblasung}
+	
+	Zunächst soll der Zustand des Nachlaufs, der ohne Ausblasung entsteht, anhand der Messdaten beschrieben werden. Dies dient als Ausgangspunkt, um den Einfluss der unterschiedlichen Aktuationsparameter auf die Strömung einzuschätzen. Außerdem soll ein Überblick über die unterschiedlichen Diagramme gegeben werden. Ohne Ausblasung wurden zwei Messungen durchgeführt, deren Ergebnisse sich, zumindest auf den ersten Blick, teilweise deutlich unterscheiden.
+	\begin{figure}[H]
+	\centering
+		\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\linewidth]{Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg}
+			\caption{Nachlaufdelle ohne Ausblasung, 1. Messung}
+			\label{fig:Nachlaufdelle_ohne_1bar}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg}
+			\caption{Nachlaufdelle ohne Ausblasung, 2. Messung}
+			\label{fig:Nachlaufdelle_ohne_2bar}
+		\end{subfigure}
+	\caption{Nachlaufdellen ohne Ausblasung}
+	\end{figure}
+	
+	In den Diagrammen für die Nachlaufdelle existiert eine Kurve für die gemessene Geschwindigkeit (rot) und eine für die temperaturkorrigierte Geschwindigkeit (blau) (2.4.1). Im Folgenden wird nur auf die korrigierte Kurve eingegangen.
+	
+	Die erste Nachlaufdelle ohne Ausblasung ist schmaler als die zweite. Dementsprechend ist der erste Widerstandsbeiwert  mit $c_W=0,3690$ geringer als der zweite mit $c_W=0,3878$. Allerdings müssen die berechneten Widerstandsbeiwerte hier mit besonderer Vorsicht betrachtet werden, weil es für die beiden Messungen ohne Ausblasung so wirkt, als sei nicht die gesamte Nachlaufdelle abgedeckt worden.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg}
+			\caption{Strouhal Zahlen 1\,Bar }
+			\label{fig:Strouhal_ohne_1bar}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg}
+			\caption{Strouhal Zahlen 2\,Bar}
+			\label{fig:Strouhal_ohne_2bar}
+		\end{subfigure}
+		\caption{Strouhal-Zahlen ohne Ausblasung}
+		\label{fig:Strouhal_ohne}
+	\end{figure}
+	
+	In den dargestellten Diagrammen Abb.\ref{fig:Strouhal_ohne} wurde jeweils die dominante Frequenz als dimensionslose Strouhal-Zahl an der jeweiligen Position im Nachlauf aufgetragen. Sie ist an den Rändern bei beiden Messungen gleich und unterscheidet sich in mittlerer Position deutlich. Betrachtet man allerdings das Frequenzspektrum an der mittleren Position Abb.\ref{fig:Spektrumohne}, so fällt auf, dass bei beiden Messungen die hauptsächlich auftretenden Frequenzen bei 0 Hz und 140 Hz liegen. Somit sind die Diagramme, die die Strouhal-Zahl auftragen insofern irreführend, dass in ihnen ein Unterschied herausgestellt wird, der in Wirklichkeit nicht so deutlich existiert. Das liegt daran, dass die Strouhal-Zahlen nur auf Basis der am häufigsten auftretenden Frequenzen aufgetragen werden. Jede weniger häufige Frequenz bleibt unberücksichtigt.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg}
+			\caption{Spektrum ohne Ausblasung, 1\,Bar}
+			\label{fig:Spektrum_ohne_1bar}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg}
+			\caption{Spektrum ohne Ausblasung, 2\,Bar}
+			\label{fig:Spektrum_ohne_2bar}
+		\end{subfigure}
+		\caption{Frequenzspektrum ohne Ausblasung}
+		\label{fig:Spektrumohne}
+	\end{figure}
+	
+	Eine weniger vereinfachende Übersicht über die an den jeweiligen Positionen im Nachlauf dominierenden Frequenzen liefert der Konturplot der Frequenzen. Dieser enthält die Information, an welcher Position welche Frequenz wie häufig vorkommt. Dabei wird die Häufigkeit durch die Intensität der Farbe gekennzeichnet. Je satter das Schwarz ist, desto häufiger kommt die Frequenz an der entsprechenden Position vor. Die Frequenzen sind in Form von Indices gespeichert. Welche Frequenz welchem Index entspricht, musste bei der Auswertung manuell aus den Messdaten bzw. dem Frequenzspektrum abgelesen werden. 
+	
+	\begin{figure}[H]
+	\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg}
+			\caption{Kontour Plot ohne Ausblasung, 1\,Bar}
+			\label{fig:Contour_ohne_1bar}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Contour_ohne_2bar.jpg}
+			\caption{Kontour Plot ohne Ausblasung, 2\,Bar}
+			\label{fig:Contour_ohne_2bar}
+		\end{subfigure}
+		\caption{Konturplot ohne Ausblasung}
+		\label{fig:Contour_ohne}
+	\end{figure}
+	
+	
+	Am Konturplot wird deutlich, dass beide Messungen ohne Ausblasung ähnliche Frequenzen an den gleichen Positionen ergeben haben. Bei der ersten Messung befinden sich in mittiger Position größere Abweichungen. Diese führen zu der irreführenden Darstellung der Strouhal-Zahl in Abb.\ref{fig:Strouhal_ohne}
+	
+	Für den Zustand ohne Ausblasung, der als Vergleichszustand dienen soll, lässt sich ein $c_W$-Wert zwischen 0,3690 und 0,3878 festhalten. Die Frequenz in den äußeren Bereichen des Nachlaufs liegt bei 69 Hz. Die Frequenz in der Mitte des Nachlaufs liegt bei 138 Hz. Somit beträgt die Frequenz in der Mitte das Doppelte der Frequenz außen. Anhand Abbildung \ref{fig:Wirbelstrasse} kann man vermuten, dass der Hitzdraht in den äußeren Bereichen des Nachlaufs nur die Geschwindigkeitsänderungen erfasst, die durch die äußeren Wirbel hervorgerufen werden. In der Mitte des Nachlaufs erfasst er dagegen die Geschwindigkeitsänderungen, die durch die oberen und unteren Wirbel hervorgerufen werden. Da die Wirbel alternieren, folgen die Geschwindigkeitsänderungen in der Mitte doppelt so schnell aufeinander wie außen. Am Konturplot Abb.\ref{fig:Contour_ohne} wird deutlich, dass beide Messungen ohne Ausblasung ähnliche Frequenzen an den gleichen Positionen ergeben haben. 
+	
+	
+	\subsection{Zustände bei verschiedenen Aktuationsparametern}
+	
+	\subsubsection{Maximaler Widerstand}
+	Die im vorherigen Abschnitt genannten Widerstandsbeiwerte beim Zustand ohne Ausblasung sind im Vergleich zu allen anderen Zuständen der Ausblasung am größten. Dies deckt sich mit der Theorie, dass die Ausblasung von Luft an der Hinterkannte den Druckwiderstand des Körpers verringert. Außerdem bedeutet das, dass die gepulste Ausblasung die Strömung nicht nachteilig in Bezug auf den Widerstand beeinflusst hat.
+	
+	\subsubsection{Minimaler Widerstand}
+	Der minimaler Widerstand tritt bei konstanter Ausblasung mit 2\,Bar auf. Der zugehörige Widerstandsbeiwert beträgt $c_W=0,2670$. Im Vergleich zum Zustand ohne Ausblasung bedeutet dies eine Reduktion des Widerstandes um 27,6\,\%.  Im Folgenden werden weitere Unterschiede zum Zustand ohne Ausblasung beschrieben.
+	
+	\begin{figure}[H]
+	\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg}
+			\caption{Nachlaufdelle ohne Ausblasung 2\,Bar}
+			\label{fig:Nachlaufdelle_ohne_2barVgl}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg}
+			\caption{Nachlaufdelle konstante Ausblasung 2\,Bar}
+			\label{fig:Nachlaufdelle_konst_2bar}
+		\end{subfigure}
+		\caption{Nachlaufdellen im Vergleich}
+		\label{fig:Nachlaufdelle_vgl}
+	\end{figure}
+	
+	
+	Vergleicht man die Nachlaufdelle aus der zweiten Messung ohne Ausblasung mit der Nachlaufdelle bei konstanter Ausblasung Abb.\ref{fig:Nachlaufdelle_vgl}, so fällt auf, dass die Nachlaufdelle bei konstanter Ausblasung schmaler ist. Dies deckt sich mit dem geringeren berechneten Widerstand des Zustandes bei konstanter Ausblasung.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg}
+			\caption{Strouhal ohne Ausblasung}
+			\label{fig:Strouhal_ohne_2barVgl}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/konst_2_bar/Strouhal_konst_2bar.jpg}
+			\caption{Strouhal konstante Ausblasung 2\,Bar}
+			\label{fig:Strouhal_konst_2bar}
+		\end{subfigure}
+		\caption{Strouhal-Zahlen im Vergleich}
+		\label{fig:Strouhal_vgl}
+	\end{figure}
+	
+	
+	
+	Die Strouhal-Zahl ist sowohl an den Rändern als auch in der Mitte des Nachlaufs bei konstanter Ausblasung erhöht (Abb. \ref{fig:Strouhal_konst_2bar}). Das bedeutet, dass die konstante Ausblasung einen Einfluss auf die dominante Frequenz der Wirbel im Nachlauf hat. 
+	Die Widerstandsverminderung lässt sich darauf zurückführen, dass der ausgeblasene Luftstrahl aufgrund des Coanda-Effektes (siehe Theorie) einwärts strömt. Hierdurch wird der Druck an der Basis erhöht und der Druckwiderstand des Körpers sinkt.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg}
+			\caption{Kontur Plot ohne Ausblasung 2\,Bar}
+			\label{fig:Contour_ohne_2barVgl}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/konst_2_bar/Contour_konst_2bar.jpg}
+			\caption{Kontur Plot konstante Ausblasung 2\,Bar}
+			\label{fig:Contour_konst_2bar}
+		\end{subfigure}
+		\caption{Frequenzen im Vergleich}
+		\label{fig:Contour_vgl}
+	\end{figure}
+
+	Der Konturplot für die beiden Zustände (Abb. \ref{fig:Contour_vgl}) zeigt ein detaillierteres Bild der auftretenden Frequenzen im Nachlauf als die Auftragung der Strouhal-Zahlen. Bei konstanter Ausblasung treten zwischen Position 6 und 18 neben den beiden häufigsten Frequenzen 72 Hz und 145 Hz weitere Frequenzen auf, die beim Zustand ohne Ausblasung nicht aufgetreten sind. Aufgrund der Strouhal-Zahlen konnte darauf geschlossen werden, dass die konstante Ausblasung einen Einfluss auf die dominante Frequenz der Wirbel im Nachlauf hat. Der Konturplot bestätigt diese Beobachtung. Gleichzeitig zeigt er aber auch, dass eine konstante Ausblasung dazu führt, dass die Wirbel mit weiteren Frequenzen ablösen (siehe Abb.\ref{fig:Contour_konst_2bar}). Man kann also davon ausgehen, dass das konstante Ausblasen von Luft den natürlichen Wirbelablöseprozess beeinflusst.
+	Bisher wurden nur die Fälle keine Ausblasung und konstante Ausblasung betrachtet. Im nächsten Abschnitt wird auf die gepulste Ausblasung genauer eingegangen.
+	
+	
+	\subsection{Gepulste Ausblasung}
+	\subsubsection{Zusammenhang der Auftretenden Frequenzen}
+	Wie schon in Sektion (2.1.5) beschrieben löst sich die Strömung am Ende unseres Sumpfkörpers über die Coanda-Fläche wirbelförmig ab. Dies geschieht bei einer Anströmung von 16\,m/s und keiner Ausblasung, mit der natürlichen Wirbelablösefrequenz von 68.7\,Hz. Dies entspricht bei unserer charakteristischen Länge von 0.0534\,m einer Strouhal Zahl von Sr = 0.23. In der Mitte des Messbereichs verdoppelt sich die Frequenz dann noch einmal auf 137.4\,Hz (Sr = 0.46). (siehe Contour Plot) Dies kann durch die Überlagerung der sich am Körper ablösenden Wirbel erklärt werden (siehe 5.3). 
+	
+	Bei konstanter Ausblasung steigt die Frequenz auf 72.2\,Hz (Sr = ) bei 2\,Bar  und  74,1\,Hz (Sr = ) bei 1\,Bar Versorgungsdruck. Gleich bleibt jedoch, dass in der Mitte des Messbereichs die doppelte Frequenz der Ablösefrequenz auftritt.
+	
+	Bei gepulster Ausblasung von 62\,Hz und 2\,Bar fällt auf, dass zunächst eine Ablösefrequenz nahe der gepulsten Frequenz im Nachlauf auftritt. In der Mitte des Messbereichs kann wieder eine Verdoppelung der am Rand auftretenden Frequenz beobachtet werden. Bei 1\,Bar Ausblasung mit 62\,Hz  tritt hingegen hauptsächlich eine Frequenz von 71 - 72\,Hz auf, ähnlich der Frequenz bei konstanter Ausblasung. Die 62\,Hz sind im Spektrum am Rand des Messbereichs zwar noch zu erkennen, scheinen aber keinen besonders großen Einfluss mehr zu nehmen. (Vielleicht liegt dies daran, dass 1Bar Ausblasung einfach zu gering ist um einen wirklichen Unterschied zu machen).
+	
+	Hier noch ein/zwei Bilder (spektrum und oder passendes Contour plot)
+	
+	Bei einer Pulsfrequenz von 72\,Hz und 2\,Bar Druck bildet sich wie bei der konstanten Ausblasung eine Frequenz von 72\,Hz im Nachlauf aus. Bei der gepulsten Ausblasung mit 1\,Bar ist das Verhalten auch zu beobachten. Dies ist auch zu erwarten, weil die Frequenz im Nachlauf bei konstanter Ausblasung bereits 72\,Hz annimmt. (Komischer Datensatz bei 1bar 72 Hz erklärt sich so vielleicht). Bei beiden Zuständen bildet sich in der Mitte des Messbereichs die doppelte Frequenz aus.
+	
+	(hier auch noch Bilder)
+	
+	Bei 83\,Hz Pulsung wiederholen sich die Erkenntnisse, die bereits bei 62\,Hz gewonnen wurden. Die 2\,Bar Ausblasung passt die Frequenz im Nachlauf an die gepulste Frequenz an, während die 1\,Bar Ausblasung wieder eine Frequenz von 72\,Hz erzeugt. Die Frequenz der 1\,Bar Ausblasung ist im Spektrum am Rand des Messbereichs noch zu erkennen, spielt aber bei der Ausbildung von Frequenzen im Nachlauf kaum eine Rolle (siehe Abb.\ref{fig:spektrum_1Bar_83Hz}). Wie bei allen anderen Messungen verdoppelt sich die Ablösefrequenz wenn man die Mitte des Messbereichs betrachtet.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{Spektrum 1Bar 83Hz}
+		\caption{Spektrum 1Bar, 83Hz Rand}
+		\label{fig:spektrum_1Bar_83Hz}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{Contour plot 1bar 83Hz}
+		\caption{Contour Plot 1Bar 83Hz}
+		\label{fig:contour_1Bar_83Hz}
+	\end{figure}
+	
+	Für die weitere Betrachtung werden wir die 2\,Bar Messreihe verwenden, da sie als einzige der beiden eine wirkliche Veränderung im Nachlauf erzeugt hat. 
+	
+	(Beschreibung der Nullfrequenz aufgrund von Kanalregelung)  
+	
+	
+	
+	\subsubsection{Minimaler Widerstand}
+	
+	Im Folgenden wird der minimale Widerstandsbeiwert der gepulsten Ausblasung zunächst mit den Messergebnissen ohne Ausblasung verglichen, da wir den Zustand ohne Ausblasung als Referenzpunkt annehmen und alle weiteren Messergebnisse mit diesem in Beziehung setzen. Des Weiteren wird der minimale Widerstandsbeiwert der gepulsten Ausblasung noch mit dem kleinsten Widerstandsbeiwert aus den gesamten Messergebnissen verglichen. Der niedrigste Widerstandsbeiwert aller Messdaten befindet sich bei konstanter Ausblasung und einem Druck von 2 Bar. Es wird ein Vergleich zu diesem Zustand angestrebt, damit ein direkter Bezug zum insgesamt niedrigsten Widerstandsbeiwert hergestellt werden kann. Ebenfalls kann damit beurteilt werden, ob die gepulste gegenüber der konstanten Ausblasung den Druckwiderstand an der Hinterkante verändert.
+	
+	\textbf{Vergleich der Widerstände mit den Messungen ohne Ausblasung}
+	
+	Der minimale Widerstandsbeiwert der gepulsten Ausblasung liegt bei einem Versorgungsdruck von 2 Bar mit einer Ausblasefrequenz von 72Hz. Der Widerstandsbeiwert beträgt in dem vorliegenden Fall Cw=0,3546. Im Vergleich dazu liegt der Widerstandsbeiwert ohne Ausblasung zwischen Cw=0,3690 und Cw=0,3878. Die Verringerung des Widerstandbeiwertes bei gepulster Ausblasung entspricht unseren Erwartungen, dass die gepulste Ausblasung von Luft den Druckwiderstand des Stumpfkörpers an der Hinterkante reduziert. In dem dargestellten Diagramm (siehe Abbildung x) sind jeweils alle Nachlaufdellen für die Messungen bei ei-nem Druck von 2 Bar dargestellt, indem die Position der Hitzdrahtsonde im Windkanal über der Geschwindigkeit aufgetragen wird.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{Bilder/Nachlaufdellen.jpg}
+		\caption{Nachlaufdellen 2\,Bar}
+		\label{fig:Nachlaufdellen_2Bar}
+	\end{figure}
+	
+	In diesem Teilabschnitt sind jedoch lediglich die Nachlaufdellen der gepulsten Ausblasung mit einer Frequenz von 62 Hz und der ohne Ausblasung von Interesse. Hierbei fällt auf, dass die Nachlaufdelle der gepulsten Ausblasung schmaler ist als ohne Ausblasung. Die Verläufe der Nachlaufdellen bestärken unsere oben erwähnte Vermutung, denn je schmaler die Nachlaufdelle ist, desto geringer ist auch der Widerstand.
+	
+	
+	\textbf{Vergleich der Widerstände mit konstanter Ausblasung}
+	
+	Der Widerstandsbeiwert für die konstante Ausblasung der Luft bei einem Druck von 2\,Bar liegt bei Cw=0,2670 und ist im Gegensatz zur gepulsten Ausblasung, die einen Widerstandsbeiwert von Cw=0,3546 besitzt, deutlich niedriger. Dieses Verhalten deckt sich nicht mit unserer Theorie, da der Widerstand an der Hinterkante des D-förmigen Stumpfkörpers mit gepulster ausgeblasener Luft geringer sein sollte. 
+	
+	Vergleicht man wieder die beiden Nachlaufdellen (siehe Abbildung x) der konstanten Ausblasung und der gepulsten Ausblasung fällt auf, dass sich auch hier die beiden Verläufe widersprechen. Die Nachlaufdelle der gepulsten Ausblasung ist schmaler und dass obwohl sie einen höheren Widerstand besitzt.
+	
+	
+	Ein möglicher Grund dafür könnte sein, dass der Volumenstrom bei gepulster Ausblasung durch die Ausblaseschlitze geringer ist. Der verwendete Volumenstrom liegt bei der konstant ausgeblasenen Messung bei 22,9\,m3/min und bei der Messung, bei der gepulst ausgeblasen wurde, bei 13,2\,m3/min. Gegebenenfalls hätte der Volumenstrom bei konstanter Ausblasung sowie bei gepulster Ausblasung jeweils vor Beginn der Messungen angepasst werden müssen.
+	
+	\subsubsection{Maximaler Widerstand}
+	
+	Bei der gepulsten Ausblasung liegt der maximale Widerstandsbeiwert bei Cw=0,3719 mit einer Frequenz von 62\,Hz und einem Druck von 2\,Bar. Im Weiteren wird dieser maximale Widerstand der gepulsten Ausblasung mit dem vorab definiertem Referenzzustand (ohne Ausblasung) verglichen.
+	
+	Der Referenzzustand weist wie bereits erwähnt Widerstandsbeiwerte zwischen Cw=0,3690 und Cw=0,3878 auf. Der Wert für die gepulste Ausblasung der Luft liegt also genau zwischen diesen beiden Werten. Durch die Darstellung der Nachlaufdellen bei 2 Bar in Abbildung x wird deutlich, dass die Nachlaufdelle bei einer Aktuationsfrequenz von 62\,Hz schmaler ist als der Nachlauf ohne Ausblasung. Demnach müsste der Druckwiderstand an der Hinterkante des Stumpfkörpers bei gepulster Ausblasung eigentlich geringer sein.
+	
+	Eine mögliche Ursache hierfür könnte sein, dass die Widerstandsbeiwerte ohne Ausblasung mit besonderer Vorsicht zu betrachten sind (siehe Kapitel 5.2), da möglicherweise nicht die gesamte Nachlaufdelle bei den vorgenommenen Messungen abgedeckt worden ist.
+	
+	\subsubsection{Auffälligkeiten}
+	Tannenbäume wann?
+	Welche Auffälligkeiten gibt es? -> mit "ohne Ausblasung" vergleichen
+	
+	\subsubsection{Varianzen-Turbulenz (Tabelle)}
+	hohe Standardabweichung bedeutet hohe Turbulenz. Gibt es einen Zusammenhang zum Widerstand?
+	\subsection{Fehlerbetrachtung}
+	
+	\section{Fazit}
+	Zusammenfassung. Minimaler, Maximaler Widerstand, Zusmmanhang Ausblasefrequenz und gemessene Frequenz
+
+\end{document}
