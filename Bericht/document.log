@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.8)  17 JAN 2020 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.8)  17 JAN 2020 14:29
 entering extended mode
 **./document.tex
 (document.tex
@@ -174,6 +174,42 @@ Package: iftex 2019/11/07 v1.0c TeX engine tests
 (C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
+(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
 (C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
@@ -189,15 +225,15 @@ s
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 17.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 18.
 
 
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 19.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 20.
 
 (C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
@@ -692,9 +728,8 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (document.aux
@@ -713,22 +748,28 @@ LaTeX Warning: Label `fig:my_label' multiply defined.
 )
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 65
+.
+ (C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
- ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count153
 \scratchdimen=\dimen198
@@ -800,43 +841,77 @@ G,.JBIG2,.JB2,.eps]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \celsius on input line 64.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 64.
+LaTeX Info: Redefining \celsius on input line 65.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 65.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 64.
-Package gensymb Info: Using \Omega for \ohm on input line 64.
+LaTeX Info: Redefining \ohm on input line 65.
+Package gensymb Info: Using \upOmega for \ohm on input line 65.
 
 Package gensymb Warning: Not defining \micro.
 
 \c@lstlisting=\count159
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
 <Bilder/Tu_Braunschweig.png, id=4, 2007.5pt x 744.7825pt>
 File: Bilder/Tu_Braunschweig.png Graphic file (type png)
 <use Bilder/Tu_Braunschweig.png>
-Package pdftex.def Info: Bilder/Tu_Braunschweig.png  used on input line 75.
+Package pdftex.def Info: Bilder/Tu_Braunschweig.png  used on input line 76.
 (pdftex.def)             Requested size: 227.62204pt x 84.43787pt.
 [1
 
 {C:/Users/nicol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Bilder/Tu
-_Braunschweig.png>] (document.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+_Braunschweig.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 95.
+ (document.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 4.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 4.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1])
+(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 4.
+
+(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 4.
+
+(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
+.
+
+(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+ [1])
 \tf@toc=\write4
 \openout4 = `document.toc'.
 
- (document.lof
-[2])
+
+(document.lof [2])
 \tf@lof=\write5
 \openout5 = `document.lof'.
 
@@ -845,442 +920,434 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout6 = `document.lot'.
 
  [3] [4]
-<Bilder/Widerstaende.png, id=29, 170.88844pt x 185.94469pt>
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 111.
+<Bilder/Widerstaende.png, id=26, 170.88844pt x 185.94469pt>
 File: Bilder/Widerstaende.png Graphic file (type png)
 <use Bilder/Widerstaende.png>
-Package pdftex.def Info: Bilder/Widerstaende.png  used on input line 126.
+Package pdftex.def Info: Bilder/Widerstaende.png  used on input line 127.
 (pdftex.def)             Requested size: 170.88802pt x 185.94421pt.
  [5] [6 <./Bilder/Widerstaende.png>]
-<Bilder/Kontrollvolumen.png, id=42, 374.90062pt x 246.9225pt>
+<Bilder/Kontrollvolumen.png, id=39, 374.90062pt x 246.9225pt>
 File: Bilder/Kontrollvolumen.png Graphic file (type png)
 <use Bilder/Kontrollvolumen.png>
-Package pdftex.def Info: Bilder/Kontrollvolumen.png  used on input line 151.
+Package pdftex.def Info: Bilder/Kontrollvolumen.png  used on input line 152.
 (pdftex.def)             Requested size: 455.24408pt x 299.85846pt.
 
-Underfull \hbox (badness 1448) in paragraph at lines 152--152
-[]\T1/cmr/m/n/12 Abbildung 2: |Kon-troll-flä-che K zur Er-mitt-lung des Wi-der-
-stan-des mit-tels Im-puls-
- []
-
 [7 <./Bilder/Kontrollvolumen.png>]
-<Bilder/Wirbelstrasse.png, id=49, 451.6875pt x 251.43938pt>
+<Bilder/Wirbelstrasse.png, id=44, 451.6875pt x 251.43938pt>
 File: Bilder/Wirbelstrasse.png Graphic file (type png)
 <use Bilder/Wirbelstrasse.png>
-Package pdftex.def Info: Bilder/Wirbelstrasse.png  used on input line 186.
+Package pdftex.def Info: Bilder/Wirbelstrasse.png  used on input line 187.
 (pdftex.def)             Requested size: 364.19664pt x 202.7478pt.
  [8 <./Bilder/Wirbelstrasse.png>]
-<Bilder/Coanda-Flache.png, id=53, 419.31656pt x 410.2828pt>
+<Bilder/Coanda-Flache.png, id=49, 419.31656pt x 410.2828pt>
 File: Bilder/Coanda-Flache.png Graphic file (type png)
 <use Bilder/Coanda-Flache.png>
-Package pdftex.def Info: Bilder/Coanda-Flache.png  used on input line 214.
+Package pdftex.def Info: Bilder/Coanda-Flache.png  used on input line 215.
 (pdftex.def)             Requested size: 209.65776pt x 205.1409pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--218
+Underfull \hbox (badness 10000) in paragraph at lines 211--219
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
 [10 <./Bilder/Coanda-Flache.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
-<Bilder/Gradient.png, id=61, 137.7647pt x 97.11281pt>
+<Bilder/Gradient.png, id=57, 137.7647pt x 97.11281pt>
 File: Bilder/Gradient.png Graphic file (type png)
 <use Bilder/Gradient.png>
-Package pdftex.def Info: Bilder/Gradient.png  used on input line 233.
+Package pdftex.def Info: Bilder/Gradient.png  used on input line 234.
 (pdftex.def)             Requested size: 137.76434pt x 97.11256pt.
-<Bilder/AA.png, id=62, 311.9655pt x 161.403pt>
+<Bilder/AA.png, id=58, 311.9655pt x 161.403pt>
 File: Bilder/AA.png Graphic file (type png)
 <use Bilder/AA.png>
-Package pdftex.def Info: Bilder/AA.png  used on input line 250.
+Package pdftex.def Info: Bilder/AA.png  used on input line 251.
 (pdftex.def)             Requested size: 311.96474pt x 161.4026pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--254
+Underfull \hbox (badness 10000) in paragraph at lines 248--255
 
  []
 
 [11 <./Bilder/Gradient.png>] [12 <./Bilder/AA.png>]
-<Bilder/Ausblaseneffekt.png, id=72, 274.02374pt x 170.13562pt>
+<Bilder/Ausblaseneffekt.png, id=68, 274.02374pt x 170.13562pt>
 File: Bilder/Ausblaseneffekt.png Graphic file (type png)
 <use Bilder/Ausblaseneffekt.png>
-Package pdftex.def Info: Bilder/Ausblaseneffekt.png  used on input line 262.
+Package pdftex.def Info: Bilder/Ausblaseneffekt.png  used on input line 263.
 (pdftex.def)             Requested size: 274.02307pt x 170.1352pt.
-<Bilder/Coandaflache2_x.jpeg, id=73, 314.67563pt x 417.05812pt>
+<Bilder/Coandaflache2_x.jpeg, id=69, 314.67563pt x 417.05812pt>
 File: Bilder/Coandaflache2_x.jpeg Graphic file (type jpg)
 <use Bilder/Coandaflache2_x.jpeg>
-Package pdftex.def Info: Bilder/Coandaflache2_x.jpeg  used on input line 278.
+Package pdftex.def Info: Bilder/Coandaflache2_x.jpeg  used on input line 279.
 (pdftex.def)             Requested size: 157.33742pt x 208.52855pt.
  [13 <./Bilder/Ausblaseneffekt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 290--292
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
 
  []
 
-<Bilder/Hitzdraht.png, id=78, 380.92313pt x 140.525pt>
+<Bilder/Hitzdraht.png, id=74, 380.92313pt x 140.525pt>
 File: Bilder/Hitzdraht.png Graphic file (type png)
 <use Bilder/Hitzdraht.png>
-Package pdftex.def Info: Bilder/Hitzdraht.png  used on input line 295.
+Package pdftex.def Info: Bilder/Hitzdraht.png  used on input line 296.
 (pdftex.def)             Requested size: 455.24408pt x 167.94942pt.
 [14 <./Bilder/Coandaflache2_x.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
-<Bilder/Prinzipschaltung.png, id=82, 425.08812pt x 230.8625pt>
+<Bilder/Prinzipschaltung.png, id=78, 425.08812pt x 230.8625pt>
 File: Bilder/Prinzipschaltung.png Graphic file (type png)
 <use Bilder/Prinzipschaltung.png>
-Package pdftex.def Info: Bilder/Prinzipschaltung.png  used on input line 307.
+Package pdftex.def Info: Bilder/Prinzipschaltung.png  used on input line 308.
 (pdftex.def)             Requested size: 425.08708pt x 230.86192pt.
 [15 <./Bilder/Hitzdraht.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
 [16 <./Bilder/Prinzipschaltung.png>]
-Overfull \hbox (7.08052pt too wide) in paragraph at lines 324--325
-[]\T1/cmr/m/n/12 Ein Nach-teil der Konstant-Temperatur-Regelung im Ver-gleich z
-um Konstant-Strom-Betrieb
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Overfull \hbox (27.2405pt too wide) in paragraph at lines 333--334
+\T1/ptm/m/n/12 mung der sta-ti-schen Eich-kur-ve vor-ge-stellt. Durch das Auf-t
+ra-gen der Anemometer-Ausgangsspannung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[18]
-<kalibrierkanal.jpg, id=98, 4047.12pt x 2276.505pt>
+[17] [18]
+Overfull \hbox (31.08728pt too wide) in paragraph at lines 349--350
+\T1/ptm/m/n/12 wird die Son-de in ei-ne Hitz-drahtson-den-hal-te-rung ein-ge-sp
+annt und mit-tels ei-ner Aluprofil-Konstruktion
+ []
+
+<kalibrierkanal.jpg, id=94, 4047.12pt x 2276.505pt>
 File: kalibrierkanal.jpg Graphic file (type jpg)
 <use kalibrierkanal.jpg>
-Package pdftex.def Info: kalibrierkanal.jpg  used on input line 352.
+Package pdftex.def Info: kalibrierkanal.jpg  used on input line 353.
 (pdftex.def)             Requested size: 409.71689pt x 230.44276pt.
- [19 <./kalibrierkanal.jpg>]
-<labview_crio1.jpg, id=102, 462.97969pt x 347.04657pt>
+[19 <./kalibrierkanal.jpg>]
+<labview_crio1.jpg, id=98, 462.97969pt x 347.04657pt>
 File: labview_crio1.jpg Graphic file (type jpg)
 <use labview_crio1.jpg>
-Package pdftex.def Info: labview_crio1.jpg  used on input line 373.
+Package pdftex.def Info: labview_crio1.jpg  used on input line 374.
 (pdftex.def)             Requested size: 273.14922pt x 204.7504pt.
- [20]
-<Labviewskript_cut.jpg, id=106, 523.9575pt x 372.64218pt>
+ [20 <./labview_crio1.jpg>]
+<Labviewskript_cut.jpg, id=102, 523.9575pt x 372.64218pt>
 File: Labviewskript_cut.jpg Graphic file (type jpg)
 <use Labviewskript_cut.jpg>
-Package pdftex.def Info: Labviewskript_cut.jpg  used on input line 382.
+Package pdftex.def Info: Labviewskript_cut.jpg  used on input line 383.
 (pdftex.def)             Requested size: 318.66946pt x 226.64612pt.
- [21 <./labview_crio1.jpg> <./Labviewskript_cut.jpg>]
+
 (C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-91.
+92.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [22] [23] [24]
-Overfull \hbox (83.24944pt too wide) in paragraph at lines 479--480
-\T1/cmr/m/n/12 Das Ex-pe-ri-ment am D-förmigen Stumpf-kör-per für die Pro-jekt-
+) [21 <./Labviewskript_cut.jpg>] [22] [23] [24]
+Overfull \hbox (57.40282pt too wide) in paragraph at lines 480--481
+\T1/ptm/m/n/12 Das Ex-pe-ri-ment am D-förmigen Stumpf-kör-per für die Pro-jekt-
 ar-beit wird im Lei-ser Niedergeschwindigkeits-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
-<Bilder/Windkanal.jpg, id=122, 1163.34625pt x 553.06625pt>
+<Bilder/Windkanal.jpg, id=117, 1163.34625pt x 553.06625pt>
 File: Bilder/Windkanal.jpg Graphic file (type jpg)
 <use Bilder/Windkanal.jpg>
-Package pdftex.def Info: Bilder/Windkanal.jpg  used on input line 484.
+Package pdftex.def Info: Bilder/Windkanal.jpg  used on input line 485.
 (pdftex.def)             Requested size: 455.24408pt x 216.42917pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
 
  []
 
 [25 <./Bilder/Windkanal.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
 
  []
 
-<Bilder/Traverse.jpeg, id=126, 562.35094pt x 953.06062pt>
+<Bilder/Traverse.jpeg, id=121, 562.35094pt x 953.06062pt>
 File: Bilder/Traverse.jpeg Graphic file (type jpg)
 <use Bilder/Traverse.jpeg>
-Package pdftex.def Info: Bilder/Traverse.jpeg  used on input line 503.
+Package pdftex.def Info: Bilder/Traverse.jpeg  used on input line 504.
 (pdftex.def)             Requested size: 159.3382pt x 270.03996pt.
 [26 <./Bilder/Traverse.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 512--513
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
 
  []
 
-<Bilder/Stumpfkoerper.jpg, id=130, 898.85812pt x 916.1728pt>
+<Bilder/Stumpfkoerper.jpg, id=125, 898.85812pt x 916.1728pt>
 File: Bilder/Stumpfkoerper.jpg Graphic file (type jpg)
 <use Bilder/Stumpfkoerper.jpg>
-Package pdftex.def Info: Bilder/Stumpfkoerper.jpg  used on input line 516.
+Package pdftex.def Info: Bilder/Stumpfkoerper.jpg  used on input line 517.
 (pdftex.def)             Requested size: 273.14922pt x 278.40479pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--523
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
 [27 <./Bilder/Stumpfkoerper.jpg>]
-<labview_crio.jpg, id=134, 551.05875pt x 478.03593pt>
+<labview_crio.jpg, id=129, 551.05875pt x 478.03593pt>
 File: labview_crio.jpg Graphic file (type jpg)
 <use labview_crio.jpg>
-Package pdftex.def Info: labview_crio.jpg  used on input line 540.
+Package pdftex.def Info: labview_crio.jpg  used on input line 541.
 (pdftex.def)             Requested size: 318.66946pt x 276.45137pt.
  [28]
-<labview_trigger.jpg, id=138, 1033.61156pt x 320.69812pt>
+<labview_trigger.jpg, id=133, 1033.61156pt x 320.69812pt>
 File: labview_trigger.jpg Graphic file (type jpg)
 <use labview_trigger.jpg>
-Package pdftex.def Info: labview_trigger.jpg  used on input line 551.
+Package pdftex.def Info: labview_trigger.jpg  used on input line 552.
 (pdftex.def)             Requested size: 318.66946pt x 98.87221pt.
  [29 <./labview_crio.jpg> <./labview_trigger.jpg>] [30]
-<tempcorr_bsp.jpg, id=146, 562.1pt x 421.575pt>
+<tempcorr_bsp.jpg, id=141, 562.1pt x 421.575pt>
 File: tempcorr_bsp.jpg Graphic file (type jpg)
 <use tempcorr_bsp.jpg>
-Package pdftex.def Info: tempcorr_bsp.jpg  used on input line 596.
+Package pdftex.def Info: tempcorr_bsp.jpg  used on input line 597.
 (pdftex.def)             Requested size: 218.51326pt x 163.8861pt.
 
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 596--597
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 597--598
 [][] 
  []
 
-
-Underfull \hbox (badness 2310) in paragraph at lines 597--597
-[]\T1/cmr/m/n/10.95 (a) |Bei-spiel ei-ner kor-ri-gier-ten und
- []
-
-<Nachlaufdellefit.jpg, id=147, 562.1pt x 421.575pt>
+<Nachlaufdellefit.jpg, id=142, 562.1pt x 421.575pt>
 File: Nachlaufdellefit.jpg Graphic file (type jpg)
 <use Nachlaufdellefit.jpg>
-Package pdftex.def Info: Nachlaufdellefit.jpg  used on input line 601.
+Package pdftex.def Info: Nachlaufdellefit.jpg  used on input line 602.
 (pdftex.def)             Requested size: 218.51326pt x 163.8861pt.
 
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 601--602
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 602--603
 [][] 
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 603--603
+[]\T1/ptm/m/n/10.95 (b) |Bei-spiel ei-nes Nach-lauf-del-len Fits
  []
 
 [31 <./tempcorr_bsp.jpg> <./Nachlaufdellefit.jpg>]
-<Standardabweichung_bsp.jpg, id=152, 562.1pt x 421.575pt>
+<Standardabweichung_bsp.jpg, id=146, 562.1pt x 421.575pt>
 File: Standardabweichung_bsp.jpg Graphic file (type jpg)
 <use Standardabweichung_bsp.jpg>
-Package pdftex.def Info: Standardabweichung_bsp.jpg  used on input line 612.
+Package pdftex.def Info: Standardabweichung_bsp.jpg  used on input line 613.
 (pdftex.def)             Requested size: 318.66946pt x 239.00082pt.
-<Spektrum_bsp.jpg, id=153, 562.1pt x 421.575pt>
+<Spektrum_bsp.jpg, id=147, 562.1pt x 421.575pt>
 File: Spektrum_bsp.jpg Graphic file (type jpg)
 <use Spektrum_bsp.jpg>
-Package pdftex.def Info: Spektrum_bsp.jpg  used on input line 623.
+Package pdftex.def Info: Spektrum_bsp.jpg  used on input line 624.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-<Contour_bsp.jpg, id=154, 562.1pt x 421.575pt>
+<Contour_bsp.jpg, id=148, 562.1pt x 421.575pt>
 File: Contour_bsp.jpg Graphic file (type jpg)
 <use Contour_bsp.jpg>
-Package pdftex.def Info: Contour_bsp.jpg  used on input line 628.
+Package pdftex.def Info: Contour_bsp.jpg  used on input line 629.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
  [32 <./Standardabweichung_bsp.jpg>]
-<Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg, id=158, 562.1pt x 421.575pt>
+<Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg, id=152, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg  used on
- input line 644.
+ input line 645.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=159, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=153, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg  used on
- input line 649.
+ input line 650.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
  [33 <./Spektrum_bsp.jpg> <./Contour_bsp.jpg> <./Bilder/Ohne_1_bar/Nachlaufdell
 e_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>]
-<Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg, id=163, 562.1pt x 421.575pt>
+<Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg, id=157, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg  used on inpu
-t line 663.
+t line 664.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg, id=164, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg, id=158, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg  used on inpu
-t line 668.
+t line 669.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg, id=165, 562.1pt x 421.575pt>
+<Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg, id=159, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg  used on inpu
-t line 681.
+t line 682.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg, id=166, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg, id=160, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg  used on inpu
-t line 686.
+t line 687.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
 
 [34 <./Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg> <./Bilder/ohne_2_bar/Strouhal_
 ohne_2bar.jpg>]
-<Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg, id=170, 562.1pt x 421.575pt>
+<Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg, id=164, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg  used on input
- line 699.
+ line 700.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Contour_ohne_2bar.jpg, id=171, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Contour_ohne_2bar.jpg, id=165, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Contour_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Contour_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Contour_ohne_2bar.jpg  used on input
- line 704.
+ line 705.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
  [35 <./Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Spektrum
 _ohne_2bar.jpg> <./Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg> <./Bilder/ohne_2_ba
 r/Contour_ohne_2bar.jpg>]
-<Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=175, 562.1pt x 421.575pt>
+<Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=169, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg  used on
- input line 729.
+ input line 730.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg, id=176, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg, id=170, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg  used 
-on input line 734.
+on input line 735.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-
-Underfull \hbox (badness 2111) in paragraph at lines 735--735
-[]\T1/cmr/m/n/10.95 (b) |Nach-lauf-del-le kon-stan-te Aus-bla-sung
- []
-
-[36 <./Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg> <./Bilder/konst_2_bar/Nac
-hlaufdelle_konst_2bar.jpg>]
-<Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg, id=181, 562.1pt x 421.575pt>
+ [36 <./Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg> <./Bilder/konst_2_bar/Na
+chlaufdelle_konst_2bar.jpg>]
+<Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg, id=175, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg  used on inpu
-t line 748.
+t line 749.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Strouhal_konst_2bar.jpg, id=182, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Strouhal_konst_2bar.jpg, id=176, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Strouhal_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Strouhal_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Strouhal_konst_2bar.jpg  used on in
-put line 753.
+put line 754.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg, id=183, 562.1pt x 421.575pt>
+<Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg, id=177, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg  used on input
- line 769.
+ line 770.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Contour_konst_2bar.jpg, id=184, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Contour_konst_2bar.jpg, id=178, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Contour_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Contour_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Contour_konst_2bar.jpg  used on inp
-ut line 774.
+ut line 775.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-
-Underfull \hbox (badness 2503) in paragraph at lines 775--775
-[]\T1/cmr/m/n/10.95 (b) |Kon-tur Plot kon-stan-te Aus-bla-sung
- []
-
-[37 <./Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg> <./Bilder/konst_2_bar/Strouhal
-_konst_2bar.jpg> <./Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg> <./Bilder/konst_2_
-bar/Contour_konst_2bar.jpg>] [38]
-<Spektrum 1Bar 83Hz.jpg, id=191, 2569.6pt x 1368.11125pt>
+ [37 <./Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg> <./Bilder/konst_2_bar/Strouha
+l_konst_2bar.jpg> <./Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg> <./Bilder/konst_2
+_bar/Contour_konst_2bar.jpg>] [38]
+<Spektrum 1Bar 83Hz.jpg, id=185, 2569.6pt x 1368.11125pt>
 File: Spektrum 1Bar 83Hz.jpg Graphic file (type jpg)
 <use Spektrum 1Bar 83Hz.jpg>
-Package pdftex.def Info: Spektrum 1Bar 83Hz.jpg  used on input line 804.
+Package pdftex.def Info: Spektrum 1Bar 83Hz.jpg  used on input line 805.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
-<Contour plot 1bar 83Hz.jpg, id=192, 562.1pt x 421.575pt>
+<Contour plot 1bar 83Hz.jpg, id=186, 562.1pt x 421.575pt>
 File: Contour plot 1bar 83Hz.jpg Graphic file (type jpg)
 <use Contour plot 1bar 83Hz.jpg>
-Package pdftex.def Info: Contour plot 1bar 83Hz.jpg  used on input line 811.
+Package pdftex.def Info: Contour plot 1bar 83Hz.jpg  used on input line 812.
 (pdftex.def)             Requested size: 364.19664pt x 273.14565pt.
- [39 <./Spektrum 1Bar 83Hz.jpg>] [40 <./Contour plot 1bar 83Hz.jpg>]
-<Bilder/Nachlaufdellen.jpg, id=199, 2569.6pt x 1368.11125pt>
+ [39 <./Spektrum 1Bar 83Hz.jpg> <./Contour plot 1bar 83Hz.jpg>]
+<Bilder/Nachlaufdellen.jpg, id=190, 2569.6pt x 1368.11125pt>
 File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
 <use Bilder/Nachlaufdellen.jpg>
-Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 832.
+Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 833.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
- [41 <./Bilder/Nachlaufdellen.jpg>] [42] (document.aux)
+ [40] [41 <./Bilder/Nachlaufdellen.jpg>]
+Overfull \hbox (11.36737pt too wide) in paragraph at lines 859--861
+\T1/ptm/m/n/12 Tannenbäume wann? Wel-che Auf-fäl-lig-kei-ten gibt es? -> mit o
+h-ne Aus-bla-sung ver-glei-chen 
+ []
+
+[42] (document.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19687 strings out of 492484
- 354228 string characters out of 3130516
- 665259 words of memory out of 3000000
- 23606 multiletter control sequences out of 15000+200000
- 18208 words of font info for 46 fonts, out of 3000000 for 9000
+ 19826 strings out of 492484
+ 356424 string characters out of 3130516
+ 662849 words of memory out of 3000000
+ 23715 multiletter control sequences out of 15000+200000
+ 52189 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,60p,1199b,1731s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,9n,60p,1199b,1697s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecrm1095.pk> <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ectt1000.pk> <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicol\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicol\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicol\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Us
-ers\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.
-pk> <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecrm1728.pk> <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecbx2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on document.pdf (43 pages, 4143437 bytes).
+ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/
+fonts/type1/urw/symbol/usyr.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/font
+s/type1/urw/symbol/usyr.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/type1
+/urw/times/utmr8a.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on document.pdf (43 pages, 4022239 bytes).
 PDF statistics:
- 731 PDF objects out of 1000 (max. 8388607)
+ 310 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
