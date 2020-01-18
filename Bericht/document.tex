@@ -1,4 +1,4 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a4paper, twoside, 12pt]{article}
 \usepackage[ngerman]{babel}
 \usepackage[latin1]{inputenc}
 \usepackage[T1]{fontenc}
@@ -7,12 +7,14 @@
 \usepackage{caption}
 %\captionsetup{font=small}
 \usepackage{nameref}
+\usepackage{hyperref}
+\hypersetup{hidelinks = true}
 \usepackage{graphicx}
 \usepackage[a4paper, width=160mm, top=25mm, bottom=25mm, bindingoffset=6mm] {geometry}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{mathptmx}
 \usepackage{fancyhdr}
-\pagestyle{headings}
+\pagestyle{fancy}
 \fancyhead[CO]{\scshape\MakeLowercase{\leftmark}}
 \fancyhead{}
 \fancyhead[LE,RO]{}
@@ -98,6 +100,7 @@
 \newpage
 
 	\section{Einleitung}
+	\label{sec:Einleitung}
 	
 	Die effiziente Nutzung von Energie steht im Mittelpunkt der Technologieentwicklung. Hierzu kann die Aerodynamik einen wichtigen Beitrag leisten, indem mit ihrer Hilfe versucht wird den Strömungswiderstand umströmter Körper zu verringern. Umströmte Körper lassen sich in aerodynamische und stumpfe Körpern aufteilen. Im Folgenden soll eine Betrachtung stumpfer Körper erfolgen.\\
 	Der Strömungswiderstand stumpfer Körper ist deutlich höher als derjenige aerodynamisch geformter Körper. Daher kann es zu großen Energieersparnissen kommen, wenn die Aerodynamik stumpfer Körper optimiert wird. Zum Beispiel kann der Kraftstoffverbrauch eines Fahrzeugs durch Reduktion seines Strömungswiderstandes gesenkt werden.\\
@@ -107,10 +110,14 @@
 
 	\newpage
 	\section{Theoretische Grundlagen}
+	\label{sec:Theoretische_grund}
 	
 	\subsection{Stumpfkörperaerodynamik}
+	\label{sec:Stumpfkörperaerodynamik}
 	
 	\subsubsection{Definition stumpfer Körper}
+	\label{sec:Definition_stumpf}
+	
 	Nach [Aerodynamik stumpfer Körper] fällt eine genaue Definition des Begriffes \glqq stumpfer Körper \grqq{} schwer. Dies liegt auch daran, dass der Übergang von einem schlanken zu einem stumpfen Körper fließend ist. Qualitativ gelingt eine Abtrennung, wenn stumpfe Körper im Vergleich zu schlanken Körpern als \glqq dick\grqq{} bezeichnet werden. \glqq Dick\grqq{} bedeutet, dass ihre Querschnittsfläche senkrecht zur Anströmung vergleichbar zur Querschnittsfläche längs der Antströmung ist. Für eine quantitative Einschätzung wurde der sogenannte Schlankheitsgrad $ \lambda $ definiert, der das Verhältnis von Länge zu Dicke darstellt: 
 	
 	\begin{equation}
@@ -120,6 +127,8 @@
 	Dessen Kehrwert ist das Dickenverhältnis $\delta$.
 	
 	\subsubsection{Widerstand stumpfer Körper}
+	\label{sec:Widerstand_stumpf}
+	
 	Der Extremfall eines stumpfen Körpers ist die quer angeströmte Platte ($\delta \rightarrow \infty$), während die längs angeströmte Platte ($\lambda \rightarrow \infty$) umgekehrt einen maximal schlanken Körper repräsentiert. Die Strömung kann der Kontur einer längs angeströmten Platte problemlos folgen. Dagegen ist die Umströmung eines stumpfen Körpers von Ablösungen geprägt. Hinter dem stumpfen Körper bildet sich Totwasser aus, in dem die Strömung verwirbelt und reibungsbehaftet ist. Dieses Totwasser wechselwirkt mit der umliegenden Strömung, die an der Hinterkante des stumpfen Körpers abreißt. Zwischen der Strömung und dem Totwasser bildet sich eine Scherschicht. An dieser Scherschicht setzt sich das Fluid im Totwasser in Bewegung, wodurch der Druck an der Basis des Stumpfkörpers abnimmt. Entsprechend überwiegt bei stumpfen Körpern der Druckwiderstand gegenüber dem Reibungswiderstand (vgl. Abb.\ref{fig:Widerstaende}).
 	
 	\begin{figure}[H]
@@ -131,11 +140,13 @@
 	\end{figure}
 	
 	\subsubsection{Maßnahmen zur Verringerung des Widerstandes}
+	\label{sec:Verringerung_stumpf}
 	
 	Um den Widerstand stumpfer Körper zu verringern, ist es also naheliegend, den Basisdruck hinter dem stumpfen Körper zu steigern. Hierzu werden in \glqq Aerodynamik der stumpfen Körper\grqq{} von Wolf-Heinrich Hucho [Quelle] zwei Ansätze vorgestellt. Einmal die Veränderung der Geometrie des stumpfen Körpers und zum zweiten die Beeinflussung der Struktur der Strömung im Totwasser. Dabei lässt sich die Beeinflussung der Struktur der Strömung in aktive und passive Maßnahmen unterscheiden. Bei aktiven Maßnahmen wird im Gegensatz zu passiven Maßnahmen zusätzlich Energie aufgewendet.\\
 	In dem Experiment, das in dieser Projektarbeit betrachtet wird, findet eine aktive Beeinflussung der Strömung statt. Hierbei wird ein dünner Luftstrahl an der Hinterkante über eine Coanda-Fläche ausgeblasen. Die Luft wird sowohl konstant, als auch mit verschiedenen Frequenzen ausgeblasen. Aufgrund des Coanda-Effektes wird der Luftstrahl abgelenkt und verkleinert das Totwasser hinter dem Modell. Hierdurch steigt der Basisdruck und der Widerstand des Körpers sinkt. Angesichts der Zielsetzung einer Energieersparnis muss berücksichtigt werden, dass das aktive Ausblasen von Luft Energie benötigt.
 	
 	\subsubsection{Berechnung des Widerstandes stumpfer Körper}
+	\label{sec:Berechnung_stumpf}
 	
 	Der Widerstand eines stumpfen Körpers lässt sich mithilfe des Impulssatzes aus der Form des Nachlaufs berechnen. Der Impulssatz besagt, dass die Impulsänderung aus der Durchströmung der Oberfläche eines Kontrollvolumens gleich der Änderung der an diesem Kontrollvolumen angreifenden Kräfte ist. (Schlichting Truckenbrodt)\\
 	Für ein Kontrollvolumen (siehe Abb.\ref{fig:Kontrollvolumen}), auf dessen Oberfläche der Druck p$_{\infty}$ der ungestörten Anströmung herrscht, ergibt sich für den Widerstand 
@@ -173,6 +184,8 @@
 	Ist die Geschwindigkeitsverteilung $u_1(y)$ im Nachlauf bekannt, lässt sich der $c_W$-Wert des Körpers ermitteln.
 	
 	\subsubsection{Kármánsche Wirbelstraße}
+	\label{sec:Karamansche_wirbel}
+	
 	Bei höheren Reynoldszahlen bilden sich hinter einem Zylinder alternierende Wirbel aus, die als Kármánsche Wirbelstraße bezeichnet werden. [Schlichtung Truckenbrodt] Mithilfe von Druckmessungen haben Oswald et al. [Philipps Paper] gezeigt, dass eine solche Wirbelanordnung auch hinter dem in dieser Projektarbeit verwendeten Modell auftritt.\\
 	Die Frequenz, mit der die Wirbel ablösen kann durch die dimensionslose Strouhal-Zahl beschrieben werden.
 	
@@ -191,6 +204,8 @@
 	\end{figure}
 	
 	\subsection{Grundlagen der Spektralanalyse}
+	\label{sec:Spektral_Theorie}
+	
 	Die Spektralanalyse, die auf der  Fourier-Transformation basiert, hat das Ziel aus einem Originalsignal die Frequenzkomponenten herauszufinden. [matlab internet] Die Grundlage der Fourier-Transformation ist, dass sich jedes periodische Signal in eine sinusförmige Grundfrequenz und ihre Harmonischen zerlegen lässt. Die Harmonischen sind ganzzahlige Vielfache der Grundfrequenz.\\
 	Häufig liegt das Originalsignal in Form eines zeitlich diskreten Signals vor. Dies ist auch in dieser Projektarbeit der Fall, in der die kontinuierliche Spannung an einer Hitzdrahtsonde abgetastet wurde. Hieraus ergibt sich eine Zahlenfolge von Spannungswerten $(x_i)_(i=1;...;n)$  für jede Position der Hitzdrahtsonde. Um die hauptsächlich vorkommenden Frequenzen dieses zeitdiskreten Signals herauszufinden, wird die im Zeitbereich vorliegende Folge $(x_i)_(i=1;...;n)$ in die kontinuierliche Spektralfunktion X($e^{j\Omega}$) transformiert. Diese Transformation ist mathematisch folgendermaßen definiert:
 	
@@ -207,7 +222,11 @@
 	Für Transformation eines zeitdiskreten Signals mit einem Digitalrechner, muss eine mit einem Digitalrechner auswertbare Transformation definiert werden. Diese Transformation wird als diskrete Fourier-Transformation (DFT) bezeichnet. Für die DFT gibt es eine Vielzahl an Algorithmen, die sich in einen Rechner implementieren lassen. Beispiele sind der Winograd-Algorithmus oder der Primfaktor-Algorithmus. In Matlab wird die DFT mittels eines Fast Fourier Transform (FFT) Algorithmus` ausgeführt. Der genaue Aufbau des Algorithmus wird hier nicht weiter besprochen. Siehe dazu [4] Kapitel 6.4.
 	
 	\subsection{Coanda-Effekt}
+	\label{sec:Coanda_effekt}
+	
 	\subsubsection{Definition}
+	\label{sec:Def_coanda}
+	
 	Der Coanda-Effekt beschreibt das Phänomen, dass ein ausströmender Freistrahl dazu neigt an nähen Wänden zu haften und sogar konvexen Oberflächen zu folgen.[] Der Strahl besitzt diese Eigenschaft, solange die durch den Druckgradient erzeugte, auf sich wirkende Druckkraft, die Zentripetalkraft, die Zentrifugalkraft kompensieren kann.[]
 	
 	Der Druckgradient wird durch den sog. Entrainment-effect erzeugt. Der Entrainment-effect kann als das Beschleunigen der ruhenden Luft am Randbereich eines Freistrahls bezeichnet werden, aufgrund des turbulenten Impulsaustausches mit den energiereichen Strahlteilchen. Das bedeutet bildlich, dass die Luftteilchen vom Freistrahl mitgerissen werden. Wenn eine gerade Wand in den Randbereich eines Freistrahl parallel zu diesem gelegt würde, werden die Luftteilchen zwischen dieser Wand und dem Strahl mitgerissen werden. Die Wand verhindert das Nachströmen des Umgebungsmediums, wodurch eine Unterdruckzone zwischen Wand und Freistrahl entsteht. Der Strahl wird durch den Unterdruck an die Wand angesaugt. Das ist der Grund weshalb ein Freistrahl entlang einer Fläche mit geeigneten gekrümmter Kontur durch ein solches stetige Ansaugen umlenken werden kann.( Abb.\ref{fig:Umlenkung}) [Buch Coanda Effekt]\\
@@ -249,10 +268,13 @@
 	
 	
 	\subsubsection{Coanda-Effekt im Alltag}
+	\label{sec:Coanda_alltag}
 	
 	Der Coanda-Effekt ist auch im Alltag zu beobachten, beispielsweise wenn Tee aus einer Teekanne ausgegossen wird. Dabei ist zu erkennen, dass der Tee bei niedrigeren Ausgießwinkeln von der Tülle aus die Kannenoberfläche hinunter bis zur Unterseite der Kanne fließt und sich nicht von der Oberflache der Kanne ablöst. Sobald der Ausgießwinkel allmählich vergrößert wird, löst sich der Flüssigkeitsstrahl zuerst nur teilweise von der Oberflache. Wenn sich der Strahl vollständig ablöst, ist eine Umlenkung des Strahles aus der Senkrechten zu beobachten. Wird die Teekanne weiter nach unten gekippt, sodass sich der Durchfluss noch weiter erhöht, erhält man schließlich den erwarteten Fließweg. Hierbei wird diese Wechselwirkung zwischen Flüssigkeit und Oberfläche als Coand?-Effekt bezeichnet. Der Coanda-Effekt kann in jeden Art von Flüssigkeiten beobachtet werden und ist zudem für einen Gasstrom ebenfalls wirksam wie für Wasser. Um diesen Effekt bei einem Gasstrom zu sehen, kann ein sich drehender Tischtennisball in einem diagonalen Luftstrahl (wie ein z.B. ein Föhnstrahl) betrachtet werden. Durch den Coanda-Effekt kann der Ball in der Luft schweben gelassen werden. Hierbei hängt der Ball am unteren Luftstrahl. Durch diesen Effekt wird verhindert, dass der Ball runter fällt. Die entgegen wirkende Gravitationskraft hingegegn führt dazu, dass der Ball nicht weggeblasen wird. Außerdem ist der Coanda-effekt in der Praxis im Flugzeugbau zur Erhöhung des Auftriebes  von besonderer Bedeutung.
 	
 	\subsubsection{Ausblasungseffekt}
+	\label{sec:Ausblasung_coanda}
+	
 	Um den Effekt der Ausblasung in diesem Projekt zu erläutern, muss zuerst die Ablösung der Grenzschicht erklärt werden. Die Ablösung der Grenzschichten tritt bei längsangeströmten schlanken Körpern nur durch den Reibungswiderstand auf. Der durch die Geometrie gegebene Vorteil von schlanken Körpern führt dazu, dass der Druckanstieg am Heck sehr gering ist. Bei stumpfen Körpern hingegen besteht die Ablösungsgefahr der Grenzschicht, wenn längs der angeströmten Körperkontur der Druckanstieg zu groß ist. \\
 	
 	\begin{figure}[H]
@@ -266,6 +288,8 @@
 	An Coanda-Flächen tritt die Ablösung durch den Druckanstieg in Strömungsrichtung entlang der gekrümmten Kontur auf. Hierbei wird die kinetische Energie von diesen Teilchen in Wandnähe infolge von Reibung dissipiert. Aufgrund dessen reicht die kinetische Energie des Fluidteilchens, welches sich in unmittelbaren Wandnähe befindet, nicht mehr aus, um gegen den von der Außenströmung aufgeprägten Druckanstieg entlang der gekrümmten Wand anzuströmen. An einem bestimmten Punkt kommt dieses Teilchen zum Stillstand. Aufgrund der Druckverteilung der Strömung der Grenzschicht, fängt es langsam damit an seine Strömungsrichtung umzukehren. (Abb. \ref{fig:ablösung}) An diesem Punkt löst sich die Grenzschicht von der Oberfläche ab.[]\\
 	
 	\subsubsection{Der Effekt der Ausblasung auf die Ablösung}
+	\label{sec:Effekt_coanda}
+	
 	Die Ausblasung ist eine Möglichkeit der energieschwachen Strömung in Wandnähe Energie zuzuführen. Diese Maßnahme wirkt der Ablösung entgegen. Durch einen Schlitz wird ein Luftstrahl an der Coanda-Fläche parallel zur Hauptströmung eingeblasen. Die von der Profiloberfläche anströmende Grenzschicht von Hauptströmung bildet mit dem zugeführten Strahl eine Scherschicht aus. Damit wird die Scherschicht mit genügend kinetische Energie beladen, um die Ablösung der Strömung zu verhindern. (Abb. \ref{fig:ausblasung})
 	
 	\begin{figure}[H]
@@ -277,6 +301,8 @@
 	\end{figure}
 	
 	\subsubsection{Coanda-Effekt in der Stumpfkörperaerodynamik}
+	\label{sec:Coanda_stumpf}
+	
 	Obwohl dieses Phänomen bereits bekannt war und im 18. Jahrhundert von Young dokumentiert wurde, hat dieser erst Dank Henri Marie Coanda  (1886-1972) und seinen verschiedenen Konzeptionen, die auf den sog. Coanda-Effekt bezogen sind, in der Wissenschaftswelt an Bedeutung  gewonnen. \\
 	
 	\begin{figure}[H]	
@@ -290,10 +316,12 @@
 	Wie in Kapitel 2.1 bereits erwähnt wurde, wird in dem Experiment der Druckwiderstand durch eine aktive Beeinflussung der Strömung reduziert. Dabei werden zwei Coanda-Flächen an der oberen und unteren Kanten der Hinterseite des Profils platziert und daraufhin wird ein Luftstrom von den Ausblaseschlitzen zwischen den Coanda-Flächen und den Profilkanten ausgeblasen.(Abb. \ref{fig:modellcoanda}) Infolgedessen wird die Entstehung eines Totwassers hinter dem Modell vermieden, sodass somit der Druckwiederstand veringerd wird. 
 	
 	\subsection{Hitzdrahtmessung}
+	\label{sec:Hitzdraht_theorie}
 	
 	Nach \glqq Grundlagen der Strömungsmechanik\grqq{} von Franz Durst [Quelle] gehört die Hitzdrahtanemometrie der Gruppe der thermoelektrischen Geschwindigkeitsmessverfahren an. Sie ist eine indirekte Messmethodik, da nicht die Strömungsgeschwindigkeit, sondern die Wärmeabgabe eines erhitzten Drahtes gegenüber dem Strömungsmedium gemessen wird. Mit Hitzdrahtsonden werden schnell veränderliche Strömungsgeschwindigkeiten bestimmt. Daher sind sie ein geeignetes Messinstrument, um die Turbulenzen in einer Strömung zu ermitteln.
 	
 	\subsubsection{Physikalisches Wirkprinzip}
+	\label{sec:Hitzdraht_prinzip}
 	
 	Der Hitzdraht besteht in der Regel aus einem platinierten
 	Wolframdraht, der zwischen zwei Spitzen von zwei Haltestiften aufgespannt wird. Dieser ist mit einem Durchmesser von 5\,$\mu$m und einer Länge von 1-2\,mm für seine kurze Reaktionszeit bekannt. Die Drahtenden werden auf die Haltestifte, die in den Keramikkörper eingefügt werden, geschweißt. Des Weiteren besteht die Möglichkeit den Hitzdraht an den Enden zu verkupfern, beziehungsweise zu vergolden, um die Wärmeleitung zwischen den Haltestiften und dem Draht zu verringern. Eine Darstellung einer einfachen Hitzdrahtsonde zeigt Abbildung \ref{fig:Hitzdrahtsonde}. \\
@@ -332,6 +360,7 @@
 	Ein Nachteil der Konstant-Temperatur-Regelung im Vergleich zum Konstant-Strom-Betrieb besteht in der höheren relativen Rauschlautstärke. Dieser schränkt das Auflösungsvermögen der Amplitude stark ein. Ebenfalls ist der messtechnische Aufbau wesentlich anspruchsvoller und bei falscher Bedienung können freie gedämpfte oder auch freie ungedämpfte Schwingungen auftreten. Diese Schwingungen können Messfehler hervorrufen und für die freie ungedämpfte Schwingung besteht die Möglichkeit des Durchbrennens der Hitzdrahtsonde. Nach [Quelle] lässt sich für CTA und CCA noch der Nachteil des instabilen Verhaltens des Servoverstärkers in Grenzfällen festhalten. Des Weiteren ist bei der Verwendung von einfachen Hitzdrahtsonden eine Unterscheidung der Strömungsrichtung nicht möglich.\\
 	
 	\subsubsection{Kalibrierung}
+	\label{sec:Kalibrierung_Theorie}
 	
 	Es besteht die Möglichkeit durch die Bestimmung des Wärmeverlustes bei Hitzdrähten den Geschwindigkeitsverlauf aus den aufgenommenen Messdaten ohne Eichung zu folgern. Dazu ist eine genaue Angabe der geometrischen Abmessungen des Messfühlers und der Betriebswerte des Messapparats erforderlich. Da die Genauigkeit der Kenntnisse der Einflussgrößen von Hitzdrahtsonden nur unzureichend ist, wird eine Kalibrierung im Eichkanal bevorzugt.\\
 	
@@ -349,10 +378,15 @@
 	\newpage
 	\section{Kalibrierung}
 	\label{sec:Kalibrierung}
+	
 	\subsection{Zielsetzung}
+	\label{sec:Zielsetzung_cal}
+	
 	Das Ziel der Kalibrierung ist es zwei unterschiedliche Hitzdrahtsonden, eine mit 3,35\,$ \Omega $ und eine mit 3.5\,$\Omega$ Widerstand zu kalibrieren. Um die Kalibrierfunktion zu bestimmen, wird jeweils eine Messreihe im Kalibrierkanal aufgenommen, bei der die Spannung der Messbrücke bei bestimmten Strömungsgeschwindigkeiten gemessen wird. Auf diesen Datensatz soll dann eine Funktion gefittet und so eine Kalibrierfunktion erstellt werden. Das fitting soll so genau wie möglich den Datensatz darstellen. Kalibriert wird zwischen 5\,m/s und 40\,m/s, da für das Experiment im Windkanal mit Geschwindigkeiten in dieser Größenordnung zu rechnen ist. Die Abtastrate der Aufnahmeprogramme soll bei ca 1\,kHz liegen, da im Messbetrieb mit Frequenzen von ca 70-80\,Hz zu rechnen ist. 
 	
 	\subsection{Versuchsaufbau}
+	\label{sec:Versuchsaufbau_cal}
+	
 	Die 2 Messreihen werden nacheinander am Kalibrierwindkanal des IFAS gemessen. Hierzu wird die Sonde in eine Hitzdrahtsondenhalterung eingespannt und mittels einer Aluprofil-Konstruktion im Kernstrahl des Kanals platziert.
 	
 	\begin{figure}[H]
@@ -366,12 +400,16 @@
 	
 	Bei den Hitzdrahtsonden handelt es sich um 2 Sonden der Firma Dantec Dynamics. % hier noch mehr schreiben  
 	
-	Die Hitzdrahtsonde wird mit einer passenden Messbrücke verbunden, welche mittels einer Wheatstoneschen Brücke, die Widerstandsänderungen am Hitzdraht aufgrund des konvektiven Wärmetransports in ein messbare Spannung umwandelt(siehe 2.4.1). Die Messbrücke wird vor der Kalibrierung mit den Kabelwiderständen und Hitzdrahtwiderständen ausbalanciert. Die von der Messbrücke ausgegebenen Spannungen werden dann an ein Compact Reconfigureable Input/Output Modul (cRIO), dem cRIO NI9067 von National Instruments, weitergegeben und dort mit einem LabVIEW Programm aufgenommen. Die Daten werden von dort aus dann an den Messrechner weitergegeben und abgespeichert.
+	Die Hitzdrahtsonde wird mit einer passenden Messbrücke verbunden, welche mittels einer Wheatstoneschen Brücke, die Widerstandsänderungen am Hitzdraht aufgrund des konvektiven Wärmetransports in ein messbare Spannung umwandelt (siehe \ref{sec:Hitzdraht_prinzip}). Die Messbrücke wird vor der Kalibrierung mit den Kabelwiderständen und Hitzdrahtwiderständen ausbalanciert. Die von der Messbrücke ausgegebenen Spannungen werden dann an ein Compact Reconfigureable Input/Output Modul (cRIO), dem cRIO NI9067 von National Instruments, weitergegeben und dort mit einem LabVIEW Programm aufgenommen. Die Daten werden von dort aus dann an den Messrechner weitergegeben und abgespeichert.
 	
-	\subsection{Programmierung} 
+	\subsection{Programmierung}
+	\label{sec:Programmierung_cal}
+	 
 	Das Programm zur Kalibrierung der Hitzdrahtsonde ist in zwei Einzelprogramme unterteilt. Ein LabVIEW Programm, das nur die Spannungen, Geschwindigkeiten und Parameter aufnehmen soll und ein Matlab Script, das die aufgenommenen Daten zur Kalibrierfunktion verarbeitet.
 	
 	\subsubsection{LabVIEW Programm}
+	\label{sec:Labview_cal}
+	
 	Das LabVIEW Programm ist in 2 Virtual Instruments (VI) unterteilt. Das erste VI läuft auf dem cRIO und das zweite auf dem Messrechner.
 	Die Aufgabe des Programms auf der cRIO Seite (Abb. \ref{fig:labview1}) ist es die von der Messbrücke ausgegebenen Spannungen mit einer Abtastrate von 1\,kHz für jeweils 10 Sekunden aufzunehmen und in einem Array abzulegen. Die gezeitete Schleife, die dafür benutzt wird ist Null basiert, liefert über die 10 Sekunden also 10\,001 Werte. Nach Ablauf der 10 Sekunden zeigt das Skript die gemessenen Daten als Waveform Chart zur optischen Überprüfung an und schickt das Array per LAN-Verbindung an den Messrechner. Eine Echtzeit-Übertragung an den Messrechner ist wegen einer zu geringen Datenrate nicht möglich.
 	
@@ -391,7 +429,9 @@
 		\label{fig:labview2}
 	\end{figure}
 	
-				\subsubsection{Matlab Script}
+	\subsubsection{Matlab Script}
+	\label{sec:Matlab_cal}
+	
 	Das Matlab Skript (s. Anhang) soll die von dem LabVIEW Skript bereitgestellten Daten einlesen, verarbeiten und die Kalibrierkurve auf den entstandenen Datensatz anpassen. Dazu erstellt es eine Liste mit allen Dateien in dem ausgewählten Ordner und reserviert Speicherplatz, um später die Daten einzulesen. 
 	
 	\vspace{2mm}
@@ -473,15 +513,20 @@
 	plot(ydata, speed_calc)
 	\end{lstlisting}   
 	
-	\subsection{Fehlerabschätzung} % Standartabweichung muss noch berechnet werden
+	\subsection{Fehlerabschätzung}
+	\label{sec:Fehler_cal}
+	
 	Verschiebungen von 10\,cm in den Kanal, gemessen vom Kanalausgang, sowie 10\,cm aus dem Kanal heraus ergeben nur kleine Änderungen der gemessenen Strömungsgeschwindigkeit von weniger als 1\%. Daher wurde beschlossen den Hitzdraht direkt am Kanalausgang zu positionieren. Kleine Änderungen des Anströmwinkels (<1$\degree$) ergaben Änderungen kleiner 1\%. Es wurde darauf geachtet die Sonde immer möglichst im rechten Winkel zur Strömung zu platzieren.
 	
 	Um die Qualität der gefitteten Kurve einschätzen zu können, wurde die Standardabweichung zwischen gefitteter Kurve und tatsächlichem Geschwindigkeitsverlauf ermittelt. Hierzu wird die Differenz der von der kalibrierten Funktion errechneten Geschwindigkeit und der im Kalibrierungs-Datensatz festgesetzten Geschwindigkeit berechnet und die Standardabweichung dieser Differenzen gebildet. Für die von uns verwendete Kurve erreicht so einen Wert von 0.1804, was als ausreichend bewertet wird. 
 	
 	\newpage
 	\section{Windkanalversuche}
+	\label{sec:Windkanalversuche}
 	\subsection{Aufbau}
+	\label{sec:Aufbau_wind}
 	\subsubsection{Windkanal LNB}
+	\label{sec:Windkanal_lnb}
 	
 	Das Experiment am D-förmigen Stumpfkörper für die Projektarbeit wird im Leiser Niedergeschwindigkeits-Windkanal Braunschweig (LNB) am Institut für Strömungsmechanik durchgeführt. Die Abbildung \ref{fig:Windkanal} zeigt einen schematischen Aufbau des Windkanals.\\
 	
@@ -502,6 +547,8 @@
 	
 	
 	\subsubsection{Planung der Halterung}
+	\label{sec:Planung_halterung}
+	
 	Während die Halterung für die Hitzdrahtsonde am Kalibrierwindkanal bereits vorhanden war, musste die Halterung am LNB noch gebaut werden.
 	Sie soll gewährleisten, dass die Hitzdrahtsonde im Windkanal vertikal traversiert werden kann. Bei einer vorherigen Messung mittels eines Nachlaufrechens wurden etwa 200 mm Breite der Nachlaufdelle gemessen. Dabei war der Nachlaufrechen wenige Zentimeter stromabwärts hinter dem Modell platziert. Die zur Verfügung stehende Traverse erreicht einen Verfahrweg von 184 mm. Die Halterung wird auf dem Windkanal montiert. Durch ein Loch in der Deckenplatte des Windkanals ist die Hitzdrahtsonde über eine Stange mit der Traverse verbunden.
 	
@@ -515,6 +562,7 @@
 	
 	\newpage
 	\subsubsection{Modell}
+	\label{sec:Modell}
 	
 	Der für diese Projektarbeit verwendete D-förmige Stumpfkörper mit einer stumpfen Hinterkante ist nach [Quelle] 190,6\,mm lang, 390\,mm breit und 53,4\,mm hoch. Am stumpfen Teil des Modells sind Coanda-Flächen mit einer runden Form und einem Radius von 9,4\,mm befestigt. Der Stumpfkörper wird horizontal im Windkanal positioniert. Dieser erstreckt sich über die gesamte Breite der Messstrecke und wird von einem Stahlrohr auf jeder Seite festgehalten. Dabei wird die Strömung an den Seitenwänden des Kanals als zweidimensional angenommen. Die Abbildung \ref{fig:Stumpfkörper} zeigt den D-förmigen Stumpfkörper im Windkanal sowie die Hitzdrahtsonde in ihrer Halterung.\\
 	
@@ -531,6 +579,7 @@
 	Zur genauen Ausrichtung des eingebauten Modells im Kanal werden mit eingeschaltetem Windkanal die statischen Drücke von der Ober- und Unterseite über Druckbohrungen abgenommen und miteinander verglichen. Gegebenenfalls wird anschließend die Modellnase neu ausgerichtet.\\
 	
 	\subsubsection{Einstellung des Modells}
+	\label{sec:Einstellung_Modell}
 	
 	Vor der Implementierung des Modells im Windkanal wurde es für das Experiment vorbereitet. Zuerst wurden die Coanda-Flächen und die Luftschlitze gereinigt. Anschließend wurde die Druckverteilung entlang der Coanda-Flächen, die sich an der Ober- und Unterkante der Modellrückseite befinden, möglichst konstant und gleichmäßig eingestellt. Zur Messung der Druckverteilung entlang der Coanda-Flächen wurde eine Fischmaulsonde verwendet. Um den Einstellungsprozess angenehmer zu gestalten und die empfindliche Einstellung bestmöglich durchzuführen, wurde das Modell im Vorbereitungsraum des ISM mit einem festen Tisch und einer Traverse verbunden. Die aufgebaute Einrichtung ist in Abb. zu sehen. 
 	
@@ -555,6 +604,7 @@
 	Nach diesen Einstellungen kann angenommen werden, dass der Einfluss der Einstellungsabweichungen auf die Geschwindigkeitsmessung mit Hitzdrahtsonde gering sein wird. Trotzdem müssen sie weiterhin als Messfehlern berücksichtigt werden.
 	
 	\subsubsection{Verwendete Messtechnik}
+	\label{sec:Verwendete_messtechnik}
 	
 	Zur Aufnahme der Messungen wird der D-förmige Stumpfkörper und die Hitzdrahtsonde, die mittels einer Konstruktion aus Aluprofilen und einem Traversiermechanismus in die Strömung gehalten wird, in den Windkanal eingebaut. Hierbei wird beachtet, dass die gleiche Halterung für die Hitzdrahtsonde wie für den Kalibrier-Windkanal des IFAS verwendet wird. Die Hitzdrahtsonde wird im Windkanal mit einem Abstand von ungefähr 400 mm zum Stumpfkörper platziert. 
 	
@@ -563,6 +613,8 @@
 	Bild!
 	
 	\subsubsection{Programmierung}
+	\label{sec:Programmierung_wind}
+	
 	Wie schon bei der Kalibrierung (3.3) wird auch bei der Datenaufnahme im Kanal ein zweigeteiltes LabVIEW Programm verwendet. Das schon bestehende LabVIEW Programm wurde auf der Messkartenseite um fünf Datenkanäle erweitert, um die Spannungen des Hitzdrahts sowie die Signale der Mikrofone auf der Rückseite des Modells aufzunehmen (zu sehen in Abb. \ref{fig:labview3})
 	
 	\begin{figure}[H]
@@ -584,10 +636,11 @@
 	\end{figure}
 	
 	\subsection{Testfälle mit zugehörigen Ausblaseparametern}
+	\label{sec:Testfälle}
 	
 	Es werden am Leiser Niedergeschwindigkeits-Windkanal für die Projektarbeit Messungen von einem Schnitt stromabwärts bei zehn Betriebsbedingungen vorgenommen. Pro Betriebsbedingung werden jeweils 24 Punkte angefahren, was einem Verfahrweg von 184 mm entspricht. Die Druckdaten werden dabei über einen Zeitraum von 10 Sekunden gemittelt.
 	
-	Hierbei werden bei einer Strömungsgeschwindigkeit von 16 m/s verschiedene Betriebszustände eingestellt. Es wird zunächst ohne Ausblasung, daraufhin mit konstanter Ausblasung bei 1 und 2 Bar Versorgungsdruck der Ausblasung und abschließend mit gepulster Ausblasung gemessen. Bei der gepulsten Ausblasung werden die Frequenzen 62 Hz, 72 Hz und 83 Hz angesteuert (siehe oben). Die Tabelle \ref{tab:table1} listet die verschiedenen Betriebszustände mit den zugehörigen Ausblaseparametern auf.
+	Hierbei werden bei einer Strömungsgeschwindigkeit von 16 m/s verschiedene Betriebszustände eingestellt. Es wird zunächst ohne Ausblasung, daraufhin mit konstanter Ausblasung bei 1 und 2 Bar Versorgungsdruck der Ausblasung und abschließend mit gepulster Ausblasung gemessen. Bei der gepulsten Ausblasung werden die Frequenzen 62\,Hz, 72\,Hz und 83\,Hz angesteuert (siehe oben). Die Tabelle \ref{tab:table1} listet die verschiedenen Betriebszustände mit den zugehörigen Ausblaseparametern auf.
 	
 	\begin{table}[H]
 		\begin{center}
@@ -612,11 +665,15 @@
 	
 	\newpage
 	\section{Auswertung}
+	\label{sec:Auswertung}
 	\subsection{Umrechnen der Daten}
+	\label{sec:Umrechnung}
 	\subsubsection{Temperaturkorrektur, Mittelwerte und Widerstände}
-	Da die Messungen bei anderen Raumtemperaturen stattfinden können als die Kalibrierung des Hitzdrahts, müssen die im Kanal gemessenen Spannungswerte erst temperaturkorrigiert werden. Dafür wird wie in Abschnitt(2.4.2) die Formel (\ref{eq:Temp_corr}) genutzt. Die Korrektur geschieht direkt beim Einlesen der Daten in das Matlabskript. Zusätzlich werden noch die nicht korrigierten Daten abgespeichert, um später einen Vergleich ziehen zu können.
+	\label{sec:tempcorr_mittelwerte}
 	
-	Um die Geschwindigkeit aus den eingelesenen Daten zu berechnen, werden die eingelesenen Spannungsdaten in die kalibrierte Geschwindigkeitsfunktion aus \ref{sec:Kalibrierung} eingesetzt und als neuer Datensatz gespeichert. Diese Daten werden später noch zur Berechnung der Frequenzen verwendet (siehe Sektion Spektra). Um die Nachlaufdelle abzubilden, müssen zunächst die Mittelwerte der einzelnen Positionen gebildet werden. Dies geschieht mit der \glqq mean \grqq{} Funktion im Matlab Skript. Wenn man die gemittelten Geschwindigkeiten über die Positionen aufträgt, erhält man die Nachlaufdelle. (siehe Abb.\ref{fig:Nachlaufdelle_bsp})
+	Da die Messungen bei anderen Raumtemperaturen stattfinden können als die Kalibrierung des Hitzdrahts, müssen die im Kanal gemessenen Spannungswerte erst temperaturkorrigiert werden. Dafür wird wie in Abschnitt (\ref{sec:Kalibrierung_Theorie}) die Formel Nr.(\ref{eq:Temp_corr}) genutzt. Die Korrektur geschieht direkt beim Einlesen der Daten in das Matlabskript. Zusätzlich werden noch die nicht korrigierten Daten abgespeichert, um später einen Vergleich ziehen zu können.
+	
+	Um die Geschwindigkeit aus den eingelesenen Daten zu berechnen, werden die eingelesenen Spannungsdaten in die kalibrierte Geschwindigkeitsfunktion aus Kap.\ref{sec:Kalibrierung} (\nameref{sec:Kalibrierung}) eingesetzt und als neuer Datensatz gespeichert. Diese Daten werden später noch zur Berechnung der Frequenzen verwendet (siehe Sektion Spektra). Um die Nachlaufdelle abzubilden, müssen zunächst die Mittelwerte der einzelnen Positionen gebildet werden. Dies geschieht mit der \glqq mean \grqq{} Funktion im Matlab Skript. Wenn man die gemittelten Geschwindigkeiten über die Positionen aufträgt, erhält man die Nachlaufdelle. (siehe Abb.\ref{fig:Nachlaufdelle_bsp})
 	
 	Die Ermittlung der Widerstände erfolgt über eine Matlab Funktion (siehe Anhang). Diese fittet eine Funktion mittels linearer Regression (lsqcurvefit) auf die bereits ermittelten Geschwindigkeitswerte der Nachlaufdelle. Wie in Abschnitt(2.1.4) schon besprochen kann der Widerstand mit dem Impulssatz berechnet werden(siehe Formel \ref{eq:Widerstand}). Die Formel wird dann mit der im Fit ermittelten Funktion, der vorherrschenden Kanalgeschwindigkeit und der charakteristischen Länge unseres Körpers in Matlab implementiert und dann integriert. Das Ergebnis ist der $c_W$-Wert.
 	
@@ -635,6 +692,8 @@
 	\end{figure}
 	
 	\subsubsection{Varianzen}
+	\label{sc:Varianzen_rech}
+	
 	Um die Turbulenzen an den Messstellen abschätzen zu können, wird für jeden Messpunkt einer Reihe die Standardabweichung der Geschwindigkeit gebildet (siehe Matlabskript Anhang). Mit der Annahme, dass eine höhere Standardabweichung auch einen höheren Turbulenzgrad zufolge hat, kann man so die räumlich auftretenden Turbulenzgrade gut darstellen. Um eine visuelle Darstellung zu erhalten, werden die Standardabweichungen über die dazugehörigen Messpositionen geplottet.
 	
 	\begin{figure}[H]
@@ -645,6 +704,8 @@
 	\end{figure}
 	
 	\subsubsection{Spektra}
+	\label{Spektra_rech}
+	
 	Die im Nachlauf auftretenden Frequenzen werden mittels einer Spektralanalyse ( siehe 2.2) aufgelöst. Die einzelnen zeitabhängigen Geschwindigkeiten werden hierfür mit einer Fast Fourier Transformation (FFT) in ihre Frequenzanteile zerlegt und als Spektrum geplottet. Da immer nur eine Messposition in der Nachlaufdelle als Spektrum in einem Graphen dargestellt werden kann, muss man die Position, die man betrachten möchte, manuell im Skript anpassen. Um einen besseren Überblick über die verschiedenen auftretenden Frequenzen zu bekommen, wird die gesamte FFT als Contourplot dargestellt.
 	
 	\begin{figure}[H]
@@ -666,6 +727,7 @@
 	
 	
 	\subsection{Zustand ohne Ausblasung}
+	\label{sec:Zustand_ohne}
 	
 	Zunächst soll der Zustand des Nachlaufs, der ohne Ausblasung entsteht, anhand der Messdaten beschrieben werden. Dies dient als Ausgangspunkt, um den Einfluss der unterschiedlichen Aktuationsparameter auf die Strömung einzuschätzen. Außerdem soll ein Überblick über die unterschiedlichen Diagramme gegeben werden. Ohne Ausblasung wurden zwei Messungen durchgeführt, deren Ergebnisse sich, zumindest auf den ersten Blick, teilweise deutlich unterscheiden.
 	\begin{figure}[H]
@@ -703,7 +765,7 @@
 		\label{fig:Strouhal_ohne}
 	\end{figure}
 	
-	In den dargestellten Diagrammen Abb.\ref{fig:Strouhal_ohne} wurde jeweils die dominante Frequenz als dimensionslose Strouhal-Zahl an der jeweiligen Position im Nachlauf aufgetragen. Sie ist an den Rändern bei beiden Messungen gleich und unterscheidet sich in mittlerer Position deutlich. Betrachtet man allerdings das Frequenzspektrum an der mittleren Position Abb.\ref{fig:Spektrumohne}, so fällt auf, dass bei beiden Messungen die hauptsächlich auftretenden Frequenzen bei 0 Hz und 140 Hz liegen. Somit sind die Diagramme, die die Strouhal-Zahl auftragen insofern irreführend, dass in ihnen ein Unterschied herausgestellt wird, der in Wirklichkeit nicht so deutlich existiert. Das liegt daran, dass die Strouhal-Zahlen nur auf Basis der am häufigsten auftretenden Frequenzen aufgetragen werden. Jede weniger häufige Frequenz bleibt unberücksichtigt.
+	In den dargestellten Diagrammen Abb.\ref{fig:Strouhal_ohne} wurde jeweils die dominante Frequenz als dimensionslose Strouhal-Zahl an der jeweiligen Position im Nachlauf aufgetragen. Sie ist an den Rändern bei beiden Messungen gleich und unterscheidet sich in mittlerer Position deutlich. Betrachtet man allerdings das Frequenzspektrum an der mittleren Position Abb.\ref{fig:Spektrumohne}, so fällt auf, dass bei beiden Messungen die hauptsächlich auftretenden Frequenzen bei 0\,Hz und 140\,Hz liegen. Somit sind die Diagramme, die die Strouhal-Zahl auftragen insofern irreführend, dass in ihnen ein Unterschied herausgestellt wird, der in Wirklichkeit nicht so deutlich existiert. Das liegt daran, dass die Strouhal-Zahlen nur auf Basis der am häufigsten auftretenden Frequenzen aufgetragen werden. Jede weniger häufige Frequenz bleibt unberücksichtigt.
 	
 	\begin{figure}[H]
 		\centering
@@ -746,11 +808,16 @@
 	
 	
 	\subsection{Zustände bei verschiedenen Aktuationsparametern}
+	\label{sec:Zustaende_min_max}
 	
 	\subsubsection{Maximaler Widerstand}
+	\label{sec:Zustand_max}
+	
 	Die im vorherigen Abschnitt genannten Widerstandsbeiwerte beim Zustand ohne Ausblasung sind im Vergleich zu allen anderen Zuständen der Ausblasung am größten. Dies deckt sich mit der Theorie, dass die Ausblasung von Luft an der Hinterkannte den Druckwiderstand des Körpers verringert. Außerdem bedeutet das, dass die gepulste Ausblasung die Strömung nicht nachteilig in Bezug auf den Widerstand beeinflusst hat.
 	
 	\subsubsection{Minimaler Widerstand}
+	\label{sec:Zustand_min}
+	
 	Der minimaler Widerstand tritt bei konstanter Ausblasung mit 2\,Bar auf. Der zugehörige Widerstandsbeiwert beträgt $c_W=0,2670$. Im Vergleich zum Zustand ohne Ausblasung bedeutet dies eine Reduktion des Widerstandes um 27,6\,\%.  Im Folgenden werden weitere Unterschiede zum Zustand ohne Ausblasung beschrieben.
 	
 	\begin{figure}[H]
@@ -812,14 +879,17 @@
 	
 	
 	\subsection{Gepulste Ausblasung}
+	\label{sec:Gepulst}
 	\subsubsection{Zusammenhang der Auftretenden Frequenzen}
+	\label{sec:Frequenzen}
+	
 	Wie schon in Sektion (2.1.5) beschrieben löst sich die Strömung am Ende unseres Sumpfkörpers über die Coanda-Fläche wirbelförmig ab. Dies geschieht bei einer Anströmung von 16\,m/s und keiner Ausblasung, mit der natürlichen Wirbelablösefrequenz von 68.7\,Hz. Dies entspricht bei unserer charakteristischen Länge von 0.0534\,m einer Strouhal Zahl von Sr = 0.23. In der Mitte des Messbereichs verdoppelt sich die Frequenz dann noch einmal auf 137.4\,Hz (Sr = 0.46). (siehe Contour Plot) Dies kann durch die Überlagerung der sich am Körper ablösenden Wirbel erklärt werden (siehe 5.3). 
 	
 	Bei konstanter Ausblasung steigt die Frequenz auf 72.2\,Hz (Sr = ) bei 2\,Bar  und  74,1\,Hz (Sr = ) bei 1\,Bar Versorgungsdruck. Gleich bleibt jedoch, dass in der Mitte des Messbereichs die doppelte Frequenz der Ablösefrequenz auftritt.
 	
-	Bei gepulster Ausblasung von 62\,Hz und 2\,Bar fällt auf, dass zunächst eine Ablösefrequenz nahe der gepulsten Frequenz im Nachlauf auftritt. In der Mitte des Messbereichs kann wieder eine Verdoppelung der am Rand auftretenden Frequenz beobachtet werden. Bei 1\,Bar Ausblasung mit 62\,Hz  tritt hingegen hauptsächlich eine Frequenz von 71 - 72\,Hz auf, ähnlich der Frequenz bei konstanter Ausblasung. Die 62\,Hz sind im Spektrum am Rand des Messbereichs zwar noch zu erkennen, scheinen aber keinen besonders großen Einfluss mehr zu nehmen. (Vielleicht liegt dies daran, dass 1Bar Ausblasung einfach zu gering ist um einen wirklichen Unterschied zu machen).
+	Bei gepulster Ausblasung von 62\,Hz und 2\,Bar fällt auf, dass zunächst eine Ablösefrequenz nahe der gepulsten Frequenz im Nachlauf auftritt. In der Mitte des Messbereichs kann wieder eine Verdoppelung der am Rand auftretenden Frequenz beobachtet werden. Bei 1\,Bar Ausblasung mit 62\,Hz  tritt hingegen hauptsächlich eine Frequenz von 71 - 72\,Hz auf, ähnlich der Frequenz bei konstanter Ausblasung. Die 62\,Hz sind im Spektrum am Rand des Messbereichs zwar noch zu erkennen, scheinen aber keinen besonders großen Einfluss mehr zu nehmen. (Vielleicht liegt dies daran, dass 1\,Bar Ausblasung einfach zu gering ist um einen wirklichen Unterschied zu machen).
 	
-	Hier noch ein/zwei Bilder (spektrum und oder passendes Contour plot)
+	Hier noch ein/zwei Bilder (Spektrum und oder passendes Contour Plot)
 	
 	Bei einer Pulsfrequenz von 72\,Hz und 2\,Bar Druck bildet sich wie bei der konstanten Ausblasung eine Frequenz von 72\,Hz im Nachlauf aus. Bei der gepulsten Ausblasung mit 1\,Bar ist das Verhalten auch zu beobachten. Dies ist auch zu erwarten, weil die Frequenz im Nachlauf bei konstanter Ausblasung bereits 72\,Hz annimmt. (Komischer Datensatz bei 1bar 72 Hz erklärt sich so vielleicht). Bei beiden Zuständen bildet sich in der Mitte des Messbereichs die doppelte Frequenz aus.
 	
@@ -843,11 +913,12 @@
 	
 	Für die weitere Betrachtung werden wir die 2\,Bar Messreihe verwenden, da sie als einzige der beiden eine wirkliche Veränderung im Nachlauf erzeugt hat. 
 	
-	(Beschreibung der Nullfrequenz aufgrund von Kanalregelung)  
+	Auffällig sind auch die immer wieder auftretenden Frequenzen nahe 0\,Hz. Wie diese zu erklären sind ist nicht ganz klar, eine Vermutung ist aber, dass diese die Regelung vom Kanal erfassen. Der Kanal wird seine Geschwindigkeit aufgrund der PID-Steuerung nur mit sehr langsamen aber kontinuierlichen Schwingungen ausgleichen und so, sehr niedrige Frequenzen in das Spektrum mit einbringen.  
 	
 	
 	
 	\subsubsection{Minimaler Widerstand}
+	\label{sec:Min_wid_freq}
 	
 	Im Folgenden wird der minimale Widerstandsbeiwert der gepulsten Ausblasung zunächst mit den Messergebnissen ohne Ausblasung verglichen, da wir den Zustand ohne Ausblasung als Referenzpunkt annehmen und alle weiteren Messergebnisse mit diesem in Beziehung setzen. Des Weiteren wird der minimale Widerstandsbeiwert der gepulsten Ausblasung noch mit dem kleinsten Widerstandsbeiwert aus den gesamten Messergebnissen verglichen. Der niedrigste Widerstandsbeiwert aller Messdaten befindet sich bei konstanter Ausblasung und einem Druck von 2 Bar. Es wird ein Vergleich zu diesem Zustand angestrebt, damit ein direkter Bezug zum insgesamt niedrigsten Widerstandsbeiwert hergestellt werden kann. Ebenfalls kann damit beurteilt werden, ob die gepulste gegenüber der konstanten Ausblasung den Druckwiderstand an der Hinterkante verändert.
 	
@@ -875,6 +946,7 @@
 	Ein möglicher Grund dafür könnte sein, dass der Volumenstrom bei gepulster Ausblasung durch die Ausblaseschlitze geringer ist. Der verwendete Volumenstrom liegt bei der konstant ausgeblasenen Messung bei 22,9\,m3/min und bei der Messung, bei der gepulst ausgeblasen wurde, bei 13,2\,m3/min. Gegebenenfalls hätte der Volumenstrom bei konstanter Ausblasung sowie bei gepulster Ausblasung jeweils vor Beginn der Messungen angepasst werden müssen.
 	
 	\subsubsection{Maximaler Widerstand}
+	\label{sec:max_wid_freq}
 	
 	Bei der gepulsten Ausblasung liegt der maximale Widerstandsbeiwert bei Cw=0,3719 mit einer Frequenz von 62\,Hz und einem Druck von 2\,Bar. Im Weiteren wird dieser maximale Widerstand der gepulsten Ausblasung mit dem vorab definiertem Referenzzustand (ohne Ausblasung) verglichen.
 	
@@ -883,6 +955,7 @@
 	Eine mögliche Ursache hierfür könnte sein, dass die Widerstandsbeiwerte ohne Ausblasung mit besonderer Vorsicht zu betrachten sind (siehe Kapitel 5.2), da möglicherweise nicht die gesamte Nachlaufdelle bei den vorgenommenen Messungen abgedeckt worden ist.
 	
 	\subsubsection{Varianzen-Turbulenz (Tabelle)}
+	\label{sec:Varianzen_turbulenzen}
 	
 	Die zeitlich schwankende Strömungsgeschwindigkeit ist die charakteristische Eigenschaft einer turbulenten Strömung. (Heinz Herwig, 2018) Der Hitzdraht, der zum Messen der Strömungsgeschwindigkeit genutzt wurde, ermöglicht es die Geschwindigkeitsschwankungen aufzunehmen. In der Tabelle wird die Standardabweichung der Strömungsgeschwindigkeit an der äußeren Positionen (pos.1 und pos.24) und an der mittleren Position im Strömungsquerschnitt ( pos.12) für alle Aktuationsparmeter aufgeführt. Hierbei sind die Messdaten in der Mitte entscheidender, da an dieser Position das Modell einen größeren Einfluss auf die Strömung hat. Die Standardabweichung der Strömungsgeschwindigkeit ist ein Maß für die Turbulenz einer Strömung.
 	
@@ -900,14 +973,14 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=\linewidth]{Bilder/Standardabweichung_Auswertung.jpg}
+		\includegraphics[width=0.9\linewidth]{Bilder/Standardabweichung_Auswertung.jpg}
 		\caption{Standardabweichung Verlauf}
 		\label{fig:Std-Aus}
 	\end{figure}
 
-	Trägt man die Standardabweichung der Strömungsgeschwindigkeit für jede Position in einem Diagramm auf, so wird bestätigt, dass die Turbulenz im mittleren Bereich des Strömungsquerschnittes größer ist als am Rand. Dies gilt für alle Aktuationsparameter. Bei Abb. \ref{fig:Std_cd} fällt auf, dass neben der mittleren Position Bereiche mit höherer Standardabweichung, also größerer Turbulenz, existieren. Der Grund dafür könnte sein, dass das Aufeinandertreffen der äußeren Wirbel die Turbulenz der Strömung verringert.
+	Trägt man die Standardabweichung der Strömungsgeschwindigkeit für jede Position in einem Diagramm auf, so wird bestätigt, dass die Turbulenz im mittleren Bereich des Strömungsquerschnittes größer ist als am Rand. Dies gilt für alle Aktuationsparameter. Bei Abb.\ref{fig:Std_cd} fällt auf, dass neben der mittleren Position Bereiche mit höherer Standardabweichung, also größerer Turbulenz, existieren. Der Grund dafür könnte sein, dass das Aufeinandertreffen der äußeren Wirbel die Turbulenz der Strömung verringert.
 	
-	Wie in Tabelle 1 zu erkennen ist, tritt die größte Standardabweichung in Position 12 bei dem Messfall mit Aktationsparameter von 72 Hz auf. Bei diesem Messfall entsteht auch ein relativ großer Widertand. Es lässt sich zusätzlich erkennen, dass die kleinste Standartabweichung in der mittleren Position und der niedrigsten Widerstand bei dem Messfall mit 2 Bar konstanten Ausblasung auftauchen. Hierbei ist es nicht Überraschend, dass zwischen Standardabweichung und Widerstandsbeiwert eine Korrelation existiert. Der Grund hinter dieser Korrelation ist durch steigente Turbulenz erzeugte Druckverringerung hinter des Modells. In deren Folge erhöht sich der Druckwiderstand.
+	Wie in Tabelle 1 zu erkennen ist, tritt die größte Standardabweichung in Position 12 bei dem Messfall mit Aktationsparameter von 72\,Hz auf. Bei diesem Messfall entsteht auch ein relativ großer Widertand. Es lässt sich zusätzlich erkennen, dass die kleinste Standartabweichung in der mittleren Position und der niedrigsten Widerstand bei dem Messfall mit 2 Bar konstanten Ausblasung auftauchen. Hierbei ist es nicht Überraschend, dass zwischen Standardabweichung und Widerstandsbeiwert eine Korrelation existiert. Der Grund hinter dieser Korrelation ist durch steigente Turbulenz erzeugte Druckverringerung hinter des Modells. In deren Folge erhöht sich der Druckwiderstand.
 	 
 	Es ist weiterhin zu sagen, dass die Standardabweichung bei dem Messfall mit 1\,Bar Ausblasung 62\,Hz als ein Ausreißer bezeichnet werden kann, Im Vergleich zu den Anderen ist dieser Wert zu hoch, obwohl an seinem Messfall relativ niedrige Widerstandsbeiwerte auftritt. Wenn die in der Kapitel erwähnten Gründe für Vernachlässigung der Messfalle mit 1\,Bar Ausblasung berücksichtigt, fallt dieses Ausreißen auf. Deswegen werden die Messfalle mit 1Bar Ausblasung hier auch vernachlässigt. 
 
@@ -918,7 +991,7 @@
 		\label{fig:Std_diff}
 	\end{figure}
 	
-	Mit dem Wert Speed diff. werden die Differenz zwischen der maximalen Geschwindigkeit und der minimalen Geschwindigkeit bezeichnet. Bei der Abb. fallt auf, dass im Gegensatz zu Standardabweichung die maximale Geschwindigkeit an den äußeren Positionen und die minimale Geschwindigkeit in der Mitte existieren. In der Tabelle 2 wird die Differenz zwischen der Standardabweichung an der mittleren Position und der kleinste Standardabweichung an der äußeren Positionen für alle Aktuationsparameter aufgeführt. Diese Tabelle ermöglicht die Korrelation zwischen Standardabweichungsdifferenz und Geschwindigkeitsdifferenz zu sehen. Bei dem Messfall mit Aktationsparameter von 72 Hz treten sowohl die maximale Standardabweichungsdifferenz als auch die maximale Geschwindigkeitsdifferenz auf, während die zweitkleinste Standardabweichungsdifferenz und die minimale Geschwindigkeitsdifferenz sich bei der Messfall mit 1 Bar konstanter Ausblasung sehen lassen. Das bedeutet, dass steigende Turbulenz Unterschied zu Erhöhung der Geschwindigkeitsdiferrenz führt.
+	Mit dem Wert Speed diff. werden die Differenz zwischen der maximalen Geschwindigkeit und der minimalen Geschwindigkeit bezeichnet. Bei der Abb. fallt auf, dass im Gegensatz zu Standardabweichung die maximale Geschwindigkeit an den äußeren Positionen und die minimale Geschwindigkeit in der Mitte existieren. In der Tabelle 2 wird die Differenz zwischen der Standardabweichung an der mittleren Position und der kleinste Standardabweichung an der äußeren Positionen für alle Aktuationsparameter aufgeführt. Diese Tabelle ermöglicht die Korrelation zwischen Standardabweichungsdifferenz und Geschwindigkeitsdifferenz zu sehen. Bei dem Messfall mit Aktationsparameter von 72\,Hz treten sowohl die maximale Standardabweichungsdifferenz als auch die maximale Geschwindigkeitsdifferenz auf, während die zweitkleinste Standardabweichungsdifferenz und die minimale Geschwindigkeitsdifferenz sich bei der Messfall mit 1 Bar konstanter Ausblasung sehen lassen. Das bedeutet, dass steigende Turbulenz Unterschied zu Erhöhung der Geschwindigkeitsdiferrenz führt.
 	
 	\begin{figure}[H]
 		\centering
@@ -930,8 +1003,11 @@
 	Es ist nach der Tabelle 1 weiterhin zu sagen, dass jede Art von Ausblasung die Turbulenz im Außen vermindert. Bei der vielen Messfalle mit Ausblasung betragen sich die Standardabweichung, also Turbulenz, im Vergleich zu der Zustande ohne Ausblasung circa 40\% weniger. Dieses Verhalten kann mit der verkleinerten Verwirbelungen erklärt werden. In gewissem Sinne wird es verhindert die Wirbelstraße nach außen auszubreiten. Diese Verminderung der Turbulenz am Rand ist dafür von Bedeutung, der Einfluss von Ausblasung auf die Strömungsbewegung möglichst klar zu sehen. Darüber hinaus unterscheiden sich die Standardabweichung bei der Position 1 und 24. Auch wenn die vernachlässigte 1 bar gepulste Messfälle berücksichtigt werden, ist der Turbulenz stets höher bei der Position 1 als bei der Position 24. Obwohl der Unterschied nicht dramatisch ist, führen die Daten zu der Schlussfolgerung, dass bei der Einstellungsprozess ein geringfügiger Fehler aufgetreten sein kann, infolgedessen eine ungleichförmige Strömung um das Modell herum vorkommt. 
 	
 	\subsection{Fehlerbetrachtung}
+	\label{sec:Fehlerbetrachtung_ausf}
 	
 	\section{Fazit}
+	\label{sec:Fazit}
+	
 	Zusammenfassung. Minimaler, Maximaler Widerstand, Zusmmanhang Ausblasefrequenz und gemessene Frequenz
 
 \end{document}
