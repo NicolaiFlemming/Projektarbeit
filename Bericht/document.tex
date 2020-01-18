@@ -758,8 +758,6 @@
 		\label{fig:Strouhal_vgl}
 	\end{figure}
 	
-	
-	
 	Die Strouhal-Zahl ist sowohl an den Rändern als auch in der Mitte des Nachlaufs bei konstanter Ausblasung erhöht (Abb. \ref{fig:Strouhal_konst_2bar}). Das bedeutet, dass die konstante Ausblasung einen Einfluss auf die dominante Frequenz der Wirbel im Nachlauf hat. 
 	Die Widerstandsverminderung lässt sich darauf zurückführen, dass der ausgeblasene Luftstrahl aufgrund des Coanda-Effektes (siehe Theorie) einwärts strömt. Hierdurch wird der Druck an der Basis erhöht und der Druckwiderstand des Körpers sinkt.
 	
@@ -854,12 +852,53 @@
 	
 	Eine mögliche Ursache hierfür könnte sein, dass die Widerstandsbeiwerte ohne Ausblasung mit besonderer Vorsicht zu betrachten sind (siehe Kapitel 5.2), da möglicherweise nicht die gesamte Nachlaufdelle bei den vorgenommenen Messungen abgedeckt worden ist.
 	
-	\subsubsection{Auffälligkeiten}
-	Tannenbäume wann?
-	Welche Auffälligkeiten gibt es? -> mit \glqq ohne Ausblasung\grqq{} vergleichen
-	
 	\subsubsection{Varianzen-Turbulenz (Tabelle)}
-	hohe Standardabweichung bedeutet hohe Turbulenz. Gibt es einen Zusammenhang zum Widerstand?
+	
+	Die zeitlich schwankende Strömungsgeschwindigkeit ist die charakteristische Eigenschaft einer turbulenten Strömung. (Heinz Herwig, 2018) Der Hitzdraht, der zum Messen der Strömungsgeschwindigkeit genutzt wurde, ermöglicht es die Geschwindigkeitsschwankungen aufzunehmen. In der Tabelle wird die Standardabweichung der Strömungsgeschwindigkeit an der äußeren Positionen (pos.1 und pos.24) und an der mittleren Position im Strömungsquerschnitt ( pos.12) für alle Aktuationsparmeter aufgeführt. Hierbei sind die Messdaten in der Mitte entscheidender, da an dieser Position das Modell einen größeren Einfluss auf die Strömung hat. Die Standardabweichung der Strömungsgeschwindigkeit ist ein Maß für die Turbulenz einer Strömung.
+	
+	
+	Hier Tabelle Werte Zusammengefasst erstellt werden soll
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{Bilder/Tabelle_Varianzen-Turbulenz.png}
+		\caption{Standardabweichung und Widerstand}
+		\label{fig:Std_cd}
+	\end{figure}	
+	
+	Wie auf den ersten Blick zu erkennen ist, ist die Standardabweichung in der Mitte deutlich größer als außen. Dieses Ergebnis ist nachvollziehbar, wenn man sich vor Augen führt, dass hinter dem Modell eine Wirbelstraße entsteht. In dieser Wirbelstraße ist die Turbulenz der Strömung größer als im äußeren Bereich der Strömung.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{Bilder/Standardabweichung_Auswertung.jpg}
+		\caption{Standardabweichung Verlauf}
+		\label{fig:Std-Aus}
+	\end{figure}
+
+	Trägt man die Standardabweichung der Strömungsgeschwindigkeit für jede Position in einem Diagramm auf, so wird bestätigt, dass die Turbulenz im mittleren Bereich des Strömungsquerschnittes größer ist als am Rand. Dies gilt für alle Aktuationsparameter. Bei Abb. \ref{fig:Std_cd} fällt auf, dass neben der mittleren Position Bereiche mit höherer Standardabweichung, also größerer Turbulenz, existieren. Der Grund dafür könnte sein, dass das Aufeinandertreffen der äußeren Wirbel die Turbulenz der Strömung verringert.
+	
+	Wie in Tabelle 1 zu erkennen ist, tritt die größte Standardabweichung in Position 12 bei dem Messfall mit Aktationsparameter von 72 Hz auf. Bei diesem Messfall entsteht auch ein relativ großer Widertand. Es lässt sich zusätzlich erkennen, dass die kleinste Standartabweichung in der mittleren Position und der niedrigsten Widerstand bei dem Messfall mit 2 Bar konstanten Ausblasung auftauchen. Hierbei ist es nicht Überraschend, dass zwischen Standardabweichung und Widerstandsbeiwert eine Korrelation existiert. Der Grund hinter dieser Korrelation ist durch steigente Turbulenz erzeugte Druckverringerung hinter des Modells. In deren Folge erhöht sich der Druckwiderstand.
+	 
+	Es ist weiterhin zu sagen, dass die Standardabweichung bei dem Messfall mit 1\,Bar Ausblasung 62\,Hz als ein Ausreißer bezeichnet werden kann, Im Vergleich zu den Anderen ist dieser Wert zu hoch, obwohl an seinem Messfall relativ niedrige Widerstandsbeiwerte auftritt. Wenn die in der Kapitel erwähnten Gründe für Vernachlässigung der Messfalle mit 1\,Bar Ausblasung berücksichtigt, fallt dieses Ausreißen auf. Deswegen werden die Messfalle mit 1Bar Ausblasung hier auch vernachlässigt. 
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{Bilder/Tabelle_mit_Std_diff}
+		\caption{Standardabweichun Diff. und Speed Diff.}
+		\label{fig:Std_diff}
+	\end{figure}
+	
+	Mit dem Wert Speed diff. werden die Differenz zwischen der maximalen Geschwindigkeit und der minimalen Geschwindigkeit bezeichnet. Bei der Abb. fallt auf, dass im Gegensatz zu Standardabweichung die maximale Geschwindigkeit an den äußeren Positionen und die minimale Geschwindigkeit in der Mitte existieren. In der Tabelle 2 wird die Differenz zwischen der Standardabweichung an der mittleren Position und der kleinste Standardabweichung an der äußeren Positionen für alle Aktuationsparameter aufgeführt. Diese Tabelle ermöglicht die Korrelation zwischen Standardabweichungsdifferenz und Geschwindigkeitsdifferenz zu sehen. Bei dem Messfall mit Aktationsparameter von 72 Hz treten sowohl die maximale Standardabweichungsdifferenz als auch die maximale Geschwindigkeitsdifferenz auf, während die zweitkleinste Standardabweichungsdifferenz und die minimale Geschwindigkeitsdifferenz sich bei der Messfall mit 1 Bar konstanter Ausblasung sehen lassen. Das bedeutet, dass steigende Turbulenz Unterschied zu Erhöhung der Geschwindigkeitsdiferrenz führt.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg}
+		\caption{Nachlaufdelle 2 Bar mit konstanter Ausblasung}
+		\label{fig:delle_2_konstant}
+	\end{figure}
+	
+	Es ist nach der Tabelle 1 weiterhin zu sagen, dass jede Art von Ausblasung die Turbulenz im Außen vermindert. Bei der vielen Messfalle mit Ausblasung betragen sich die Standardabweichung, also Turbulenz, im Vergleich zu der Zustande ohne Ausblasung circa 40\% weniger. Dieses Verhalten kann mit der verkleinerten Verwirbelungen erklärt werden. In gewissem Sinne wird es verhindert die Wirbelstraße nach außen auszubreiten. Diese Verminderung der Turbulenz am Rand ist dafür von Bedeutung, der Einfluss von Ausblasung auf die Strömungsbewegung möglichst klar zu sehen. Darüber hinaus unterscheiden sich die Standardabweichung bei der Position 1 und 24. Auch wenn die vernachlässigte 1 bar gepulste Messfälle berücksichtigt werden, ist der Turbulenz stets höher bei der Position 1 als bei der Position 24. Obwohl der Unterschied nicht dramatisch ist, führen die Daten zu der Schlussfolgerung, dass bei der Einstellungsprozess ein geringfügiger Fehler aufgetreten sein kann, infolgedessen eine ungleichförmige Strömung um das Modell herum vorkommt. 
+	
 	\subsection{Fehlerbetrachtung}
 	
 	\section{Fazit}

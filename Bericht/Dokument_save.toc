@@ -8,13 +8,13 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Berechnung des Widerstandes stumpfer K\"orper}{6}%
 \contentsline {subsubsection}{\numberline {2.1.5}K\'arm\'ansche Wirbelstra\IeC {\ss }e}{8}%
 \contentsline {subsection}{\numberline {2.2}Grundlagen der Spektralanalyse}{8}%
-\contentsline {subsection}{\numberline {2.3}Coanda-Effekt}{9}%
+\contentsline {subsection}{\numberline {2.3}Coand?-Effekt}{9}%
 \contentsline {subsubsection}{\numberline {2.3.1}Definition}{9}%
 \contentsline {subsubsection}{\numberline {2.3.2}Coanda Effekt im Alltag}{11}%
 \contentsline {subsubsection}{\numberline {2.3.3}Ausblasungseffekt}{12}%
 \contentsline {subsubsection}{\numberline {2.3.4}Abl\"osung}{12}%
 \contentsline {subsubsection}{\numberline {2.3.5}Die Effekt von Ausblasung auf die Abl\"osung}{12}%
-\contentsline {subsubsection}{\numberline {2.3.6}Coanda-Effekt in der Stumpfk\"orperaerodynamik}{13}%
+\contentsline {subsubsection}{\numberline {2.3.6}Coand?-Effekt in der Stumpfk\"orperaerodynamik}{13}%
 \contentsline {subsection}{\numberline {2.4}Hitzdrahtmessung}{14}%
 \contentsline {subsubsection}{\numberline {2.4.1}Physikalisches Wirkprinzip}{14}%
 \contentsline {subsubsection}{\numberline {2.4.2}Kalibrierung}{17}%
@@ -31,22 +31,23 @@
 \contentsline {subsubsection}{\numberline {4.1.2}Planung der Halterung}{26}%
 \contentsline {subsubsection}{\numberline {4.1.3}Modell}{27}%
 \contentsline {subsubsection}{\numberline {4.1.4}Einstellung des Modells}{28}%
-\contentsline {subsubsection}{\numberline {4.1.5}Verwendete Messtechnik}{28}%
-\contentsline {subsubsection}{\numberline {4.1.6}Programmierung}{28}%
-\contentsline {subsection}{\numberline {4.2}Testf\"alle mit zugeh\"origen Ausblaseparametern}{30}%
-\contentsline {section}{\numberline {5}Auswertung}{31}%
-\contentsline {subsection}{\numberline {5.1}Umrechnen der Daten}{31}%
-\contentsline {subsubsection}{\numberline {5.1.1}Temperaturkorrektur, Mittelwerte und Widerst\"ande}{31}%
-\contentsline {subsubsection}{\numberline {5.1.2}Varianzen}{32}%
-\contentsline {subsubsection}{\numberline {5.1.3}Spektra}{32}%
-\contentsline {subsection}{\numberline {5.2}Zustand ohne Ausblasung}{33}%
-\contentsline {subsection}{\numberline {5.3}Zust\"ande bei verschiedenen Aktuationsparametern}{36}%
-\contentsline {subsubsection}{\numberline {5.3.1}Maximaler Widerstand}{36}%
-\contentsline {subsubsection}{\numberline {5.3.2}Minimaler Widerstand}{36}%
-\contentsline {subsection}{\numberline {5.4}Gepulste Ausblasung}{38}%
-\contentsline {subsubsection}{\numberline {5.4.1}Zusammenhang der Auftretenden Frequenzen}{38}%
+\contentsline {subsubsection}{\numberline {4.1.5}Verwendete Messtechnik}{29}%
+\contentsline {subsubsection}{\numberline {4.1.6}Programmierung}{30}%
+\contentsline {subsection}{\numberline {4.2}Testf\"alle mit zugeh\"origen Ausblaseparametern}{31}%
+\contentsline {section}{\numberline {5}Auswertung}{32}%
+\contentsline {subsection}{\numberline {5.1}Umrechnen der Daten}{32}%
+\contentsline {subsubsection}{\numberline {5.1.1}Temperaturkorrektur, Mittelwerte und Widerst\"ande}{32}%
+\contentsline {subsubsection}{\numberline {5.1.2}Varianzen}{33}%
+\contentsline {subsubsection}{\numberline {5.1.3}Spektra}{33}%
+\contentsline {subsection}{\numberline {5.2}Zustand ohne Ausblasung}{34}%
+\contentsline {subsection}{\numberline {5.3}Zust\"ande bei verschiedenen Aktuationsparametern}{37}%
+\contentsline {subsubsection}{\numberline {5.3.1}Maximaler Widerstand}{37}%
+\contentsline {subsubsection}{\numberline {5.3.2}Minimaler Widerstand}{37}%
+\contentsline {subsection}{\numberline {5.4}Gepulste Ausblasung}{39}%
+\contentsline {subsubsection}{\numberline {5.4.1}Zusammenhang der Auftretenden Frequenzen}{39}%
 \contentsline {subsubsection}{\numberline {5.4.2}Minimaler Widerstand}{40}%
 \contentsline {subsubsection}{\numberline {5.4.3}Maximaler Widerstand}{42}%
-\contentsline {subsubsection}{\numberline {5.4.4}Varianzen-Turbulenz (Tabelle)}{42}%
-\contentsline {subsection}{\numberline {5.5}Fehlerbetrachtung}{47}%
-\contentsline {section}{\numberline {6}Fazit}{47}%
+\contentsline {subsubsection}{\numberline {5.4.4}Auff\"alligkeiten}{42}%
+\contentsline {subsubsection}{\numberline {5.4.5}Varianzen-Turbulenz (Tabelle)}{42}%
+\contentsline {subsection}{\numberline {5.5}Fehlerbetrachtung}{46}%
+\contentsline {section}{\numberline {6}Fazit}{46}%
