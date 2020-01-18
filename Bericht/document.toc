@@ -8,13 +8,13 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Berechnung des Widerstandes stumpfer K\"orper}{6}%
 \contentsline {subsubsection}{\numberline {2.1.5}K\'arm\'ansche Wirbelstra\IeC {\ss }e}{8}%
 \contentsline {subsection}{\numberline {2.2}Grundlagen der Spektralanalyse}{8}%
-\contentsline {subsection}{\numberline {2.3}Coand?-Effekt}{9}%
+\contentsline {subsection}{\numberline {2.3}Coanda-Effekt}{9}%
 \contentsline {subsubsection}{\numberline {2.3.1}Definition}{9}%
 \contentsline {subsubsection}{\numberline {2.3.2}Coanda Effekt im Alltag}{11}%
 \contentsline {subsubsection}{\numberline {2.3.3}Ausblasungseffekt}{12}%
 \contentsline {subsubsection}{\numberline {2.3.4}Abl\"osung}{12}%
 \contentsline {subsubsection}{\numberline {2.3.5}Die Effekt von Ausblasung auf die Abl\"osung}{12}%
-\contentsline {subsubsection}{\numberline {2.3.6}Coand?-Effekt in der Stumpfk\"orperaerodynamik}{13}%
+\contentsline {subsubsection}{\numberline {2.3.6}Coanda-Effekt in der Stumpfk\"orperaerodynamik}{13}%
 \contentsline {subsection}{\numberline {2.4}Hitzdrahtmessung}{14}%
 \contentsline {subsubsection}{\numberline {2.4.1}Physikalisches Wirkprinzip}{14}%
 \contentsline {subsubsection}{\numberline {2.4.2}Kalibrierung}{17}%

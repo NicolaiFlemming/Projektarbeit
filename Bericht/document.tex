@@ -206,9 +206,9 @@
 	
 	Für Transformation eines zeitdiskreten Signals mit einem Digitalrechner, muss eine mit einem Digitalrechner auswertbare Transformation definiert werden. Diese Transformation wird als diskrete Fourier-Transformation (DFT) bezeichnet. Für die DFT gibt es eine Vielzahl an Algorithmen, die sich in einen Rechner implementieren lassen. Beispiele sind der Winograd-Algorithmus oder der Primfaktor-Algorithmus. In Matlab wird die DFT mittels eines Fast Fourier Transform (FFT) Algorithmus` ausgeführt. Der genaue Aufbau des Algorithmus wird hier nicht weiter besprochen. Siehe dazu [4] Kapitel 6.4.
 	
-	\subsection{Coand?-Effekt}
+	\subsection{Coanda-Effekt}
 	\subsubsection{Definition}
-	Der Coand?-Effekt beschreibt die Tatsache dass ausströmende Strahl dazu neigt, sich an nähen Wänden zu befestigen und sogar konvexen Oberflächen zu folgen. Der Fluid hat diese Fahigkeit, solange auf sich wirkende durch Druckgradiet erzeugte Druckkraft (als Zentripetalkraft) und die Zentrifugal Kraft in Glecihgewicht sind.\\
+	Der Coanda-Effekt beschreibt die Tatsache dass ausströmende Strahl dazu neigt, sich an nähen Wänden zu befestigen und sogar konvexen Oberflächen zu folgen. Der Fluid hat diese Fahigkeit, solange auf sich wirkende durch Druckgradiet erzeugte Druckkraft (als Zentripetalkraft) und die Zentrifugal Kraft in Glecihgewicht sind.\\
 	Bei einer konvexen Kontur unterscheiden wegen der Stromlinienkrümmung Druckverteilungen an der Wand und am Außenrand der Grenzschicht von einander. Entlang der Kontur findet die Umsetzung von kinetischer Energie eines Fluidteilchens in der Außenströmung in Druck deutlicht mehr als die Umsetzung bei einer Fluidteilchen an der Wandnahe statt. Die durch diese Druckunterschied erzeugte Druckkraft (Druckgradient)  tritt als Kompensation für Zentrifugalkrafte auf. [grenzschichttheorie]\\
 	\begin{figure}[H]
 		\centering
@@ -266,7 +266,7 @@
 		\vspace{1cm}
 	\end{figure}
 	
-	\subsubsection{Coand?-Effekt in der Stumpfkörperaerodynamik}
+	\subsubsection{Coanda-Effekt in der Stumpfkörperaerodynamik}
 	
 	Obwohl dieser Phänomen bekannt war und wurde von Young im 18. Jahrhundert dokumentiert, hat er Dank von Henri Marie Coand?  (1886-1972) und seinen verschiedenen Konzeptionen, die auf den sog. Coand?-Effekt bezogen sind, in Wissenschaftswelt an Bedeutung  gewonnen. \\
 	Wie in Kapitel 2.1 erwähnt wurde,in dem Experiment wird die Druckwiderstand durch aktive Beeinflussung der Strömung reduziert. Dabei werden zwei Coand?-Flächen an der oberen und unteren Kanten der Hinterseite des Profils platziert und wird Luft von den Ausblaseschlitzen zwischen die Coanda-Flächen und Kanten ausgeblasen.(Abb. 2.8) Bei Unterschall-Ausströmgeschwindigkeiten befestigt der Strahl an die Coanda-Flachen und vermischt sich mit der turbulenten Grenze, die von der oberen und unteren Seiten des Profil ankommende Schichtströmung. 
@@ -337,7 +337,7 @@
 	
 	Das Kingsche Gesetz stellt einen einfachen Zusammenhang zwischen der Heizspannung U und der Strömungsgeschwindigkeit u dar, wobei A, B und n Kalibrierkonstanten sind und durch die abgenommenen Messdaten bestimmt werden können. \\
 	
-	Die Werte für die Kalibrierkonstanten können numerisch ermittelt werden, indem diese statischen Eichkurven durch eine Polynomapproximation dargestellt werden. Die Polynomapproximation liefert über den gesamten Messbereich eine recht zuverlässige Genauigkeit. Die gleichbleibend gute Genauigkeit ist insbesondere bei der Kalibrierung von Hitzdrähten von großer Bedeutung, damit in den nachfolgenden Experimenten keine deutlichen Abweichungen zwischen tatsächlicher und gemessener Strömungsgeschwingkeit auftreten.
+	Die Werte für die Kalibrierkonstanten können numerisch ermittelt werden, indem diese statischen Eichkurven durch eine Polynomapproximation dargestellt werden. Die Polynomapproximation liefert über den gesamten Messbereich eine recht zuverlässige Genauigkeit. Die gleichbleibend gute Genauigkeit ist insbesondere bei der Kalibrierung von Hitzdrähten von großer Bedeutung, damit in den nachfolgenden Experimenten keine deutlichen Abweichungen zwischen tatsächlicher und gemessener Strömungsgeschwindigkeit auftreten.
 	
 	\newpage
 	\section{Kalibrierung}
@@ -360,7 +360,6 @@
 	Bei den Hitzdrahtsonden handelt es sich um 2 Sonden der Firma Dantec Dynamics. % hier noch mehr schreiben  
 	
 	Die Hitzdrahtsonde wird mit einer passenden Messbrücke verbunden, welche mittels einer Wheatstoneschen Brücke, die Widerstandsänderungen am Hitzdraht aufgrund des konvektiven Wärmetransports in ein messbare Spannung umwandelt(siehe 2.4.1). Die Messbrücke wird vor der Kalibrierung mit den Kabelwiderständen und Hitzdrahtwiderständen ausbalanciert. Die von der Messbrücke ausgegebenen Spannungen werden dann an ein Compact Reconfigureable Input/Output Modul (cRIO), dem cRIO NI9067 von National Instruments, weitergegeben und dort mit einem LabVIEW Programm aufgenommen. Die Daten werden von dort aus dann an den Messrechner weitergegeben und abgespeichert.
-	%Überschneidung mit Maikes Text ausgleichen
 	
 	\subsection{Programmierung} 
 	Das Programm zur Kalibrierung der Hitzdrahtsonde ist in zwei Einzelprogramme unterteilt. Ein LabVIEW Programm, das nur die Spannungen, Geschwindigkeiten und Parameter aufnehmen soll und ein Matlab Script, das die aufgenommenen Daten zur Kalibrierfunktion verarbeitet.
@@ -434,7 +433,7 @@
 	plot(xdata, ydata, 'b.') % Plottet xdata und ydata
 	\end{lstlisting}
 	
-	Um die Kalibrierfunktion auf die Daten anzupassen, wird die lsqcurvefit Funktion der Matlab Optimization Toolbox verwendet. Diese nimmt eine vorgefertigte Funktion mit eingepassten Parametern, ein Array mit vermuteten Anfangsparametern (param0) und unsere x (xdata) und y (ydata) Daten entgegen. Die Parameter werden dann so optimiert, dass sie möglichst gut zu unserem vorhandenen Datensatz passen. Als Grundfunktion wurde das King'sche Gesetz (siehe 2.4.2) verwendet. Nach der Optimierung gibt die Funktion ein Array mit den optimierten Parametern aus (param).
+	Um die Kalibrierfunktion auf die Daten anzupassen, wird die lsqcurvefit Funktion der Matlab Optimization Toolbox verwendet. Diese nimmt eine vorgefertigte Funktion mit eingepassten Parametern, ein Array mit vermuteten Anfangsparametern (param0) und unsere x (xdata) und y (ydata) Daten entgegen. Die Parameter werden dann mittels linearer Regression so optimiert, dass sie möglichst gut zu unserem vorhandenen Datensatz passen. Als Grundfunktion wurde das King'sche Gesetz (siehe 2.4.2) verwendet. Nach der Optimierung gibt die Funktion ein Array mit den optimierten Parametern aus (param).
 	
 	\vspace{2mm}
 	\begin{lstlisting}[language=MATLAB,caption={Curvefitting}]
@@ -470,7 +469,7 @@
 	\subsection{Fehlerabschätzung} % Standartabweichung muss noch berechnet werden
 	Verschiebungen von 10\,cm in den Kanal, gemessen vom Kanalausgang, sowie 10\,cm aus dem Kanal heraus ergeben nur kleine Änderungen der gemessenen Strömungsgeschwindigkeit von weniger als 1\%. Daher wurde beschlossen den Hitzdraht direkt am Kanalausgang zu positionieren. Kleine Änderungen des Anströmwinkels (<1$\degree$) ergaben Änderungen kleiner 1\%. Es wurde darauf geachtet die Sonde immer möglichst im rechten Winkel zur Strömung zu platzieren.
 	
-	Um die Qualität der gefitteten Kurve einschätzen zu können, wurde die Standardabweichung zwischen gefitteter Kurve und tatsächlichem Geschwindigkeitsverlauf ermittelt.[Zahlenwerte nennen]
+	Um die Qualität der gefitteten Kurve einschätzen zu können, wurde die Standardabweichung zwischen gefitteter Kurve und tatsächlichem Geschwindigkeitsverlauf ermittelt. Hierzu wird die Differenz der von der kalibrierten Funktion errechneten Geschwindigkeit und der im Kalibrierungs-Datensatz festgesetzten Geschwindigkeit berechnet und die Standardabweichung dieser Differenzen gebildet. Für die von uns verwendete Kurve erreicht so einen Wert von 0.1804, was als ausreichend bewertet wird. 
 	
 	\newpage
 	\section{Windkanalversuche}
