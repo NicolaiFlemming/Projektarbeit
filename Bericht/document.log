@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.8)  18 JAN 2020 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.8)  18 JAN 2020 17:44
 entering extended mode
 **./document.tex
 (document.tex
@@ -1153,215 +1153,222 @@ Underfull \hbox (badness 10000) in paragraph at lines 524--525
  []
 
 [27 <./Bilder/Stumpfkoerper.jpg>]
-<labview_crio.jpg, id=129, 551.05875pt x 478.03593pt>
+<Bilder/Druck_Oberespalt.png, id=129, 835.62187pt x 464.4853pt>
+File: Bilder/Druck_Oberespalt.png Graphic file (type png)
+<use Bilder/Druck_Oberespalt.png>
+Package pdftex.def Info: Bilder/Druck_Oberespalt.png  used on input line 542.
+(pdftex.def)             Requested size: 364.19664pt x 202.44638pt.
+ [28] [29 <./Bilder/Druck_Oberespalt.png>]
+<labview_crio.jpg, id=137, 551.05875pt x 478.03593pt>
 File: labview_crio.jpg Graphic file (type jpg)
 <use labview_crio.jpg>
-Package pdftex.def Info: labview_crio.jpg  used on input line 540.
+Package pdftex.def Info: labview_crio.jpg  used on input line 563.
 (pdftex.def)             Requested size: 318.66946pt x 276.45137pt.
- [28]
-<labview_trigger.jpg, id=133, 1033.61156pt x 320.69812pt>
+
+[30 <./labview_crio.jpg>]
+<labview_trigger.jpg, id=142, 1033.61156pt x 320.69812pt>
 File: labview_trigger.jpg Graphic file (type jpg)
 <use labview_trigger.jpg>
-Package pdftex.def Info: labview_trigger.jpg  used on input line 551.
+Package pdftex.def Info: labview_trigger.jpg  used on input line 574.
 (pdftex.def)             Requested size: 318.66946pt x 98.87221pt.
- [29 <./labview_crio.jpg> <./labview_trigger.jpg>] [30]
-<tempcorr_bsp.jpg, id=141, 562.1pt x 421.575pt>
+ [31 <./labview_trigger.jpg>]
+<tempcorr_bsp.jpg, id=146, 562.1pt x 421.575pt>
 File: tempcorr_bsp.jpg Graphic file (type jpg)
 <use tempcorr_bsp.jpg>
-Package pdftex.def Info: tempcorr_bsp.jpg  used on input line 596.
+Package pdftex.def Info: tempcorr_bsp.jpg  used on input line 619.
 (pdftex.def)             Requested size: 218.51326pt x 163.8861pt.
 
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 596--597
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 619--620
 [][] 
  []
 
-<Nachlaufdellefit.jpg, id=142, 562.1pt x 421.575pt>
+<Nachlaufdellefit.jpg, id=147, 562.1pt x 421.575pt>
 File: Nachlaufdellefit.jpg Graphic file (type jpg)
 <use Nachlaufdellefit.jpg>
-Package pdftex.def Info: Nachlaufdellefit.jpg  used on input line 601.
+Package pdftex.def Info: Nachlaufdellefit.jpg  used on input line 624.
 (pdftex.def)             Requested size: 218.51326pt x 163.8861pt.
 
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 601--602
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 624--625
 [][] 
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 602--602
+Underfull \hbox (badness 1622) in paragraph at lines 625--625
 []\T1/ptm/m/n/10.95 (b) |Bei-spiel ei-nes Nach-lauf-del-len Fits
  []
 
-[31 <./tempcorr_bsp.jpg> <./Nachlaufdellefit.jpg>]
-<Standardabweichung_bsp.jpg, id=146, 562.1pt x 421.575pt>
+[32 <./tempcorr_bsp.jpg> <./Nachlaufdellefit.jpg>]
+<Standardabweichung_bsp.jpg, id=151, 562.1pt x 421.575pt>
 File: Standardabweichung_bsp.jpg Graphic file (type jpg)
 <use Standardabweichung_bsp.jpg>
-Package pdftex.def Info: Standardabweichung_bsp.jpg  used on input line 612.
+Package pdftex.def Info: Standardabweichung_bsp.jpg  used on input line 635.
 (pdftex.def)             Requested size: 318.66946pt x 239.00082pt.
-<Spektrum_bsp.jpg, id=147, 562.1pt x 421.575pt>
+<Spektrum_bsp.jpg, id=152, 562.1pt x 421.575pt>
 File: Spektrum_bsp.jpg Graphic file (type jpg)
 <use Spektrum_bsp.jpg>
-Package pdftex.def Info: Spektrum_bsp.jpg  used on input line 623.
+Package pdftex.def Info: Spektrum_bsp.jpg  used on input line 646.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-<Contour_bsp.jpg, id=148, 562.1pt x 421.575pt>
+<Contour_bsp.jpg, id=153, 562.1pt x 421.575pt>
 File: Contour_bsp.jpg Graphic file (type jpg)
 <use Contour_bsp.jpg>
-Package pdftex.def Info: Contour_bsp.jpg  used on input line 628.
+Package pdftex.def Info: Contour_bsp.jpg  used on input line 651.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
- [32 <./Standardabweichung_bsp.jpg>]
-<Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg, id=152, 562.1pt x 421.575pt>
+ [33 <./Standardabweichung_bsp.jpg>]
+<Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg, id=157, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg  used on
- input line 644.
+ input line 667.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=153, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=158, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg  used on
- input line 649.
+ input line 672.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
- [33 <./Spektrum_bsp.jpg> <./Contour_bsp.jpg> <./Bilder/Ohne_1_bar/Nachlaufdell
+ [34 <./Spektrum_bsp.jpg> <./Contour_bsp.jpg> <./Bilder/Ohne_1_bar/Nachlaufdell
 e_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>]
-<Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg, id=157, 562.1pt x 421.575pt>
+<Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg, id=162, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg  used on inpu
-t line 663.
+t line 686.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg, id=158, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg, id=163, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg  used on inpu
-t line 668.
+t line 691.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg, id=159, 562.1pt x 421.575pt>
+<Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg, id=164, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg  used on inpu
-t line 681.
+t line 704.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg, id=160, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg, id=165, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg  used on inpu
-t line 686.
+t line 709.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
 
-[34 <./Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg> <./Bilder/ohne_2_bar/Strouhal_
+[35 <./Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg> <./Bilder/ohne_2_bar/Strouhal_
 ohne_2bar.jpg>]
-<Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg, id=164, 562.1pt x 421.575pt>
+<Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg, id=169, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg  used on input
- line 699.
+ line 722.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Contour_ohne_2bar.jpg, id=165, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Contour_ohne_2bar.jpg, id=170, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Contour_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Contour_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Contour_ohne_2bar.jpg  used on input
- line 704.
+ line 727.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
- [35 <./Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Spektrum
+ [36 <./Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Spektrum
 _ohne_2bar.jpg> <./Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg> <./Bilder/ohne_2_ba
 r/Contour_ohne_2bar.jpg>]
-<Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=169, 562.1pt x 421.575pt>
+<Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=175, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg  used on
- input line 729.
+ input line 752.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg, id=170, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg, id=176, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg  used 
-on input line 734.
+on input line 757.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
- [36 <./Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg> <./Bilder/konst_2_bar/Na
+ [37 <./Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg> <./Bilder/konst_2_bar/Na
 chlaufdelle_konst_2bar.jpg>]
-<Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg, id=175, 562.1pt x 421.575pt>
+<Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg, id=180, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg  used on inpu
-t line 748.
+t line 771.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Strouhal_konst_2bar.jpg, id=176, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Strouhal_konst_2bar.jpg, id=181, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Strouhal_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Strouhal_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Strouhal_konst_2bar.jpg  used on in
-put line 753.
+put line 776.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg, id=177, 562.1pt x 421.575pt>
+<Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg, id=182, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg  used on input
- line 767.
+ line 790.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Contour_konst_2bar.jpg, id=178, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Contour_konst_2bar.jpg, id=183, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Contour_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Contour_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Contour_konst_2bar.jpg  used on inp
-ut line 772.
+ut line 795.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
- [37 <./Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg> <./Bilder/konst_2_bar/Strouha
+ [38 <./Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg> <./Bilder/konst_2_bar/Strouha
 l_konst_2bar.jpg> <./Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg> <./Bilder/konst_2
-_bar/Contour_konst_2bar.jpg>] [38]
-<Spektrum 1Bar 83Hz.jpg, id=185, 2569.6pt x 1368.11125pt>
+_bar/Contour_konst_2bar.jpg>] [39]
+<Spektrum 1Bar 83Hz.jpg, id=190, 2569.6pt x 1368.11125pt>
 File: Spektrum 1Bar 83Hz.jpg Graphic file (type jpg)
 <use Spektrum 1Bar 83Hz.jpg>
-Package pdftex.def Info: Spektrum 1Bar 83Hz.jpg  used on input line 802.
+Package pdftex.def Info: Spektrum 1Bar 83Hz.jpg  used on input line 825.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
-<Contour plot 1bar 83Hz.jpg, id=186, 562.1pt x 421.575pt>
+<Contour plot 1bar 83Hz.jpg, id=191, 562.1pt x 421.575pt>
 File: Contour plot 1bar 83Hz.jpg Graphic file (type jpg)
 <use Contour plot 1bar 83Hz.jpg>
-Package pdftex.def Info: Contour plot 1bar 83Hz.jpg  used on input line 809.
+Package pdftex.def Info: Contour plot 1bar 83Hz.jpg  used on input line 832.
 (pdftex.def)             Requested size: 364.19664pt x 273.14565pt.
- [39 <./Spektrum 1Bar 83Hz.jpg> <./Contour plot 1bar 83Hz.jpg>]
-<Bilder/Nachlaufdellen.jpg, id=190, 2569.6pt x 1368.11125pt>
+ [40 <./Spektrum 1Bar 83Hz.jpg> <./Contour plot 1bar 83Hz.jpg>]
+<Bilder/Nachlaufdellen.jpg, id=195, 2569.6pt x 1368.11125pt>
 File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
 <use Bilder/Nachlaufdellen.jpg>
-Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 830.
+Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 853.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
- [40] [41 <./Bilder/Nachlaufdellen.jpg>]
-<Bilder/Tabelle_Varianzen-Turbulenz.png, id=197, 890.5772pt x 413.29407pt>
+ [41] [42 <./Bilder/Nachlaufdellen.jpg>]
+<Bilder/Tabelle_Varianzen-Turbulenz.png, id=203, 890.5772pt x 413.29407pt>
 File: Bilder/Tabelle_Varianzen-Turbulenz.png Graphic file (type png)
 <use Bilder/Tabelle_Varianzen-Turbulenz.png>
 Package pdftex.def Info: Bilder/Tabelle_Varianzen-Turbulenz.png  used on input 
-line 864.
+line 887.
 (pdftex.def)             Requested size: 455.24408pt x 211.26907pt.
- [42]
-<Bilder/Standardabweichung_Auswertung.jpg, id=202, 421.575pt x 316.18124pt>
+ [43]
+<Bilder/Standardabweichung_Auswertung.jpg, id=207, 421.575pt x 316.18124pt>
 File: Bilder/Standardabweichung_Auswertung.jpg Graphic file (type jpg)
 <use Bilder/Standardabweichung_Auswertung.jpg>
 Package pdftex.def Info: Bilder/Standardabweichung_Auswertung.jpg  used on inpu
-t line 873.
+t line 896.
 (pdftex.def)             Requested size: 455.24408pt x 341.4417pt.
- [43 <./Bilder/Tabelle_Varianzen-Turbulenz.png>] [44 <./Bilder/Standardabweichu
+ [44 <./Bilder/Tabelle_Varianzen-Turbulenz.png>] [45 <./Bilder/Standardabweichu
 ng_Auswertung.jpg>]
-<Bilder/Tabelle_mit_Std_diff.png, id=210, 690.32906pt x 239.39438pt>
+<Bilder/Tabelle_mit_Std_diff.png, id=215, 690.32906pt x 239.39438pt>
 File: Bilder/Tabelle_mit_Std_diff.png Graphic file (type png)
 <use Bilder/Tabelle_mit_Std_diff.png>
-Package pdftex.def Info: Bilder/Tabelle_mit_Std_diff.png  used on input line 88
-6.
+Package pdftex.def Info: Bilder/Tabelle_mit_Std_diff.png  used on input line 90
+9.
 (pdftex.def)             Requested size: 455.24408pt x 157.87291pt.
-<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=211, 562.1pt x 421.575
+<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=216, 562.1pt x 421.575
 pt>
 File: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg Graphic file (type jp
 g)
 <use Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg  u
-sed on input line 895.
+sed on input line 918.
 (pdftex.def)             Requested size: 455.24408pt x 341.43527pt.
 
-[45 <./Bilder/Tabelle_mit_Std_diff.png>] [46 <./Bilder/konst_2_Bar/Nachlaufdell
-e_fit_konst_2bar.jpg>] [47] (document.aux)
+[46 <./Bilder/Tabelle_mit_Std_diff.png>] [47 <./Bilder/konst_2_Bar/Nachlaufdell
+e_fit_konst_2bar.jpg>] [48] (document.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19857 strings out of 492484
- 357558 string characters out of 3130516
- 663060 words of memory out of 3000000
- 23741 multiletter control sequences out of 15000+200000
+ 19864 strings out of 492484
+ 357751 string characters out of 3130516
+ 663100 words of memory out of 3000000
+ 23747 multiletter control sequences out of 15000+200000
  52189 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,60p,1199b,1697s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1377,9 +1384,9 @@ pe1/urw/times/utmb8a.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
 w/times/utmr8a.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on document.pdf (48 pages, 4126970 bytes).
+Output written on document.pdf (49 pages, 4157299 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
+ 337 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

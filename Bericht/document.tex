@@ -524,6 +524,29 @@
 	Zur genauen Ausrichtung des eingebauten Modells im Kanal werden mit eingeschaltetem Windkanal die statischen Drücke von der Ober- und Unterseite über Druckbohrungen abgenommen und miteinander verglichen. Gegebenenfalls wird anschließend die Modellnase neu ausgerichtet.\\
 	
 	\subsubsection{Einstellung des Modells}
+	
+	Vor der Implementierung des Modells im Windkanal wurde es für das Experiment vorbereitet. Zuerst wurden die Coanda-Flächen und die Luftschlitze gereinigt. Anschließend wurde die Druckverteilung entlang der Coanda-Flächen, die sich an der Ober- und Unterkante der Modellrückseite befinden, möglichst konstant und gleichmäßig eingestellt. Zur Messung der Druckverteilung entlang der Coanda-Flächen wurde eine Fischmaulsonde verwendet. Um den Einstellungsprozess angenehmer zu gestalten und die empfindliche Einstellung bestmöglich durchzuführen, wurde das Modell im Vorbereitungsraum des ISM mit einem festen Tisch und einer Traverse verbunden. Die aufgebaute Einrichtung ist in Abb. zu sehen. 
+	
+	[Bilder nedeneinander]
+	
+	Für eine optimale Messgenauigkeit der Fischmaulsonde ist die Ebenheit des Modells entscheidend. Deswegen wurde die Parallelität zwischen dem Modell und der Traverse entlang der Querachse mit einer empfindlichen Messuhr überprüft und eingestellt. 
+	
+	Die unerwünschten Ausreißer im Druckverlauf wurden anschließend durch eine erneute Justierung der 16 Einstellschrauben im Inneren der Modellhinterseite korrigiert und schließlich beseitigt. [Abb] Hierbei waren insbesondere zwei Punkte zu beachten: Zum einen sind im Modell für jeden Schlitz insgesamt vier Luftkammern vorhanden, von denen die erste und die dritte bzw. die zweite und die vierte Kammer jeweils miteinander verbunden sind. Dies bedeutet zugleich, dass zwei Kammern jeweils dieselbe Luftquelle besitzen. Diese Architektur und die Abhängigkeit zweier Kammern voneinander stellte beim Einstellungsprozess eine große Schwierigkeit dar. Beispielsweise wurde eine Schraube an der ersten Kammer enger gestellt, um an einem Ort den Druck zu mindern, wodurch sich jedoch zeitgleich der Druck in der dritten Kammer deutlich erhöhte. Zum anderen müssen die Breiten der beiden Schlitze sehr ähnlich sein, damit der Volumenstrom durch die beiden Schlitze möglichst gleich ist. Für die angestrebte Breite der Spalte wurde ein Wert von 0,2 mm festgelegt. 
+	
+	Auf den Coanda-Flächen wurde für 31 verschiedene Punkte der dynamische Druck gemessen und für jeden Punkten wurden circa 2000 Werte aus der Fischmaulsonde im Rechner abgespeichert. Die Durchschnittswerte dieser Messdaten wurden zudem geplottet. Die Zielsetzung der Messung war es die Schlitze so einzustellen, dass alle Durchschnittwerte nicht mehr als 10\% vom Mittelwert der Messreihe abweichen. Beispielweise ist der Endzustand des Druckverlaufes für den Oberschlitz in Abb. zu sehen. Obwohl die Werte an den Seitenkanten vom 10\%-Toleranzbereich etwas abweichen, bleiben die Werte im relevanten Mittelteil der Coanda-Fläche, bis auf eine Ausnahme, in dem angestrebten 10\%-Toleranzbereich. 
+	
+	Mithilfe von Plenumsdrücken in den Luftkammern des Modells wurde die Einstellung der Spalte final überprüft.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{Bilder/Druck_Oberespalt.png}
+		\caption{Druckverlauf Oberespalt}
+		\label{fig:druck_oberesp}
+	\end{figure}
+	
+	Neben den Spaltdrücken musste der Druck an der oberen und unteren Seite des Modells so gleich wie möglich eingestellt werden, um im Windkanal eine gleichmäßige Strömung um das Modell herum sicher zu stellen. Dafür wurden die statischen Drücke von beiden Seiten betrachtet. Durch das Kippen der Modellnase wurden die statischen Drücke angeglichen. 
+	Nach diesen Einstellungen kann angenommen werden, dass der Einfluss der Einstellungsabweichungen auf die Geschwindigkeitsmessung mit Hitzdrahtsonde gering sein wird. Trotzdem müssen sie weiterhin als Messfehlern berücksichtigt werden.
+	
 	\subsubsection{Verwendete Messtechnik}
 	
 	Zur Aufnahme der Messungen wird der D-förmige Stumpfkörper und die Hitzdrahtsonde, die mittels einer Konstruktion aus Aluprofilen und einem Traversiermechanismus in die Strömung gehalten wird, in den Windkanal eingebaut. Hierbei wird beachtet, dass die gleiche Halterung für die Hitzdrahtsonde wie für den Kalibrier-Windkanal des IFAS verwendet wird. Die Hitzdrahtsonde wird im Windkanal mit einem Abstand von ungefähr 400 mm zum Stumpfkörper platziert. 
