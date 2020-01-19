@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.17)  19 JAN 2020 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.17)  19 JAN 2020 17:39
 entering extended mode
 **./document.tex
 (document.tex
@@ -1505,13 +1505,13 @@ File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
 Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 987.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
  [44] [45]
-<Bilder/Tabelle_Varianzen-Turbulenz.png, id=705, 890.5772pt x 413.29407pt>
+<Bilder/Tabelle_Varianzen-Turbulenz.png, id=713, 890.5772pt x 413.29407pt>
 File: Bilder/Tabelle_Varianzen-Turbulenz.png Graphic file (type png)
 <use Bilder/Tabelle_Varianzen-Turbulenz.png>
 Package pdftex.def Info: Bilder/Tabelle_Varianzen-Turbulenz.png  used on input 
 line 1022.
 (pdftex.def)             Requested size: 455.24408pt x 211.26907pt.
-<Bilder/Standardabweichung_Auswertung.jpg, id=706, 421.575pt x 316.18124pt>
+<Bilder/Standardabweichung_Auswertung.jpg, id=714, 421.575pt x 316.18124pt>
 File: Bilder/Standardabweichung_Auswertung.jpg Graphic file (type jpg)
 <use Bilder/Standardabweichung_Auswertung.jpg>
 Package pdftex.def Info: Bilder/Standardabweichung_Auswertung.jpg  used on inpu
@@ -1522,13 +1522,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46 <./Bilder/Tabelle_Varianzen-Turbulenz.png>] [47 <./Bilder/Standardabweichu
 ng_Auswertung.jpg>]
-<Bilder/Tabelle_mit_Std_diff.png, id=717, 690.32906pt x 239.39438pt>
+<Bilder/Tabelle_mit_Std_diff.png, id=725, 690.32906pt x 239.39438pt>
 File: Bilder/Tabelle_mit_Std_diff.png Graphic file (type png)
 <use Bilder/Tabelle_mit_Std_diff.png>
 Package pdftex.def Info: Bilder/Tabelle_mit_Std_diff.png  used on input line 10
 44.
 (pdftex.def)             Requested size: 455.24408pt x 157.87291pt.
-<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=718, 562.1pt x 421.575
+<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=726, 562.1pt x 421.575
 pt>
 File: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg Graphic file (type jp
 g)
@@ -1575,9 +1575,9 @@ s/type1/urw/symbol/usyr.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/ty
 pe1/urw/times/utmb8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on document.pdf (50 pages, 4347275 bytes).
+Output written on document.pdf (50 pages, 4348793 bytes).
 PDF statistics:
- 884 PDF objects out of 1000 (max. 8388607)
+ 892 PDF objects out of 1000 (max. 8388607)
  211 named destinations out of 1000 (max. 500000)
  656 words of extra memory for PDF output out of 10000 (max. 10000000)
 
