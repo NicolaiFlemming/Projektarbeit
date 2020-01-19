@@ -624,7 +624,7 @@
 	
 	Es werden am LNB für die Projektarbeit Messungen von einem Schnitt stromabwärts bei zehn Betriebsbedingungen vorgenommen. Pro Betriebsbedingung werden jeweils 24 Punkte angefahren, was einem Verfahrweg von 184 mm entspricht. Die Druckdaten werden dabei über einen Zeitraum von 10 Sekunden gemittelt.
 	
-	Hierbei werden bei einer Strömungsgeschwindigkeit von 16 m/s verschiedene Betriebszustände eingestellt. Es wird zunächst ohne Ausblasung, daraufhin mit konstanter Ausblasung bei 1 und 2 Bar Versorgungsdruck der Ausblasung und abschließend mit gepulster Ausblasung gemessen. Bei der gepulsten Ausblasung werden die Frequenzen 62\,Hz, 72\,Hz und 83\,Hz, die bereits in vorherigen Versuchen ermittelt wurden, angesteuert (siehe oben). Die Tabelle \ref{tab:table1} listet die verschiedenen Betriebszustände mit den zugehörigen Ausblaseparametern auf.
+	Hierbei werden bei einer Strömungsgeschwindigkeit von 16 m/s verschiedene Betriebszustände eingestellt. Es wird zunächst ohne Ausblasung, daraufhin mit konstanter Ausblasung bei 1 und 2 Bar Versorgungsdruck der Ausblasung und abschließend mit gepulster Ausblasung gemessen. Bei der gepulsten Ausblasung werden die Frequenzen 62\,Hz, 72\,Hz und 83\,Hz, die bereits in vorherigen Versuchen ermittelt wurden, angesteuert (Kapitel \ref{sec:Programmierung_wind}). Die Tabelle \ref{tab:table1} listet die verschiedenen Betriebszustände mit den zugehörigen Ausblaseparametern auf.
 	
 	\begin{table}[H]
 	\label{tab:table1}	
@@ -882,13 +882,13 @@
 	
 	Wie schon in Sektion (2.1.5) beschrieben löst sich die Strömung am Ende unseres Sumpfkörpers über die Coanda-Fläche wirbelförmig ab. Dies geschieht bei einer Anströmung von 16\,m/s und keiner Ausblasung, mit der natürlichen Wirbelablösefrequenz von 68.7\,Hz. Dies entspricht bei unserer charakteristischen Länge von 0.0534\,m einer Strouhal Zahl von Sr = 0.23. In der Mitte des Messbereichs verdoppelt sich die Frequenz dann noch einmal auf 137.4\,Hz (Sr = 0.46). (siehe Contour Plot) Dies kann durch die Überlagerung der sich am Körper ablösenden Wirbel erklärt werden (siehe 5.3). 
 	
-	Bei konstanter Ausblasung steigt die Frequenz auf 72.2\,Hz (Sr = ) bei 2\,Bar  und  74,1\,Hz (Sr = ) bei 1\,Bar Versorgungsdruck. Gleich bleibt jedoch, dass in der Mitte des Messbereichs die doppelte Frequenz der Ablösefrequenz auftritt.
+	Bei konstanter Ausblasung steigt die Frequenz auf 72.2\,Hz (Sr = 0.24) bei 2\,Bar  und  74,1\,Hz (Sr = 0.24) bei 1\,Bar Versorgungsdruck. Gleich bleibt jedoch, dass in der Mitte des Messbereichs die doppelte Frequenz der Ablösefrequenz auftritt.
 	
-	Bei gepulster Ausblasung von 62\,Hz und 2\,Bar fällt auf, dass zunächst eine Ablösefrequenz nahe der gepulsten Frequenz im Nachlauf auftritt. In der Mitte des Messbereichs kann wieder eine Verdoppelung der am Rand auftretenden Frequenz beobachtet werden. Bei 1\,Bar Ausblasung mit 62\,Hz  tritt hingegen hauptsächlich eine Frequenz von 71 - 72\,Hz auf, ähnlich der Frequenz bei konstanter Ausblasung. Die 62\,Hz sind im Spektrum am Rand des Messbereichs zwar noch zu erkennen, scheinen aber keinen besonders großen Einfluss mehr zu nehmen. Wahrscheinlich liegt dies daran, dass 1\,Bar Druckversorgung einfach zu gering sind um einen Unterschied im Nchlauf zu erzeugen.
+	Bei gepulster Ausblasung von 62\,Hz und 2\,Bar fällt auf, dass zunächst eine Ablösefrequenz nahe der gepulsten Frequenz im Nachlauf auftritt. In der Mitte des Messbereichs kann wieder eine Verdoppelung der am Rand auftretenden Frequenz beobachtet werden. Bei 1\,Bar Ausblasung mit 62\,Hz  tritt hingegen hauptsächlich eine Frequenz von 71 - 72\,Hz (Sr = 0.236) auf, ähnlich der Frequenz bei konstanter Ausblasung. Die 62\,Hz (Sr = 0.21)  sind im Spektrum am Rand des Messbereichs zwar noch zu erkennen, scheinen aber keinen besonders großen Einfluss mehr zu nehmen. Wahrscheinlich liegt dies daran, dass 1\,Bar Druckversorgung einfach zu gering sind um einen Unterschied im Nchlauf zu erzeugen.
 	
 	Hier noch ein/zwei Bilder (Spektrum und oder passendes Contour Plot)
 	
-	Bei einer Pulsfrequenz von 72\,Hz und 2\,Bar Druck bildet sich wie bei der konstanten Ausblasung eine Frequenz von 72\,Hz im Nachlauf aus. Bei der gepulsten Ausblasung mit 1\,Bar ist das Verhalten auch zu beobachten. Dies ist auch zu erwarten, weil die Frequenz im Nachlauf bei konstanter Ausblasung bereits 72\,Hz annimmt. (Komischer Datensatz bei 1\,Bar 72 Hz erklärt sich so vielleicht). Bei beiden Zuständen bildet sich in der Mitte des Messbereichs die doppelte Frequenz aus.
+	Bei einer Pulsfrequenz von 72\,Hz und 2\,Bar Druck bildet sich wie bei der konstanten Ausblasung eine Frequenz von 72\,Hz (Sr = 0.236) im Nachlauf aus. Bei der gepulsten Ausblasung mit 1\,Bar ist das Verhalten auch zu beobachten. Dies ist auch zu erwarten, weil die Frequenz im Nachlauf bei konstanter Ausblasung bereits 72\,Hz annimmt. (Komischer Datensatz bei 1\,Bar 72\,Hz erklärt sich so vielleicht). Bei beiden Zuständen bildet sich in der Mitte des Messbereichs die doppelte Frequenz aus.
 	
 	(hier auch noch Bilder)
 	
@@ -910,7 +910,7 @@
 	
 	Für die weitere Betrachtung werden wir die 2\,Bar Messreihe verwenden, da sie als einzige der beiden eine wirkliche Veränderung im Nachlauf erzeugt hat. 
 	
-	Auffällig sind auch die immer wieder auftretenden Frequenzen nahe 0\,Hz. Wie diese zu erklären sind ist nicht ganz klar, eine Vermutung ist aber, dass diese die Regelung vom Kanal erfassen. Der Kanal wird seine Geschwindigkeit aufgrund der PID-Steuerung nur mit sehr langsamen aber kontinuierlichen Schwingungen ausgleichen und so, sehr niedrige Frequenzen in das Spektrum mit einbringen.  
+	Auffällig sind auch die immer wieder auftretenden Frequenzen nahe 0\,Hz (Sr = 0). Wie diese zu erklären sind ist nicht ganz klar, eine Vermutung ist aber, dass diese die Regelung vom Kanal erfassen. Der Kanal wird seine Geschwindigkeit aufgrund der PID-Steuerung nur mit sehr langsamen aber kontinuierlichen Schwingungen ausgleichen und so, sehr niedrige Frequenzen in das Spektrum mit einbringen.  
 	
 	
 	
