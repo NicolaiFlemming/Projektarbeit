@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.8)  18 JAN 2020 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.17)  19 JAN 2020 12:20
 entering extended mode
 **./document.tex
 (document.tex
@@ -33,11 +33,11 @@ File: switch.def 2019/11/14 3.36 Babel switching mechanism
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-german\ngerman.ldf"
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/babel-german\ngerman.ldf
 Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
 phy)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-german\ngermanb.ldf"
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/babel-german\ngermanb.ldf
 Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
 aphy)
 
@@ -66,26 +66,39 @@ Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/parskip\parskip.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/parskip\parskip.sty
 Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) ("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifluatex.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)))))
+("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count90
 ))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/float\float.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count91
 \float@exts=\toks17
@@ -93,10 +106,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box28
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen104
@@ -117,10 +130,7 @@ Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\refcount.sty"
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-))
+)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
@@ -131,9 +141,6 @@ LaTeX Info: Redefining \pageref on input line 356.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
 Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -174,12 +181,6 @@ Now handling font encoding PD1 ...
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\intcalc.sty"
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifluatex.sty"
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-))
 \Hy@SavedSpaceFactor=\count97
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
@@ -277,7 +278,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
@@ -296,11 +297,11 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen124
 \Gm@dimlist=\toks19
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/setspace\setspace.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/geometry\geometry.cfg))
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\mathptmx.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -336,7 +337,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip44
@@ -349,7 +350,7 @@ s
 \f@nch@O@olf=\skip51
 \f@nch@O@orf=\skip52
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/titlesec\titlesec.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box29
 \beforetitleunit=\skip53
@@ -361,44 +362,44 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen128
 \titlewidthfirst=\dimen129
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlayer\tikz.sty
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfrcs.sty
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-co
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-co
 mmon.tex
 \pgfutil@everybye=\toks21
 \pgfutil@tempdima=\dimen130
 \pgfutil@tempdimb=\dimen131
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-co
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-co
 mmon-lists.tex))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-la
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-la
 tex.def
 \pgfutil@abb=\box30
  ("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfrcs.cod
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfrcs.cod
 e.tex
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf\pgf.revision.tex)
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
 Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgfcore.sty
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/systemlayer\pgfsys.sty
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys.c
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys.c
 ode.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.co
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.co
 de.tex
 \pgfkeys@pathtoks=\toks22
 \pgfkeys@temptoks=\toks23
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeysfil
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeysfil
 tered.code.tex
 \pgfkeys@tmptoks=\toks24
 ))
@@ -423,26 +424,26 @@ tered.code.tex
 \t@pgf@tokc=\toks27
 \pgf@sys@id@count=\count112
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgf.cfg
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-p
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-p
 dftex.def
 File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-c
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-c
 ommon-pdf.def
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsysso
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsysso
 ftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfsyssoftpath@smallbuffer@items=\count113
 \pgfsyssoftpath@bigbuffer@items=\count114
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsyspr
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsyspr
 otocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )) ("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
@@ -462,17 +463,17 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcore.c
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcore.c
 ode.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.te
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.te
 x
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathcalc.cod
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathcalc.cod
 e.tex
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathutil.cod
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathutil.cod
 e.tex)
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathparser.c
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathparser.c
 ode.tex
 \pgfmath@dimen=\dimen142
 \pgfmath@count=\count115
@@ -481,31 +482,31 @@ ode.tex
 \pgfmath@stack@operand=\toks29
 \pgfmath@stack@operation=\toks30
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
 s.code.tex
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
 s.basic.code.tex)
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
 s.trigonometric.code.tex)
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
 s.random.code.tex)
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
 s.comparison.code.tex)
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
 s.base.code.tex)
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
 s.round.code.tex)
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
 s.misc.code.tex)
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
 s.integerarithmetics.code.tex)))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfloat.co
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfloat.co
 de.tex
 \c@pgfmathroundto@lastzeros=\count116
 ))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfint.code.tex
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfint.code.tex
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepo
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepo
 ints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@picminx=\dimen143
@@ -523,19 +524,19 @@ File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@zx=\dimen155
 \pgf@zy=\dimen156
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
 thconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@path@lastx=\dimen157
 \pgf@path@lasty=\dimen158
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
 thusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@shorten@end@additional=\dimen159
 \pgf@shorten@start@additional=\dimen160
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoresc
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoresc
 opes.code.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box32
@@ -543,109 +544,109 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@layerbox@main=\box34
 \pgf@picture@serial@count=\count117
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoregr
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoregr
 aphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgflinewidth=\dimen161
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoretr
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoretr
 ansformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@pt@x=\dimen162
 \pgf@pt@y=\dimen163
 \pgf@pt@temp=\dimen164
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorequ
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorequ
 ick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreob
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreob
 jects.code.tex
 File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
 thprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorear
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorear
 rows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowsep=\dimen165
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoresh
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoresh
 ade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen166
 \pgf@sys@shading@range@num=\count118
 \pgf@shadingcount=\count119
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreim
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreim
 age.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreex
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreex
 ternal.code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfexternal@startupbox=\box35
 ))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorela
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorela
 yers.code.tex
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoretr
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoretr
 ansparency.code.tex
 File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
 tterns.code.tex
 File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorerd
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorerd
 f.code.tex
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulesha
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulesha
 pes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfnodeparttextbox=\box36
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmoduleplo
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmoduleplo
 t.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp-
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp-
 version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@nodesepstart=\dimen167
 \pgf@nodesepend=\dimen168
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp-
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp-
 version-1-18.sty
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 ))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgffor.sty
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfkeys.sty
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.co
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgffor.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.co
 de.tex))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.te
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.te
 x))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgffor.cod
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgffor.cod
 e.tex
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.te
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.te
 x)
 \pgffor@iter=\dimen169
 \pgffor@skip=\dimen170
 \pgffor@stack=\toks31
 \pgffor@toks=\toks32
 ))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz\t
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz\t
 ikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrary
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrary
 plothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count120
@@ -668,7 +669,7 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikznumberofcurrentchild=\count123
 \tikz@fig@count=\count124
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulemat
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulemat
 rix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmatrixcurrentrow=\count125
@@ -677,18 +678,18 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 \tikz@expandcount=\count128
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/l
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/l
 ibraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/acronym\acronym.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/acronym\acronym.sty
 Package: acronym 2019/11/11 v1.42 Support for acronyms (Tobias Oetiker)
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/bigfoot\suffix.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/bigfoot\suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/xstring\xstring.sty
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/generic/xstring\xstring.tex
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/xstring\xstring.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/generic/xstring\xstring.tex
 \integerpart=\count129
 \decimalpart=\count130
 )
@@ -746,15 +747,15 @@ Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
 \colbreak@box=\box66
 \mc@col@check@num=\count140
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\subcaption.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/01/03 v1.3b Sub-captions (AR)
 \c@subfigure=\count141
 \c@subtable=\count142
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/was\gensymb.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/was\gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.sty
 \lst@mode=\count143
 \lst@gtempboxa=\box67
 \lst@token=\toks34
@@ -768,13 +769,13 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 \lst@lineno=\count148
 \lst@maxwidth=\dimen192
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstmisc.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 \c@lstnumber=\count149
 \lst@skipnumbers=\count150
 \lst@framebox=\box68
 )
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.cfg
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.cfg
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
@@ -865,7 +866,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 67
 .
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\t1ptm.fd
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -967,7 +968,7 @@ Package pdftex.def Info: Bilder/Tu_Braunschweig.png  used on input line 78.
 (pdftex.def)             Requested size: 227.62204pt x 84.43787pt.
 [1
 
-{C:/Users/nicol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Bilder/Tu
+{C:/Users/Maike/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Bilder/Tu
 _Braunschweig.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 97.
@@ -977,31 +978,31 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  4.
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ot1ztmcm.fd
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
  4.
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\omlztmcm.fd
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
  4.
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\omsztmcm.fd
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
  4.
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\omxztmcm.fd
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
 .
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ot1ptm.fd
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -1032,7 +1033,7 @@ This may cause the page layout to be inconsistent, however.
  [4] [5]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
-<Bilder/Widerstaende.png, id=355, 170.88844pt x 185.94469pt>
+<Bilder/Widerstaende.png, id=357, 170.88844pt x 185.94469pt>
 File: Bilder/Widerstaende.png Graphic file (type png)
 <use Bilder/Widerstaende.png>
 Package pdftex.def Info: Bilder/Widerstaende.png  used on input line 136.
@@ -1044,13 +1045,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1472) has occurred while \output is active []
 
  [7 <./Bilder/Widerstaende.png>]
-<Bilder/Kontrollvolumen.png, id=372, 374.90062pt x 246.9225pt>
+<Bilder/Kontrollvolumen.png, id=374, 374.90062pt x 246.9225pt>
 File: Bilder/Kontrollvolumen.png Graphic file (type png)
 <use Bilder/Kontrollvolumen.png>
 Package pdftex.def Info: Bilder/Kontrollvolumen.png  used on input line 163.
 (pdftex.def)             Requested size: 455.24408pt x 299.85846pt.
  [8 <./Bilder/Kontrollvolumen.png>]
-<Bilder/Wirbelstrasse.png, id=381, 451.6875pt x 251.43938pt>
+<Bilder/Wirbelstrasse.png, id=383, 451.6875pt x 251.43938pt>
 File: Bilder/Wirbelstrasse.png Graphic file (type png)
 <use Bilder/Wirbelstrasse.png>
 Package pdftex.def Info: Bilder/Wirbelstrasse.png  used on input line 200.
@@ -1061,12 +1062,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--233
  []
 
 [10]
-<Bilder/Coanda-Flache.png, id=395, 419.31656pt x 410.2828pt>
+<Bilder/Coanda-Flache.png, id=397, 419.31656pt x 410.2828pt>
 File: Bilder/Coanda-Flache.png Graphic file (type png)
 <use Bilder/Coanda-Flache.png>
 Package pdftex.def Info: Bilder/Coanda-Flache.png  used on input line 237.
 (pdftex.def)             Requested size: 209.65776pt x 205.1409pt.
-<Bilder/Gradient.png, id=396, 137.7647pt x 97.11281pt>
+<Bilder/Gradient.png, id=398, 137.7647pt x 97.11281pt>
 File: Bilder/Gradient.png Graphic file (type png)
 <use Bilder/Gradient.png>
 Package pdftex.def Info: Bilder/Gradient.png  used on input line 261.
@@ -1080,7 +1081,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 278--279
  []
 
 [12 <./Bilder/Gradient.png>]
-<Bilder/AA.png, id=411, 311.9655pt x 161.403pt>
+<Bilder/AA.png, id=413, 311.9655pt x 161.403pt>
 File: Bilder/AA.png Graphic file (type png)
 <use Bilder/AA.png>
 Package pdftex.def Info: Bilder/AA.png  used on input line 282.
@@ -1090,7 +1091,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
-<Bilder/Ausblaseneffekt.png, id=414, 274.02374pt x 170.13562pt>
+<Bilder/Ausblaseneffekt.png, id=416, 274.02374pt x 170.13562pt>
 File: Bilder/Ausblaseneffekt.png Graphic file (type png)
 <use Bilder/Ausblaseneffekt.png>
 Package pdftex.def Info: Bilder/Ausblaseneffekt.png  used on input line 297.
@@ -1103,7 +1104,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--307
 
  []
 
-<Bilder/Coandaflache2_x.jpeg, id=421, 314.67563pt x 417.05812pt>
+<Bilder/Coandaflache2_x.jpeg, id=423, 314.67563pt x 417.05812pt>
 File: Bilder/Coandaflache2_x.jpeg Graphic file (type jpg)
 <use Bilder/Coandaflache2_x.jpeg>
 Package pdftex.def Info: Bilder/Coandaflache2_x.jpeg  used on input line 310.
@@ -1113,7 +1114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--328
 
  []
 
-<Bilder/Hitzdraht.png, id=429, 380.92313pt x 140.525pt>
+<Bilder/Hitzdraht.png, id=431, 380.92313pt x 140.525pt>
 File: Bilder/Hitzdraht.png Graphic file (type png)
 <use Bilder/Hitzdraht.png>
 Package pdftex.def Info: Bilder/Hitzdraht.png  used on input line 331.
@@ -1128,7 +1129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
-<Bilder/Prinzipschaltung.png, id=436, 425.08812pt x 230.8625pt>
+<Bilder/Prinzipschaltung.png, id=438, 425.08812pt x 230.8625pt>
 File: Bilder/Prinzipschaltung.png Graphic file (type png)
 <use Bilder/Prinzipschaltung.png>
 Package pdftex.def Info: Bilder/Prinzipschaltung.png  used on input line 343.
@@ -1183,25 +1184,25 @@ Overfull \hbox (31.08728pt too wide) in paragraph at lines 390--391
 annt und mit-tels ei-ner Aluprofil-Konstruktion
  []
 
-<kalibrierkanal.jpg, id=452, 4047.12pt x 2276.505pt>
+<kalibrierkanal.jpg, id=454, 4047.12pt x 2276.505pt>
 File: kalibrierkanal.jpg Graphic file (type jpg)
 <use kalibrierkanal.jpg>
 Package pdftex.def Info: kalibrierkanal.jpg  used on input line 394.
 (pdftex.def)             Requested size: 409.71689pt x 230.44276pt.
 [19 <./kalibrierkanal.jpg>]
-<labview_crio1.jpg, id=461, 462.97969pt x 347.04657pt>
+<labview_crio1.jpg, id=463, 462.97969pt x 347.04657pt>
 File: labview_crio1.jpg Graphic file (type jpg)
 <use labview_crio1.jpg>
 Package pdftex.def Info: labview_crio1.jpg  used on input line 418.
 (pdftex.def)             Requested size: 273.14922pt x 204.7504pt.
  [20 <./labview_crio1.jpg>]
-<Labviewskript_cut.jpg, id=467, 523.9575pt x 372.64218pt>
+<Labviewskript_cut.jpg, id=469, 523.9575pt x 372.64218pt>
 File: Labviewskript_cut.jpg Graphic file (type jpg)
 <use Labviewskript_cut.jpg>
 Package pdftex.def Info: Labviewskript_cut.jpg  used on input line 427.
 (pdftex.def)             Requested size: 318.66946pt x 226.64612pt.
 
-(C:\Users\nicol\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
+(C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -1228,7 +1229,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 531--532
 
  []
 
-<Bilder/Windkanal.jpg, id=543, 1163.34625pt x 553.06625pt>
+<Bilder/Windkanal.jpg, id=545, 1163.34625pt x 553.06625pt>
 File: Bilder/Windkanal.jpg Graphic file (type jpg)
 <use Bilder/Windkanal.jpg>
 Package pdftex.def Info: Bilder/Windkanal.jpg  used on input line 536.
@@ -1248,7 +1249,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 546--547
 
  []
 
-<Bilder/Traverse.jpeg, id=549, 562.35094pt x 953.06062pt>
+<Bilder/Traverse.jpeg, id=551, 562.35094pt x 953.06062pt>
 File: Bilder/Traverse.jpeg Graphic file (type jpg)
 <use Bilder/Traverse.jpeg>
 Package pdftex.def Info: Bilder/Traverse.jpeg  used on input line 557.
@@ -1258,7 +1259,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
-<Bilder/Stumpfkoerper.jpg, id=555, 898.85812pt x 916.1728pt>
+<Bilder/Stumpfkoerper.jpg, id=557, 898.85812pt x 916.1728pt>
 File: Bilder/Stumpfkoerper.jpg Graphic file (type jpg)
 <use Bilder/Stumpfkoerper.jpg>
 Package pdftex.def Info: Bilder/Stumpfkoerper.jpg  used on input line 571.
@@ -1274,26 +1275,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 579--580
  []
 
 [27 <./Bilder/Stumpfkoerper.jpg>]
-<Bilder/Druck_Oberespalt.png, id=560, 835.62187pt x 464.4853pt>
+<Bilder/Druck_Oberespalt.png, id=562, 835.62187pt x 464.4853pt>
 File: Bilder/Druck_Oberespalt.png Graphic file (type png)
 <use Bilder/Druck_Oberespalt.png>
 Package pdftex.def Info: Bilder/Druck_Oberespalt.png  used on input line 598.
 (pdftex.def)             Requested size: 364.19664pt x 202.44638pt.
  [28] [29 <./Bilder/Druck_Oberespalt.png>]
-<labview_crio.jpg, id=571, 551.05875pt x 478.03593pt>
+<labview_crio.jpg, id=573, 551.05875pt x 478.03593pt>
 File: labview_crio.jpg Graphic file (type jpg)
 <use labview_crio.jpg>
 Package pdftex.def Info: labview_crio.jpg  used on input line 622.
 (pdftex.def)             Requested size: 318.66946pt x 276.45137pt.
 
 [30 <./labview_crio.jpg>]
-<labview_trigger.jpg, id=579, 1033.61156pt x 320.69812pt>
+<labview_trigger.jpg, id=581, 1033.61156pt x 320.69812pt>
 File: labview_trigger.jpg Graphic file (type jpg)
 <use labview_trigger.jpg>
 Package pdftex.def Info: labview_trigger.jpg  used on input line 633.
 (pdftex.def)             Requested size: 318.66946pt x 98.87221pt.
  [31 <./labview_trigger.jpg>]
-<tempcorr_bsp.jpg, id=592, 562.1pt x 421.575pt>
+<tempcorr_bsp.jpg, id=594, 562.1pt x 421.575pt>
 File: tempcorr_bsp.jpg Graphic file (type jpg)
 <use tempcorr_bsp.jpg>
 Package pdftex.def Info: tempcorr_bsp.jpg  used on input line 683.
@@ -1303,7 +1304,7 @@ Overfull \hbox (36.41841pt too wide) in paragraph at lines 683--684
 [][] 
  []
 
-<Nachlaufdellefit.jpg, id=593, 562.1pt x 421.575pt>
+<Nachlaufdellefit.jpg, id=595, 562.1pt x 421.575pt>
 File: Nachlaufdellefit.jpg Graphic file (type jpg)
 <use Nachlaufdellefit.jpg>
 Package pdftex.def Info: Nachlaufdellefit.jpg  used on input line 688.
@@ -1318,217 +1319,224 @@ Underfull \hbox (badness 1622) in paragraph at lines 689--689
 []\T1/ptm/m/n/10.95 (b) |Bei-spiel ei-nes Nach-lauf-del-len Fits
  []
 
-
-Underfull \vbox (badness 4940) has occurred while \output is active []
-
- [32 <./tempcorr_bsp.jpg> <./Nachlaufdellefit.jpg>]
-<Standardabweichung_bsp.jpg, id=599, 562.1pt x 421.575pt>
+[32 <./tempcorr_bsp.jpg> <./Nachlaufdellefit.jpg>]
+<Bilder/Nachlaufdellen.jpg, id=602, 2569.6pt x 1368.11125pt>
+File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
+<use Bilder/Nachlaufdellen.jpg>
+Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 698.
+(pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
+<Standardabweichung_bsp.jpg, id=603, 562.1pt x 421.575pt>
 File: Standardabweichung_bsp.jpg Graphic file (type jpg)
 <use Standardabweichung_bsp.jpg>
-Package pdftex.def Info: Standardabweichung_bsp.jpg  used on input line 701.
+Package pdftex.def Info: Standardabweichung_bsp.jpg  used on input line 710.
 (pdftex.def)             Requested size: 318.66946pt x 239.00082pt.
-<Spektrum_bsp.jpg, id=600, 562.1pt x 421.575pt>
-File: Spektrum_bsp.jpg Graphic file (type jpg)
-<use Spektrum_bsp.jpg>
-Package pdftex.def Info: Spektrum_bsp.jpg  used on input line 714.
-(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-<Contour_bsp.jpg, id=601, 562.1pt x 421.575pt>
-File: Contour_bsp.jpg Graphic file (type jpg)
-<use Contour_bsp.jpg>
-Package pdftex.def Info: Contour_bsp.jpg  used on input line 719.
-(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <./Standardabweichung_bsp.jpg>]
-<Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg, id=608, 562.1pt x 421.575pt>
+ [33 <./Bilder/Nachlaufdellen.jpg>]
+<Spektrum_bsp.jpg, id=608, 562.1pt x 421.575pt>
+File: Spektrum_bsp.jpg Graphic file (type jpg)
+<use Spektrum_bsp.jpg>
+Package pdftex.def Info: Spektrum_bsp.jpg  used on input line 723.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+<Contour_bsp.jpg, id=609, 562.1pt x 421.575pt>
+File: Contour_bsp.jpg Graphic file (type jpg)
+<use Contour_bsp.jpg>
+Package pdftex.def Info: Contour_bsp.jpg  used on input line 728.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+ [34 <./Standardabweichung_bsp.jpg> <./Spektrum_bsp.jpg> <./Contour_bsp.jpg>]
+<Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg, id=616, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg  used on
- input line 736.
+ input line 745.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=609, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=617, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg  used on
- input line 741.
+ input line 750.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
- [34 <./Spektrum_bsp.jpg> <./Contour_bsp.jpg> <./Bilder/Ohne_1_bar/Nachlaufdell
-e_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>]
-<Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg, id=614, 562.1pt x 421.575pt>
+<Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg, id=618, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg  used on inpu
-t line 755.
+t line 764.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg, id=615, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg, id=619, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg  used on inpu
-t line 760.
+t line 769.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg, id=618, 562.1pt x 421.575pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Nac
+hlaufdelle_ohne_2bar.jpg>]
+<Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg, id=626, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg  used on inpu
-t line 773.
+t line 782.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg, id=619, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg, id=627, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg  used on inpu
-t line 778.
+t line 787.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35 <./Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg> <./Bilder/ohne_2_bar/Strouhal
-_ohne_2bar.jpg>]
-<Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg, id=624, 562.1pt x 421.575pt>
+ [36 <./Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg> <./Bilder/ohne_2_bar/Strouhal
+_ohne_2bar.jpg> <./Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg> <./Bilder/ohne_2_b
+ar/Spektrum_ohne_2bar.jpg>]
+<Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg, id=632, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg  used on input
- line 791.
+ line 800.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Contour_ohne_2bar.jpg, id=625, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Contour_ohne_2bar.jpg, id=633, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Contour_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Contour_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Contour_ohne_2bar.jpg  used on input
- line 796.
+ line 805.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
- [36 <./Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Spektrum
-_ohne_2bar.jpg> <./Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg> <./Bilder/ohne_2_ba
-r/Contour_ohne_2bar.jpg>]
-<Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=633, 562.1pt x 421.575pt>
+ [37 <./Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Contour_o
+hne_2bar.jpg>]
+<Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=642, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg  used on
- input line 826.
+ input line 835.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg, id=634, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg, id=643, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg  used 
-on input line 831.
+on input line 840.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
- [37 <./Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg> <./Bilder/konst_2_bar/Na
-chlaufdelle_konst_2bar.jpg>]
-<Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg, id=641, 562.1pt x 421.575pt>
+<Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg, id=645, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg  used on inpu
-t line 845.
+t line 854.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Strouhal_konst_2bar.jpg, id=642, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Strouhal_konst_2bar.jpg, id=646, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Strouhal_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Strouhal_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Strouhal_konst_2bar.jpg  used on in
-put line 850.
+put line 859.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg, id=644, 562.1pt x 421.575pt>
+ [38 <./Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg> <./Bilder/konst_2_bar/Na
+chlaufdelle_konst_2bar.jpg> <./Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg> <./Bil
+der/konst_2_bar/Strouhal_konst_2bar.jpg>]
+<Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg, id=652, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg  used on input
- line 864.
+ line 873.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Contour_konst_2bar.jpg, id=645, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Contour_konst_2bar.jpg, id=653, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Contour_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Contour_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Contour_konst_2bar.jpg  used on inp
-ut line 869.
+ut line 878.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
- [38 <./Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg> <./Bilder/konst_2_bar/Strouha
-l_konst_2bar.jpg> <./Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg> <./Bilder/konst_2
-_bar/Contour_konst_2bar.jpg>] [39]
-<Spektrum 1Bar 83Hz.jpg, id=657, 2569.6pt x 1368.11125pt>
+ [39 <./Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg> <./Bilder/konst_2_bar/Contour_
+konst_2bar.jpg>]
+<Spektrum 1Bar 83Hz.jpg, id=661, 2569.6pt x 1368.11125pt>
 File: Spektrum 1Bar 83Hz.jpg Graphic file (type jpg)
 <use Spektrum 1Bar 83Hz.jpg>
-Package pdftex.def Info: Spektrum 1Bar 83Hz.jpg  used on input line 902.
-(pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
-<Contour plot 1bar 83Hz.jpg, id=658, 562.1pt x 421.575pt>
-File: Contour plot 1bar 83Hz.jpg Graphic file (type jpg)
-<use Contour plot 1bar 83Hz.jpg>
-Package pdftex.def Info: Contour plot 1bar 83Hz.jpg  used on input line 909.
-(pdftex.def)             Requested size: 364.19664pt x 273.14565pt.
- [40 <./Spektrum 1Bar 83Hz.jpg> <./Contour plot 1bar 83Hz.jpg>]
-<Bilder/Nachlaufdellen.jpg, id=663, 2569.6pt x 1368.11125pt>
-File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
-<use Bilder/Nachlaufdellen.jpg>
-Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 931.
+Package pdftex.def Info: Spektrum 1Bar 83Hz.jpg  used on input line 911.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
-[42 <./Bilder/Nachlaufdellen.jpg>]
-<Bilder/Tabelle_Varianzen-Turbulenz.png, id=672, 890.5772pt x 413.29407pt>
+ [40]
+<Contour plot 1bar 83Hz.jpg, id=666, 562.1pt x 421.575pt>
+File: Contour plot 1bar 83Hz.jpg Graphic file (type jpg)
+<use Contour plot 1bar 83Hz.jpg>
+Package pdftex.def Info: Contour plot 1bar 83Hz.jpg  used on input line 918.
+(pdftex.def)             Requested size: 364.19664pt x 273.14565pt.
+
+[41 <./Spektrum 1Bar 83Hz.jpg> <./Contour plot 1bar 83Hz.jpg>]
+File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
+<use Bilder/Nachlaufdellen.jpg>
+Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 940.
+(pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+[43]
+<Bilder/Tabelle_Varianzen-Turbulenz.png, id=680, 890.5772pt x 413.29407pt>
 File: Bilder/Tabelle_Varianzen-Turbulenz.png Graphic file (type png)
 <use Bilder/Tabelle_Varianzen-Turbulenz.png>
 Package pdftex.def Info: Bilder/Tabelle_Varianzen-Turbulenz.png  used on input 
-line 967.
+line 976.
 (pdftex.def)             Requested size: 455.24408pt x 211.26907pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-<Bilder/Standardabweichung_Auswertung.jpg, id=678, 421.575pt x 316.18124pt>
+ [44]
+<Bilder/Standardabweichung_Auswertung.jpg, id=685, 421.575pt x 316.18124pt>
 File: Bilder/Standardabweichung_Auswertung.jpg Graphic file (type jpg)
 <use Bilder/Standardabweichung_Auswertung.jpg>
 Package pdftex.def Info: Bilder/Standardabweichung_Auswertung.jpg  used on inpu
-t line 976.
+t line 985.
 (pdftex.def)             Requested size: 409.71689pt x 307.29367pt.
 
 Underfull \vbox (badness 1448) has occurred while \output is active []
 
- [44 <./Bilder/Tabelle_Varianzen-Turbulenz.png> <./Bilder/Standardabweichung_Au
+ [45 <./Bilder/Tabelle_Varianzen-Turbulenz.png> <./Bilder/Standardabweichung_Au
 swertung.jpg>]
-<Bilder/Tabelle_mit_Std_diff.png, id=685, 690.32906pt x 239.39438pt>
+<Bilder/Tabelle_mit_Std_diff.png, id=692, 690.32906pt x 239.39438pt>
 File: Bilder/Tabelle_mit_Std_diff.png Graphic file (type png)
 <use Bilder/Tabelle_mit_Std_diff.png>
-Package pdftex.def Info: Bilder/Tabelle_mit_Std_diff.png  used on input line 98
-9.
+Package pdftex.def Info: Bilder/Tabelle_mit_Std_diff.png  used on input line 99
+8.
 (pdftex.def)             Requested size: 455.24408pt x 157.87291pt.
- [45 <./Bilder/Tabelle_mit_Std_diff.png>]
-<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=691, 562.1pt x 421.575
+ [46 <./Bilder/Tabelle_mit_Std_diff.png>]
+<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=698, 562.1pt x 421.575
 pt>
 File: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg Graphic file (type jp
 g)
 <use Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg  u
-sed on input line 998.
+sed on input line 1007.
 (pdftex.def)             Requested size: 455.24408pt x 341.43527pt.
- [46 <./Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>] [47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1013.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1013.
+ [47 <./Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>] [48]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1022.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1022.
  (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1013.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1013.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1022.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1022.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 7694CFC84533289172A66CB04A93C5B3;3810.
  ) 
 Here is how much of TeX's memory you used:
- 23466 strings out of 492484
- 414303 string characters out of 3130516
- 744845 words of memory out of 3000000
- 27081 multiletter control sequences out of 15000+200000
+ 23467 strings out of 492484
+ 414221 string characters out of 3130515
+ 744906 words of memory out of 3000000
+ 27082 multiletter control sequences out of 15000+200000
  49402 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,60p,1523b,1714s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+ <C:\Users\Maike\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/
-fonts/type1/urw/symbol/usyr.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/font
-s/type1/urw/symbol/usyr.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/ty
-pe1/urw/times/utmb8a.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/type1
-/urw/times/utmr8a.pfb><C:/Users/nicol/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/
+fonts/type1/urw/symbol/usyr.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/font
+s/type1/urw/symbol/usyr.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1
+/urw/times/utmr8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on document.pdf (47 pages, 4208474 bytes).
+Output written on document.pdf (48 pages, 4210557 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 203 named destinations out of 1000 (max. 500000)
+ 857 PDF objects out of 1000 (max. 8388607)
+ 205 named destinations out of 1000 (max. 500000)
  643 words of extra memory for PDF output out of 10000 (max. 10000000)
 
