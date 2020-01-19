@@ -27,7 +27,7 @@
 \contentsline {subsection}{\numberline {4.1}Windkanal LNB}{25}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Planung der Halterung}{26}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Modell}{27}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Einstellung des Modells}{28}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}Einstellung und Vorbereitung des Modells}{28}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Verwendete Messtechnik}{29}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}Programmierung}{30}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}Testf\"alle mit zugeh\"origen Ausblaseparametern}{32}{subsection.4.7}%
