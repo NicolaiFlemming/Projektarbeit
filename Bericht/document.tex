@@ -26,6 +26,7 @@
 %\titleformat{\chapter}{\normalfont\huge}{\bf{\thechapter}}{20pt}{\huge\bf}
 %\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
 \usepackage{acronym}
+\usepackage[export]{adjustbox}
 \usepackage{multicol}
 \usepackage{multirow}
 \renewcommand{\contentsname}{Inhaltsverzeichnis}
@@ -69,17 +70,16 @@
 	\begin{titlepage}
 		
 		\begin{center}
-			\vspace*{1cm}
 			
+			\includegraphics[width=0.5\linewidth, left]{Bilder/Tu_Braunschweig.png}\\
+			\vspace{3cm}
 			\LARGE
-			\textbf{Experiment am D-förmigen Stumpfkörper bzw. Hitzdrahtunterschung der Nachlaufdynamik am D-förmigen Stumpfkörper mit Coanda Aktuation }
-			
+			\textbf{Hitzdrahtunterschung der Nachlaufdynamik am D-förmigen Stumpfkörper mit Coanda Aktuation }
 			
 			\vspace{3cm}
-			\includegraphics[width=0.5\linewidth]{Bilder/Tu_Braunschweig.png}\\
-			\vspace{3cm}
+			
 			\Large
-			Nicolai Flemming(4839640), Tilman Langhammer(4875138), Ahmet Ugur Nergiz(4619022), Maike Wollschläger(4807931)\\
+			Nicolai Flemming (4839640), Tilman Langhammer (4875138), Ahmet Ugur Nergiz (4619022), Maike Wollschläger (4807931)\\
 			
 			\vfill
 			
@@ -365,9 +365,9 @@
 	
 	Es besteht die Möglichkeit durch die Bestimmung des Wärmeverlustes bei Hitzdrähten den Geschwindigkeitsverlauf aus den aufgenommenen Messdaten ohne Eichung zu folgern. Dazu ist eine genaue Angabe der geometrischen Abmessungen des Messfühlers und der Betriebswerte des Messapparats erforderlich. Da die Genauigkeit der Kenntnisse der Einflussgrößen von Hitzdrahtsonden nur unzureichend ist, wird eine Kalibrierung im Eichkanal bevorzugt.\\
 	
-	Die Sonde wird hierfür in einem Luftstrom niedrigen Turbulenzgrades mit bekannter und veränderlicher Geschwindigkeit positioniert und die Anemometer-Ausgangsspannung mit der zugehörigen Geschwindigkeit dokumentiert. Dabei ist zu beachten, dass die Sonde unmittelbar oder kurz hinter der Öffnung des Eichkanals entgegen der Strömungsrichtung ausgerichtet wird. Für den entsprechenden Geschwindigkeitsbereich wird anschließend die Kalibrierung bei möglichst vielen Geschwindigkeitspunkten vorgenommen.\\
+	Die Sonde wird hierfür in einem Luftstrom niedrigen Turbulenzgrades mit bekannter und veränderlicher Geschwindigkeit positioniert und die Anemometer Ausgangsspannung mit der zugehörigen Geschwindigkeit dokumentiert. Dabei ist zu beachten, dass die Sonde unmittelbar oder kurz hinter der Öffnung des Eichkanals entgegen der Strömungsrichtung ausgerichtet wird. Für den entsprechenden Geschwindigkeitsbereich wird anschließend die Kalibrierung bei möglichst vielen Geschwindigkeitspunkten vorgenommen.\\
 	
-	In \glqq Strömungsmesstechnik 2\grqq{} von Nitsche und Brunn [Quelle] wird ein Ansatz für die Bestimmung der statischen Eichkurve vorgestellt. Durch das Auftragen der Anemometer-Ausgangsspannung über die Geschwindigkeit erhält man die statische Eichkurve, die einen nicht-linearen Zusammenhang aufweist. Diese Abhängigkeit kann für den vorgesehenen Geschwindigkeitsbereich durch das Kingsche Gesetz abgebildet werden:\\
+	In \glqq Strömungsmesstechnik 2\grqq{} von Nitsche und Brunn [Quelle] wird ein Ansatz für die Bestimmung der statischen Eichkurve vorgestellt. Durch das Auftragen der Anemometer Ausgangsspannung über die Geschwindigkeit erhält man die statische Eichkurve, die einen nicht-linearen Zusammenhang aufweist. Diese Abhängigkeit kann für den vorgesehenen Geschwindigkeitsbereich durch das Kingsche Gesetz abgebildet werden:\\
 	\begin{equation}
 	U^{2} = A + B*u^{n}
 	\end{equation}
@@ -388,7 +388,7 @@
 	\subsection{Versuchsaufbau}
 	\label{sec:Versuchsaufbau_cal}
 	
-	Die 2 Messreihen werden nacheinander am Kalibrierwindkanal des IFAS gemessen. Hierzu wird die Sonde in eine Hitzdrahtsondenhalterung eingespannt und mittels einer Aluprofil-Konstruktion im Kernstrahl des Kanals platziert.
+	Die 2 Messreihen werden nacheinander am Kalibrierwindkanal des IFAS gemessen. Hierzu wird die Sonde in eine Hitzdrahtsondenhalterung eingespannt und mittels einer Aluprofil Konstruktion im Kernstrahl des Kanals platziert.
 	
 	\begin{figure}[H]
 		\centering
@@ -519,17 +519,15 @@
 	
 	Verschiebungen von 10\,cm in den Kanal, gemessen vom Kanalausgang, sowie 10\,cm aus dem Kanal heraus ergeben nur kleine Änderungen der gemessenen Strömungsgeschwindigkeit von weniger als 1\%. Daher wurde beschlossen den Hitzdraht direkt am Kanalausgang zu positionieren. Kleine Änderungen des Anströmwinkels (<1$\degree$) ergaben Änderungen kleiner 1\%. Es wurde darauf geachtet die Sonde immer möglichst im rechten Winkel zur Strömung zu platzieren.
 	
-	Um die Qualität der gefitteten Kurve einschätzen zu können, wurde die Standardabweichung zwischen gefitteter Kurve und tatsächlichem Geschwindigkeitsverlauf ermittelt. Hierzu wird die Differenz der von der kalibrierten Funktion errechneten Geschwindigkeit und der im Kalibrierungs-Datensatz festgesetzten Geschwindigkeit berechnet und die Standardabweichung dieser Differenzen gebildet. Für die von uns verwendete Kurve erreicht so einen Wert von 0.1804, was als ausreichend bewertet wird. 
+	Um die Qualität der gefitteten Kurve einschätzen zu können, wurde die Standardabweichung zwischen gefitteter Kurve und tatsächlichem Geschwindigkeitsverlauf ermittelt. Hierzu wird die Differenz der von der kalibrierten Funktion errechneten Geschwindigkeit und der im Kalibrierungs Datensatz festgesetzten Geschwindigkeit berechnet und die Standardabweichung dieser Differenzen gebildet. Für die von uns verwendete Kurve erreicht so einen Wert von 0.1804, was als ausreichend bewertet wird. 
 	
 	\newpage
-	\section{Windkanalversuche}
+	\section{Versuchsaufbau}
 	\label{sec:Windkanalversuche}
-	\subsection{Aufbau}
-	\label{sec:Aufbau_wind}
-	\subsubsection{Windkanal LNB}
+	\subsection{Windkanal LNB}
 	\label{sec:Windkanal_lnb}
 	
-	Das Experiment am D-förmigen Stumpfkörper für die Projektarbeit wird im Leiser Niedergeschwindigkeits-Windkanal Braunschweig (LNB) am Institut für Strömungsmechanik durchgeführt. Die Abbildung \ref{fig:Windkanal} zeigt einen schematischen Aufbau des Windkanals.\\
+	Das Experiment am D-förmigen Stumpfkörper für die Projektarbeit wird im Leiser Niedergeschwindigkeits Windkanal Braunschweig (LNB) am Institut für Strömungsmechanik durchgeführt. Die Abbildung \ref{fig:Windkanal} zeigt einen schematischen Aufbau des Windkanals.\\
 	
 	
 	\begin{figure}[H]
@@ -547,7 +545,7 @@
 	Die Messtrecke besitzt eine Länge von 1500\,mm, eine Breite von 400\,mm und eine Höhe von 600\,mm. Mit einem Flügelradanemometer werden die Geschwindigkeiten in diesem Abschnitt ermittelt, wobei sich die Abweichungen bezüglich der Geschwindigkeit in der Messstrecke hierbei auf 1\% bei 10\,m/s belaufen. \\
 	
 	
-	\subsubsection{Planung der Halterung}
+	\subsection{Planung der Halterung}
 	\label{sec:Planung_halterung}
 	
 	Während die Halterung für die Hitzdrahtsonde am Kalibrierwindkanal bereits vorhanden war, musste die Halterung am LNB noch gebaut werden.
@@ -562,7 +560,7 @@
 	\end{figure}
 	
 	\newpage
-	\subsubsection{Modell}
+	\subsection{Modell}
 	\label{sec:Modell}
 	
 	Der für diese Projektarbeit verwendete D-förmige Stumpfkörper mit einer stumpfen Hinterkante ist nach [Quelle] 190,6\,mm lang, 390\,mm breit und 53,4\,mm hoch. Am stumpfen Teil des Modells sind Coanda-Flächen mit einer runden Form und einem Radius von 9,4\,mm befestigt. Der Stumpfkörper wird horizontal im Windkanal positioniert. Dieser erstreckt sich über die gesamte Breite der Messstrecke und wird von einem Stahlrohr auf jeder Seite festgehalten. Dabei wird die Strömung im Bereich der Kanalmitte als zweidimensional angenommen. Die Abbildung \ref{fig:Stumpfkörper} zeigt den D-förmigen Stumpfkörper im Windkanal sowie die Hitzdrahtsonde in ihrer Halterung.\\
@@ -579,7 +577,7 @@
 	
 	Zur genauen Ausrichtung des eingebauten Modells im Kanal werden mit eingeschaltetem Windkanal die statischen Drücke von der Ober- und Unterseite über Druckbohrungen abgenommen und miteinander verglichen. Gegebenenfalls wird anschließend die Modellnase neu ausgerichtet.\\
 	
-	\subsubsection{Einstellung des Modells}
+	\subsection{Einstellung des Modells}
 	\label{sec:Einstellung_Modell}
 	
 	Vor der Implementierung des Modells im Windkanal wurde es für das Experiment vorbereitet. Zuerst wurden die Coanda-Flächen und die Luftschlitze gereinigt. Anschließend wurde die Druckverteilung entlang der Coanda-Flächen, die sich an der Ober- und Unterkante der Modellrückseite befinden, möglichst konstant und gleichmäßig eingestellt. Zur Messung der Druckverteilung entlang der Coanda-Flächen wurde eine Fischmaulsonde verwendet. Um den Einstellungsprozess angenehmer zu gestalten und die empfindliche Einstellung bestmöglich durchzuführen, wurde das Modell im Vorbereitungsraum des ISM mit einem festen Tisch und einer Traverse verbunden. Die aufgebaute Einrichtung ist in Abb. zu sehen. 
@@ -604,16 +602,21 @@
 	Neben den Spaltdrücken musste der Druck an der oberen und unteren Seite des Modells so gleich wie möglich eingestellt werden, um im Windkanal eine gleichmäßige Strömung um das Modell herum sicher zu stellen. Dafür wurden die statischen Drücke von beiden Seiten betrachtet. Durch das Kippen der Modellnase wurden die statischen Drücke angeglichen. 
 	Nach diesen Einstellungen kann angenommen werden, dass der Einfluss der Einstellungsabweichungen auf die Geschwindigkeitsmessung mit Hitzdrahtsonde gering sein wird. Trotzdem müssen sie weiterhin als Messfehlern berücksichtigt werden.
 	
-	\subsubsection{Verwendete Messtechnik}
+	\subsection{Verwendete Messtechnik}
 	\label{sec:Verwendete_messtechnik}
 	
 	Zur Aufnahme der Messungen wird der D-förmige Stumpfkörper und die Hitzdrahtsonde in den Windkanal eingebaut.Die Hitzdrahtsonde wird im Windkanal mit einem Abstand von ungefähr 250 mm stromabwärts zum Stumpfkörper platziert. 
 	
-	Der D-förmige Stumpfkörper wird über einen Drucktank und über ein Volumenstrommessgerät an die Luftrduckleitung angeschlossen. Der Druck an der Ober- und Unterseite des Modells wird bei der Ausrichtung des Modells über Druckbohrungen durch ein DTC Initium Druckmesssystem mit einem ESP-32HD Druckscanner gemessen, der über 32 Kanäle verfügt. Ebenfalls sind TOM-1545P-R Mikrofone an der Messkarte des cRIOs angeschlossen, die sich entlang der vertikalen Mittellinie auf der Rückseite des Stumpfkörpers befinden. Die Ausblasung von der Ober- und Unterkante des Modells kann über das cRIO von einem Messrechner angesteuert werden Siehe(Teil Nicolai). Die Hitzdrahtsonde wird hierbei mit der Wheatstoneschen Messbrücke verbunden, siehe Kapitel 2.4. Anschließend werden die ausgegebenen Spannungen über ein Compact Reconfigureable Input/0utput Modul an das LabVIEW Programm weitergeleitet und zur weiteren Analyse gespeichert (siehe gleicher abschnitt). In Abbildung (muss noch eingefügt werden) ist der verwendete messtechnische Aufbau am Windkanal dargestellt.
+	Der D-förmige Stumpfkörper wird über einen Drucktank und über ein Volumenstrommessgerät an die Luftrduckleitung angeschlossen. Der Druck an der Ober- und Unterseite des Modells wird bei der Ausrichtung des Modells über Druckbohrungen durch ein DTC Initium Druckmesssystem mit einem ESP-32HD Druckscanner gemessen, der über 32 Kanäle verfügt. Ebenfalls sind TOM-1545P-R Mikrofone an der Messkarte des cRIOs angeschlossen, die sich entlang der vertikalen Mittellinie auf der Rückseite des Stumpfkörpers befinden. Die Ausblasung von der Ober- und Unterkante des Modells kann über das cRIO von einem Messrechner angesteuert werden (siehe Kapitel \ref{sec:Labview_cal}). Die Hitzdrahtsonde wird hierbei mit der Wheatstoneschen Messbrücke verbunden, siehe Kapitel \ref{sec:Hitzdraht_prinzip}. Anschließend werden die ausgegebenen Spannungen über ein Compact Reconfigureable Input/0utput Modul an das LabVIEW Programm weitergeleitet und zur weiteren Analyse gespeichert (siehe Kapitel \ref{sec:Labview_cal}). In Abbildung \ref{fig:LNB} ist der verwendete messtechnische Aufbau am Windkanal zu sehen.
 	
-	Bild!
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/LNB_2}
+		\caption{Verwendete Messtechnik am LNB}
+		\label{fig:LNB}
+	\end{figure}
 	
-	\subsubsection{Programmierung}
+	\subsection{Programmierung}
 	\label{sec:Programmierung_wind}
 	
 	Wie schon bei der Kalibrierung (3.3) wird auch bei der Datenaufnahme im Kanal ein zweigeteiltes LabVIEW Programm verwendet. Das schon bestehende LabVIEW Programm wurde auf der Messkartenseite um fünf Datenkanäle erweitert, um die Spannungen des Hitzdrahts sowie die Signale der Mikrofone auf der Rückseite des Modells aufzunehmen (zu sehen in Abb. \ref{fig:labview3})
@@ -644,8 +647,8 @@
 	Hierbei werden bei einer Strömungsgeschwindigkeit von 16 m/s verschiedene Betriebszustände eingestellt. Es wird zunächst ohne Ausblasung, daraufhin mit konstanter Ausblasung bei 1 und 2 Bar Versorgungsdruck der Ausblasung und abschließend mit gepulster Ausblasung gemessen. Bei der gepulsten Ausblasung werden die Frequenzen 62\,Hz, 72\,Hz und 83\,Hz, die bereits in vorherigen Versuchen ermittelt wurden, angesteuert (siehe oben). Die Tabelle \ref{tab:table1} listet die verschiedenen Betriebszustände mit den zugehörigen Ausblaseparametern auf.
 	
 	\begin{table}[H]
+	\label{tab:table1}	
 		\begin{center}
-			\label{tab:table1}
 			\begin{tabular}{c|c}
 				\textbf{1Bar} & \textbf{2Bar}\\
 				\hline

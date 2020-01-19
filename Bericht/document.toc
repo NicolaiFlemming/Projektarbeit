@@ -24,29 +24,28 @@
 \contentsline {subsubsection}{\numberline {3.3.1}LabVIEW Programm}{20}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Matlab Script}{21}{subsubsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.4}Fehlerabsch\"atzung}{23}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Windkanalversuche}{25}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Aufbau}{25}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Windkanal LNB}{25}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Planung der Halterung}{26}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Modell}{27}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Einstellung des Modells}{28}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Verwendete Messtechnik}{29}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Programmierung}{30}{subsubsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.2}Testf\"alle mit zugeh\"origen Ausblaseparametern}{31}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Auswertung}{32}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Umrechnen der Daten}{32}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Temperaturkorrektur, Mittelwerte und Widerst\"ande}{32}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Varianzen}{33}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Spektra}{34}{subsubsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.2}Nachlaufdellen und ihre Widerst\"ande}{35}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Zustand ohne Ausblasung}{37}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Zust\"ande bei verschiedenen Aktuationsparametern}{39}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Maximaler Widerstand}{39}{subsubsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.2}Minimaler Widerstand}{40}{subsubsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.5}Gepulste Ausblasung}{41}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}Zusammenhang der Auftretenden Frequenzen}{41}{subsubsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {5.5.2}Minimaler Widerstand}{44}{subsubsection.5.5.2}%
-\contentsline {subsubsection}{\numberline {5.5.3}Maximaler Widerstand}{45}{subsubsection.5.5.3}%
-\contentsline {subsubsection}{\numberline {5.5.4}Varianzen-Turbulenz (Tabelle)}{45}{subsubsection.5.5.4}%
-\contentsline {subsection}{\numberline {5.6}Fehlerbetrachtung}{50}{subsection.5.6}%
-\contentsline {section}{\numberline {6}Fazit}{50}{section.6}%
+\contentsline {section}{\numberline {4}Versuchsaufbau}{25}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Windkanal LNB}{25}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Planung der Halterung}{26}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Modell}{27}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Einstellung des Modells}{28}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Verwendete Messtechnik}{29}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Programmierung}{30}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Testf\"alle mit zugeh\"origen Ausblaseparametern}{32}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Auswertung}{33}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Umrechnen der Daten}{33}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Temperaturkorrektur, Mittelwerte und Widerst\"ande}{33}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Varianzen}{34}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Spektra}{35}{subsubsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.2}Nachlaufdellen und ihre Widerst\"ande}{36}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Zustand ohne Ausblasung}{38}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Zust\"ande bei verschiedenen Aktuationsparametern}{40}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Maximaler Widerstand}{40}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Minimaler Widerstand}{41}{subsubsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.5}Gepulste Ausblasung}{42}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Zusammenhang der Auftretenden Frequenzen}{42}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Minimaler Widerstand}{45}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Maximaler Widerstand}{46}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Varianzen-Turbulenz (Tabelle)}{46}{subsubsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.6}Fehlerbetrachtung}{51}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Fazit}{51}{section.6}%
