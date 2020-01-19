@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.17)  19 JAN 2020 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.17)  19 JAN 2020 19:58
 entering extended mode
 **./document.tex
 (document.tex
@@ -1019,7 +1019,7 @@ Package gensymb Info: Using \upOmega for \ohm on input line 69.
 Package gensymb Warning: Not defining \micro.
 
 \c@lstlisting=\count173
-<Bilder/Tu_Braunschweig.png, id=182, 2007.5pt x 744.7825pt>
+<Bilder/Tu_Braunschweig.png, id=178, 2007.5pt x 744.7825pt>
 File: Bilder/Tu_Braunschweig.png Graphic file (type png)
 <use Bilder/Tu_Braunschweig.png>
 Package pdftex.def Info: Bilder/Tu_Braunschweig.png  used on input line 74.
@@ -1082,572 +1082,573 @@ This may cause the page layout to be inconsistent, however.
 \tf@toc=\write5
 \openout5 = `document.toc'.
 
- (document.lof [3])
+ [3] (document.lof)
 \tf@lof=\write6
 \openout6 = `document.lof'.
 
- (document.lot)
+ (document.lot
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4])
 \tf@lot=\write7
 \openout7 = `document.lot'.
 
- [4]
-
-LaTeX Warning: Citation `Stumpf' on page 5 undefined on input line 107.
 
 [5]
+
+LaTeX Warning: Citation `Stumpf' on page 6 undefined on input line 108.
+
+[6]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
 
 
-LaTeX Warning: Citation `Stumpf' on page 6 undefined on input line 122.
+LaTeX Warning: Citation `Stumpf' on page 7 undefined on input line 123.
 
-<Bilder/Widerstaende.png, id=331, 170.88844pt x 185.94469pt>
+<Bilder/Widerstaende.png, id=330, 170.88844pt x 185.94469pt>
 File: Bilder/Widerstaende.png Graphic file (type png)
 <use Bilder/Widerstaende.png>
-Package pdftex.def Info: Bilder/Widerstaende.png  used on input line 135.
+Package pdftex.def Info: Bilder/Widerstaende.png  used on input line 136.
 (pdftex.def)             Requested size: 170.88802pt x 185.94421pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
+ [7]
 
-LaTeX Warning: Citation `Stumpf' on page 7 undefined on input line 143.
+LaTeX Warning: Citation `Stumpf' on page 8 undefined on input line 144.
 
-[7 <./Bilder/Widerstaende.png>]
-<Bilder/Kontrollvolumen.png, id=348, 374.90062pt x 246.9225pt>
+[8 <./Bilder/Widerstaende.png>]
+<Bilder/Kontrollvolumen.png, id=347, 374.90062pt x 246.9225pt>
 File: Bilder/Kontrollvolumen.png Graphic file (type png)
 <use Bilder/Kontrollvolumen.png>
-Package pdftex.def Info: Bilder/Kontrollvolumen.png  used on input line 161.
+Package pdftex.def Info: Bilder/Kontrollvolumen.png  used on input line 162.
 (pdftex.def)             Requested size: 455.24408pt x 299.85846pt.
- [8 <./Bilder/Kontrollvolumen.png>]
+ [9 <./Bilder/Kontrollvolumen.png>]
 
-LaTeX Warning: Citation `Aero' on page 9 undefined on input line 181.
-
-
-LaTeX Warning: Citation `Aero' on page 9 undefined on input line 185.
+LaTeX Warning: Citation `Aero' on page 10 undefined on input line 182.
 
 
-LaTeX Warning: Citation `Philipp' on page 9 undefined on input line 185.
+LaTeX Warning: Citation `Aero' on page 10 undefined on input line 186.
 
 
-LaTeX Warning: Citation `Stumpf' on page 9 undefined on input line 192.
+LaTeX Warning: Citation `Philipp' on page 10 undefined on input line 186.
 
 
-Overfull \hbox (1.70409pt too wide) in paragraph at lines 192--193
+LaTeX Warning: Citation `Stumpf' on page 10 undefined on input line 193.
+
+
+Overfull \hbox (1.70409pt too wide) in paragraph at lines 193--194
 \T1/ptm/m/n/12 und v die Strö-mungs-ge-schwin-dig-keit. Nach [[]] liegt die na-
 tür-li-che Wir-be-l-ab-lö-se-fre-quenz stump-
  []
 
-<Bilder/Wirbelstrasse.png, id=357, 451.6875pt x 251.43938pt>
+<Bilder/Wirbelstrasse.png, id=356, 451.6875pt x 251.43938pt>
 File: Bilder/Wirbelstrasse.png Graphic file (type png)
 <use Bilder/Wirbelstrasse.png>
-Package pdftex.def Info: Bilder/Wirbelstrasse.png  used on input line 196.
+Package pdftex.def Info: Bilder/Wirbelstrasse.png  used on input line 197.
 (pdftex.def)             Requested size: 364.19664pt x 202.7478pt.
 
-LaTeX Warning: Citation `Fourier' on page 9 undefined on input line 204.
+LaTeX Warning: Citation `Fourier' on page 10 undefined on input line 205.
 
 
-LaTeX Warning: Citation `Signal' on page 9 undefined on input line 205.
+LaTeX Warning: Citation `Signal' on page 10 undefined on input line 206.
 
 
-Overfull \hbox (0.66061pt too wide) in paragraph at lines 204--206
+Overfull \hbox (0.66061pt too wide) in paragraph at lines 205--207
 \T1/ptm/m/n/12 nal-si-gnal die Fre-quenz-kom-po-nen-ten her-aus-zu-fin-den. Die
  Grund-la-ge der Fourier-Transformation
  []
 
-[9 <./Bilder/Wirbelstrasse.png>]
+[10 <./Bilder/Wirbelstrasse.png>]
 
-LaTeX Warning: Citation `Signal' on page 10 undefined on input line 217.
+LaTeX Warning: Citation `Signal' on page 11 undefined on input line 218.
 
-<Bilder/Coanda-Flache.png, id=364, 419.31656pt x 410.2828pt>
+<Bilder/Coanda-Flache.png, id=363, 419.31656pt x 410.2828pt>
 File: Bilder/Coanda-Flache.png Graphic file (type png)
 <use Bilder/Coanda-Flache.png>
-Package pdftex.def Info: Bilder/Coanda-Flache.png  used on input line 229.
+Package pdftex.def Info: Bilder/Coanda-Flache.png  used on input line 230.
 (pdftex.def)             Requested size: 227.62204pt x 222.71385pt.
 
 Underfull \vbox (badness 5893) has occurred while \output is active []
 
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
-[11 <./Bilder/Coanda-Flache.png>]
-<Bilder/Gradient.png, id=379, 137.7647pt x 97.11281pt>
+[12 <./Bilder/Coanda-Flache.png>]
+<Bilder/Gradient.png, id=378, 137.7647pt x 97.11281pt>
 File: Bilder/Gradient.png Graphic file (type png)
 <use Bilder/Gradient.png>
-Package pdftex.def Info: Bilder/Gradient.png  used on input line 255.
+Package pdftex.def Info: Bilder/Gradient.png  used on input line 256.
 (pdftex.def)             Requested size: 136.5746pt x 96.28273pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
-<Bilder/AA.png, id=382, 311.9655pt x 161.403pt>
+<Bilder/AA.png, id=381, 311.9655pt x 161.403pt>
 File: Bilder/AA.png Graphic file (type png)
 <use Bilder/AA.png>
-Package pdftex.def Info: Bilder/AA.png  used on input line 268.
+Package pdftex.def Info: Bilder/AA.png  used on input line 269.
 (pdftex.def)             Requested size: 455.24408pt x 235.55037pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./Bilder/Gradient.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+ [13 <./Bilder/Gradient.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
 <Bilder/Ausblaseneffekt.png, id=391, 274.02374pt x 170.13562pt>
 File: Bilder/Ausblaseneffekt.png Graphic file (type png)
 <use Bilder/Ausblaseneffekt.png>
-Package pdftex.def Info: Bilder/Ausblaseneffekt.png  used on input line 282.
+Package pdftex.def Info: Bilder/Ausblaseneffekt.png  used on input line 283.
 (pdftex.def)             Requested size: 274.02307pt x 170.1352pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./Bilder/AA.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+ [14 <./Bilder/AA.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-[14 <./Bilder/Ausblaseneffekt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
+[15 <./Bilder/Ausblaseneffekt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 
  []
 
-<Bilder/Hitzdraht.png, id=404, 380.92313pt x 140.525pt>
+<Bilder/Hitzdraht.png, id=403, 380.92313pt x 140.525pt>
 File: Bilder/Hitzdraht.png Graphic file (type png)
 <use Bilder/Hitzdraht.png>
-Package pdftex.def Info: Bilder/Hitzdraht.png  used on input line 303.
+Package pdftex.def Info: Bilder/Hitzdraht.png  used on input line 304.
 (pdftex.def)             Requested size: 455.24408pt x 167.94942pt.
 
-Overfull \hbox (7.34348pt too wide) in paragraph at lines 309--310
+Overfull \hbox (7.34348pt too wide) in paragraph at lines 310--311
 \T1/ptm/m/n/12 stant ge-hal-ten. In un-se-rer Pro-jekt-ar-beit wird die Me-tho-
 de des Konstant-Temperatur-Anemometers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
-[15 <./Bilder/Hitzdraht.png>]
-<Bilder/Prinzipschaltung.png, id=411, 425.08812pt x 230.8625pt>
+[16 <./Bilder/Hitzdraht.png>]
+<Bilder/Prinzipschaltung.png, id=410, 425.08812pt x 230.8625pt>
 File: Bilder/Prinzipschaltung.png Graphic file (type png)
 <use Bilder/Prinzipschaltung.png>
-Package pdftex.def Info: Bilder/Prinzipschaltung.png  used on input line 315.
+Package pdftex.def Info: Bilder/Prinzipschaltung.png  used on input line 316.
 (pdftex.def)             Requested size: 425.08708pt x 230.86192pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
-[16 <./Bilder/Prinzipschaltung.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+[17 <./Bilder/Prinzipschaltung.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 [18]
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+[19]
 <kalibrierkanal.jpg, id=427, 4047.12pt x 2276.505pt>
 File: kalibrierkanal.jpg Graphic file (type jpg)
 <use kalibrierkanal.jpg>
-Package pdftex.def Info: kalibrierkanal.jpg  used on input line 366.
+Package pdftex.def Info: kalibrierkanal.jpg  used on input line 367.
 (pdftex.def)             Requested size: 409.71689pt x 230.44276pt.
- [19 <./kalibrierkanal.jpg>]
-<labview_crio1.jpg, id=436, 462.97969pt x 347.04657pt>
+ [20 <./kalibrierkanal.jpg>]
+<labview_crio1.jpg, id=435, 462.97969pt x 347.04657pt>
 File: labview_crio1.jpg Graphic file (type jpg)
 <use labview_crio1.jpg>
-Package pdftex.def Info: labview_crio1.jpg  used on input line 390.
+Package pdftex.def Info: labview_crio1.jpg  used on input line 391.
 (pdftex.def)             Requested size: 273.14922pt x 204.7504pt.
- [20 <./labview_crio1.jpg>]
-<Labviewskript_cut.jpg, id=442, 523.9575pt x 372.64218pt>
+ [21 <./labview_crio1.jpg>]
+<Labviewskript_cut.jpg, id=441, 523.9575pt x 372.64218pt>
 File: Labviewskript_cut.jpg Graphic file (type jpg)
 <use Labviewskript_cut.jpg>
-Package pdftex.def Info: Labviewskript_cut.jpg  used on input line 399.
+Package pdftex.def Info: Labviewskript_cut.jpg  used on input line 400.
 (pdftex.def)             Requested size: 318.66946pt x 226.64612pt.
 
 (C:\Users\Maike\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 410.
+nput line 411.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-10.
+11.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [21 <./Labviewskript_cut.jpg>] [22] [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+) [22 <./Labviewskript_cut.jpg>] [23] [24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
 
  []
 
 <Bilder/Windkanal.jpg, id=518, 1163.34625pt x 553.06625pt>
 File: Bilder/Windkanal.jpg Graphic file (type jpg)
 <use Bilder/Windkanal.jpg>
-Package pdftex.def Info: Bilder/Windkanal.jpg  used on input line 506.
+Package pdftex.def Info: Bilder/Windkanal.jpg  used on input line 507.
 (pdftex.def)             Requested size: 455.24408pt x 216.42917pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--513
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--515
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
 
  []
 
-[25 <./Bilder/Windkanal.jpg>]
-<Bilder/Traverse.jpeg, id=524, 562.35094pt x 953.06062pt>
+[26 <./Bilder/Windkanal.jpg>]
+<Bilder/Traverse.jpeg, id=523, 562.35094pt x 953.06062pt>
 File: Bilder/Traverse.jpeg Graphic file (type jpg)
 <use Bilder/Traverse.jpeg>
-Package pdftex.def Info: Bilder/Traverse.jpeg  used on input line 525.
+Package pdftex.def Info: Bilder/Traverse.jpeg  used on input line 526.
 (pdftex.def)             Requested size: 159.3382pt x 270.03996pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--536
+Underfull \hbox (badness 10000) in paragraph at lines 536--537
 
  []
 
-[26 <./Bilder/Traverse.jpeg>]
-<Bilder/Stumpfkoerper.jpg, id=530, 898.85812pt x 916.1728pt>
+[27 <./Bilder/Traverse.jpeg>]
+<Bilder/Stumpfkoerper.jpg, id=529, 898.85812pt x 916.1728pt>
 File: Bilder/Stumpfkoerper.jpg Graphic file (type jpg)
 <use Bilder/Stumpfkoerper.jpg>
-Package pdftex.def Info: Bilder/Stumpfkoerper.jpg  used on input line 539.
+Package pdftex.def Info: Bilder/Stumpfkoerper.jpg  used on input line 540.
 (pdftex.def)             Requested size: 273.14922pt x 278.40479pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--545
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
-[27 <./Bilder/Stumpfkoerper.jpg>]
-<Bilder/Aufbau.jpeg, id=535, 1027.84pt x 770.88pt>
+[28 <./Bilder/Stumpfkoerper.jpg>]
+<Bilder/Aufbau.jpeg, id=534, 1027.84pt x 770.88pt>
 File: Bilder/Aufbau.jpeg Graphic file (type jpg)
 <use Bilder/Aufbau.jpeg>
-Package pdftex.def Info: Bilder/Aufbau.jpeg  used on input line 556.
+Package pdftex.def Info: Bilder/Aufbau.jpeg  used on input line 557.
 (pdftex.def)             Requested size: 204.85844pt x 153.64395pt.
-<Bilder/Schrauben.jpeg, id=536, 1027.84pt x 770.88pt>
+<Bilder/Schrauben.jpeg, id=535, 1027.84pt x 770.88pt>
 File: Bilder/Schrauben.jpeg Graphic file (type jpg)
 <use Bilder/Schrauben.jpeg>
-Package pdftex.def Info: Bilder/Schrauben.jpeg  used on input line 561.
+Package pdftex.def Info: Bilder/Schrauben.jpeg  used on input line 562.
 (pdftex.def)             Requested size: 204.85844pt x 153.64395pt.
- [28 <./Bilder/Aufbau.jpeg> <./Bilder/Schrauben.jpeg>]
-<Bilder/oberespalt.jpg, id=541, 1927.2pt x 989.6975pt>
+ [29 <./Bilder/Aufbau.jpeg> <./Bilder/Schrauben.jpeg>]
+<Bilder/oberespalt.jpg, id=540, 1927.2pt x 989.6975pt>
 File: Bilder/oberespalt.jpg Graphic file (type jpg)
 <use Bilder/oberespalt.jpg>
-Package pdftex.def Info: Bilder/oberespalt.jpg  used on input line 575.
+Package pdftex.def Info: Bilder/oberespalt.jpg  used on input line 576.
 (pdftex.def)             Requested size: 455.24408pt x 233.78706pt.
- [29 <./Bilder/oberespalt.jpg>]
-<Bilder/LNB_2.jpg, id=550, 4047.12pt x 3035.34pt>
+ [30 <./Bilder/oberespalt.jpg>]
+<Bilder/LNB_2.jpg, id=549, 4047.12pt x 3035.34pt>
 File: Bilder/LNB_2.jpg Graphic file (type jpg)
 <use Bilder/LNB_2.jpg>
-Package pdftex.def Info: Bilder/LNB_2.jpg  used on input line 594.
+Package pdftex.def Info: Bilder/LNB_2.jpg  used on input line 595.
 (pdftex.def)             Requested size: 455.24408pt x 341.39154pt.
-<labview_crio.jpg, id=552, 551.05875pt x 478.03593pt>
+<labview_crio.jpg, id=551, 551.05875pt x 478.03593pt>
 File: labview_crio.jpg Graphic file (type jpg)
 <use labview_crio.jpg>
-Package pdftex.def Info: labview_crio.jpg  used on input line 606.
+Package pdftex.def Info: labview_crio.jpg  used on input line 607.
 (pdftex.def)             Requested size: 318.66946pt x 276.45137pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./Bilder/LNB_2.jpg>]
+ [31 <./Bilder/LNB_2.jpg>]
 <labview_trigger.jpg, id=559, 1033.61156pt x 320.69812pt>
 File: labview_trigger.jpg Graphic file (type jpg)
 <use labview_trigger.jpg>
-Package pdftex.def Info: labview_trigger.jpg  used on input line 617.
+Package pdftex.def Info: labview_trigger.jpg  used on input line 618.
 (pdftex.def)             Requested size: 318.66946pt x 98.87221pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./labview_crio.jpg> <./labview_trigger.jpg>]
+ [32 <./labview_crio.jpg> <./labview_trigger.jpg>]
 
-Package caption Warning: \label without proper reference on input line 630.
+Package caption Warning: \label without proper reference on input line 631.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:table1' on page 32 undefined on input line 627.
+LaTeX Warning: Reference `tab:table1' on page 33 undefined on input line 628.
 
-[32]
-<tempcorr_bsp.jpg, id=578, 562.1pt x 421.575pt>
+[33]
+<tempcorr_bsp.jpg, id=577, 562.1pt x 421.575pt>
 File: tempcorr_bsp.jpg Graphic file (type jpg)
 <use tempcorr_bsp.jpg>
-Package pdftex.def Info: tempcorr_bsp.jpg  used on input line 668.
+Package pdftex.def Info: tempcorr_bsp.jpg  used on input line 669.
 (pdftex.def)             Requested size: 218.51326pt x 163.8861pt.
 
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 668--669
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 669--670
 [][] 
  []
 
-<Nachlaufdellefit.jpg, id=579, 562.1pt x 421.575pt>
+<Nachlaufdellefit.jpg, id=578, 562.1pt x 421.575pt>
 File: Nachlaufdellefit.jpg Graphic file (type jpg)
 <use Nachlaufdellefit.jpg>
-Package pdftex.def Info: Nachlaufdellefit.jpg  used on input line 673.
+Package pdftex.def Info: Nachlaufdellefit.jpg  used on input line 674.
 (pdftex.def)             Requested size: 218.51326pt x 163.8861pt.
 
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 673--674
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 674--675
 [][] 
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 674--674
+Underfull \hbox (badness 1622) in paragraph at lines 675--675
 []\T1/ptm/m/n/10.95 (b) |Bei-spiel ei-nes Nach-lauf-del-len Fits
  []
 
-[33 <./tempcorr_bsp.jpg> <./Nachlaufdellefit.jpg>]
-<Bilder/Nachlaufdellen.jpg, id=586, 2569.6pt x 1368.11125pt>
+[34 <./tempcorr_bsp.jpg> <./Nachlaufdellefit.jpg>]
+<Bilder/Nachlaufdellen.jpg, id=585, 2569.6pt x 1368.11125pt>
 File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
 <use Bilder/Nachlaufdellen.jpg>
-Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 683.
+Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 684.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
-<Standardabweichung_bsp.jpg, id=587, 562.1pt x 421.575pt>
+<Standardabweichung_bsp.jpg, id=586, 562.1pt x 421.575pt>
 File: Standardabweichung_bsp.jpg Graphic file (type jpg)
 <use Standardabweichung_bsp.jpg>
-Package pdftex.def Info: Standardabweichung_bsp.jpg  used on input line 695.
+Package pdftex.def Info: Standardabweichung_bsp.jpg  used on input line 696.
 (pdftex.def)             Requested size: 318.66946pt x 239.00082pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <./Bilder/Nachlaufdellen.jpg>]
-<Spektrum_bsp.jpg, id=592, 562.1pt x 421.575pt>
+ [35 <./Bilder/Nachlaufdellen.jpg>]
+<Spektrum_bsp.jpg, id=591, 562.1pt x 421.575pt>
 File: Spektrum_bsp.jpg Graphic file (type jpg)
 <use Spektrum_bsp.jpg>
-Package pdftex.def Info: Spektrum_bsp.jpg  used on input line 708.
+Package pdftex.def Info: Spektrum_bsp.jpg  used on input line 709.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-<Contour_83Hz_bsp.jpg, id=593, 562.1pt x 421.575pt>
+<Contour_83Hz_bsp.jpg, id=592, 562.1pt x 421.575pt>
 File: Contour_83Hz_bsp.jpg Graphic file (type jpg)
 <use Contour_83Hz_bsp.jpg>
-Package pdftex.def Info: Contour_83Hz_bsp.jpg  used on input line 713.
+Package pdftex.def Info: Contour_83Hz_bsp.jpg  used on input line 714.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
- [35 <./Standardabweichung_bsp.jpg> <./Spektrum_bsp.jpg> <./Contour_83Hz_bsp.jp
+ [36 <./Standardabweichung_bsp.jpg> <./Spektrum_bsp.jpg> <./Contour_83Hz_bsp.jp
 g>]
 
-LaTeX Warning: Reference `sec:Widerstand_stumpf' on page 36 undefined on input 
-line 725.
+LaTeX Warning: Reference `sec:Widerstand_stumpf' on page 37 undefined on input 
+line 726.
 
 
-Overfull \hbox (4.30869pt too wide) in paragraph at lines 725--726
+Overfull \hbox (4.30869pt too wide) in paragraph at lines 726--727
 \T1/ptm/m/n/12 nen, kann die Brei-te und tie-fe der Nach-lauf-del-len qua-li-ta
 -tiv ver-gli-chen wer-den. (sie-he Kapitel[]).
  []
 
-<Bilder/Nachlaufdellen1Bar.jpg, id=604, 2569.6pt x 1368.11125pt>
+<Bilder/Nachlaufdellen1Bar.jpg, id=603, 2569.6pt x 1368.11125pt>
 File: Bilder/Nachlaufdellen1Bar.jpg Graphic file (type jpg)
 <use Bilder/Nachlaufdellen1Bar.jpg>
-Package pdftex.def Info: Bilder/Nachlaufdellen1Bar.jpg  used on input line 731.
+Package pdftex.def Info: Bilder/Nachlaufdellen1Bar.jpg  used on input line 732.
 
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
 File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
 <use Bilder/Nachlaufdellen.jpg>
-Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 738.
+Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 739.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36 <./Bilder/Nachlaufdellen1Bar.jpg>]
+ [37 <./Bilder/Nachlaufdellen1Bar.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-<Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg, id=615, 562.1pt x 421.575pt>
+ [38]
+<Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg, id=614, 562.1pt x 421.575pt>
 File: Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg  used on
- input line 774.
+ input line 775.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=616, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=615, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg  used on
- input line 779.
+ input line 780.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Contour_ohne_2bar.jpg, id=617, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Contour_ohne_2bar.jpg, id=616, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Contour_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Contour_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Contour_ohne_2bar.jpg  used on input
- line 795.
+ line 796.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg, id=618, 562.1pt x 421.575pt>
+<Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg, id=617, 562.1pt x 421.575pt>
 File: Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg  used on inpu
-t line 800.
+t line 801.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
 
 Underfull \vbox (badness 6910) has occurred while \output is active []
 
- [38 <./Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Nac
+ [39 <./Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg> <./Bilder/ohne_2_bar/Nac
 hlaufdelle_ohne_2bar.jpg>]
-Overfull \hbox (1.77179pt too wide) in paragraph at lines 808--812
+Overfull \hbox (1.77179pt too wide) in paragraph at lines 809--813
 \T1/ptm/m/n/12 Zahl in der Mit-te (Sr=0,46) dop-pelt so groÿ ist wie die klei-n
 e-re Strouhal-Zahl am Rand (Sr=0,23)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 808--812
+Underfull \hbox (badness 10000) in paragraph at lines 809--813
 
  []
 
-<Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=628, 562.1pt x 421.575pt>
+<Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg, id=627, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg  used on
- input line 822.
+ input line 823.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg, id=629, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg, id=628, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Nachlaufdelle_konst_2bar.jpg  used 
-on input line 827.
+on input line 828.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
 
 Underfull \vbox (badness 3803) has occurred while \output is active []
 
- [39 <./Bilder/ohne_2_bar/Contour_ohne_2bar.jpg> <./Bilder/ohne_2_bar/Strouhal_
+ [40 <./Bilder/ohne_2_bar/Contour_ohne_2bar.jpg> <./Bilder/ohne_2_bar/Strouhal_
 ohne_2bar.jpg>]
-<Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg, id=635, 562.1pt x 421.575pt>
+<Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg, id=634, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg  used on inpu
-t line 842.
+t line 843.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Strouhal_konst_2bar.jpg, id=636, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Strouhal_konst_2bar.jpg, id=635, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Strouhal_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Strouhal_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Strouhal_konst_2bar.jpg  used on in
-put line 847.
+put line 848.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg, id=639, 562.1pt x 421.575pt>
+<Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg, id=638, 562.1pt x 421.575pt>
 File: Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg Graphic file (type jpg)
 <use Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg>
 Package pdftex.def Info: Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg  used on input
- line 862.
+ line 863.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<Bilder/konst_2_bar/Contour_konst_2bar.jpg, id=640, 562.1pt x 421.575pt>
+<Bilder/konst_2_bar/Contour_konst_2bar.jpg, id=639, 562.1pt x 421.575pt>
 File: Bilder/konst_2_bar/Contour_konst_2bar.jpg Graphic file (type jpg)
 <use Bilder/konst_2_bar/Contour_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_bar/Contour_konst_2bar.jpg  used on inp
-ut line 867.
+ut line 868.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
- [40 <./Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg> <./Bilder/konst_2_bar/Na
+ [41 <./Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg> <./Bilder/konst_2_bar/Na
 chlaufdelle_konst_2bar.jpg> <./Bilder/Ohne_2_bar/Strouhal_ohne_2bar.jpg> <./Bil
-der/konst_2_bar/Strouhal_konst_2bar.jpg>] [41 <./Bilder/Ohne_2_bar/Contour_ohne
+der/konst_2_bar/Strouhal_konst_2bar.jpg>] [42 <./Bilder/Ohne_2_bar/Contour_ohne
 _2bar.jpg> <./Bilder/konst_2_bar/Contour_konst_2bar.jpg>]
-<Spektrum 1Bar 83Hz.jpg, id=651, 2569.6pt x 1368.11125pt>
+<Spektrum 1Bar 83Hz.jpg, id=650, 2569.6pt x 1368.11125pt>
 File: Spektrum 1Bar 83Hz.jpg Graphic file (type jpg)
 <use Spektrum 1Bar 83Hz.jpg>
-Package pdftex.def Info: Spektrum 1Bar 83Hz.jpg  used on input line 899.
+Package pdftex.def Info: Spektrum 1Bar 83Hz.jpg  used on input line 900.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
-<Contour plot 1bar 83Hz.jpg, id=652, 562.1pt x 421.575pt>
+<Contour plot 1bar 83Hz.jpg, id=651, 562.1pt x 421.575pt>
 File: Contour plot 1bar 83Hz.jpg Graphic file (type jpg)
 <use Contour plot 1bar 83Hz.jpg>
-Package pdftex.def Info: Contour plot 1bar 83Hz.jpg  used on input line 906.
+Package pdftex.def Info: Contour plot 1bar 83Hz.jpg  used on input line 907.
 (pdftex.def)             Requested size: 364.19664pt x 273.14565pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./Spektrum 1Bar 83Hz.jpg>] [43 <./Contour plot 1bar 83Hz.jpg>]
+ [43 <./Spektrum 1Bar 83Hz.jpg>] [44 <./Contour plot 1bar 83Hz.jpg>]
 File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
 <use Bilder/Nachlaufdellen.jpg>
-Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 928.
+Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 929.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
- [44]
+ [45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-<Bilder/Standardabweichung_Auswertung.jpg, id=680, 421.575pt x 316.18124pt>
+ [46]
+<Bilder/Standardabweichung_Auswertung.jpg, id=679, 421.575pt x 316.18124pt>
 File: Bilder/Standardabweichung_Auswertung.jpg Graphic file (type jpg)
 <use Bilder/Standardabweichung_Auswertung.jpg>
 Package pdftex.def Info: Bilder/Standardabweichung_Auswertung.jpg  used on inpu
-t line 978.
+t line 979.
 (pdftex.def)             Requested size: 364.19664pt x 273.15047pt.
 
-[46 <./Bilder/Standardabweichung_Auswertung.jpg>]
+[47 <./Bilder/Standardabweichung_Auswertung.jpg>]
 
-LaTeX Warning: Reference `sec:min_wid_freq' on page 47 undefined on input line 
-985.
+LaTeX Warning: Reference `sec:min_wid_freq' on page 48 undefined on input line 
+986.
 
-<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=687, 562.1pt x 421.575
+<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=686, 562.1pt x 421.575
 pt>
 File: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg Graphic file (type jp
 g)
 <use Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg  u
-sed on input line 1007.
+sed on input line 1008.
 (pdftex.def)             Requested size: 409.71689pt x 307.28403pt.
-[47]
+[48]
 
-LaTeX Warning: Reference `tab:tabelle3' on page 48 undefined on input line 1012
+LaTeX Warning: Reference `tab:tabelle3' on page 49 undefined on input line 1013
 .
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48 <./Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>] [49]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1022.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1022.
+[49 <./Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1020.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1020.
  (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1022.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1022.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1020.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1020.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 5CC9B7294E5A2C6A27CC97D54E768C0D;3186.
+(rerunfilecheck)             Checksum: 84E01607D9500B8A1EF78276FD5C3901;3228.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24498 strings out of 492484
- 430518 string characters out of 3130515
- 762358 words of memory out of 3000000
- 28080 multiletter control sequences out of 15000+200000
+ 24495 strings out of 492484
+ 430450 string characters out of 3130515
+ 762390 words of memory out of 3000000
+ 28078 multiletter control sequences out of 15000+200000
  49402 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,78p,1526b,1757s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1662,9 +1663,9 @@ s/type1/urw/symbol/usyr.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/ty
 pe1/urw/times/utmb8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on document.pdf (49 pages, 6635725 bytes).
+Output written on document.pdf (49 pages, 6636020 bytes).
 PDF statistics:
- 850 PDF objects out of 1000 (max. 8388607)
- 202 named destinations out of 1000 (max. 500000)
- 580 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 845 PDF objects out of 1000 (max. 8388607)
+ 201 named destinations out of 1000 (max. 500000)
+ 572 words of extra memory for PDF output out of 10000 (max. 10000000)
 
