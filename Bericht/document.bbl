@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{Stumpf}
+Wolf-Heinrich Hucho.
+\newblock {\em Aerodynamik der stumpfen Körper}.
+\newblock Vieweg+ Teubner Verlag, 2002.
+
+\bibitem{Aero}
+E.~Schlichting, H.;~Truckenbrodt.
+\newblock {\em Aerodynamik des Flugzeuges}.
+\newblock 1959.
+
+\bibitem{Philipp}
+Richard~Semaan Oswald, Philipp and Bernd~R. Noack.
+\newblock Open-and closed loop control on a d-shaped bluff body equipped with
+  coanda actuation.
+\newblock {\em AIAA Aviation 2019 Forum}, 2019.
+
+\bibitem{Fourier}
+Tilman Butz.
+\newblock {\em Fouriertransformation fuer Fussgaenger}.
+\newblock Stuttgart: Teubner, 1998.
+
+\bibitem{Signal}
+Kristian Kammeyer, Karl-Dirk;~Kroschel.
+\newblock {\em Digitale Signalverarbeitung. Filterung und Spektralanalyse mit
+  MATLAB-Uebungen. 5., durchgesehene und ergaenzte Auflage}.
+\newblock Wiesbaden, s.l.: Vieweg+Teubner Verlag, 2002.
+
+\end{thebibliography}
