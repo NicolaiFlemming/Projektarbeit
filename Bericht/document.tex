@@ -102,12 +102,12 @@
 
 	\section{Einleitung}
 	\label{sec:Einleitung}
-	
-	Die effiziente Nutzung von Energie steht im Mittelpunkt der Technologieentwicklung. Hierzu kann die Aerodynamik einen wichtigen Beitrag leisten, indem mit ihrer Hilfe versucht wird den Strömungswiderstand umströmter Körper zu verringern. Umströmte Körper lassen sich in aerodynamische und stumpfe Körpern aufteilen. Im Folgenden soll eine Betrachtung stumpfer Körper erfolgen.\\
-	Der Strömungswiderstand stumpfer Körper ist deutlich höher als derjenige aerodynamisch geformter Körper. Daher kann es zu großen Energieersparnissen kommen, wenn die Aerodynamik stumpfer Körper optimiert wird. Zum Beispiel kann der Kraftstoffverbrauch eines Fahrzeugs durch Reduktion seines Strömungswiderstandes gesenkt werden.\\
-	Besitzt ein stumpfer Körper eine Hinterkante, so ist ein Ansatz zur Verringerung des Widerstandes das Ausblasen von Luft an der Hinterkante des Körpers. Die Grundidee besteht in der Anhebung des Basisdrucks am stumpfen Körper und somit der Verringerung des Druckwiderstandes. Im Experiment, das in dieser Projektarbeit beschrieben wird, wird ein Luftstrahl über eine Coanda-Fläche ausgeblasen, wodurch die Luft hinter der Basis einwärts strömt. Hierdurch lässt sich laut Geropp der Widerstand eines Körpers mit stumpfem Heck um 40 \% verringern.[Quelle]\\
-	Ziel der Projektarbeit ist es nicht, erneut nachzuweisen, dass eine Verringerung des Widerstandes durch das Ausblasen von Luft möglich ist. Stattdessen geht es darum, die Dynamik des Nachlaufs mittels Hitzdrahtmessungen bei unterschiedlichen Ausblasefrequenzen zu charakterisieren. Dies verspricht einen Einblick in die verantwortlichen Wirkmechanismen.\\
+	Die effiziente Nutzung von Energie steht im Mittelpunkt der Technologieentwicklung. Hierzu kann die Aerodynamik einen wichtigen Beitrag leisten, indem mit ihrer Hilfe versucht wird den Strömungswiderstand umströmter Körper zu verringern. Umströmte Körper lassen sich in aerodynamische und stumpfe Körpern aufteilen. Im Folgenden 	soll eine Betrachtung stumpfer Körper erfolgen.\newline
+	Der Strömungswiderstand stumpfer Körper ist deutlich höher als derjenige aerodynamisch geformter Körper. Daher kann es zu großen Energieersparnissen kommen, wenn die Aerodynamik stumpfer Körper optimiert wird. Zum Beispiel kann der Kraftstoffverbrauch eines Fahrzeugs durch Reduktion seines Strömungswiderstandes gesenkt werden.\newline
+	Besitzt ein stumpfer Körper eine Hinterkante, so ist ein Ansatz zur Verringerung des Widerstandes das Ausblasen von Luft an der Hinterkante des Körpers. Die Grundidee besteht in der Anhebung des Basisdrucks am stumpfen Körper und somit der Verringerung des Druckwiderstandes. Im Experiment, das in dieser Projektarbeit beschrieben wird, wird ein Luftstrahl über eine Coanda-Fläche ausgeblasen, wodurch die Luft hinter der Basis einwärts strömt. Hierdurch lässt sich laut Geropp der Widerstand eines Körpers mit stumpfem Heck um 40 \% verringern. \cite{Stumpf}\newline	
+	Ziel der Projektarbeit ist es nicht, erneut nachzuweisen, dass eine Verringerung des Widerstandes durch das Ausblasen von Luft möglich ist. Stattdessen geht es darum, die Dynamik des Nachlaufs mittels Hitzdrahtmessungen bei unterschiedlichen Ausblasefrequenzen zu charakterisieren und ggf. mit einer Widerstandsverminderung in Beziehung zu setzen. Dies verspricht einen Einblick in die verantwortlichen Wirkmechanismen.\newline
 	Für das Experiment müssen umfangreiche Vorbereitungen wie die Planung einer Halterung mit Traversiermechanismus, die Kalibrierung der Hitzdrahtsonde und die Spalteinstellung am Modell getroffen werden.
+
 
 	\newpage
 	\section{Theoretische Grundlagen}
@@ -119,7 +119,7 @@
 	\subsubsection{Definition stumpfer Körper}
 	\label{sec:Definition_stumpf}
 	
-	Nach [Aerodynamik stumpfer Körper] fällt eine genaue Definition des Begriffes \glqq stumpfer Körper \grqq{} schwer. Dies liegt auch daran, dass der Übergang von einem schlanken zu einem stumpfen Körper fließend ist. Qualitativ gelingt eine Abtrennung, wenn stumpfe Körper im Vergleich zu schlanken Körpern als \glqq dick\grqq{} bezeichnet werden. \glqq Dick\grqq{} bedeutet, dass ihre Querschnittsfläche senkrecht zur Anströmung vergleichbar zur Querschnittsfläche längs der Antströmung ist. Für eine quantitative Einschätzung wurde der sogenannte Schlankheitsgrad $ \lambda $ definiert, der das Verhältnis von Länge zu Dicke darstellt: 
+	Nach Hucho \cite{Stumpf} fällt eine genaue Definition des Begriffes \glqq stumpfer Körper \grqq{} schwer. Dies liegt auch daran, dass der Übergang von einem schlanken zu einem stumpfen Körper fließend ist. Qualitativ gelingt eine Abtrennung, wenn stumpfe Körper im Vergleich zu schlanken Körpern als \glqq dick\grqq{} bezeichnet werden. \glqq Dick\grqq{} bedeutet, dass ihre Querschnittsfläche senkrecht zur Anströmung vergleichbar zur Querschnittsfläche längs der Antströmung ist. Für eine quantitative Einschätzung wurde der sogenannte Schlankheitsgrad $ \lambda $ definiert, der das Verhältnis von Länge zu Dicke darstellt:
 	
 	\begin{equation}
 	\lambda = \frac{l}{d}    
@@ -127,10 +127,8 @@
 	
 	Dessen Kehrwert ist das Dickenverhältnis $\delta$.
 	
-	\subsubsection{Widerstand stumpfer Körper}
-	\label{sec:Widerstand_stumpf}
 	
-	Der Extremfall eines stumpfen Körpers ist die quer angeströmte Platte ($\delta \rightarrow \infty$), während die längs angeströmte Platte ($\lambda \rightarrow \infty$) umgekehrt einen maximal schlanken Körper repräsentiert. Die Strömung kann der Kontur einer längs angeströmten Platte problemlos folgen. Dagegen ist die Umströmung eines stumpfen Körpers von Ablösungen geprägt. Hinter dem stumpfen Körper bildet sich Totwasser aus, in dem die Strömung verwirbelt und reibungsbehaftet ist. Dieses Totwasser wechselwirkt mit der umliegenden Strömung, die an der Hinterkante des stumpfen Körpers abreißt. Zwischen der Strömung und dem Totwasser bildet sich eine Scherschicht. An dieser Scherschicht setzt sich das Fluid im Totwasser in Bewegung, wodurch der Druck an der Basis des Stumpfkörpers abnimmt. Entsprechend überwiegt bei stumpfen Körpern der Druckwiderstand gegenüber dem Reibungswiderstand (vgl. Abb.\ref{fig:Widerstaende}).
+	Der Extremfall eines stumpfen Körpers ist die quer angeströmte Platte ($\delta \rightarrow \infty$), während die längs angeströmte Platte ($\lambda \rightarrow \infty$) umgekehrt einen maximal schlanken Körper repräsentiert. Die Strömung kann der Kontur einer längs angeströmten Platte problemlos folgen. Dagegen ist die Umströmung eines stumpfen Körpers von Ablösungen geprägt.\newline Hinter dem stumpfen Körper bildet sich Totwasser aus, in dem die Strömung verwirbelt und reibungsbehaftet ist. Dieses Totwasser wechselwirkt mit der umliegenden Strömung, die an der Hinterkante des stumpfen Körpers abreißt. Zwischen der Strömung und dem Totwasser bildet sich eine Scherschicht. An dieser Scherschicht setzt sich das Fluid im Totwasser in Bewegung, wodurch der Druck an der Basis des Stumpfkörpers abnimmt. Entsprechend überwiegt bei stumpfen Körpern der Druckwiderstand gegenüber dem Reibungswiderstand (vgl. Abb.\ref{fig:Widerstaende}).
 	
 	\begin{figure}[H]
 		\centering
@@ -140,21 +138,20 @@
 		\vspace{1cm}
 	\end{figure}
 	
-	\subsubsection{Maßnahmen zur Verringerung des Widerstandes}
-	\label{sec:Verringerung_stumpf}
+	\textbf{Maßnahmen zur Verringerung des Widerstandes}
 	
-	Um den Widerstand stumpfer Körper zu verringern, ist es also naheliegend, den Basisdruck hinter dem stumpfen Körper zu steigern. Hierzu werden in \glqq Aerodynamik der stumpfen Körper\grqq{} von Wolf-Heinrich Hucho [Quelle] zwei Ansätze vorgestellt. Einmal die Veränderung der Geometrie des stumpfen Körpers und zum zweiten die Beeinflussung der Struktur der Strömung im Totwasser. Dabei lässt sich die Beeinflussung der Struktur der Strömung in aktive und passive Maßnahmen unterscheiden. Bei aktiven Maßnahmen wird im Gegensatz zu passiven Maßnahmen zusätzlich Energie aufgewendet.\\
-	In dem Experiment, das in dieser Projektarbeit betrachtet wird, findet eine aktive Beeinflussung der Strömung statt. Hierbei wird ein dünner Luftstrahl an der Hinterkante über eine Coanda-Fläche ausgeblasen. Die Luft wird sowohl konstant, als auch mit verschiedenen Frequenzen ausgeblasen. Aufgrund des Coanda-Effektes wird der Luftstrahl abgelenkt und verkleinert das Totwasser hinter dem Modell. Hierdurch steigt der Basisdruck und der Widerstand des Körpers sinkt. Angesichts der Zielsetzung einer Energieersparnis muss berücksichtigt werden, dass das aktive Ausblasen von Luft Energie benötigt.
+	Um den Widerstand stumpfer Körper zu verringern, ist es also naheliegend, den Basisdruck hinter dem stumpfen Körper zu steigern. Hierzu werden in \cite{Stumpf} zwei Ansätze vorgestellt. Der erste Ansatz besteht in der Veränderung der Geometrie des stumpfen Körpers. Der zweite Ansatz betrachtet die Beeinflussung der Struktur der Strömung im Totwasser. Dabei lässt sich die Beeinflussung der Struktur der Strömung in aktive und passive Maßnahmen unterscheiden. Bei aktiven Maßnahmen wird im Gegensatz zu passiven Maßnahmen zusätzlich Energie aufgewendet.\newline
+	In dem Experiment, das in dieser Projektarbeit betrachtet wird, findet eine aktive Beeinflussung der Strömung statt. Hierbei wird ein dünner Luftstrahl an der Hinterkante über eine Coanda-Fläche ausgeblasen. Die Luft wird sowohl konstant, als auch mit verschiedenen Frequenzen ausgeblasen. Aufgrund des Coanda-Effektes wird der Luftstrahl abgelenkt und verkleinert das Totwasser hinter dem Modell. Hierdurch steigt der Basisdruck und der Widerstand des Körpers sinkt. Angesichts der Zielsetzung einer Energieersparnis muss berücksichtigt werden, dass das aktive Ausblasen von Luft Energie benötigt. Daher ist es erstrebenswert, die gewünschte Widerstandsverminderung mit so wenig Ausblasedruck wie möglich zu erreichen.
 	
-	\subsubsection{Berechnung des Widerstandes stumpfer Körper}
-	\label{sec:Berechnung_stumpf}
+	\newpage
+	\textbf{Berechnung des Widerstandes stumpfer Körper}
 	
-	Der Widerstand eines stumpfen Körpers lässt sich mithilfe des Impulssatzes aus der Form des Nachlaufs berechnen. Der Impulssatz besagt, dass die Impulsänderung aus der Durchströmung der Oberfläche eines Kontrollvolumens gleich der Änderung der an diesem Kontrollvolumen angreifenden Kräfte ist. (Schlichting Truckenbrodt)\\
-	Für ein Kontrollvolumen (siehe Abb.\ref{fig:Kontrollvolumen}), auf dessen Oberfläche der Druck p$_{\infty}$ der ungestörten Anströmung herrscht, ergibt sich für den Widerstand 
+	Der Widerstand eines stumpfen Körpers lässt sich mithilfe des Impulssatzes aus der Form des Nachlaufs berechnen. Der Impulssatz besagt, dass die Impulsänderung aus der Durchströmung der Oberfläche eines Kontrollvolumens gleich der Änderung der an diesem Kontrollvolumen angreifenden Kräfte ist.\newline
+	Für ein Kontrollvolumen (siehe Abb.\ref{fig:Kontrollvolumen}), auf dessen Oberfläche der Druck p$_{\infty}$ der ungestörten Anströmung herrscht, ergibt sich für den Widerstand
 	
 	\begin{equation}
 	\label{eq:Widerstand}
-	W = - \rho \int_{(K)}^{} u_1 dQ 
+	W = - \rho \int_{(K)}^{} u_1 dQ
 	\end{equation}
 	
 	$u_1$ ist die x-Komponente der Geschwindigkeit, $\rho$ die Luftdichte und Q der Volumenstrom.
@@ -166,35 +163,33 @@
 		\label{fig:Kontrollvolumen}
 		\vspace{1cm}
 	\end{figure}
-
+	
 	Wertet man diese Gleichung für das gezeigte Kontrollvolumen aus, ergibt sich
 	
 	\begin{equation}
 	W = - \rho b \int_{(l)}^{} u_1(U_\infty - u_1) dy    
 	\end{equation}
 	
-	Dabei ist b die Breite des Körpers senkrecht zur Zeicheneben und l die Länge des Nachlaufes in y-Richtung.\\
+	Dabei ist b die Breite des Körpers senkrecht zur Zeicheneben und l die Länge des Nachlaufes in y-Richtung.\newline
 	Für den Widerstandsbeiwert des umströmten Körpers folgt
 	
 	\begin{equation}
-	c_W = \frac{W}{\frac{\rho}{2}{U_\infty}^2bd} = 
+	c_W = \frac{W}{\frac{\rho}{2}{U_\infty}^2bd} =
 	2\int_{(l)}^{}\frac{u_1}{U_\infty}(1-\frac{u_1}{U_\infty})d\frac{y}{d}   
 	\end{equation}
 	
-	[Aerodynmik stumpfer Körper]
+	\cite{Aero}
 	Ist die Geschwindigkeitsverteilung $u_1(y)$ im Nachlauf bekannt, lässt sich der $c_W$-Wert des Körpers ermitteln.
 	
 	\subsubsection{Kármánsche Wirbelstraße}
-	\label{sec:Karamansche_wirbel}
-	
-	Bei höheren Reynoldszahlen bilden sich hinter einem Zylinder alternierende Wirbel aus, die als Kármánsche Wirbelstraße bezeichnet werden. [Schlichtung Truckenbrodt] Mithilfe von Druckmessungen haben Oswald et al. [Philipps Paper] gezeigt, dass eine solche Wirbelanordnung auch hinter dem in dieser Projektarbeit verwendeten Modell auftritt.\\
+	Bei höheren Reynoldszahlen bilden sich hinter einem Zylinder alternierende Wirbel aus, die als Kármánsche Wirbelstraße (Abb. \ref{fig:Wirbelstrasse}) bezeichnet werden.\cite{Aero} Oswald et al. \cite{Philipp} haben am Modell, das in dieser Projektarbeit verwendet wird, entsprechende Druckschwankungen festgestellt, die auf eine solche Wirbelanordnung hindeuten.\newline
 	Die Frequenz, mit der die Wirbel ablösen kann durch die dimensionslose Strouhal-Zahl beschrieben werden.
 	
 	\begin{equation}
 	Sr=\frac{f  L}{v}    
 	\end{equation}
 	
-	Dabei ist f die Wirbelablösefrequenz, L die charakteristische Länge des umströmten Körpers und v die Strömungsgeschwindigkeit. [2]
+	Dabei ist f die Wirbelablösefrequenz, L die charakteristische Länge des umströmten Körpers und v die Strömungsgeschwindigkeit. Nach \cite{Stumpf} liegt die natürliche Wirbelablösefrequenz stumpfer Körper zwischen 0,2 und 0,3.
 	
 	\begin{figure}[H]
 		\centering
@@ -204,11 +199,10 @@
 		\vspace{1cm}
 	\end{figure}
 	
-	\subsection{Grundlagen der Spektralanalyse}
-	\label{sec:Spektral_Theorie}
 	
-	Die Spektralanalyse, die auf der  Fourier-Transformation basiert, hat das Ziel aus einem Originalsignal die Frequenzkomponenten herauszufinden. [matlab internet] Die Grundlage der Fourier-Transformation ist, dass sich jedes periodische Signal in eine sinusförmige Grundfrequenz und ihre Harmonischen zerlegen lässt. Die Harmonischen sind ganzzahlige Vielfache der Grundfrequenz.\\
-	Häufig liegt das Originalsignal in Form eines zeitlich diskreten Signals vor. Dies ist auch in dieser Projektarbeit der Fall, in der die kontinuierliche Spannung an einer Hitzdrahtsonde abgetastet wurde. Hieraus ergibt sich eine Zahlenfolge von Spannungswerten $(x_i)_(i=1;...;n)$  für jede Position der Hitzdrahtsonde. Um die hauptsächlich vorkommenden Frequenzen dieses zeitdiskreten Signals herauszufinden, wird die im Zeitbereich vorliegende Folge $(x_i)_(i=1;...;n)$ in die kontinuierliche Spektralfunktion X($e^{j\Omega}$) transformiert. Diese Transformation ist mathematisch folgendermaßen definiert:
+	\subsection{Grundlagen der Spektralanalyse}
+	Die Spektralanalyse, die auf der  Fourier-Transformation basiert, hat das Ziel aus einem Originalsignal die Frequenzkomponenten herauszufinden. Die Grundlage der Fourier-Transformation ist, dass sich jedes periodische Signal in eine sinusförmige Grundfrequenz und ihre Harmonischen zerlegen lässt. Die Harmonischen sind ganzzahlige Vielfache der Grundfrequenz \cite{Fourier}.\newline
+	Nach \cite{Signal} liegt das Originalsignal häufig in Form eines zeitlich diskreten Signals vor. Dies ist auch in dieser Projektarbeit der Fall, in der die kontinuierliche Spannung an einer Hitzdrahtsonde abgetastet wurde. Hieraus ergibt sich eine Zahlenfolge von Spannungswerten $(x_i)_(i=1;...;n)$  für jede Position der Hitzdrahtsonde. Um die hauptsächlich vorkommenden Frequenzen dieses zeitdiskreten Signals herauszufinden, wird die im Zeitbereich vorliegende Folge $(x_i)_(i=1;...;n)$ in die kontinuierliche Spektralfunktion X($e^{j\Omega}$) transformiert. Diese Transformation ist mathematisch folgendermaßen definiert:
 	
 	\begin{equation}
 	X(e^{i\Omega}) = \sum_{i=-\infty}^{i=\infty} x_i e^{-j\Omega k}  
@@ -220,8 +214,8 @@
 	\Omega=\frac{\omega}{f_a}=\omega T   
 	\end{equation}
 	
-	Für Transformation eines zeitdiskreten Signals mit einem Digitalrechner, muss eine mit einem Digitalrechner auswertbare Transformation definiert werden. Diese Transformation wird als diskrete Fourier-Transformation (DFT) bezeichnet. Für die DFT gibt es eine Vielzahl an Algorithmen, die sich in einen Rechner implementieren lassen. Beispiele sind der Winograd-Algorithmus oder der Primfaktor-Algorithmus. In Matlab wird die DFT mittels eines Fast Fourier Transform (FFT) Algorithmus` ausgeführt. Der genaue Aufbau des Algorithmus wird hier nicht weiter besprochen. Siehe dazu [4] Kapitel 6.4.
-	
+	Für Transformation eines zeitdiskreten Signals mit einem Digitalrechner, muss eine mit einem Digitalrechner auswertbare Transformation definiert werden. Diese Transformation wird als diskrete Fourier-Transformation (DFT) bezeichnet. Für die DFT gibt es eine Vielzahl an Algorithmen, die sich in einen Rechner implementieren lassen. Beispiele sind der Winograd-Algorithmus oder der Primfaktor-Algorithmus. In Matlab wird die DFT mittels eines Fast Fourier Transform (FFT) Algorithmus` ausgeführt. Der genaue Aufbau des Algorithmus wird hier nicht weiter besprochen. Siehe dazu Kammeyer et al. \cite{Signal} Kapitel 6.4.
+
 	\subsection{Coanda-Effekt}
 	\label{sec:Coanda_effekt}
 	
@@ -522,9 +516,7 @@
 	Die Messtrecke besitzt eine Länge von 1500\,mm, eine Breite von 400\,mm und eine Höhe von 600\,mm. Mit einem Flügelradanemometer werden die Geschwindigkeiten in diesem Abschnitt ermittelt, wobei sich die Abweichungen bezüglich der Geschwindigkeit in der Messstrecke hierbei auf 1\% bei 10\,m/s belaufen. \\
 	
 	
-	\subsection{Planung der Halterung}
-	\label{sec:Planung_halterung}
-	
+	\subsubsection{Halterung der Hitzdrahtsonde}
 	Während die Halterung für die Hitzdrahtsonde am Kalibrierwindkanal bereits vorhanden war, musste die Halterung am LNB noch gebaut werden.
 	Sie soll gewährleisten, dass die Hitzdrahtsonde im Windkanal vertikal traversiert werden kann. Bei einer vorherigen Messung mittels eines Nachlaufrechens wurden etwa 200 mm Breite der Nachlaufdelle gemessen. Dabei war der Nachlaufrechen wenige Zentimeter stromabwärts hinter dem Modell platziert. Die zur Verfügung stehende Traverse erreicht einen Verfahrweg von 184 mm. Die Halterung wird auf dem Windkanal montiert. Durch ein Loch in der Deckenplatte des Windkanals ist die Hitzdrahtsonde über eine Stange mit der Traverse verbunden.
 	
@@ -536,7 +528,7 @@
 		\vspace{0cm}
 	\end{figure}
 	
-	\newpage
+	
 	\subsection{Modell}
 	\label{sec:Modell}
 	
@@ -774,101 +766,58 @@
 	\end{table}
 	
 	\subsection{Zustand ohne Ausblasung}
-	\label{sec:Zustand_ohne}
 	
-	Zunächst soll der Zustand des Nachlaufs, der ohne Ausblasung entsteht, anhand der Messdaten beschrieben werden. Dies dient als Ausgangspunkt, um den Einfluss der unterschiedlichen Aktuationsparameter auf die Strömung einzuschätzen. Außerdem soll ein Überblick über die unterschiedlichen Diagramme gegeben werden. Ohne Ausblasung wurden zwei Messungen durchgeführt, deren Ergebnisse sich, zumindest auf den ersten Blick, teilweise deutlich unterscheiden.
+	Zunächst soll der Zustand des Nachlaufs, der ohne Ausblasung entsteht, anhand der Messdaten beschrieben werden. Dies dient als Ausgangspunkt, um den Einfluss der unterschiedlichen Aktuationsparameter auf die Strömung einzuschätzen. Ohne Ausblasung wurden zwei Messungen durchgeführt. Die dabei entstandenen Nachlaufdellen sind in Abb. \ref{fig:Nachlaufdelle_ohne} gezeigt.
 	\begin{figure}[H]
-	\centering
+		\centering
 		\begin{subfigure}{0.45\textwidth}
-		\includegraphics[width=\linewidth]{Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg}
+			\includegraphics[width=\linewidth]{Bilder/Ohne_1_bar/Nachlaufdelle_ohne_1bar.jpg}
 			\caption{Nachlaufdelle ohne Ausblasung, 1. Messung}
 			\label{fig:Nachlaufdelle_ohne_1bar}
 		\end{subfigure}\hfil
 		\begin{subfigure}{0.45\textwidth}
-		\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg}
+			\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg}
 			\caption{Nachlaufdelle ohne Ausblasung, 2. Messung}
 			\label{fig:Nachlaufdelle_ohne_2bar}
 		\end{subfigure}
-	\caption{Nachlaufdellen ohne Ausblasung}
+		\caption{Nachlaufdellen ohne Ausblasung}
+		\label{fig:Nachlaufdelle_ohne}
 	\end{figure}
 	
-	In den Diagrammen für die Nachlaufdelle existiert eine Kurve für die gemessene Geschwindigkeit (rot) und eine für die temperaturkorrigierte Geschwindigkeit (blau) (2.4.1). Im Folgenden wird nur auf die korrigierte Kurve eingegangen.
+	Beide Nachlaufdellen besitzen die gleiche Tiefe. Die Nachlaufdelle der ersten Messung ist allerdings schmaler als die Nachlaufdelle der zweiten Messung. Dies spiegelt sich auch in den berechneten Widerstandsbeiwerten von $c_W=0,3690$ für die erste und $c_W=0,3878$ für die zweite Messung wieder.\newline
+	Diese Widerstandsbeiwerte sind im Vergleich zu allen anderen Zuständen der Ausblasung am größten. Dies deckt sich mit der Theorie, dass die Ausblasung von Luft an der Hinterkannte den Druckwiderstand des Körpers verringert. Außerdem bedeutet das, dass die gepulste Ausblasung die Strömung nicht nachteilig in Bezug auf den Widerstand beeinflusst hat.\newline
+	Im Folgenden werden die Ergebnisse der zweiten Messung betrachtet.
 	
-	Die erste Nachlaufdelle ohne Ausblasung ist schmaler als die zweite. Dementsprechend ist der erste Widerstandsbeiwert  mit $c_W=0,3690$ geringer als der zweite mit $c_W=0,3878$. Allerdings müssen die berechneten Widerstandsbeiwerte hier mit besonderer Vorsicht betrachtet werden, weil es für die beiden Messungen ohne Ausblasung so wirkt, als sei nicht die gesamte Nachlaufdelle abgedeckt worden.
 	
 	\begin{figure}[H]
 		\centering
-		\begin{subfigure}{0.45\textwidth}
-			\includegraphics[width=\linewidth]{Bilder/Ohne_1_bar/Strouhal_ohne_1Bar.jpg}
-			\caption{Strouhal Zahlen 1\,Bar }
-			\label{fig:Strouhal_ohne_1bar}
-		\end{subfigure}\hfil
-		\begin{subfigure}{0.45\textwidth}
-			\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg}
-			\caption{Strouhal Zahlen 2\,Bar}
-			\label{fig:Strouhal_ohne_2bar}
-		\end{subfigure}
-		\caption{Strouhal-Zahlen ohne Ausblasung}
-		\label{fig:Strouhal_ohne}
-	\end{figure}
-	
-	In den dargestellten Diagrammen Abb.\ref{fig:Strouhal_ohne} wurde jeweils die dominante Frequenz als dimensionslose Strouhal-Zahl an der jeweiligen Position im Nachlauf aufgetragen. Sie ist an den Rändern bei beiden Messungen gleich und unterscheidet sich in mittlerer Position deutlich. Betrachtet man allerdings das Frequenzspektrum an der mittleren Position Abb.\ref{fig:Spektrumohne}, so fällt auf, dass bei beiden Messungen die hauptsächlich auftretenden Frequenzen bei 0\,Hz und 140\,Hz liegen. Somit sind die Diagramme, die die Strouhal-Zahl auftragen insofern irreführend, dass in ihnen ein Unterschied herausgestellt wird, der in Wirklichkeit nicht so deutlich existiert. Das liegt daran, dass die Strouhal-Zahlen nur auf Basis der am häufigsten auftretenden Frequenzen aufgetragen werden. Jede weniger häufige Frequenz bleibt unberücksichtigt.
-	
-	\begin{figure}[H]
-		\centering
-		\begin{subfigure}{0.45\textwidth}
-			\includegraphics[width=\linewidth]{Bilder/Ohne_1_bar/Spektrum_ohne_1bar.jpg}
-			\caption{Spektrum ohne Ausblasung, 1\,Bar}
-			\label{fig:Spektrum_ohne_1bar}
-		\end{subfigure}\hfil
-		\begin{subfigure}{0.45\textwidth}
-			\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Spektrum_ohne_2bar.jpg}
-			\caption{Spektrum ohne Ausblasung, 2\,Bar}
-			\label{fig:Spektrum_ohne_2bar}
-		\end{subfigure}
-		\caption{Frequenzspektrum ohne Ausblasung}
-		\label{fig:Spektrumohne}
-	\end{figure}
-	
-	Eine weniger vereinfachende Übersicht über die an den jeweiligen Positionen im Nachlauf dominierenden Frequenzen liefert der Konturplot der Frequenzen. Dieser enthält die Information, an welcher Position welche Frequenz wie häufig vorkommt. Dabei wird die Häufigkeit durch die Intensität der Farbe gekennzeichnet. Je satter das Schwarz ist, desto häufiger kommt die Frequenz an der entsprechenden Position vor. Die Frequenzen sind in Form von Indices gespeichert. Welche Frequenz welchem Index entspricht, musste bei der Auswertung manuell aus den Messdaten bzw. dem Frequenzspektrum abgelesen werden. 
-	
-	\begin{figure}[H]
-	\centering
-		\begin{subfigure}{0.45\textwidth}
-			\includegraphics[width=\linewidth]{Bilder/Ohne_1_bar/Contour_ohne_1bar.jpg}
-			\caption{Kontour Plot ohne Ausblasung, 1\,Bar}
-			\label{fig:Contour_ohne_1bar}
-		\end{subfigure}\hfil
 		\begin{subfigure}{0.45\textwidth}
 			\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Contour_ohne_2bar.jpg}
-			\caption{Kontour Plot ohne Ausblasung, 2\,Bar}
-			\label{fig:Contour_ohne_2bar}
+			\caption{Konturplot ohne Ausblasung}
+			\label{fig:Contour_ohne}
 		\end{subfigure}
-		\caption{Konturplot ohne Ausblasung}
-		\label{fig:Contour_ohne}
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/ohne_2_bar/Strouhal_ohne_2bar.jpg}
+			\caption{Strouhal Zahl ohne Ausblasung}
+			\label{fig:Strouhal_ohne}
+		\end{subfigure}
+		\caption{Strouhal-Zahlen ohne Ausblasung}
+		\label{fig:Strouhal1}
 	\end{figure}
 	
+	Der Konturplot zeigt, dass beim Zustand ohne Ausblasung hauptsächlich zwei verschiedene Strouhal-Zahlen im Nachlauf auftreten (vgl. Abb. \ref{fig:Contour_ohne}). Auffällig ist, dass die größere Strouhal-Zahl in der Mitte (Sr=0,46) doppelt so groß ist wie die kleinere Strouhal-Zahl am Rand (Sr=0,23) (vgl. Abb. \ref{fig:Strouhal_ohne}). Die zugehörigen Frequenzen sind 138\,Hz und 69\,Hz. Die in den Randbereichen bestimmte Strouhal-Zahl von (Sr=0,23) liegt im Bereich der natürlichen Wirbelablösefrequenz stumpfer Körper (vgl. Theorie).\newline
+	Anhand Abbildung \ref{fig:Wirbelstrasse} kann man vermuten, dass der Hitzdraht in den äußeren Bereichen des Nachlaufs nur die Geschwindigkeitsänderungen erfasst, die durch die äußeren Wirbel hervorgerufen werden. In der Mitte des Nachlaufs erfasst er dagegen die Geschwindigkeitsänderungen, die durch die oberen und unteren Wirbel hervorgerufen werden. Da die Wirbel alternieren, folgen die Geschwindigkeitsänderungen in der Mitte doppelt so schnell aufeinander wie außen. Das erklärt, warum die Strouhal-Zahlen in der Mitte doppelt so groß sind wie am Rand.\newline
+	Außerdem erkennt man an Abb. \ref{fig:Contour_ohne}, dass es an den Positionen 70\,mm und 110\,mm zu einer Überlagerung der dominanten Strouhal-Zahlen kommt.\newline
+	Der Grund dafür könnte sein, dass die Wirbel an diesen Position noch nicht zu jeder Zeit alternierend vorkommen, sondern zeitweise nur die oberen bzw. unteren Wirbel die Hitzdrahtsonde erreichen.\newline
 	
-	Am Konturplot wird deutlich, dass beide Messungen ohne Ausblasung ähnliche Frequenzen an den gleichen Positionen ergeben haben. Bei der ersten Messung befinden sich in mittiger Position größere Abweichungen. Diese führen zu der irreführenden Darstellung der Strouhal-Zahl in Abb.\ref{fig:Strouhal_ohne}
 	
-	Für den Zustand ohne Ausblasung, der als Vergleichszustand dienen soll, lässt sich ein $c_W$-Wert zwischen 0,3690 und 0,3878 festhalten. Die Frequenz in den äußeren Bereichen des Nachlaufs liegt bei 69\,Hz. Die Frequenz in der Mitte des Nachlaufs liegt bei 138\,Hz. Somit beträgt die Frequenz in der Mitte das Doppelte der Frequenz außen. Anhand Abbildung \ref{fig:Wirbelstrasse} kann man vermuten, dass der Hitzdraht in den äußeren Bereichen des Nachlaufs nur die Geschwindigkeitsänderungen erfasst, die durch die äußeren Wirbel hervorgerufen werden. In der Mitte des Nachlaufs erfasst er dagegen die Geschwindigkeitsänderungen, die durch die oberen und unteren Wirbel hervorgerufen werden. Da die Wirbel alternieren, folgen die Geschwindigkeitsänderungen in der Mitte doppelt so schnell aufeinander wie außen. Am Konturplot Abb.\ref{fig:Contour_ohne} wird deutlich, dass beide Messungen ohne Ausblasung ähnliche Frequenzen an den gleichen Positionen ergeben haben. 
+	\subsection{Konstante Ausblasung}
 	
+	Vergleicht man die Nachlaufdelle aus der zweiten Messung ohne Ausblasung mit der Nachlaufdelle bei konstanter Ausblasung, so fällt auf, dass die Nachlaufdelle bei konstanter Ausblasung schmaler und weniger tief ist (vgl. Abb.\ref{fig:Nachlaufdelle_vgl}). Dies deckt sich mit dem geringeren berechneten Widerstandsbeiwert $c_W=0,2670$ des Zustandes bei konstanter Ausblasung.
 	
-	\subsection{Zustände bei verschiedenen Aktuationsparametern}
-	\label{sec:Zustaende_min_max}
-	
-	\subsubsection{Maximaler Widerstand}
-	\label{sec:Zustand_max}
-	
-	Die im vorherigen Abschnitt genannten Widerstandsbeiwerte beim Zustand ohne Ausblasung sind im Vergleich zu allen anderen Zuständen der Ausblasung am größten. Dies deckt sich mit der Theorie, dass die Ausblasung von Luft an der Hinterkannte den Druckwiderstand des Körpers verringert. Außerdem bedeutet das, dass die gepulste Ausblasung die Strömung nicht nachteilig in Bezug auf den Widerstand beeinflusst hat.
-	
-	\subsubsection{Minimaler Widerstand}
-	\label{sec:Zustand_min}
-	
-	Der minimaler Widerstand tritt bei konstanter Ausblasung mit 2\,Bar auf. Der zugehörige Widerstandsbeiwert beträgt $c_W=0,2670$. Im Vergleich zum Zustand ohne Ausblasung bedeutet dies eine Reduktion des Widerstandes um 27,6\,\%.  Im Folgenden werden weitere Unterschiede zum Zustand ohne Ausblasung beschrieben.
 	
 	\begin{figure}[H]
-	\centering
+		\centering
 		\begin{subfigure}{0.45\textwidth}
 			\includegraphics[width=\linewidth]{Bilder/Ohne_2_bar/Nachlaufdelle_ohne_2bar.jpg}
 			\caption{Nachlaufdelle ohne Ausblasung 2\,Bar}
@@ -883,8 +832,9 @@
 		\label{fig:Nachlaufdelle_vgl}
 	\end{figure}
 	
+	Genau wie beim Zustand ohne Ausblasung ist die dominante Strouhal-Zahl in der Mitte des Nachlaufs doppelt so groß wie an den Rändern (vgl. Abb. \ref{fig:Strouhal_konst_2bar}).\newline
+	Allerdings ist dominante Strouhal-Zahl sowohl an den Rändern als auch in der Mitte des Nachlaufs bei konstanter Ausblasung erhöht (Rand: Sr=0,24, Mitte: Sr=0,5). Das bedeutet, dass die konstante Ausblasung zu einer erhöhten Wirbelablösefrequenz an der Hinterkante des Modells führt.
 	
-	Vergleicht man die Nachlaufdelle aus der zweiten Messung ohne Ausblasung mit der Nachlaufdelle bei konstanter Ausblasung Abb.\ref{fig:Nachlaufdelle_vgl}, so fällt auf, dass die Nachlaufdelle bei konstanter Ausblasung schmaler ist. Dies deckt sich mit dem geringeren berechneten Widerstand des Zustandes bei konstanter Ausblasung.
 	
 	\begin{figure}[H]
 		\centering
@@ -902,14 +852,15 @@
 		\label{fig:Strouhal_vgl}
 	\end{figure}
 	
-	Die Strouhal-Zahl ist sowohl an den Rändern als auch in der Mitte des Nachlaufs bei konstanter Ausblasung erhöht (Abb. \ref{fig:Strouhal_konst_2bar}). Das bedeutet, dass die konstante Ausblasung einen Einfluss auf die dominante Frequenz der Wirbel im Nachlauf hat. 
-	Die Widerstandsverminderung lässt sich darauf zurückführen, dass der ausgeblasene Luftstrahl aufgrund des Coanda-Effektes (siehe Theorie) einwärts strömt. Hierdurch wird der Druck an der Basis erhöht und der Druckwiderstand des Körpers sinkt.
+	Der Konturplot für die beiden Zustände (Abb. \ref{fig:Contour_vgl}) zeigt ein detaillierteres Bild der auftretenden Strouhal-Zahlen im Nachlauf als die Auftragung der dominanten Strouhal-Zahlen.\newline	
+	Genau wie beim Zustand ohne Ausblasung kommt es bei den Positionen 70\,mm und 110\,mm zu einer Überlagerung der dominanten Strouhal-Zahlen (vgl. Abb.\ref{fig:Contour_konst_2bar}).\newline
+	Allerdings treten bei konstanter Ausblasung zwischen Position 40\,mm und 140\,mm neben den beiden häufigsten Strouhal-Zahlen 0,24 und 0,5 weitere Werte auf, die beim Zustand ohne Ausblasung nicht aufgetreten sind.
 	
 	\begin{figure}[H]
 		\centering
 		\begin{subfigure}{0.45\textwidth}
 			\includegraphics[width=\linewidth]{Bilder/Ohne_2_bar/Contour_ohne_2bar.jpg}
-			\caption{Kontur Plot ohne Ausblasung 2\,Bar}
+			\caption{Kontur Plot ohne Ausblasung}
 			\label{fig:Contour_ohne_2barVgl}
 		\end{subfigure}\hfil
 		\begin{subfigure}{0.45\textwidth}
@@ -920,10 +871,9 @@
 		\caption{Frequenzen im Vergleich}
 		\label{fig:Contour_vgl}
 	\end{figure}
-
-	Der Konturplot für die beiden Zustände (Abb. \ref{fig:Contour_vgl}) zeigt ein detaillierteres Bild der auftretenden Frequenzen im Nachlauf als die Auftragung der Strouhal-Zahlen. Bei konstanter Ausblasung treten zwischen Position 6 und 18 neben den beiden häufigsten Frequenzen 72\,Hz und 145\,Hz weitere Frequenzen auf, die beim Zustand ohne Ausblasung nicht aufgetreten sind. Aufgrund der Strouhal-Zahlen konnte darauf geschlossen werden, dass die konstante Ausblasung einen Einfluss auf die dominante Frequenz der Wirbel im Nachlauf hat. Der Konturplot bestätigt diese Beobachtung. Gleichzeitig zeigt er aber auch, dass eine konstante Ausblasung dazu führt, dass die Wirbel mit weiteren Frequenzen ablösen (siehe Abb.\ref{fig:Contour_konst_2bar}). Man kann also davon ausgehen, dass das konstante Ausblasen von Luft den natürlichen Wirbelablöseprozess beeinflusst.
-	Bisher wurden nur die Fälle keine Ausblasung und konstante Ausblasung betrachtet. Im nächsten Abschnitt wird auf die gepulste Ausblasung genauer eingegangen.
 	
+	Aufgrund der erhöhten dominanten Strouhal-Zahlen konnte darauf geschlossen werden, dass die konstante Ausblasung die Wirbelablösefrequenz an der Hinterkante des Modells erhöht. Der Konturplot zeigt, dass eine konstante Ausblasung zusätzlich dazu führt, dass die Wirbel mit weiteren Frequenzen im Nachlauf auftreten (siehe Abb.\ref{fig:Contour_konst_2bar}).\newline
+	Bisher wurden nur die Fälle keine Ausblasung und konstante Ausblasung betrachtet. Im nächsten Abschnitt wird auf die gepulste Ausblasung genauer eingegangen.
 	
 	\subsection{Gepulste Ausblasung}
 	\label{sec:Gepulst}
