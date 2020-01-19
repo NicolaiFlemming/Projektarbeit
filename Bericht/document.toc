@@ -38,14 +38,15 @@
 \contentsline {subsubsection}{\numberline {5.1.1}Temperaturkorrektur, Mittelwerte und Widerst\"ande}{32}{subsubsection.5.1.1}%
 \contentsline {subsubsection}{\numberline {5.1.2}Varianzen}{33}{subsubsection.5.1.2}%
 \contentsline {subsubsection}{\numberline {5.1.3}Spektra}{34}{subsubsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.2}Zustand ohne Ausblasung}{35}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Zust\"ande bei verschiedenen Aktuationsparametern}{37}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Maximaler Widerstand}{37}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Minimaler Widerstand}{38}{subsubsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.4}Gepulste Ausblasung}{39}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Zusammenhang der Auftretenden Frequenzen}{39}{subsubsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.2}Minimaler Widerstand}{42}{subsubsection.5.4.2}%
-\contentsline {subsubsection}{\numberline {5.4.3}Maximaler Widerstand}{44}{subsubsection.5.4.3}%
-\contentsline {subsubsection}{\numberline {5.4.4}Varianzen-Turbulenz (Tabelle)}{44}{subsubsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.5}Fehlerbetrachtung}{48}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Fazit}{48}{section.6}%
+\contentsline {subsection}{\numberline {5.2}Nachlaufdellen und ihre Widerst\"ande}{35}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Zustand ohne Ausblasung}{37}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Zust\"ande bei verschiedenen Aktuationsparametern}{39}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Maximaler Widerstand}{39}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Minimaler Widerstand}{40}{subsubsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.5}Gepulste Ausblasung}{41}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Zusammenhang der Auftretenden Frequenzen}{41}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Minimaler Widerstand}{44}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Maximaler Widerstand}{46}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Varianzen-Turbulenz (Tabelle)}{46}{subsubsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.6}Fehlerbetrachtung}{50}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Fazit}{50}{section.6}%

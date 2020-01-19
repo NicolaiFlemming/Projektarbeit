@@ -27,6 +27,7 @@
 %\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
 \usepackage{acronym}
 \usepackage{multicol}
+\usepackage{multirow}
 \renewcommand{\contentsname}{Inhaltsverzeichnis}
 \title{Projektarbeit WS1920}
 \renewcommand{\listtablename}{Tabellenverzeichnis} 
@@ -644,7 +645,6 @@
 	
 	\begin{table}[H]
 		\begin{center}
-			\caption{Betriebszustände}
 			\label{tab:table1}
 			\begin{tabular}{c|c}
 				\textbf{1Bar} & \textbf{2Bar}\\
@@ -660,6 +660,8 @@
 				\multicolumn{2}{c}{83\,Hz}\\
 				
 			\end{tabular}
+			\caption{Betriebszustände}
+			
 		\end{center}	
 	\end{table}
 	
@@ -734,6 +736,51 @@
 	
 	Wie in Abb.\ref{fig:spektrum_bsp} kann man in dem Spektrum stark auftretende Frequenzen gut erkennen. Das Contourplot bietet allerdings wie in Abb.\ref{fig:contour_bsp} die Möglichkeit alle über den Messbereich auftretenden Frequenzen einzusehen. Um zu verifizieren, dass die Daten auch wirklich sinnvoll sind, wurden die erhaltenen Spektra der Hitzdrahtmessung auch noch ein mal mit den Spektra der Mikrofondaten verglichen.
 	
+	\subsection{Nachlaufdellen und ihre Widerstände}
+	\label{sec:Nachlaufdellen_wid}
+	
+	Wie in Kapitel\ref{sec:tempcorr_mittelwerte} (\nameref{sec:tempcorr_mittelwerte}) beschreiben sind die errechneten Widerstandswerte unzuverlässig. Um die Widerstände trotzdem abschätzen zu können, kann die Breite und tiefe der Nachlaufdellen qualitativ verglichen werden. (siehe Kapitel\ref{sec:Widerstand_stumpf}). Je breiter und tiefer eine Nachlaufdelle ist, desto größer ist der Impulsverlust in der Strömung. Der Widerstand erhöht sich mit zunehmendem Impulsverlust. 
+	
+	Um die Nachlaufdellen vergleichen zu können, wird jeweils die 1\,Bar und die 2\,Bar Messreihe in einem Diagramm dargestellt (siehe Abbildung \ref{fig:Nachlaufdellen_1Barwiderstand} und Abbildung \ref{fig:Nachlaufdellen_2Barwiderstand}) 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{Bilder/Nachlaufdellen.jpg}
+		\caption{Nachlaufdellen im Vergleich}
+		\label{fig:Nachlaufdellen_1Barwiderstand}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{Bilder/Nachlaufdellen.jpg}
+		\caption{Nachlaufdellen im Vergleich}
+		\label{fig:Nachlaufdellen_2Barwiderstand}
+	\end{figure}
+	
+	Klar zu erkennen ist, dass die Nachlaufdelle ohne Ausblasung in beiden Fällen am breitesten ist. Es kann also angenommen werden, dass in diesen Fällen die höchsten Widerstandswerte auftauchen.
+	
+	Auch kann beobachtet werden, dass beide Nachlaufdellen bei konstanter Ausblasung im Vergleich zu den anderen Betriebszuständen deutlich kürzer und leicht schmaler sind. Dies deutet darauf hin, dass die Widerstandswerte hier besonders gering sind.
+	
+	In beiden Abbildungen kann man zudem erkennen, dass sich 62\,Hz und 83\,Hz ähnlich sehen. Beide liegen ungefähr mittig im Längenspektrum, sind allerdings schon deutlich schmaler als die Nachlaufdelle ohne Ausblasung. Die Widerstandswerte hier sollten somit schon geringer sein als bei dem Betriebspunkt ohne Ausblasung, jedoch nicht so niedrig wie bei konstanter Ausblasung. 
+	
+	Die Nachlaufdellen bei 72Hz Ausblasung sind zwar beide länger als die anderen Kurven, allerdings auch deutlich schmaler. Hier werden sich Widerstandswerte im niedrigen Bereich zwischen konstanter Ausblasung und den anderen gepulsten Zuständen finden.
+	
+	Um einen Überblick über die verschiedenen Widerstände zu schaffen, wird die Reihenfolge der Betriebszustände nach Widerstand in der folgenden Tabelle aufgelistet von hohem zu niedrigem Widerstand.
+	
+	\begin{table}[H]
+		\begin{center}
+			\label{tab:table2}
+			\begin{tabular}{c|c}
+				\ & \textbf{Betriebszustände}\\
+				\hline
+				\multirow{5}{*}{\rotatebox[origin=c]{90}{Widerstand}} & ohne Ausblasung \\
+				\ & 62\,Hz 83\,Hz\\
+				\ & 72\,Hz\\
+				\ & konstante Ausblasung\\	
+			\end{tabular}
+		\caption{Widerstände von hoch zu niedrig}
+		\end{center}	
+	\end{table}
 	
 	\subsection{Zustand ohne Ausblasung}
 	\label{sec:Zustand_ohne}
