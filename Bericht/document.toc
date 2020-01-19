@@ -10,13 +10,12 @@
 \contentsline {subsection}{\numberline {2.2}Grundlagen der Spektralanalyse}{9}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Coanda-Effekt}{10}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Definition}{10}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Coanda-Effekt im Alltag}{12}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Ausblasungseffekt}{12}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Der Effekt der Ausblasung auf die Abl\"osung}{13}{subsubsection.2.3.4}%
-\contentsline {subsubsection}{\numberline {2.3.5}Coanda-Effekt in der Stumpfk\"orperaerodynamik}{14}{subsubsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.4}Hitzdrahtmessung}{15}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.3.2}Die Enstehung des Druckgradienten}{11}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Abl\"osung}{12}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Coanda-Effekt im Alltag}{14}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Hitzdrahtmessung}{14}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Physikalisches Wirkprinzip}{15}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Kalibrierung}{18}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2}Kalibrierung}{17}{subsubsection.2.4.2}%
 \contentsline {section}{\numberline {3}Kalibrierung}{19}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Zielsetzung}{19}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Versuchsaufbau}{19}{subsection.3.2}%

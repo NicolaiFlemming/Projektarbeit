@@ -226,31 +226,30 @@
 	\label{sec:Coanda_effekt}
 	
 	\subsubsection{Definition}
-	\label{sec:Def_coanda}
-	
 	Der Coanda-Effekt beschreibt das Phänomen, dass ein ausströmender Freistrahl dazu neigt an nähen Wänden zu haften und sogar konvexen Oberflächen zu folgen.[] Der Strahl besitzt diese Eigenschaft, solange die durch den Druckgradient erzeugte, auf sich wirkende Druckkraft, die Zentripetalkraft, die Zentrifugalkraft kompensieren kann.[]
 	
-	Der Druckgradient wird durch den sog. Entrainment-effect erzeugt. Der Entrainment-effect kann als das Beschleunigen der ruhenden Luft am Randbereich eines Freistrahls bezeichnet werden, aufgrund des turbulenten Impulsaustausches mit den energiereichen Strahlteilchen. Das bedeutet bildlich, dass die Luftteilchen vom Freistrahl mitgerissen werden. Wenn eine gerade Wand in den Randbereich eines Freistrahl parallel zu diesem gelegt würde, werden die Luftteilchen zwischen dieser Wand und dem Strahl mitgerissen werden. Die Wand verhindert das Nachströmen des Umgebungsmediums, wodurch eine Unterdruckzone zwischen Wand und Freistrahl entsteht. Der Strahl wird durch den Unterdruck an die Wand angesaugt. Das ist der Grund weshalb ein Freistrahl entlang einer Fläche mit geeigneten gekrümmter Kontur durch ein solches stetige Ansaugen umlenken werden kann.( Abb.\ref{fig:Umlenkung}) [Buch Coanda Effekt]\\
-	
+	\subsubsection{Die Enstehung des Druckgradienten}
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[scale=0.5]{Bilder/Coanda-Flache.png}
+		\includegraphics[width=0.5\textwidth]{Bilder/Coanda-Flache.png}
 		\caption{Strahlumlenkung und Druckgradient (Coanda-Effekt)}
 		\label{fig:Umlenkung}
 		\vspace{1cm}
 	\end{figure}
+
+	Der Druckgradient wird durch den sog. Entrainment-effect erzeugt. Der Entrainment-effect kann als das Beschleunigen der ruhenden Luft am Randbereich eines Freistrahls bezeichnet werden, aufgrund des turbulenten Impulsaustausches mit den energiereichen Strahlteilchen. Das bedeutet bildlich, dass die Luftteilchen vom Freistrahl mitgerissen werden. Wenn eine gerade Wand in den Randbereich eines Freistrahl parallel zu diesem gelegt würde, werden die Luftteilchen zwischen dieser Wand und dem Strahl mitgerissen werden. Die Wand verhindert das Nachströmen des Umgebungsmediums, wodurch eine Unterdruckzone zwischen Wand und Freistrahl entsteht. Der Strahl wird durch den Unterdruck an die Wand angesaugt. Das ist der Grund weshalb ein Freistrahl entlang einer Fläche mit geeigneten gekrümmter Kontur durch ein solches stetige Ansaugen umlenken werden kann.(Abb.\ref{fig:Umlenkung}) [Buch Coanda Effekt]
 	
 	
-	Die Beziehung zwischen Zentrifugalkraft und Druckkraft kann ebenfalls durch die Eulersche Bewegungsgleichung in Stromlinienkoordinaten beschrieben werden. [Strömungslehre Heinz Schade]\\
-	Die Eulersche Bewegungsgleichung in Bahnkoordinaten lautet:
+	Die Beziehung zwischen Zentrifugalkraft und Druckkraft kann durch die Eulersche Bewegungsgleichung in Stromlinienkoordinaten beschrieben werden. [Strömungslehre Heinz Schade]\\
+	Die Eulersche Bewegungsgleichung in Bahnkoordinaten lautet:\\
 	
 	\begin{equation}
 	\frac{\partial c}{\partial t}+c\frac{\partial c}{\partial s} = -g\frac{\partial z }{\partial s}-\frac{1}{\rho}\frac{\partial p}{\partial s}
 	\end{equation}
 	
 	
-	Wird im stationären Fall der Einfluss der Schwerkraft vernachlässigt, so lautet die sog. radiale Druckgleichung:
+	Wird im stationären Fall der Einfluss der Schwerkraft vernachlässigt, so lautet die sog. radiale Druckgleichung: \\
 	
 	\begin{equation}
 	\frac{c^2}{R}=-\frac{1}{\rho}\frac{p}{n}  
@@ -259,28 +258,20 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[scale=1]{Bilder/Gradient.png}
+		\includegraphics[width=0.3\textwidth]{Bilder/Gradient.png}
 		\caption{Der Druckgradient bei gekrümmten Stromlinien}
-		\label{fig:gekrümmte}
+		\label{fig:g1}
 		\vspace{1cm}
 	\end{figure}
 
-	In Abb. \ref{fig:gekrümmte} wird veranschaulicht, dass entlang einer Bahnlinie ein positiver von einem konkaven auf ein konvexes Profil gerichteter Druckgradient entsteht. Da die Druckkraft in entgegengesetzte Richtung von der Druckgradient herrscht, ist die Zentripetalkraft gleich nach der Gleichung \ref{eq:radial} die negative vorgezeichnete Druckgradient.
+	In Abb. \ref{fig:g1} wird veranschaulicht, dass entlang einer Bahnlinie ein positiver von einem konkaven auf ein konvexes Profil gerichteter Druckgradient entsteht. Da die Druckkraft in entgegengesetzte Richtung von der Druckgradient herrscht, ist die Zentripetalkraft gleich nach der Gleichung \ref{eq:radial} die negative vorgezeichnete Druckgradient.\\
 	
-	
-	\subsubsection{Coanda-Effekt im Alltag}
-	\label{sec:Coanda_alltag}
-	
-	Der Coanda-Effekt ist auch im Alltag zu beobachten, beispielsweise wenn Tee aus einer Teekanne ausgegossen wird. Dabei ist zu erkennen, dass der Tee bei niedrigeren Ausgießwinkeln von der Tülle aus die Kannenoberfläche hinunter bis zur Unterseite der Kanne fließt und sich nicht von der Oberflache der Kanne ablöst. Sobald der Ausgießwinkel allmählich vergrößert wird, löst sich der Flüssigkeitsstrahl zuerst nur teilweise von der Oberflache. Wenn sich der Strahl vollständig ablöst, ist eine Umlenkung des Strahles aus der Senkrechten zu beobachten. Wird die Teekanne weiter nach unten gekippt, sodass sich der Durchfluss noch weiter erhöht, erhält man schließlich den erwarteten Fließweg. Hierbei wird diese Wechselwirkung zwischen Flüssigkeit und Oberfläche als Coand?-Effekt bezeichnet. Der Coanda-Effekt kann in jeden Art von Flüssigkeiten beobachtet werden und ist zudem für einen Gasstrom ebenfalls wirksam wie für Wasser. Um diesen Effekt bei einem Gasstrom zu sehen, kann ein sich drehender Tischtennisball in einem diagonalen Luftstrahl (wie ein z.B. ein Föhnstrahl) betrachtet werden. Durch den Coanda-Effekt kann der Ball in der Luft schweben gelassen werden. Hierbei hängt der Ball am unteren Luftstrahl. Durch diesen Effekt wird verhindert, dass der Ball runter fällt. Die entgegen wirkende Gravitationskraft hingegegn führt dazu, dass der Ball nicht weggeblasen wird. Außerdem ist der Coanda-effekt in der Praxis im Flugzeugbau zur Erhöhung des Auftriebes  von besonderer Bedeutung.
-	
-	\subsubsection{Ausblasungseffekt}
-	\label{sec:Ausblasung_coanda}
-	
+	\subsubsection{Ablösung}
 	Um den Effekt der Ausblasung in diesem Projekt zu erläutern, muss zuerst die Ablösung der Grenzschicht erklärt werden. Die Ablösung der Grenzschichten tritt bei längsangeströmten schlanken Körpern nur durch den Reibungswiderstand auf. Der durch die Geometrie gegebene Vorteil von schlanken Körpern führt dazu, dass der Druckanstieg am Heck sehr gering ist. Bei stumpfen Körpern hingegen besteht die Ablösungsgefahr der Grenzschicht, wenn längs der angeströmten Körperkontur der Druckanstieg zu groß ist. \\
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[scale=1]{Bilder/AA.png}
+		\includegraphics[width=\textwidth]{Bilder/AA.png}
 		\caption{Ablösungsilliustration auf gekrümmten Flächen}
 		\label{fig:ablösung}
 		\vspace{1cm}
@@ -288,8 +279,7 @@
 	
 	An Coanda-Flächen tritt die Ablösung durch den Druckanstieg in Strömungsrichtung entlang der gekrümmten Kontur auf. Hierbei wird die kinetische Energie von diesen Teilchen in Wandnähe infolge von Reibung dissipiert. Aufgrund dessen reicht die kinetische Energie des Fluidteilchens, welches sich in unmittelbaren Wandnähe befindet, nicht mehr aus, um gegen den von der Außenströmung aufgeprägten Druckanstieg entlang der gekrümmten Wand anzuströmen. An einem bestimmten Punkt kommt dieses Teilchen zum Stillstand. Aufgrund der Druckverteilung der Strömung der Grenzschicht, fängt es langsam damit an seine Strömungsrichtung umzukehren. (Abb. \ref{fig:ablösung}) An diesem Punkt löst sich die Grenzschicht von der Oberfläche ab.[]\\
 	
-	\subsubsection{Der Effekt der Ausblasung auf die Ablösung}
-	\label{sec:Effekt_coanda}
+	\textbf{Der Effekt der Ausblasung auf die Ablösung}
 	
 	Die Ausblasung ist eine Möglichkeit der energieschwachen Strömung in Wandnähe Energie zuzuführen. Diese Maßnahme wirkt der Ablösung entgegen. Durch einen Schlitz wird ein Luftstrahl an der Coanda-Fläche parallel zur Hauptströmung eingeblasen. Die von der Profiloberfläche anströmende Grenzschicht von Hauptströmung bildet mit dem zugeführten Strahl eine Scherschicht aus. Damit wird die Scherschicht mit genügend kinetische Energie beladen, um die Ablösung der Strömung zu verhindern. (Abb. \ref{fig:ausblasung})
 	
@@ -298,23 +288,24 @@
 		\includegraphics[scale=1]{Bilder/Ausblaseneffekt.png}
 		\caption{Ausblaseneffekt}
 		\label{fig:ausblasung}
-		\vspace{1cm}
 	\end{figure}
 	
-	\subsubsection{Coanda-Effekt in der Stumpfkörperaerodynamik}
-	\label{sec:Coanda_stumpf}
+	\subsubsection{Coanda-Effekt im Alltag}
+	Der Coanda-Effekt ist auch im Alltag zu beobachten, beispielsweise wenn Tee aus einer Teekanne ausgegossen wird. Dabei ist zu erkennen, dass der Tee bei niedrigeren Ausgießwinkeln von der Tülle aus die Kannenoberfläche hinunter bis zur Unterseite der Kanne fließt und sich nicht von der Oberflache der Kanne ablöst. Sobald der Ausgießwinkel allmählich vergrößert wird, löst sich der Flüssigkeitsstrahl zuerst nur teilweise von der Oberflache. Wenn sich der Strahl vollständig ablöst, ist eine Umlenkung des Strahles aus der Senkrechten zu beobachten. Wird die Teekanne weiter nach unten gekippt, sodass sich der Durchfluss noch weiter erhöht, erhält man schließlich den erwarteten Fließweg. Hierbei wird diese Wechselwirkung zwischen Flüssigkeit und Oberfläche als Coanda-Effekt bezeichnet. Der Coanda-Effekt kann in jeden Art von Flüssigkeiten beobachtet werden und ist zudem für einen Gasstrom ebenfalls wirksam wie für Wasser. Um diesen Effekt bei einem Gasstrom zu sehen, kann ein sich drehender Tischtennisball in einem diagonalen Luftstrahl (wie ein z.B. ein Föhnstrahl) betrachtet werden. Durch den Coanda-Effekt kann der Ball in der Luft schweben gelassen werden. Hierbei hängt der Ball am unteren Luftstrahl. Durch diesen Effekt wird verhindert, dass der Ball runter fällt. Die entgegen wirkende Gravitationskraft hingegegn führt dazu, dass der Ball nicht weggeblasen wird. Außerdem ist der Coanda-Effekt in der Praxis im Flugzeugbau zur Erhöhung des Auftriebes  von besonderer Bedeutung. \\
 	
-	Obwohl dieses Phänomen bereits bekannt war und im 18. Jahrhundert von Young dokumentiert wurde, hat dieser erst Dank Henri Marie Coanda  (1886-1972) und seinen verschiedenen Konzeptionen, die auf den sog. Coanda-Effekt bezogen sind, in der Wissenschaftswelt an Bedeutung  gewonnen. \\
 	
-	\begin{figure}[H]	
-		\centering
-		\includegraphics[scale=0.5]{Bilder/Coandaflache2_x.jpeg}
-		\caption{Coanda-Flache}
-		\label{fig:modellcoanda}
-		\vspace{1cm}
-	\end{figure}
 	
-	Wie in Kapitel 2.1 bereits erwähnt wurde, wird in dem Experiment der Druckwiderstand durch eine aktive Beeinflussung der Strömung reduziert. Dabei werden zwei Coanda-Flächen an der oberen und unteren Kanten der Hinterseite des Profils platziert und daraufhin wird ein Luftstrom von den Ausblaseschlitzen zwischen den Coanda-Flächen und den Profilkanten ausgeblasen.(Abb. \ref{fig:modellcoanda}) Infolgedessen wird die Entstehung eines Totwassers hinter dem Modell vermieden, sodass somit der Druckwiederstand veringerd wird. 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	\subsection{Hitzdrahtmessung}
 	\label{sec:Hitzdraht_theorie}
