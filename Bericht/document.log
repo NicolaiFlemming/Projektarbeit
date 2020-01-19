@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.17)  19 JAN 2020 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.17)  19 JAN 2020 16:37
 entering extended mode
 **./document.tex
 (document.tex
@@ -1127,6 +1127,12 @@ File: Bilder/Hitzdraht.png Graphic file (type png)
 Package pdftex.def Info: Bilder/Hitzdraht.png  used on input line 332.
 (pdftex.def)             Requested size: 455.24408pt x 167.94942pt.
 
+Overfull \hbox (7.34348pt too wide) in paragraph at lines 338--339
+\T1/ptm/m/n/12 stant ge-hal-ten. In un-se-rer Pro-jekt-ar-beit wird die Me-tho-
+de des Konstant-Temperatur-Anemometers
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
@@ -1293,14 +1299,15 @@ File: labview_crio.jpg Graphic file (type jpg)
 <use labview_crio.jpg>
 Package pdftex.def Info: labview_crio.jpg  used on input line 623.
 (pdftex.def)             Requested size: 318.66946pt x 276.45137pt.
-
-[30 <./labview_crio.jpg>]
-<labview_trigger.jpg, id=592, 1033.61156pt x 320.69812pt>
+<labview_trigger.jpg, id=587, 1033.61156pt x 320.69812pt>
 File: labview_trigger.jpg Graphic file (type jpg)
 <use labview_trigger.jpg>
 Package pdftex.def Info: labview_trigger.jpg  used on input line 634.
 (pdftex.def)             Requested size: 318.66946pt x 98.87221pt.
 
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+ [30 <./labview_crio.jpg>]
 
 Package caption Warning: \label without proper reference on input line 648.
 See the caption package documentation for explanation.
@@ -1494,53 +1501,50 @@ File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
 <use Bilder/Nachlaufdellen.jpg>
 Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 987.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-[45]
+ [44] [45]
 <Bilder/Tabelle_Varianzen-Turbulenz.png, id=704, 890.5772pt x 413.29407pt>
 File: Bilder/Tabelle_Varianzen-Turbulenz.png Graphic file (type png)
 <use Bilder/Tabelle_Varianzen-Turbulenz.png>
 Package pdftex.def Info: Bilder/Tabelle_Varianzen-Turbulenz.png  used on input 
-line 1023.
+line 1022.
 (pdftex.def)             Requested size: 455.24408pt x 211.26907pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46]
-<Bilder/Standardabweichung_Auswertung.jpg, id=709, 421.575pt x 316.18124pt>
+<Bilder/Standardabweichung_Auswertung.jpg, id=705, 421.575pt x 316.18124pt>
 File: Bilder/Standardabweichung_Auswertung.jpg Graphic file (type jpg)
 <use Bilder/Standardabweichung_Auswertung.jpg>
 Package pdftex.def Info: Bilder/Standardabweichung_Auswertung.jpg  used on inpu
-t line 1032.
+t line 1031.
 (pdftex.def)             Requested size: 409.71689pt x 307.29367pt.
 
-Underfull \vbox (badness 1448) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./Bilder/Tabelle_Varianzen-Turbulenz.png> <./Bilder/Standardabweichung_Au
-swertung.jpg>]
+ [46 <./Bilder/Tabelle_Varianzen-Turbulenz.png>] [47 <./Bilder/Standardabweichu
+ng_Auswertung.jpg>]
 <Bilder/Tabelle_mit_Std_diff.png, id=716, 690.32906pt x 239.39438pt>
 File: Bilder/Tabelle_mit_Std_diff.png Graphic file (type png)
 <use Bilder/Tabelle_mit_Std_diff.png>
 Package pdftex.def Info: Bilder/Tabelle_mit_Std_diff.png  used on input line 10
-45.
+44.
 (pdftex.def)             Requested size: 455.24408pt x 157.87291pt.
- [48 <./Bilder/Tabelle_mit_Std_diff.png>]
-<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=722, 562.1pt x 421.575
+<Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=717, 562.1pt x 421.575
 pt>
 File: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg Graphic file (type jp
 g)
 <use Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg  u
-sed on input line 1054.
+sed on input line 1053.
 (pdftex.def)             Requested size: 455.24408pt x 341.43527pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48 <./Bilder/Tabelle_mit_Std_diff.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [49 <./Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>] [50]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1069.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1069.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1068.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1068.
  (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1069.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1069.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1068.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1068.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: B1087B427E93E669BC64239B5834868D;3898.
@@ -1568,7 +1572,7 @@ s/type1/urw/symbol/usyr.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/ty
 pe1/urw/times/utmb8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on document.pdf (50 pages, 4216898 bytes).
+Output written on document.pdf (50 pages, 4216446 bytes).
 PDF statistics:
  883 PDF objects out of 1000 (max. 8388607)
  211 named destinations out of 1000 (max. 500000)
