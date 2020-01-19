@@ -45,6 +45,6 @@
 \contentsline {subsubsection}{\numberline {5.5.1}Zusammenhang der Auftretenden Frequenzen}{42}{subsubsection.5.5.1}%
 \contentsline {subsubsection}{\numberline {5.5.2}Minimaler Widerstand}{45}{subsubsection.5.5.2}%
 \contentsline {subsubsection}{\numberline {5.5.3}Maximaler Widerstand}{46}{subsubsection.5.5.3}%
-\contentsline {subsubsection}{\numberline {5.5.4}Varianzen-Turbulenz (Tabelle)}{46}{subsubsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.5.4}Standardabweichungen}{46}{subsubsection.5.5.4}%
 \contentsline {subsection}{\numberline {5.6}Fehlerbetrachtung}{51}{subsection.5.6}%
 \contentsline {section}{\numberline {6}Fazit}{51}{section.6}%

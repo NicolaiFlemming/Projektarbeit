@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.17)  19 JAN 2020 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.17)  19 JAN 2020 19:09
 entering extended mode
 **./document.tex
 (document.tex
@@ -1559,65 +1559,65 @@ File: Bilder/Nachlaufdellen.jpg Graphic file (type jpg)
 Package pdftex.def Info: Bilder/Nachlaufdellen.jpg  used on input line 978.
 (pdftex.def)             Requested size: 455.24408pt x 242.36653pt.
  [45] [46]
-<Bilder/Tabelle_Varianzen-Turbulenz.png, id=713, 890.5772pt x 413.29407pt>
-File: Bilder/Tabelle_Varianzen-Turbulenz.png Graphic file (type png)
-<use Bilder/Tabelle_Varianzen-Turbulenz.png>
-Package pdftex.def Info: Bilder/Tabelle_Varianzen-Turbulenz.png  used on input 
-line 1013.
-(pdftex.def)             Requested size: 455.24408pt x 211.26907pt.
-<Bilder/Standardabweichung_Auswertung.jpg, id=714, 421.575pt x 316.18124pt>
+<Bilder/Standardabweichung_Auswertung.jpg, id=715, 421.575pt x 316.18124pt>
 File: Bilder/Standardabweichung_Auswertung.jpg Graphic file (type jpg)
 <use Bilder/Standardabweichung_Auswertung.jpg>
 Package pdftex.def Info: Bilder/Standardabweichung_Auswertung.jpg  used on inpu
-t line 1022.
-(pdftex.def)             Requested size: 409.71689pt x 307.29367pt.
+t line 1028.
+(pdftex.def)             Requested size: 364.19664pt x 273.15047pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./Bilder/Tabelle_Varianzen-Turbulenz.png>] [48 <./Bilder/Standardabweichu
-ng_Auswertung.jpg>]
-<Bilder/Tabelle_mit_Std_diff.png, id=725, 690.32906pt x 239.39438pt>
-File: Bilder/Tabelle_mit_Std_diff.png Graphic file (type png)
-<use Bilder/Tabelle_mit_Std_diff.png>
-Package pdftex.def Info: Bilder/Tabelle_mit_Std_diff.png  used on input line 10
-35.
-(pdftex.def)             Requested size: 455.24408pt x 157.87291pt.
+ [47]
+
+LaTeX Warning: Reference `sec:min_wid_freq' on page 48 undefined on input line 
+1035.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48 <./Bilder/Standardabweichung_Auswertung.jpg>]
 <Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg, id=726, 562.1pt x 421.575
 pt>
 File: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg Graphic file (type jp
 g)
 <use Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>
 Package pdftex.def Info: Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg  u
-sed on input line 1044.
-(pdftex.def)             Requested size: 455.24408pt x 341.43527pt.
+sed on input line 1057.
+(pdftex.def)             Requested size: 409.71689pt x 307.28403pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./Bilder/Tabelle_mit_Std_diff.png>]
+ [49]
+
+LaTeX Warning: Reference `tab:tabelle3' on page 50 undefined on input line 1062
+.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50 <./Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar.jpg>] [51]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1059.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1059.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1072.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1072.
  (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1059.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1059.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1072.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1072.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 5C898BDB36D048C931334CCABAF9268E;3671.
+(rerunfilecheck)             Checksum: 298A187C1C1D557D14CF0E2AB280A72D;3660.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24560 strings out of 492484
- 432332 string characters out of 3130515
- 763574 words of memory out of 3000000
- 28127 multiletter control sequences out of 15000+200000
+ 24554 strings out of 492484
+ 432148 string characters out of 3130515
+ 763580 words of memory out of 3000000
+ 28123 multiletter control sequences out of 15000+200000
  49402 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,78p,1526b,1757s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,14n,78p,1526b,1757s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Maike\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/
@@ -1629,9 +1629,9 @@ s/type1/urw/symbol/usyr.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/ty
 pe1/urw/times/utmb8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Users/Maike/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on document.pdf (51 pages, 6778664 bytes).
+Output written on document.pdf (51 pages, 6723368 bytes).
 PDF statistics:
- 892 PDF objects out of 1000 (max. 8388607)
+ 891 PDF objects out of 1000 (max. 8388607)
  211 named destinations out of 1000 (max. 500000)
- 650 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 640 words of extra memory for PDF output out of 10000 (max. 10000000)
 
