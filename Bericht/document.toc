@@ -3,16 +3,17 @@
 \contentsline {section}{\numberline {2}Theoretische Grundlagen}{8}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Stumpfk\"orperaerodynamik (T)}{8}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Definition stumpfer K\"orper}{8}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}K\'arm\'ansche Wirbelstra\IeC {\ss }e}{11}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Grundlagen der Spektralanalyse (T)}{12}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Coanda-Effekt (A)}{12}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Definition}{12}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Die Enstehung des Druckgradienten}{13}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Abl\"osung}{14}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Coanda-Effekt im Alltag}{16}{subsubsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.4}Hitzdrahtmessung (M)}{16}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Physikalisches Wirkprinzip}{17}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Kalibrierung}{19}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.2}Widerstand stumpfer K\"orper}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}K\'arm\'ansche Wirbelstra\IeC {\ss }e}{11}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Grundlagen der Spektralanalyse (T)}{12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Coanda-Effekt (A)}{12}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Definition}{12}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Die Enstehung des Druckgradienten}{13}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Abl\"osung}{14}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Coanda-Effekt im Alltag}{16}{subsubsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.5}Hitzdrahtmessung (M)}{16}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Physikalisches Wirkprinzip}{17}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Kalibrierung}{19}{subsubsection.2.5.2}%
 \contentsline {section}{\numberline {3}Kalibrierung (N)}{21}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Zielsetzung}{21}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Versuchsaufbau}{21}{subsection.3.2}%

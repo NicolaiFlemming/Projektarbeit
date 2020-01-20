@@ -171,7 +171,8 @@
 	
 	Dessen Kehrwert ist das Dickenverhältnis $\delta$.
 	
-	
+	\subsection{Widerstand stumpfer Körper}
+	\label{Widerstand_stumpf}
 	Der Extremfall eines stumpfen Körpers ist die quer angeströmte Platte ($\delta \rightarrow \infty$), während die längs angeströmte Platte ($\lambda \rightarrow \infty$) umgekehrt einen maximal schlanken Körper repräsentiert. Die Strömung kann der Kontur einer längs angeströmten Platte problemlos folgen. Dagegen ist die Umströmung eines stumpfen Körpers von Ablösungen geprägt.\newline Hinter dem stumpfen Körper bildet sich Totwasser aus, in dem die Strömung verwirbelt und reibungsbehaftet ist. Dieses Totwasser wechselwirkt mit der umliegenden Strömung, die an der Hinterkante des stumpfen Körpers abreißt. Zwischen der Strömung und dem Totwasser bildet sich eine Scherschicht. An dieser Scherschicht setzt sich das Fluid im Totwasser in Bewegung, wodurch der Druck an der Basis des Stumpfkörpers abnimmt. Entsprechend überwiegt bei stumpfen Körpern der Druckwiderstand gegenüber dem Reibungswiderstand (vgl. Abbildung \ref{fig:Widerstaende}).
 	
 	\begin{figure}[H]
@@ -249,20 +250,21 @@
 	
 	\subsection{Grundlagen der Spektralanalyse (T)}
 	\label{sec:Spektralanalyse}
-	Die Spektralanalyse, die auf der  Fourier-Transformation basiert, hat das Ziel aus einem Originalsignal die Frequenzkomponenten herauszufinden. Die Grundlage der Fourier-Transformation ist, dass sich jedes periodische Signal in eine sinusförmige Grundfrequenz und ihre Harmonischen zerlegen lässt. Die Harmonischen sind ganzzahlige Vielfache der Grundfrequenz [5].\newline
-	Nach [10] liegt das Originalsignal häufig in Form eines zeitlich diskreten Signals vor. Dies ist auch in dieser Projektarbeit der Fall, in der die kontinuierliche Spannung an einer Hitzdrahtsonde abgetastet wurde. Hieraus ergibt sich eine Zahlenfolge von Spannungswerten $(x_i)_(i=1;...;n)$  für jede Position der Hitzdrahtsonde. Um die hauptsächlich vorkommenden Frequenzen dieses zeitdiskreten Signals herauszufinden, wird die im Zeitbereich vorliegende Folge $(x_i)_(i=1;...;n)$ in die kontinuierliche Spektralfunktion X($e^{j\Omega}$) transformiert. Diese Transformation ist mathematisch folgendermaßen definiert:
+	Die Spektralanalyse, die auf der  Fourier-Transformation basiert, hat das Ziel aus einem Originalsignal die Frequenzkomponenten zu bestimmen. Die Grundlage der Fourier-Transformation ist, dass sich jedes periodische Signal in eine sinusförmige Grundfrequenz und ihre Harmonischen zerlegen lässt. Die Harmonischen sind ganzzahlige Vielfache der Grundfrequenz [5].
+	
+	Nach [10] liegt das Originalsignal häufig in Form eines zeitlich diskreten Signals vor. Dies ist auch in dieser Projektarbeit der Fall, in der die kontinuierliche Spannung an einer Hitzdrahtsonde abgetastet wurde. Hieraus ergibt sich eine Zahlenfolge von Spannungswerten $(x_i)_{(i=1;...;n)}$  für jede Position der Hitzdrahtsonde. Um die hauptsächlich vorkommenden Frequenzen dieses zeitdiskreten Signals herauszufinden, wird die im Zeitbereich vorliegende Folge $(x_i)_{(i=1;...;n)}$ in die kontinuierliche Spektralfunktion X($e^{j\Omega}$) transformiert. Diese Transformation ist mathematisch folgendermaßen definiert:
 	
 	\begin{equation}
 	X(e^{i\Omega}) = \sum_{i=-\infty}^{i=\infty} x_i e^{-j\Omega k}  
 	\end{equation}
 	
-	$\omega$ ist die Kreisfrequenz. $\Omega$ ist die durch die Abtastrate fa =1/T normierte Kreisfrequenz.
+	$\omega$ ist die Kreisfrequenz. $\Omega$ ist die durch die Abtastrate $f_a =1/T$ normierte Kreisfrequenz.
 	
 	\begin{equation}
 	\Omega=\frac{\omega}{f_a}=\omega T   
 	\end{equation}
 	
-	Für Transformation eines zeitdiskreten Signals mit einem Digitalrechner, muss eine mit einem Digitalrechner auswertbare Transformation definiert werden. Diese Transformation wird als diskrete Fourier-Transformation (DFT) bezeichnet. Für die DFT gibt es eine Vielzahl an Algorithmen, die sich in einen Rechner implementieren lassen. Beispiele sind der Winograd-Algorithmus oder der Primfaktor-Algorithmus. In Matlab wird die DFT mittels eines Fast Fourier Transform (FFT) Algorithmus` ausgeführt. Der genaue Aufbau des Algorithmus wird hier nicht weiter besprochen. Siehe dazu Kammeyer et al. [10] Kapitel 6.4.
+	Für Transformation eines zeitdiskreten Signals mit einem Digitalrechner, muss eine mit einem Digitalrechner auswertbare Transformation definiert werden. Diese Transformation wird als diskrete Fourier-Transformation (DFT) bezeichnet. Für die DFT gibt es eine Vielzahl an Algorithmen, die sich in einen Rechner implementieren lassen. Beispiele sind der Winograd-Algorithmus oder der Primfaktor-Algorithmus. In Matlab wird die DFT mittels eines Fast Fourier Transform (FFT) Algorithmus` ausgeführt. Der genaue Aufbau des Algorithmus wird hier nicht weiter besprochen. Siehe dazu Kammeyer et al. [10, Kapitel 6.4].
 
 	\subsection{Coanda-Effekt (A)}
 	\label{sec:Coanda_effekt}
@@ -280,7 +282,7 @@
 		\vspace{1cm}
 	\end{figure}
 
-	Der Druckgradient wird durch den sog. Entrainment-Effekt erzeugt. Der Entrainment-Effekt kann als das Beschleunigen der ruhenden Luft am Randbereich eines Freistrahls bezeichnet werden. Grund hierfür ist der turbulente Impulsaustausch mit den energiereichen Strahlteilchen. Das bedeutet bildlich, dass die Luftteilchen vom Freistrahl mitgerissen werden. Wenn eine gerade Wand in den Randbereich eines Freistrahl parallel zu diesem gelegt würde, werden die Luftteilchen zwischen dieser Wand und dem Strahl mitgerissen werden. Die Wand verhindert das Nachströmen des Umgebungsmediums, wodurch eine Unterdruckzone zwischen Wand und Freistrahl entsteht. Der Strahl wird durch den Unterdruck an die Wand angesaugt. Das ist der Grund weshalb ein Freistrahl entlang einer Fläche mit geeigneten gekrümmter Kontur durch ein solches stetige Ansaugen umlenken werden kann (Abbildung\ref{fig:Umlenkung})[3].
+	Der Druckgradient wird durch den sog. Entrainment-Effekt erzeugt. Der Entrainment-Effekt kann als das Beschleunigen der ruhenden Luft am Randbereich eines Freistrahls bezeichnet werden. Grund hierfür ist der turbulente Impulsaustausch mit den energiereichen Strahlteilchen. Das bedeutet bildlich, dass die Luftteilchen vom Freistrahl mitgerissen werden. Wenn eine gerade Wand in den Randbereich eines Freistrahl parallel zu diesem gelegt würde, werden die Luftteilchen zwischen dieser Wand und dem Strahl mitgerissen werden. Die Wand verhindert das Nachströmen des Umgebungsmediums, wodurch eine Unterdruckzone zwischen Wand und Freistrahl entsteht. Der Strahl wird durch den Unterdruck an die Wand angesaugt. Das ist der Grund weshalb ein Freistrahl entlang einer Fläche mit geeigneten gekrümmter Kontur durch ein solches stetige Ansaugen umlenken werden kann (Abbildung \ref{fig:Umlenkung})[3].
 	
 	
 	Die Beziehung zwischen Zentrifugalkraft und Druckkraft kann durch die Eulersche Bewegungsgleichung in Stromlinienkoordinaten beschrieben werden [8].\\
@@ -313,7 +315,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=\textwidth]{Bilder/AA.png}
+		\includegraphics[width=0.8\textwidth]{Bilder/AA.png}
 		\caption{Ablösungsilliustration auf gekrümmten Flächen nach [14]}
 		\label{fig:ablösung}
 		\vspace{1cm}
@@ -695,8 +697,7 @@
 	
 	Hierbei werden bei einer Strömungsgeschwindigkeit von 16\,m/s verschiedene Betriebszustände eingestellt. Es wird zunächst ohne Ausblasung, daraufhin mit konstanter Ausblasung bei 1 und 2\,Bar Versorgungsdruck und abschließend mit gepulster Ausblasung gemessen. Bei der gepulsten Ausblasung werden die Frequenzen 62\,Hz, 72\,Hz und 83\,Hz, die bereits in vorherigen Versuchen ermittelt wurden, angesteuert (Kapitel \ref{sec:Programmierung_wind}). Die Tabelle \ref{tab:table1} listet die verschiedenen Betriebszustände mit den zugehörigen Ausblaseparametern auf.
 	
-	\begin{table}[H]
-	\label{tab:table1}	
+	\begin{table}[H]	
 		\begin{center}
 			\begin{tabular}{c|c}
 				\textbf{1Bar} & \textbf{2Bar}\\
@@ -713,7 +714,7 @@
 				
 			\end{tabular}
 			\caption{Betriebszustände}
-			
+			\label{tab:table1}
 		\end{center}	
 	\end{table}
 	
@@ -791,7 +792,7 @@
 	\subsection{Nachlaufdellen und ihre Widerstände (N, M)}
 	\label{sec:Nachlaufdellen_wid}
 	
-	Wie in Kapitel\ref{sec:tempcorr_mittelwerte} (\nameref{sec:tempcorr_mittelwerte}) beschrieben sind die errechneten Widerstandswerte unzuverlässig. Um die Widerstände trotzdem abschätzen zu können, kann die Breite und Tiefe der Nachlaufdellen qualitativ verglichen werden (siehe Kapitel\ref{sec:Widerstand_stumpf}). Je breiter und tiefer eine Nachlaufdelle ist, desto größer ist der Impulsverlust in der Strömung. Der Widerstand erhöht sich mit zunehmendem Impulsverlust. 
+	Wie in Kapitel \ref{sec:tempcorr_mittelwerte} (\nameref{sec:tempcorr_mittelwerte}) beschrieben sind die errechneten Widerstandswerte unzuverlässig. Um die Widerstände trotzdem abschätzen zu können, kann die Breite und Tiefe der Nachlaufdellen qualitativ verglichen werden (siehe Kapitel \ref{Widerstand_stumpf}). Je breiter und tiefer eine Nachlaufdelle ist, desto größer ist der Impulsverlust in der Strömung. Der Widerstand erhöht sich mit zunehmendem Impulsverlust. 
 	
 	Um die Nachlaufdellen vergleichen zu können, wird jeweils die 1\,Bar und die 2\,Bar Messreihe in einem Diagramm dargestellt (siehe Abbildung \ref{fig:Nachlaufdellen_1Barwiderstand} und Abbildung \ref{fig:Nachlaufdellen_2Barwiderstand}).
 	
@@ -1087,7 +1088,7 @@
 		\begin{tabular}[c]{@{}l@{}}1 Bar 72 Hz\\ 2 Bar 72 Hz\end{tabular}       &  \begin{tabular}[c]{@{}l@{}}0.0185\\ 0.0112\end{tabular} & \begin{tabular}[c]{@{}l@{}}0.0450\\ 0.0465\end{tabular} & \begin{tabular}[c]{@{}l@{}}0.0171\\ 0.0099\end{tabular} & \begin{tabular}[c]{@{}l@{}}2.5581\\ 2.4524\end{tabular} \\ \hline
 		\begin{tabular}[c]{@{}l@{}}1 Bar 83 Hz\\ 2 Bar 83 Hz\end{tabular}       &  \begin{tabular}[c]{@{}l@{}}0.0104\\ 0.0099\end{tabular} & \begin{tabular}[c]{@{}l@{}}0.0410\\ 0.0459\end{tabular} & \begin{tabular}[c]{@{}l@{}}0.0092\\ 0.0103\end{tabular} & \begin{tabular}[c]{@{}l@{}}1.9992\\ 2.1298\end{tabular} \\ \hline
 		\end{tabular}
-		\caption{Stdandardabweichungen und Geschw. diff.}
+		\caption{Standardabweichung und Geschwindigkeitsdifferenz}
 		\label{tab:table3}
 		\vspace{1cm}
 	\end{table}
@@ -1116,7 +1117,7 @@
 			2 Bar 72 Hz                                                             & 0.0366                                                  & 2.4524                                                  \\ \hline
 			2 Bar 83 Hz                                                             & 0.0360                                                  & 2.1298                                                  \\ \hline
 		\end{tabular}
-		\caption{Vergleich Geschw. diff. und Standard Abweichung.}
+		\caption{Vergleich Geschwindigkeitsdifferenz und Standard Abweichung}
 		\label{tab:table4}
 		\vspace{2cm}
 	\end{table}
@@ -1126,7 +1127,7 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.8\linewidth]{Bilder/konst_2_Bar/Nachlaufdelle_fit_konst_2bar}
-		\caption{Nachlaufdelle konst. 2Bar}
+		\caption{Nachlaufdelle konst. 2\,Bar}
 		\label{fig:Nachlaufdelle_konst_2Bar}
 	\end{figure}
 	
