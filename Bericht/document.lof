@@ -1,41 +1,41 @@
 \babel@toc {ngerman}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Druck- und Reibungswiderst\"ande verschiedener K\"orper nach [14]\relax }}{8}{figure.caption.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Kontrollfl\"ache K zur Ermittlung des Widerstandes mittels Impulssatz nach [1]\relax }}{9}{figure.caption.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces K\'arm\'ansche Wirbelstra\IeC {\ss }e nach [14]\relax }}{10}{figure.caption.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Strahlumlenkung und Druckgradient (Coanda-Effekt) nach [4]\relax }}{12}{figure.caption.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Der Druckgradient bei gekr\"ummten Stromlinien nach [8]\relax }}{13}{figure.caption.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Abl\"osungsilliustration auf gekr\"ummten Fl\"achen nach [14]\relax }}{14}{figure.caption.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Ausblaseneffekt nach [6]\relax }}{15}{figure.caption.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Ausf\"uhrung einer einzelnen Hitzdrahtsonde nach [13]\relax }}{16}{figure.caption.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Aufbau eines Konstant-Temperatur-Anemometers (CTA) nach [13]\relax }}{17}{figure.caption.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Ausrichten der Hitzdrahtsonde am Kalibrierkanal\relax }}{20}{figure.caption.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Messkarten Seite des LabVIEW Skripts\relax }}{21}{figure.caption.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Messrechnerseite des LabVIEW Skripts\relax }}{22}{figure.caption.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Einstellen des Modells\relax }}{25}{figure.caption.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Windkanal LNB\relax }}{26}{figure.caption.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Bau der Halterung\relax }}{27}{figure.caption.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces D-f\"ormiger Stumpfk\"orper im Windkanal\relax }}{28}{figure.caption.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Einstellen des Modells\relax }}{29}{figure.caption.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Druckverlauf am Spalt\relax }}{30}{figure.caption.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Verwendete Messtechnik am LNB\relax }}{31}{figure.caption.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces LabVIEW auf der Messkarte\relax }}{32}{figure.caption.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces LabView Code Ausblasung\relax }}{32}{figure.caption.21}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Nachlaufdellen im Vergleich\relax }}{35}{figure.caption.24}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Beispiel Standardabweichungen\relax }}{36}{figure.caption.25}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Verschiedene Spektra-Darstellungen\relax }}{36}{figure.caption.26}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Nachlaufdellen 1\tmspace +\thinmuskip {.1667em}Bar\relax }}{37}{figure.caption.27}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Nachlaufdellen 2\tmspace +\thinmuskip {.1667em}Bar\relax }}{38}{figure.caption.28}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Nachlaufdellen ohne Ausblasung\relax }}{39}{figure.caption.30}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Strouhal-Zahlen ohne Ausblasung\relax }}{40}{figure.caption.31}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Nachlaufdellen im Vergleich\relax }}{41}{figure.caption.32}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Strouhal-Zahlen im Vergleich\relax }}{41}{figure.caption.33}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Frequenzen im Vergleich\relax }}{42}{figure.caption.34}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Kontur Plots im Vergleich\relax }}{43}{figure.caption.35}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Spektrum 1\tmspace +\thinmuskip {.1667em}Bar, 62\tmspace +\thinmuskip {.1667em}Hz Rand\relax }}{43}{figure.caption.36}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Spektra im Vergleich\relax }}{44}{figure.caption.37}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Contour 1\tmspace +\thinmuskip {.1667em}Bar, 72\tmspace +\thinmuskip {.1667em}Hz\relax }}{44}{figure.caption.38}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Ausblasung 83\tmspace +\thinmuskip {.1667em}Hz 1\tmspace +\thinmuskip {.1667em}Bar\relax }}{45}{figure.caption.39}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Spektrum mit Frequenzen nahe Null\relax }}{46}{figure.caption.40}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Nachlaufdellen 2\tmspace +\thinmuskip {.1667em}Bar\relax }}{47}{figure.caption.41}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Standardabweichung mit konstanter Ausblasung 2\tmspace +\thinmuskip {.1667em}Bar\relax }}{49}{figure.caption.43}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Nachlaufdelle konst. 2Bar\relax }}{51}{figure.caption.45}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Druck- und Reibungswiderst\"ande verschiedener K\"orper nach [14]\relax }}{9}{figure.caption.2}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Kontrollfl\"ache K zur Ermittlung des Widerstandes mittels Impulssatz nach [1]\relax }}{10}{figure.caption.3}%
+\contentsline {figure}{\numberline {3}{\ignorespaces K\'arm\'ansche Wirbelstra\IeC {\ss }e nach [14]\relax }}{11}{figure.caption.4}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Strahlumlenkung und Druckgradient (Coanda-Effekt) nach [4]\relax }}{13}{figure.caption.5}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Der Druckgradient bei gekr\"ummten Stromlinien nach [8]\relax }}{14}{figure.caption.6}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Abl\"osungsilliustration auf gekr\"ummten Fl\"achen nach [14]\relax }}{15}{figure.caption.7}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Ausblaseneffekt nach [6]\relax }}{16}{figure.caption.8}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Ausf\"uhrung einer einzelnen Hitzdrahtsonde nach [13]\relax }}{17}{figure.caption.9}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Aufbau eines Konstant-Temperatur-Anemometers (CTA) nach [13]\relax }}{18}{figure.caption.10}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Ausrichten der Hitzdrahtsonde am Kalibrierkanal\relax }}{21}{figure.caption.11}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Messkarten Seite des LabVIEW Skripts\relax }}{22}{figure.caption.12}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Messrechnerseite des LabVIEW Skripts\relax }}{23}{figure.caption.13}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Einstellen des Modells\relax }}{26}{figure.caption.14}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Windkanal LNB\relax }}{27}{figure.caption.15}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Bau der Halterung\relax }}{28}{figure.caption.16}%
+\contentsline {figure}{\numberline {16}{\ignorespaces D-f\"ormiger Stumpfk\"orper im Windkanal\relax }}{29}{figure.caption.17}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Einstellen des Modells\relax }}{30}{figure.caption.18}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Druckverlauf am Spalt\relax }}{31}{figure.caption.19}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Verwendete Messtechnik am LNB\relax }}{32}{figure.caption.20}%
+\contentsline {figure}{\numberline {20}{\ignorespaces LabVIEW auf der Messkarte\relax }}{33}{figure.caption.21}%
+\contentsline {figure}{\numberline {21}{\ignorespaces LabView Code Ausblasung\relax }}{33}{figure.caption.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Nachlaufdellen im Vergleich\relax }}{36}{figure.caption.25}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Beispiel Standardabweichungen\relax }}{37}{figure.caption.26}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Verschiedene Spektra-Darstellungen\relax }}{37}{figure.caption.27}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Nachlaufdellen 1\tmspace +\thinmuskip {.1667em}Bar\relax }}{38}{figure.caption.28}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Nachlaufdellen 2\tmspace +\thinmuskip {.1667em}Bar\relax }}{39}{figure.caption.29}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Nachlaufdellen ohne Ausblasung\relax }}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Strouhal-Zahlen ohne Ausblasung\relax }}{41}{figure.caption.32}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Nachlaufdellen im Vergleich\relax }}{42}{figure.caption.33}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Strouhal-Zahlen im Vergleich\relax }}{42}{figure.caption.34}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Frequenzen im Vergleich\relax }}{43}{figure.caption.35}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Kontur Plots im Vergleich\relax }}{44}{figure.caption.36}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Spektrum 1\tmspace +\thinmuskip {.1667em}Bar, 62\tmspace +\thinmuskip {.1667em}Hz Rand\relax }}{44}{figure.caption.37}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Spektra im Vergleich\relax }}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Contour 1\tmspace +\thinmuskip {.1667em}Bar, 72\tmspace +\thinmuskip {.1667em}Hz\relax }}{45}{figure.caption.39}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Ausblasung 83\tmspace +\thinmuskip {.1667em}Hz 1\tmspace +\thinmuskip {.1667em}Bar\relax }}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Spektrum mit Frequenzen nahe Null\relax }}{47}{figure.caption.41}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Nachlaufdellen 2\tmspace +\thinmuskip {.1667em}Bar\relax }}{48}{figure.caption.42}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Standardabweichung mit konstanter Ausblasung 2\tmspace +\thinmuskip {.1667em}Bar\relax }}{50}{figure.caption.44}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Nachlaufdelle konst. 2Bar\relax }}{52}{figure.caption.46}%
