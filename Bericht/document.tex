@@ -357,7 +357,7 @@
 		\vspace{1cm}
 	\end{figure}
 	
-	Die Funktionsweise der Hitzdrahtanemometrie besteht darin, einen kontrolliert erhitzten Draht mittels einer elektrischen Brückenschaltung auf eine Temperatur zu erhitzen, die merklich über der Temperatur des vorliegenden Strömungsmediums liegt. Dadurch wird eine starke Empfindlichkeit gegenüber Änderungen der Geschwindigkeit und eine Verringerung des Einflusses der Temperaturschwankungen des Strömungsmediums erzielt. Als Brückenschaltung wird hierbei meistens die Wheatstone-Brücke verwendet. Diese registriert die durch Geschwindigkeitsänderungen verursachten Temperatur- und damit auch Widerstandsänderungen, wobei Widerstand und Temperatur nahezu linear voneinander abhängen. Es gibt zwei Möglichkeiten die Geschwindigkeit zu messen. Entweder wird der Heizstrom durch den Hitzdraht (CCA, Constant-Current-Anemometer) oder die Temperatur (CTA, Constant-Temperature-Anemometer) konstant gehalten. In unserer Projektarbeit wird die Methode des Konstant-Temperatur-Anemometers angewendet. Hierbei stellt die notwendige elektrische Heizspannung, um die Temperatur der Sonde konstant zu halten, ein Maß für die Geschwindigkeit dar.\\
+	Die Funktionsweise der Hitzdrahtanemometrie besteht darin, einen kontrolliert erhitzten Draht mittels einer elektrischen Brückenschaltung auf eine Temperatur zu erhitzen, die merklich über der Temperatur des vorliegenden Strömungsmediums liegt. Dadurch wird eine starke Empfindlichkeit gegenüber Änderungen der Geschwindigkeit und eine Verringerung des Einflusses der Temperaturschwankungen des Strömungsmediums erzielt. Als Brückenschaltung wird hierbei meistens die Wheatstone-Brücke verwendet. Diese registriert die durch Geschwindigkeitsänderungen verursachten Temperatur- und damit auch Widerstandsänderungen, wobei Widerstand und Temperatur nahezu linear voneinander abhängen. Es gibt zwei Möglichkeiten die Geschwindigkeit zu messen. Entweder wird der Heizstrom durch den Hitzdraht (CCA, Constant-Current-Anemometer) oder die Temperatur (CTA, Constant-Temperature-Anemometer) konstant gehalten. In unserer Projektarbeit wird die Methode des Konstant-Temperatur Anemometers angewendet. Hierbei stellt die notwendige elektrische Heizspannung, um die Temperatur der Sonde konstant zu halten, ein Maß für die Geschwindigkeit dar.\\
 	
 	Die Konstant-Temperatur-Regelung erfolgt unter Ausnutzung einer schnellen elektronischen Signalrückführung, die die Wärmeträgheit der Hitzdrahtsonde ausgleichen soll, siehe Abbildung \ref{fig:Prinzipschaltung}. Für die abgeglichene Wheatstone-Brücke liegt am Eingang des Servoverstärkers keine Differenz-Spannung an. Die Temperatur- und somit Widerstandsänderungen der Sonde verursachen hingegen diese Differenz-Spannungen am Servoverstärkereingang. Durch die Rückkopplung des Servoverstärkerausgangs mit dem Brückenoberteil wird die Brücke selbsttätig abgeglichen. Ein Signal wird erzeugt, das kaum von der Wärmeträgheit der Sonde abhängt. Dabei wird die Grenzfrequenz hauptsächlich durch den Frequenzgang des Rückführungsverstärkers angegeben.\\
 	
@@ -575,7 +575,7 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/Windkanal.jpg}
-		\caption{Windkanal LNB}
+		\caption{Windkanal LNB nach [7]}
 		\label{fig:Windkanal}
 		\vspace{1cm}
 	\end{figure}
@@ -743,7 +743,8 @@
 			\includegraphics[width=1.2\linewidth]{Nachlaufdellefit.jpg}
 			\caption{Beispiel eines Nachlaufdellen Fits mittels lsqcurvefit}
 			\label{fig:Nachlaufdellefit_bsp}
-		\end{subfigure}\hfil 
+		\end{subfigure}\hfil
+		\caption{Berechnung der Nachlaufdellen}
 	\end{figure}
 	
 	Wenn man alle Nachlaufdellen einer Reihe in ein Diagramm plottet wird klar, dass diese durch unsere Messungen nicht vollständig abgedeckt wurden (siehe Abbildung \ref{fig:Nachlaufdellen_vgl}). Es ist keine einheitliche Geschwindigkeit u$_{\infty}$ an den Rändern zu erkennen. Dies macht die Berechnung der $c_{W}$-Werte unzuverlässig. 
@@ -1104,7 +1105,7 @@
 
 	Wie im ersten Blick auf die Tabelle \ref{tab:table3} zu erkennen ist, ist die Standardabweichung in der Mitte deutlich größer als außen. Dieses Ergebnis ist nachvollziehbar, wenn man sich vor Augen führt, dass hinter dem Modell eine Wirbelstraße entsteht. In dieser Wirbelstraße ist die Turbulenz der Strömung größer als im äußeren Bereich der Strömung.
 	
-	Aus der Tabelle \ref{tab:table3} ist es zu entnehmen, dass sich die Standardabweichung in der Mitte des Nachlaufes bei den Messungen mit konstanter Ausblasung deutlich von den anderen Messungen unterscheiden. Die Standardabweichung bei den Messungen mit gepulster Ausblasung ändert sich an dieser Position im Vergleich zu den Messungen ohne Ausblasung nicht mehr als 10\%, während bei der Messung mit konstanter Ausblasung diese Differenz bei mehr als 25\% liegt. Die im Kapitel \ref{sec:min_wid_freq} bei den Messungen mit gepulster Ausblasung erwähnte Stromvolumendifferenz könnte für die Entstehung dieses Unterschiedes verantwortlich sein. Laut dieses Kapitels ist das Stromvolumen bei der konstanten Ausblasung doppelt so groß wie bei den anderen Messungen mit der gepulsten Ausblasung. Infolgedessen kann man die Standardabweichungen bei der Messungen mit gepulsten Ausblasung und konstanten Ausblasung nicht vergleichen.
+	Aus der Tabelle \ref{tab:table3} ist es zu entnehmen, dass sich die Standardabweichung in der Mitte des Nachlaufes bei den Messungen mit konstanter Ausblasung deutlich von den anderen Messungen unterscheiden. Die Standardabweichung bei den Messungen mit gepulster Ausblasung ändert sich an dieser Position im Vergleich zu den Messungen ohne Ausblasung nicht mehr als 10\%, während bei der Messung mit konstanter Ausblasung diese Differenz bei mehr als 25\% liegt. Die im Kapitel \ref{sec:Min_wid_freq} bei den Messungen mit gepulster Ausblasung erwähnte Stromvolumendifferenz könnte für die Entstehung dieses Unterschiedes verantwortlich sein. Laut dieses Kapitels ist das Stromvolumen bei der konstanten Ausblasung doppelt so groß wie bei den anderen Messungen mit der gepulsten Ausblasung. Infolgedessen kann man die Standardabweichungen bei der Messungen mit gepulsten Ausblasung und konstanten Ausblasung nicht vergleichen.
 	
 	\begin{table}[H]
 		\centering
