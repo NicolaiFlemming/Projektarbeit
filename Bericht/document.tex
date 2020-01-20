@@ -227,30 +227,30 @@
 	\label{sec:Coanda_effekt}
 	
 	\subsubsection{Definition}
-	Der Coanda-Effekt beschreibt das Phänomen, dass ein ausströmender Freistrahl dazu neigt an nähen Wänden zu haften und sogar konvexen Oberflächen zu folgen []. Der Strahl besitzt diese Eigenschaft, solange die durch den Druckgradient erzeugte, auf sich wirkende Druckkraft, die Zentripetalkraft, die Zentrifugalkraft kompensieren kann [].
+	Der Coanda-Effekt beschreibt das Phänomen, dass ein ausströmender Freistrahl dazu neigt an nahen Wänden zu haften und sogar konvexen Oberflächen zu folgen [4]. Der Strahl besitzt diese Eigenschaft, solange die durch den Druckgradient erzeugte, auf sich wirkende Druckkraft, die Zentripetalkraft, die Zentrifugalkraft kompensieren kann [8].
 	
 	\subsubsection{Die Enstehung des Druckgradienten}
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.5\textwidth]{Bilder/Coanda-Flache.png}
-		\caption{Strahlumlenkung und Druckgradient (Coanda-Effekt)}
+		\caption{Strahlumlenkung und Druckgradient (Coanda-Effekt) nach [4]}
 		\label{fig:Umlenkung}
 		\vspace{1cm}
 	\end{figure}
 
-	Der Druckgradient wird durch den sog. Entrainment-effect erzeugt. Der Entrainment-effect kann als das Beschleunigen der ruhenden Luft am Randbereich eines Freistrahls bezeichnet werden, aufgrund des turbulenten Impulsaustausches mit den energiereichen Strahlteilchen. Das bedeutet bildlich, dass die Luftteilchen vom Freistrahl mitgerissen werden. Wenn eine gerade Wand in den Randbereich eines Freistrahl parallel zu diesem gelegt würde, werden die Luftteilchen zwischen dieser Wand und dem Strahl mitgerissen werden. Die Wand verhindert das Nachströmen des Umgebungsmediums, wodurch eine Unterdruckzone zwischen Wand und Freistrahl entsteht. Der Strahl wird durch den Unterdruck an die Wand angesaugt. Das ist der Grund weshalb ein Freistrahl entlang einer Fläche mit geeigneten gekrümmter Kontur durch ein solches stetige Ansaugen umlenken werden kann (Abbildung\ref{fig:Umlenkung})[Buch Coanda Effekt].
+	Der Druckgradient wird durch den sog. Entrainment-Effekt erzeugt. Der Entrainment-Effekt kann als das Beschleunigen der ruhenden Luft am Randbereich eines Freistrahls bezeichnet werden. Grund hierfür ist der turbulente Impulsaustausch mit den energiereichen Strahlteilchen. Das bedeutet bildlich, dass die Luftteilchen vom Freistrahl mitgerissen werden. Wenn eine gerade Wand in den Randbereich eines Freistrahl parallel zu diesem gelegt würde, werden die Luftteilchen zwischen dieser Wand und dem Strahl mitgerissen werden. Die Wand verhindert das Nachströmen des Umgebungsmediums, wodurch eine Unterdruckzone zwischen Wand und Freistrahl entsteht. Der Strahl wird durch den Unterdruck an die Wand angesaugt. Das ist der Grund weshalb ein Freistrahl entlang einer Fläche mit geeigneten gekrümmter Kontur durch ein solches stetige Ansaugen umlenken werden kann (Abbildung\ref{fig:Umlenkung})[3].
 	
 	
-	Die Beziehung zwischen Zentrifugalkraft und Druckkraft kann durch die Eulersche Bewegungsgleichung in Stromlinienkoordinaten beschrieben werden [Strömungslehre Heinz Schade].\\
-	Die Eulersche Bewegungsgleichung in Bahnkoordinaten lautet:\\
+	Die Beziehung zwischen Zentrifugalkraft und Druckkraft kann durch die Eulersche Bewegungsgleichung in Stromlinienkoordinaten beschrieben werden [8].\\
+	Die Eulersche Bewegungsgleichung in Bahnkoordinaten lautet [8]:\\
 	
 	\begin{equation}
 	\frac{\partial c}{\partial t}+c\frac{\partial c}{\partial s} = -g\frac{\partial z }{\partial s}-\frac{1}{\rho}\frac{\partial p}{\partial s}
 	\end{equation}
 	
 	
-	Wird im stationären Fall der Einfluss der Schwerkraft vernachlässigt, so lautet die sog. radiale Druckgleichung: \\
+	Wird im stationären Fall der Einfluss der Schwerkraft vernachlässigt, so lautet die sog. radiale Druckgleichung [8]: \\
 	
 	\begin{equation}
 	\frac{c^2}{R}=-\frac{1}{\rho}\frac{p}{n}  
@@ -260,39 +260,40 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\textwidth]{Bilder/Gradient.png}
-		\caption{Der Druckgradient bei gekrümmten Stromlinien}
+		\caption{Der Druckgradient bei gekrümmten Stromlinien nach [8]}
 		\label{fig:g1}
 		\vspace{1cm}
 	\end{figure}
 
-	In Abbildung \ref{fig:g1} wird veranschaulicht, dass entlang einer Bahnlinie ein positiver von einem konkaven auf ein konvexes Profil gerichteter Druckgradient entsteht. Da die Druckkraft in entgegengesetzte Richtung von der Druckgradient herrscht, ist die Zentripetalkraft gleich nach der Gleichung \ref{eq:radial} die negative vorgezeichnete Druckgradient.\\
+	In Abbildung \ref{fig:g1} wird veranschaulicht, dass entlang einer Bahnlinie ein positiver von einem konkaven auf ein konvexes Profil gerichteter Druckgradient entsteht. Da die Druckkraft in entgegengesetzte Richtung von der Druckgradient herrscht, ist die Zentripetalkraft gleich nach der Gleichung \ref{eq:radial} die negative vorgezeichnete Druckgradient [8].\\
 	
 	\subsubsection{Ablösung}
-	Um den Effekt der Ausblasung in diesem Projekt zu erläutern, muss zuerst die Ablösung der Grenzschicht erklärt werden. Die Ablösung der Grenzschichten tritt bei längs angeströmten schlanken Körpern nur durch den Reibungswiderstand auf. Der durch die Geometrie gegebene Vorteil von schlanken Körpern führt dazu, dass der Druckanstieg am Heck sehr gering ist. Bei stumpfen Körpern hingegen besteht die Ablösungsgefahr der Grenzschicht, wenn längs der angeströmten Körperkontur der Druckanstieg zu groß ist. \\
+	Um den Effekt der Ausblasung in diesem Projekt zu erläutern, muss zuerst die Ablösung der Grenzschicht erklärt werden. Die Ablösung der Grenzschichten tritt bei längs angeströmten schlanken Körpern nur durch den Reibungswiderstand auf. Der durch die Geometrie gegebene Vorteil von schlanken Körpern führt dazu, dass der Druckanstieg am Heck sehr gering ist. Bei stumpfen Körpern hingegen besteht die Ablösungsgefahr der Grenzschicht, wenn längs der angeströmten Körperkontur der Druckanstieg zu groß ist [6]. \\
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/AA.png}
-		\caption{Ablösungsilliustration auf gekrümmten Flächen}
+		\caption{Ablösungsilliustration auf gekrümmten Flächen nach [14]}
 		\label{fig:ablösung}
 		\vspace{1cm}
 	\end{figure}
 	
-	An Coanda-Flächen tritt die Ablösung durch den Druckanstieg in Strömungsrichtung entlang der gekrümmten Kontur auf. Hierbei wird die kinetische Energie von diesen Teilchen in Wandnähe infolge von Reibung dissipiert. Aufgrund dessen reicht die kinetische Energie des Fluidteilchens, welches sich in unmittelbaren Wandnähe befindet, nicht mehr aus, um gegen den von der Außenströmung aufgeprägten Druckanstieg entlang der gekrümmten Wand anzuströmen. An einem bestimmten Punkt kommt dieses Teilchen zum Stillstand. Aufgrund der Druckverteilung der Strömung der Grenzschicht, fängt es langsam damit an seine Strömungsrichtung umzukehren (Abbildung \ref{fig:ablösung}). An diesem Punkt löst sich die Grenzschicht von der Oberfläche ab [].\\
+	An Coanda-Flächen tritt die Ablösung durch den Druckanstieg in Strömungsrichtung entlang der gekrümmten Kontur auf. Hierbei wird die kinetische Energie von diesen Teilchen in Wandnähe infolge von Reibung dissipiert. Aufgrund dessen reicht die kinetische Energie des Fluidteilchens, welches sich in unmittelbaren Wandnähe befindet, nicht mehr aus, um gegen den von der Außenströmung aufgeprägten Druckanstieg entlang der gekrümmten Wand anzuströmen. An einem bestimmten Punkt kommt dieses Teilchen zum Stillstand. Aufgrund der Druckverteilung der Strömung der Grenzschicht, fängt es langsam damit an seine Strömungsrichtung umzukehren (Abbildung \ref{fig:ablösung}). An diesem Punkt löst sich die Grenzschicht von der Oberfläche ab [14].\\
 	
+	\vspace{1cm}
 	\textbf{Der Effekt der Ausblasung auf die Ablösung}
 	
-	Die Ausblasung ist eine Möglichkeit der energieschwachen Strömung in Wandnähe Energie zuzuführen. Diese Maßnahme wirkt der Ablösung entgegen. Durch einen Schlitz wird ein Luftstrahl an der Coanda-Fläche parallel zur Hauptströmung eingeblasen. Die von der Profiloberfläche anströmende Grenzschicht von Hauptströmung bildet mit dem zugeführten Strahl eine Scherschicht aus. Damit wird die Scherschicht mit genügend kinetische Energie beladen, um die Ablösung der Strömung zu verhindern (Abbildung \ref{fig:ausblasung}).
+	Die Ausblasung ist eine Möglichkeit der energieschwachen Strömung in Wandnähe Energie zuzuführen. Diese Maßnahme wirkt der Ablösung entgegen. Durch einen Schlitz wird ein Luftstrahl an der Coanda-Fläche parallel zur Hauptströmung eingeblasen. Die von der Profiloberfläche anströmende Grenzschicht von Hauptströmung bildet mit dem zugeführten Strahl eine Scherschicht aus. Damit wird die Scherschicht mit genügend kinetische Energie beladen, um die Ablösung der Strömung zu verhindern (Abbildung \ref{fig:ausblasung}) [6].
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=1]{Bilder/Ausblaseneffekt.png}
-		\caption{Ausblaseneffekt}
+		\caption{Ausblaseneffekt nach [6]}
 		\label{fig:ausblasung}
 	\end{figure}
 	
 	\subsubsection{Coanda-Effekt im Alltag}
-	Der Coanda-Effekt ist auch im Alltag zu beobachten, beispielsweise wenn Tee aus einer Teekanne ausgegossen wird. Dabei ist zu erkennen, dass der Tee bei niedrigeren Ausgießwinkeln von der Tülle aus die Kannenoberfläche hinunter bis zur Unterseite der Kanne fließt und sich nicht von der Oberflache der Kanne ablöst. Sobald der Ausgießwinkel allmählich vergrößert wird, löst sich der Flüssigkeitsstrahl zuerst nur teilweise von der Oberflache. Wenn sich der Strahl vollständig ablöst, ist eine Umlenkung des Strahles aus der Senkrechten zu beobachten. Wird die Teekanne weiter nach unten gekippt, sodass sich der Durchfluss noch weiter erhöht, erhält man schließlich den erwarteten Fließweg. Hierbei wird diese Wechselwirkung zwischen Flüssigkeit und Oberfläche als Coanda-Effekt bezeichnet. Der Coanda-Effekt kann in jeder Art von Flüssigkeiten beobachtet werden und ist zudem für einen Gasstrom ebenfalls wirksam wie für Wasser. Um diesen Effekt bei einem Gasstrom zu sehen, kann ein sich drehender Tischtennisball in einem diagonalen Luftstrahl (wie z.B. ein Föhnstrahl) betrachtet werden. Durch den Coanda-Effekt kann der Ball in der Luft schweben gelassen werden. Hierbei hängt der Ball am unteren Luftstrahl. Durch diesen Effekt wird verhindert, dass der Ball runter fällt. Die entgegen wirkende Gravitationskraft hingegegn führt dazu, dass der Ball nicht weggeblasen wird. Außerdem ist der Coanda-Effekt in der Praxis im Flugzeugbau zur Erhöhung des Auftriebes  von besonderer Bedeutung. \\
+	Der Coanda-Effekt ist auch im Alltag zu beobachten, beispielsweise wenn Tee aus einer Teekanne ausgegossen wird. Dabei ist zu erkennen, dass der Tee bei niedrigeren Ausgießwinkeln von der Tülle aus die Kannenoberfläche hinunter bis zur Unterseite der Kanne fließt und sich nicht von der Oberflache der Kanne ablöst. Sobald der Ausgießwinkel allmählich vergrößert wird, löst sich der Flüssigkeitsstrahl zuerst nur teilweise von der Oberflache. Wenn sich der Strahl vollständig ablöst, ist eine Umlenkung des Strahles aus der Senkrechten zu beobachten. Wird die Teekanne weiter nach unten gekippt, sodass sich der Durchfluss noch weiter erhöht, erhält man schließlich den erwarteten Fließweg. Hierbei wird diese Wechselwirkung zwischen Flüssigkeit und Oberfläche als Coanda-Effekt bezeichnet [2]. Der Coanda-Effekt kann in jeder Art von Flüssigkeiten beobachtet werden und ist zudem für einen Gasstrom ebenfalls wirksam wie für Wasser. Um diesen Effekt bei einem Gasstrom zu sehen, kann ein sich drehender Tischtennisball in einem diagonalen Luftstrahl (wie z.B. ein Föhnstrahl) betrachtet werden. Durch den Coanda-Effekt kann der Ball in der Luft schweben gelassen werden. Hierbei hängt der Ball am unteren Luftstrahl. Durch diesen Effekt wird verhindert, dass der Ball runter fällt. Die entgegen wirkende Gravitationskraft hingegegn führt dazu, dass der Ball nicht weggeblasen wird. Außerdem ist der Coanda-Effekt in der Praxis im Flugzeugbau zur Erhöhung des Auftriebes von besonderer Bedeutung. \\
 	
 	\subsection{Hitzdrahtmessung (M)}
 	\label{sec:Hitzdraht_theorie}
@@ -362,7 +363,7 @@
 	\subsection{Zielsetzung}
 	\label{sec:Zielsetzung_cal}
 	
-	Das Ziel der Kalibrierung ist es zwei unterschiedliche Hitzdrahtsonden, eine mit 3,35\,$ \Omega $ und eine mit 3.5\,$\Omega$ Widerstand zu kalibrieren. Um die Kalibrierfunktion zu bestimmen, wird jeweils eine Messreihe im Kalibrierkanal aufgenommen, bei der die Spannung der Messbrücke bei bestimmten Strömungsgeschwindigkeiten gemessen wird. Auf diesen Datensatz soll dann eine Funktion gefittet und so eine Kalibrierfunktion erstellt werden. Das fitting soll so genau wie möglich den Datensatz darstellen. Kalibriert wird zwischen 5\,m/s und 40\,m/s, da für das Experiment im Windkanal mit Geschwindigkeiten in dieser Größenordnung zu rechnen ist. Die Abtastrate der Aufnahmeprogramme soll bei ca 1\,kHz liegen, da im Messbetrieb mit Frequenzen von ca 70-80\,Hz zu rechnen ist. 
+	Das Ziel der Kalibrierung ist es zwei unterschiedliche Hitzdrahtsonden, eine mit 3,35\,$ \Omega $ und eine mit 3,5\,$\Omega$ Widerstand zu kalibrieren. Um die Kalibrierfunktion zu bestimmen, wird jeweils eine Messreihe im Kalibrierkanal aufgenommen, bei der die Spannung der Messbrücke bei bestimmten Strömungsgeschwindigkeiten gemessen wird. Auf diesen Datensatz soll dann eine Funktion gefittet und so eine Kalibrierfunktion erstellt werden. Das fitting soll so genau wie möglich den Datensatz darstellen. Kalibriert wird zwischen 5\,m/s und 40\,m/s, da für das Experiment im Windkanal mit Geschwindigkeiten in dieser Größenordnung zu rechnen ist. Die Abtastrate der Aufnahmeprogramme soll bei ca 1\,kHz liegen, da im Messbetrieb mit Frequenzen von ca 70-80\,Hz zu rechnen ist. 
 	
 	\subsection{Versuchsaufbau}
 	\label{sec:Versuchsaufbau_cal}
@@ -412,7 +413,7 @@
 	\subsubsection{Matlab Script}
 	\label{sec:Matlab_cal}
 	
-	Das Matlab Skript (s. Anhang) soll die von dem LabVIEW Skript bereitgestellten Daten einlesen, verarbeiten und die Kalibrierkurve auf den entstandenen Datensatz anpassen. Dazu erstellt es eine Liste mit allen Dateien in dem ausgewählten Ordner und reserviert Speicherplatz, um später die Daten einzulesen. 
+	Das Matlab Skript (siehe Anhang) soll die von dem LabVIEW Skript bereitgestellten Daten einlesen, verarbeiten und die Kalibrierkurve auf den entstandenen Datensatz anpassen. Dazu erstellt es eine Liste mit allen Dateien in dem ausgewählten Ordner und reserviert Speicherplatz, um später die Daten einzulesen. 
 	
 	\vspace{2mm}
 	\begin{lstlisting}[language=MATLAB,caption={Laden des Speicherorts}]
@@ -517,7 +518,7 @@
 	
 	Verschiebungen von 10\,cm in den Kanal, gemessen vom Kanalausgang, sowie 10\,cm aus dem Kanal heraus ergeben nur kleine Änderungen der gemessenen Strömungsgeschwindigkeit von weniger als 1\%. Daher wurde beschlossen den Hitzdraht direkt am Kanalausgang zu positionieren. Kleine Änderungen des Anströmwinkels (<1$\degree$) ergaben Änderungen kleiner 1\%. Es wurde darauf geachtet die Sonde immer möglichst im rechten Winkel zur Strömung zu platzieren.
 	
-	Um die Qualität der gefitteten Kurve einschätzen zu können, wurde die Standardabweichung zwischen gefitteter Kurve und tatsächlichem Geschwindigkeitsverlauf ermittelt. Hierzu wird die Differenz der von der kalibrierten Funktion errechneten Geschwindigkeit und der im Kalibrierungs Datensatz festgesetzten Geschwindigkeit berechnet und die Standardabweichung dieser Differenzen gebildet. Für die von uns verwendete Kurve erreicht so einen Wert von 0.1804, was als ausreichend bewertet wird. 
+	Um die Qualität der gefitteten Kurve einschätzen zu können, wurde die Standardabweichung zwischen gefitteter Kurve und tatsächlichem Geschwindigkeitsverlauf ermittelt. Hierzu wird die Differenz der von der kalibrierten Funktion errechneten Geschwindigkeit und der im Kalibrierungs Datensatz festgesetzten Geschwindigkeit berechnet und die Standardabweichung dieser Differenzen gebildet. Für die von uns verwendete Kurve erreicht so einen Wert von 0,1804, was als ausreichend bewertet wird. 
 	
 	\newpage
 	\section{Versuchsaufbau}
@@ -833,7 +834,7 @@
 		\label{fig:Strouhal1}
 	\end{figure}
 	
-	Der Konturplot zeigt, dass beim Zustand ohne Ausblasung hauptsächlich zwei verschiedene Strouhal-Zahlen im Nachlauf auftreten (vgl. Abbildung \ref{fig:Contour_ohne}). Auffällig ist, dass die größere Strouhal-Zahl in der Mitte (Sr=0,46) doppelt so groß ist wie die kleinere Strouhal-Zahl am Rand (Sr=0,23) (vgl. Abbildung \ref{fig:Strouhal_ohne}). Die zugehörigen Frequenzen sind 138\,Hz und 69\,Hz. Die in den Randbereichen bestimmte Strouhal-Zahl von (Sr=0,23) liegt im Bereich der natürlichen Wirbelablösefrequenz stumpfer Körper (vgl. Kapitel \ref{sec:Wirbelstrasse}).\newline
+	Der Konturplot zeigt, dass beim Zustand ohne Ausblasung hauptsächlich zwei verschiedene Strouhal-Zahlen im Nachlauf auftreten (vgl. Abbildung \ref{fig:Contour_ohne}). Auffällig ist, dass die größere Strouhal-Zahl in der Mitte (Sr=0,46) doppelt so groß ist wie die kleinere Strouhal-Zahl am Rand (Sr=0,23)(vgl. Abbildung \ref{fig:Strouhal_ohne}). Die zugehörigen Frequenzen sind 137,4\,Hz und 68,7\,Hz. Die in den Randbereichen bestimmte Strouhal-Zahl von (Sr=0,23) liegt im Bereich der natürlichen Wirbelablösefrequenz stumpfer Körper (vgl. Kapitel \ref{sec:Wirbelstrasse}).\newline
 	Anhand Abbildung \ref{fig:Wirbelstrasse} kann man vermuten, dass der Hitzdraht in den äußeren Bereichen des Nachlaufs nur die Geschwindigkeitsänderungen erfasst, die durch die äußeren Wirbel hervorgerufen werden. In der Mitte des Nachlaufs erfasst er dagegen die Geschwindigkeitsänderungen, die durch die oberen und unteren Wirbel hervorgerufen werden. Da die Wirbel alternieren, folgen die Geschwindigkeitsänderungen in der Mitte doppelt so schnell aufeinander wie außen. Das erklärt, warum die Strouhal-Zahlen in der Mitte doppelt so groß sind wie am Rand.\newline
 	Außerdem erkennt man an Abbildung \ref{fig:Contour_ohne}, dass es an den Positionen 70\,mm und 110\,mm zu einer Überlagerung der dominanten Strouhal-Zahlen kommt.\newline
 	Der Grund dafür könnte sein, dass die Wirbel an diesen Position noch nicht zu jeder Zeit alternierend vorkommen, sondern zeitweise nur die oberen bzw. unteren Wirbel die Hitzdrahtsonde erreichen.\newline
@@ -908,11 +909,11 @@
 	\subsubsection{Zusammenhang der Auftretenden Frequenzen (N)}
 	\label{sec:Frequenzen}
 	
-	Wie schon in Sektion \ref{sec:ohne_Ausblasung} beschrieben löst sich die Strömung am Ende unseres Stumpfkörpers über die Coanda-Fläche wirbelförmig ab. Dies geschieht bei einer Anströmung von 16\,m/s und keiner Ausblasung, mit der natürlichen Wirbelablösefrequenz von 68.7\,Hz. Dies entspricht bei unserer charakteristischen Länge von 0.0534\,m einer Strouhal Zahl von Sr=0.23. In der Mitte des Messbereichs verdoppelt sich die Frequenz dann noch einmal auf 137.4\,Hz (Sr=0.46)(siehe Contour Plot Abbildung \ref{fig:Contour_ohne_2barVgl}). Dies kann durch die Überlagerung der sich am Körper ablösenden Wirbel erklärt werden (siehe \ref{sec:ohne_Ausblasung}). 
+	Wie schon in Sektion \ref{sec:ohne_Ausblasung} beschrieben löst sich die Strömung am Ende unseres Stumpfkörpers über die Coanda-Fläche wirbelförmig ab. Dies geschieht bei einer Anströmung von 16\,m/s und keiner Ausblasung, mit der natürlichen Wirbelablösefrequenz von 68,7\,Hz. Dies entspricht bei unserer charakteristischen Länge von 0,0534\,m einer Strouhal Zahl von Sr=0,23. In der Mitte des Messbereichs verdoppelt sich die Frequenz dann noch einmal auf 137,4\,Hz (Sr=0,46)(siehe Contour Plot Abbildung \ref{fig:Contour_ohne_2barVgl}). Dies kann durch die Überlagerung der sich am Körper ablösenden Wirbel erklärt werden (siehe \ref{sec:ohne_Ausblasung}). 
 	
-	Bei konstanter Ausblasung steigt die Frequenz auf 72.2\,Hz (Sr=0.24) bei 2\,Bar und 74,1\,Hz (Sr=0.24) bei 1\,Bar Versorgungsdruck. Gleich bleibt jedoch, dass in der Mitte des Messbereichs die doppelte Frequenz der Ablösefrequenz auftritt (Sr=0.5)(siehe Contour Plot Abbildung \ref{fig:Contour_konst_2bar}).
+	Bei konstanter Ausblasung steigt die Frequenz auf 72,2\,Hz (Sr=0,24) bei 2\,Bar und 74,1\,Hz (Sr=0,24) bei 1\,Bar Versorgungsdruck. Gleich bleibt jedoch, dass in der Mitte des Messbereichs die doppelte Frequenz der Ablösefrequenz auftritt (Sr=0,5)(siehe Contour Plot Abbildung \ref{fig:Contour_konst_2bar}).
 	
-	Bei gepulster Ausblasung von 62\,Hz und 2\,Bar fällt auf, dass zunächst eine Ablösefrequenz nahe der gepulsten Frequenz im Nachlauf auftritt (Sr=0,206). In der Mitte des Messbereichs kann wieder eine Verdoppelung der am Rand auftretenden Frequenz beobachtet werden (siehe Abbildung \ref{fig:Contour_622Bar}). Bei 1\,Bar Ausblasung mit 62\,Hz tritt hingegen hauptsächlich eine Frequenz von 71 - 72\,Hz (Sr=0.236) auf, ähnlich der Frequenz bei konstanter Ausblasung (siehe Abbildung \ref{fig:Contour_621Bar}). Die 62\,Hz (Sr=0.21) sind im Spektrum am Rand des Messbereichs zwar noch zu erkennen, scheinen aber keinen besonders großen Einfluss mehr zu nehmen. Stattdessen ist ein großer Peak bei 71-72\,Hz zu erkennen (siehe Abbildung \ref{fig:spektrum_1Bar_62Hz}). Wahrscheinlich liegt dies daran, dass 1\,Bar Druckversorgung einfach zu gering sind um einen Unterschied im Nachlauf zu erzeugen.
+	Bei gepulster Ausblasung von 62\,Hz und 2\,Bar fällt auf, dass zunächst eine Ablösefrequenz nahe der gepulsten Frequenz im Nachlauf auftritt (Sr=0,206). In der Mitte des Messbereichs kann wieder eine Verdoppelung der am Rand auftretenden Frequenz beobachtet werden (siehe Abbildung \ref{fig:Contour_622Bar}). Bei 1\,Bar Ausblasung mit 62\,Hz tritt hingegen hauptsächlich eine Frequenz von 71 - 72\,Hz (Sr=0,236) auf, ähnlich der Frequenz bei konstanter Ausblasung (siehe Abbildung \ref{fig:Contour_621Bar}). Die 62\,Hz (Sr=0,21) sind im Spektrum am Rand des Messbereichs zwar noch zu erkennen, scheinen aber keinen besonders großen Einfluss mehr zu nehmen. Stattdessen ist ein großer Peak bei 71-72\,Hz zu erkennen (siehe Abbildung \ref{fig:spektrum_1Bar_62Hz}). Wahrscheinlich liegt dies daran, dass 1\,Bar Druckversorgung einfach zu gering sind um einen Unterschied im Nachlauf zu erzeugen.
 	
 	\begin{figure}[H]
 		\centering
@@ -937,7 +938,7 @@
 		\label{fig:spektrum_1Bar_62Hz}
 	\end{figure}
 	
-	Bei einer Pulsfrequenz von 72\,Hz und 2\,Bar Druck bildet sich wie bei der konstanten Ausblasung eine Frequenz von 72\,Hz (Sr=0.236) im Nachlauf aus (siehe Abbildung \ref{fig:Spektrum_722Bar}). Bei der gepulsten Ausblasung mit 1\,Bar ist das Verhalten auch zu beobachten. Dies ist auch zu erwarten, weil wir synchron mit der natürlichen Ablösefrequenz bei konstanter Ausblasung pulsen. Auffälligt ist jedoch, dass bei 1\,Bar Versorgungsdruck scheinbar kaum andere Frequenzen auftreten (siehe Abbildung \ref{fig:Spektrum_721Bar}). Bei beiden Zuständen bildet sich in der Mitte des Messbereichs die doppelte Frequenz aus (Sr=0.24)(siehe Abbildung \ref{fig:Contour_1Bar_72Hz}).
+	Bei einer Pulsfrequenz von 72\,Hz und 2\,Bar Druck bildet sich wie bei der konstanten Ausblasung eine Frequenz von 72\,Hz (Sr=0,236) im Nachlauf aus (siehe Abbildung \ref{fig:Spektrum_722Bar}). Bei der gepulsten Ausblasung mit 1\,Bar ist das Verhalten auch zu beobachten. Dies ist auch zu erwarten, weil wir synchron mit der natürlichen Ablösefrequenz bei konstanter Ausblasung pulsen. Auffälligt ist jedoch, dass bei 1\,Bar Versorgungsdruck scheinbar kaum andere Frequenzen auftreten (siehe Abbildung \ref{fig:Spektrum_721Bar}). Bei beiden Zuständen bildet sich in der Mitte des Messbereichs die doppelte Frequenz aus (Sr=0,24)(siehe Abbildung \ref{fig:Contour_1Bar_72Hz}).
 	
 	\begin{figure}[H]
 		\centering
@@ -1032,7 +1033,7 @@
 	\subsubsection{Standardabweichungen (A)}
 	\label{sec:Varianzen_turbulenzen}
 	
-	Die zeitlich schwankende Strömungsgeschwindigkeit ist die charakteristische Eigenschaft einer turbulenten Strömung (Heinz Herwig, 2018). Die Schwankung der Geschwindigkeit muss in allen Richtungskomponenten berücksichtigt werden, damit die Turbulenz genauer gemessen werden kann. Der Hitzdraht, der zum Messen der Strömungsgeschwindigkeit genutzt wurde, ermöglicht es die Geschwindigkeitsschwankungen lediglich in horizontalter Richtung aufzunehmen. Deswegen wird dieser Wert im weiteren Verlauf als ein Maß für die Turbulenz angenommen. In der Tabelle \ref{tab:table3} wird die Standardabweichung der Strömungsgeschwindigkeit an den äußeren Positionen (pos. 1 und pos.24) und an der mittleren Position im Strömungsquerschnitt (pos. 12) für alle Aktuationsparameter aufgeführt. Hierbei sind die Messdaten in der Mitte entscheidender, da an dieser Position das Modell einen größeren Einfluss auf die Strömung hat. Die Standardabweichung der Strömungsgeschwindigkeit ist ein Maß für die Turbulenz der Strömung. 
+	Die zeitlich schwankende Strömungsgeschwindigkeit ist die charakteristische Eigenschaft einer turbulenten Strömung [15]. Die Schwankung der Geschwindigkeit muss in allen Richtungskomponenten berücksichtigt werden, damit die Turbulenz genauer gemessen werden kann. Der Hitzdraht, der zum Messen der Strömungsgeschwindigkeit genutzt wurde, ermöglicht es die Geschwindigkeitsschwankungen lediglich in Strömungsrichtung aufzunehmen. Trotzdem wird dieser Wert im weiteren Verlauf als ein Maß für die Turbulenz angenommen. In der Tabelle \ref{tab:table3} wird die Standardabweichung der Strömungsgeschwindigkeit an den äußeren Positionen (pos. 1 und pos.24) und an der mittleren Position im Strömungsquerschnitt (pos. 12) für alle Aktuationsparameter aufgeführt. Hierbei sind die Messdaten in der Mitte entscheidender, da an dieser Position das Modell einen größeren Einfluss auf die Strömung hat. Die Standardabweichung der Strömungsgeschwindigkeit ist ein Maß für die Turbulenz der Strömung. 
 
 	\begin{table}[H]
 	\centering
@@ -1059,9 +1060,9 @@
 		\label{fig:Standardabweichung}
 	\end{figure}
 
-	Wie im ersten Blick auf die Tabelle zu erkennen ist, ist die Standardabweichung in der Mitte deutlich größer als außen. Dieses Ergebnis ist nachvollziehbar, wenn man sich vor Augen führt, dass hinter dem Modell eine Wirbelstraße entsteht. In dieser Wirbelstraße ist die Turbulenz der Strömung größer als im äußeren Bereich der Strömung.
+	Wie im ersten Blick auf die Tabelle \ref{tab:table3} zu erkennen ist, ist die Standardabweichung in der Mitte deutlich größer als außen. Dieses Ergebnis ist nachvollziehbar, wenn man sich vor Augen führt, dass hinter dem Modell eine Wirbelstraße entsteht. In dieser Wirbelstraße ist die Turbulenz der Strömung größer als im äußeren Bereich der Strömung.
 	
-	Aus der Tabelle ist es zu entnehmen, dass sich die Standardabweichung in der Mitte des Nachlaufes bei den Messungen mit konstanter Ausblasung deutlich von den anderen Messungen unterscheiden. Die Standardabweichung bei der Messungen mit gepulster Ausblasung ändert sich an dieser Position von der Messung ohne Ausblasung nicht mehr als 10\%, während bei der Messung mit konstanter Ausblasung diese Differenz bei mehr als 25\% liegt. Die im Kapitel \ref{sec:min_wid_freq} bei den Messungen mit gepulster Ausblasung erwähnte Stromvolumendifferenz könnte für die Entstehung dieses Unterschiedes verantwortlich sein. Laut dieses Kapitels ist das Stromvolumen bei der konstanten Ausblasung doppelt so groß wie bei den anderen Messungen mit der gepulsten Ausblasung. Infolgedessen kann man die Standardabweichungen bei der Messungen mit gepulsten Ausblasung und konstanten Ausblasung nicht vergleichen.
+	Aus der Tabelle \ref{tab:table3} ist es zu entnehmen, dass sich die Standardabweichung in der Mitte des Nachlaufes bei den Messungen mit konstanter Ausblasung deutlich von den anderen Messungen unterscheiden. Die Standardabweichung bei den Messungen mit gepulster Ausblasung ändert sich an dieser Position im Vergleich zu den Messungen ohne Ausblasung nicht mehr als 10\%, während bei der Messung mit konstanter Ausblasung diese Differenz bei mehr als 25\% liegt. Die im Kapitel \ref{sec:min_wid_freq} bei den Messungen mit gepulster Ausblasung erwähnte Stromvolumendifferenz könnte für die Entstehung dieses Unterschiedes verantwortlich sein. Laut dieses Kapitels ist das Stromvolumen bei der konstanten Ausblasung doppelt so groß wie bei den anderen Messungen mit der gepulsten Ausblasung. Infolgedessen kann man die Standardabweichungen bei der Messungen mit gepulsten Ausblasung und konstanten Ausblasung nicht vergleichen.
 	
 	\begin{table}[H]
 		\centering
