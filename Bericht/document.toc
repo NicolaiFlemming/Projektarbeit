@@ -1,19 +1,19 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Einleitung(T) }{6}{section.1}%
+\contentsline {section}{\numberline {1}Einleitung (T) }{6}{section.1}%
 \contentsline {section}{\numberline {2}Theoretische Grundlagen}{7}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Stumpfk\"orperaerodynamik (T)}{7}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Definition stumpfer K\"orper}{7}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}K\'arm\'ansche Wirbelstra\IeC {\ss }e}{10}{subsubsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.2}Grundlagen der Spektralanalyse (T)}{11}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Coanda-Effekt(A)}{11}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Coanda-Effekt (A)}{11}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Definition}{11}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Die Enstehung des Druckgradienten}{12}{subsubsection.2.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3}Abl\"osung}{13}{subsubsection.2.3.3}%
 \contentsline {subsubsection}{\numberline {2.3.4}Coanda-Effekt im Alltag}{15}{subsubsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.4}Hitzdrahtmessung(M)}{15}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Hitzdrahtmessung (M)}{15}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Physikalisches Wirkprinzip}{16}{subsubsection.2.4.1}%
 \contentsline {subsubsection}{\numberline {2.4.2}Kalibrierung}{18}{subsubsection.2.4.2}%
-\contentsline {section}{\numberline {3}Kalibrierung(N)}{20}{section.3}%
+\contentsline {section}{\numberline {3}Kalibrierung (N)}{20}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Zielsetzung}{20}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Versuchsaufbau}{20}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Programmierung}{21}{subsection.3.3}%
@@ -21,24 +21,24 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Matlab Script}{22}{subsubsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.4}Fehlerabsch\"atzung}{24}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Versuchsaufbau}{26}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Windkanal LNB(M)}{26}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Halterung der Hitzdrahtsonde(T)}{27}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Modell(M)}{27}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Einstellung und Vorbereitung des Modells(A)}{28}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Verwendete Messtechnik(M)}{30}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Programmierung(N)}{31}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Testf\"alle mit zugeh\"origen Ausblaseparametern(M)}{33}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.1}Windkanal LNB (M)}{26}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Halterung der Hitzdrahtsonde (T)}{27}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Modell (M)}{27}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Einstellung und Vorbereitung des Modells (A)}{28}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Verwendete Messtechnik (M)}{30}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Programmierung (N)}{31}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Testf\"alle mit zugeh\"origen Ausblaseparametern (M)}{33}{subsection.4.7}%
 \contentsline {section}{\numberline {5}Auswertung}{34}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Umrechnen der Daten(N)}{34}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.1}Umrechnen der Daten (N)}{34}{subsection.5.1}%
 \contentsline {subsubsection}{\numberline {5.1.1}Temperaturkorrektur, Mittelwerte und Widerst\"ande}{34}{subsubsection.5.1.1}%
 \contentsline {subsubsection}{\numberline {5.1.2}Standardabweichung}{35}{subsubsection.5.1.2}%
 \contentsline {subsubsection}{\numberline {5.1.3}Spektra}{36}{subsubsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.2}Nachlaufdellen und ihre Widerst\"ande(N,M)}{37}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Zustand ohne Ausblasung(T)}{39}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Konstante Ausblasung(T)}{40}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.2}Nachlaufdellen und ihre Widerst\"ande (N, M)}{37}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Zustand ohne Ausblasung (T)}{39}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Konstante Ausblasung (T)}{40}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Gepulste Ausblasung}{42}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}Zusammenhang der Auftretenden Frequenzen(N)}{42}{subsubsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {5.5.2}Minimaler Widerstand(M)}{44}{subsubsection.5.5.2}%
-\contentsline {subsubsection}{\numberline {5.5.3}Maximaler Widerstand(M)}{46}{subsubsection.5.5.3}%
-\contentsline {subsubsection}{\numberline {5.5.4}Standardabweichungen(A)}{46}{subsubsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.5.1}Zusammenhang der Auftretenden Frequenzen (N)}{42}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Minimaler Widerstand (M)}{44}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Maximaler Widerstand (M)}{46}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Standardabweichungen (A)}{46}{subsubsection.5.5.4}%
 \contentsline {section}{\numberline {6}Fazit}{49}{section.6}%
