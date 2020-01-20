@@ -42,4 +42,4 @@
 \contentsline {subsubsection}{\numberline {5.5.2}Minimaler Widerstand (M)}{47}{subsubsection.5.5.2}%
 \contentsline {subsubsection}{\numberline {5.5.3}Maximaler Widerstand (M)}{49}{subsubsection.5.5.3}%
 \contentsline {subsubsection}{\numberline {5.5.4}Standardabweichungen (A)}{49}{subsubsection.5.5.4}%
-\contentsline {section}{\numberline {6}Fazit}{52}{section.6}%
+\contentsline {section}{\numberline {6}Fazit}{53}{section.6}%
