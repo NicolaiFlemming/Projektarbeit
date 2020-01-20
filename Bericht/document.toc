@@ -19,7 +19,8 @@
 \contentsline {subsection}{\numberline {3.3}Programmierung}{21}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}LabVIEW Programm}{21}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Matlab Script}{22}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Fehlerabsch\"atzung}{24}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.3}Ergebnis}{24}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}Fehlerabsch\"atzung}{25}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Versuchsaufbau}{26}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Windkanal LNB (M)}{26}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Halterung der Hitzdrahtsonde (T)}{27}{subsection.4.2}%

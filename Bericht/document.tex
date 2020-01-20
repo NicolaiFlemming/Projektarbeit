@@ -456,7 +456,7 @@
 	plot(xdata, ydata, 'b.') % Plottet xdata und ydata
 	\end{lstlisting}
 	
-	Um die Kalibrierfunktion auf die Daten anzupassen, wird die lsqcurvefit Funktion der Matlab Optimization Toolbox verwendet. Diese nimmt eine vorgefertigte Funktion mit eingepassten Parametern, ein Array mit vermuteten Anfangsparametern (param0) und unsere x (xdata) und y (ydata) Daten entgegen. Die Parameter werden dann mittels linearer Regression so optimiert, dass sie möglichst gut zu unserem vorhandenen Datensatz passen. Als Grundfunktion wurde das King'sche Gesetz (siehe 2.4.2) verwendet. Nach der Optimierung gibt die Funktion ein Array mit den optimierten Parametern aus (param).
+	Um die Kalibrierfunktion auf die Daten anzupassen, wird die lsqcurvefit Funktion der Matlab Optimization Toolbox verwendet. Diese nimmt eine auf dem King'schen Gesetz basierende Funktion (siehe Kapitel \ref{sec:Kalibrierung_Theorie}) mit eingepassten Parametern, ein Array mit vermuteten Anfangsparametern (param0) und unsere x (xdata) und y (ydata) Daten entgegen. Die Parameter werden dann mittels linearer Regression so optimiert, dass die Abweichung zu unserem vorhandenen Datensatz minimiert wird. Nach der Optimierung gibt die Funktion ein Array mit den optimierten Parametern aus (param).
 	
 	\vspace{2mm}
 	\begin{lstlisting}[language=MATLAB,caption={Curvefitting}]
@@ -488,6 +488,25 @@
 	speed_calc = speed(param, ydata); % Berechnen der Geschwindigkeiten aus den gemessenen Spannungen mithilfe der invertierten Funktion 
 	plot(ydata, speed_calc)
 	\end{lstlisting}   
+	
+	\subsubsection{Ergebnis}
+	
+	Nachdem alle oben beschriebenen Programme ausgeführt wurden erhält man zwei Funktionen. Die erste Funktion gibt die Voltzahlen für bestimmte Gechwindigkeiten wieder ( $V(u)$ ) und ist das Ergbnis des ersten fittings über den Kalibrierdatensatz (siehe Abbildung \ref{fig:kalibrierkurve_fit}). Die zweite Funktion ist wie oben schon erwähnt die Inverse dieser Funktion und gibt die eigentliche Kalibrierfunktion wieder. Sie kann für mit dem Hitzdraht gemessene Spannungen einen Geschwindigkeitswert wiedergeben( $u(V)$ ) (siehe Abbildung \ref{fig:kalibrierkurve}). 
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/Kalibrierkurve_fit}
+			\caption{Kalibrierkurven Fit V(u)}
+			\label{fig:kalibrierkurve_fit}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/Kalibrierkurve}
+			\caption{Kalibrierkurve u(V)}
+			\label{fig:kalibrierkurve}
+		\end{subfigure}
+		\caption{Einstellen des Modells}
+	\end{figure}
 	
 	\subsection{Fehlerabschätzung}
 	\label{sec:Fehler_cal}
@@ -614,7 +633,7 @@
 	
 	Auf der Messrechnerseite ändert sich nichts und die Daten werden wieder über ein integriertes Matlabskript in ein .mat Format gebracht und abgespeichert (siehe Kapitel: \nameref{fig:labview2}, Abbildung \ref{fig:labview2}).
 	
-	Zur Steuerung der aktuierten Ausblasung über die Coandafläche wird ein 2. LabVIEW Programm genutzt, das die Ventile über eine gezeitete Schleife steuert. Die Frequenz kann so über die Periode (T) der angepeilten Schwingung eingestellt werden. Dabei entstehen Probleme, weil nur ganzzahlige Millisekunden Werte eingegeben werden können, die dann zu Abweichungen bei der eingestellten Frequenz führen. Aus diesem Grund konnten nur die Frequenzen 62\,Hz, 72\,Hz und 83\,Hz angesteuert werden. 
+	Zur Steuerung der aktuierten Ausblasung über die Coandafläche wird ein 2. LabVIEW Programm genutzt, das die Ventile über eine gezeitete Schleife steuert. Die Frequenz kann so über die Periode (T) der angepeilten Schwingung eingestellt werden. Dabei entstehen Probleme, weil die einstellbaren Frequenzen sich auf solche mit ganzzahligen Millisekundenwerten als Periode beschränken. Aus diesem Grund konnten nur die Frequenzen 62\,Hz, 72\,Hz und 83\,Hz angesteuert werden. 
 	
 	\begin{figure}[H]
 		\centering
@@ -721,7 +740,7 @@
 	\caption{Verschiedene Spektra-Darstellungen} 
 	\end{figure}
 	
-	Wie in Abbildung \ref{fig:spektrum_bsp} kann man in dem Spektrum stark auftretende Frequenzen gut erkennen. Das Contourplot bietet allerdings wie in Abbildung \ref{fig:contour_bsp} die Möglichkeit alle über den Messbereich auftretenden Frequenzen einzusehen. Um zu verifizieren, dass die Daten auch wirklich sinnvoll sind, wurden die erhaltenen Spektra der Hitzdrahtmessung auch noch ein mal mit den Spektra der Mikrofondaten verglichen.
+	Wie in Abbildung \ref{fig:spektrum_bsp} kann man in dem Spektrum stark auftretende Frequenzen gut erkennen. Das Contourplot bietet allerdings wie in Abbildung \ref{fig:contour_bsp} die Möglichkeit alle über den Messbereich auftretenden Frequenzen einzusehen.
 	
 	\subsection{Nachlaufdellen und ihre Widerstände (N, M)}
 	\label{sec:Nachlaufdellen_wid}
