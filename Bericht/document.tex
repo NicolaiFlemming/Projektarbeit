@@ -788,6 +788,7 @@
 	\end{table}
 	
 	\subsection{Zustand ohne Ausblasung(T)}
+	\label{sec:ohne_Ausblasung}
 	
 	Zunächst soll der Zustand des Nachlaufs, der ohne Ausblasung entsteht, anhand der Messdaten beschrieben werden. Dies dient als Ausgangspunkt, um den Einfluss der unterschiedlichen Aktuationsparameter auf die Strömung einzuschätzen. Ohne Ausblasung wurden zwei Messungen durchgeführt. Die dabei entstandenen Nachlaufdellen sind in Abbildung \ref{fig:Nachlaufdelle_ohne} gezeigt.
 	\begin{figure}[H]
@@ -902,37 +903,88 @@
 	\subsubsection{Zusammenhang der Auftretenden Frequenzen(N)}
 	\label{sec:Frequenzen}
 	
-	Wie schon in Sektion (2.1.5) beschrieben löst sich die Strömung am Ende unseres Sumpfkörpers über die Coanda-Fläche wirbelförmig ab. Dies geschieht bei einer Anströmung von 16\,m/s und keiner Ausblasung, mit der natürlichen Wirbelablösefrequenz von 68.7\,Hz. Dies entspricht bei unserer charakteristischen Länge von 0.0534\,m einer Strouhal Zahl von Sr = 0.23. In der Mitte des Messbereichs verdoppelt sich die Frequenz dann noch einmal auf 137.4\,Hz (Sr = 0.46). (siehe Contour Plot) Dies kann durch die Überlagerung der sich am Körper ablösenden Wirbel erklärt werden (siehe 5.3). 
+	Wie schon in Sektion \ref{sec:ohne_Ausblasung} beschrieben löst sich die Strömung am Ende unseres Sumpfkörpers über die Coanda-Fläche wirbelförmig ab. Dies geschieht bei einer Anströmung von 16\,m/s und keiner Ausblasung, mit der natürlichen Wirbelablösefrequenz von 68.7\,Hz. Dies entspricht bei unserer charakteristischen Länge von 0.0534\,m einer Strouhal Zahl von Sr = 0.23. In der Mitte des Messbereichs verdoppelt sich die Frequenz dann noch einmal auf 137.4\,Hz (Sr = 0.46). (siehe Contour Plot Abbildung \ref{fig:Contour_ohne_2barVgl}) Dies kann durch die Überlagerung der sich am Körper ablösenden Wirbel erklärt werden (siehe \ref{sec:ohne_Ausblasung}). 
 	
-	Bei konstanter Ausblasung steigt die Frequenz auf 72.2\,Hz (Sr = 0.24) bei 2\,Bar  und  74,1\,Hz (Sr = 0.24) bei 1\,Bar Versorgungsdruck. Gleich bleibt jedoch, dass in der Mitte des Messbereichs die doppelte Frequenz der Ablösefrequenz auftritt.
+	Bei konstanter Ausblasung steigt die Frequenz auf 72.2\,Hz (Sr = 0.24) bei 2\,Bar  und  74,1\,Hz (Sr = 0.24) bei 1\,Bar Versorgungsdruck. Gleich bleibt jedoch, dass in der Mitte des Messbereichs die doppelte Frequenz der Ablösefrequenz auftritt (Sr = 0.5) (siehe Contour Plot Abbildung \ref{fig:Contour_konst_2bar}).
 	
-	Bei gepulster Ausblasung von 62\,Hz und 2\,Bar fällt auf, dass zunächst eine Ablösefrequenz nahe der gepulsten Frequenz im Nachlauf auftritt. In der Mitte des Messbereichs kann wieder eine Verdoppelung der am Rand auftretenden Frequenz beobachtet werden. Bei 1\,Bar Ausblasung mit 62\,Hz  tritt hingegen hauptsächlich eine Frequenz von 71 - 72\,Hz (Sr = 0.236) auf, ähnlich der Frequenz bei konstanter Ausblasung. Die 62\,Hz (Sr = 0.21)  sind im Spektrum am Rand des Messbereichs zwar noch zu erkennen, scheinen aber keinen besonders großen Einfluss mehr zu nehmen. Wahrscheinlich liegt dies daran, dass 1\,Bar Druckversorgung einfach zu gering sind um einen Unterschied im Nchlauf zu erzeugen.
-	
-	Hier noch ein/zwei Bilder (Spektrum und oder passendes Contour Plot)
-	
-	Bei einer Pulsfrequenz von 72\,Hz und 2\,Bar Druck bildet sich wie bei der konstanten Ausblasung eine Frequenz von 72\,Hz (Sr = 0.236) im Nachlauf aus. Bei der gepulsten Ausblasung mit 1\,Bar ist das Verhalten auch zu beobachten. Dies ist auch zu erwarten, weil die Frequenz im Nachlauf bei konstanter Ausblasung bereits 72\,Hz annimmt. (Komischer Datensatz bei 1\,Bar 72\,Hz erklärt sich so vielleicht). Bei beiden Zuständen bildet sich in der Mitte des Messbereichs die doppelte Frequenz aus.
-	
-	(hier auch noch Bilder)
-	
-	Bei 83\,Hz Pulsung wiederholen sich die Erkenntnisse, die bereits bei 62\,Hz gewonnen wurden. Die 2\,Bar Ausblasung passt die Frequenz im Nachlauf an die gepulste Frequenz an, während die 1\,Bar Ausblasung wieder eine Frequenz von 72\,Hz erzeugt. Die Frequenz der 1\,Bar Ausblasung ist im Spektrum am Rand des Messbereichs noch zu erkennen, spielt aber bei der Ausbildung von Frequenzen im Nachlauf kaum eine Rolle (siehe Abbildung \ref{fig:spektrum_1Bar_83Hz}). Wie bei allen anderen Messungen verdoppelt sich die Ablösefrequenz wenn man die Mitte des Messbereichs betrachtet.
+	Bei gepulster Ausblasung von 62\,Hz und 2\,Bar fällt auf, dass zunächst eine Ablösefrequenz nahe der gepulsten Frequenz im Nachlauf auftritt (Sr = 0,206). In der Mitte des Messbereichs kann wieder eine Verdoppelung der am Rand auftretenden Frequenz beobachtet werden (siehe Abbildung \ref{fig:Contour_622Bar}). Bei 1\,Bar Ausblasung mit 62\,Hz  tritt hingegen hauptsächlich eine Frequenz von 71 - 72\,Hz (Sr = 0.236) auf, ähnlich der Frequenz bei konstanter Ausblasung (siehe Abbildung \ref{fig:Contour_621Bar}). Die 62\,Hz (Sr = 0.21)  sind im Spektrum am Rand des Messbereichs zwar noch zu erkennen, scheinen aber keinen besonders großen Einfluss mehr zu nehmen. Stattdessen ist ein großer Peak bei 71-72\,Hz zu erkennen (siehe Abbildung \ref{fig:spektrum_1Bar_62Hz}). Wahrscheinlich liegt dies daran, dass 1\,Bar Druckversorgung einfach zu gering sind um einen Unterschied im Nchlauf zu erzeugen.
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=\linewidth]{Spektrum 1Bar 83Hz}
-		\caption{Spektrum 1\,Bar, 83Hz Rand}
-		\label{fig:spektrum_1Bar_83Hz}
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/62Hz/Contour_62Hz_1bar.jpg}
+			\caption{Kontur Plot 62\,Hz 1\,Bar}
+			\label{fig:Contour_621Bar}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/62Hz/Contour_62Hz_2bar.jpg}
+			\caption{Kontur Plot 62\,Hz 2\,Bar}
+			\label{fig:Contour_622Bar}
+		\end{subfigure}
+		\caption{Kontur Plots im Vergleich}
+		\label{fig:Contour_vgl62}
 	\end{figure}
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.8\linewidth]{Contour plot 1bar 83Hz}
-		\caption{Contour Plot 1\,Bar 83Hz}
-		\label{fig:contour_1Bar_83Hz}
+		\includegraphics[width=0.8\linewidth]{Bilder/62Hz/Spektrum_62Hz_1bar.jpg}
+		\caption{Spektrum 1\,Bar, 62\,Hz Rand}
+		\label{fig:spektrum_1Bar_62Hz}
 	\end{figure}
 	
-	Für die weitere Betrachtung werden wir die 2\,Bar Messreihe verwenden, da sie als einzige der beiden eine wirkliche Veränderung im Nachlauf erzeugt hat. 
+	Bei einer Pulsfrequenz von 72\,Hz und 2\,Bar Druck bildet sich wie bei der konstanten Ausblasung eine Frequenz von 72\,Hz (Sr = 0.236) im Nachlauf aus (siehe Abbildung \ref{fig:Spektrum_722Bar}). Bei der gepulsten Ausblasung mit 1\,Bar ist das Verhalten auch zu beobachten. Dies ist auch zu erwarten, weil wir synchron mit der natürlichen Ablösefrequenz bei konstanter Ausblasung pulsen. Auffälligt ist jedoch, dass bei 1Bar Versorgungsdruck scheinbar kaum andere Frequenzen auftreten. (siehe Abbildung \ref{fig:Spektrum_721Bar}) Bei beiden Zuständen bildet sich in der Mitte des Messbereichs die doppelte Frequenz aus (Sr = 0.24) (siehe Abbildung \ref{fig:Contour_1Bar_72Hz}).
 	
-	Auffällig sind auch die immer wieder auftretenden Frequenzen nahe 0\,Hz (Sr = 0). Wie diese zu erklären sind ist nicht ganz klar, eine Vermutung ist aber, dass diese die Regelung vom Kanal erfassen. Der Kanal wird seine Geschwindigkeit aufgrund der PID-Steuerung nur mit sehr langsamen aber kontinuierlichen Schwingungen ausgleichen und so, sehr niedrige Frequenzen in das Spektrum mit einbringen.  
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/72Hz/Spektrum_72Hz_1bar.jpg}
+			\caption{Spektrum 72\,Hz 1\,Bar}
+			\label{fig:Spektrum_721Bar}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Bilder/72Hz/Spektrum_72Hz_2bar.jpg}
+			\caption{Spektrum 72\,Hz 2\,Bar}
+			\label{fig:Spektrum_722Bar}
+		\end{subfigure}
+		\caption{Spektra im Vergleich}
+		\label{fig:Spektra_vgl72}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{Bilder/72Hz/Contour_72Hz_1bar.jpg}
+		\caption{Contour 1\,Bar, 72\,Hz}
+		\label{fig:Contour_1Bar_72Hz}
+	\end{figure}
+	
+	Bei 83\,Hz Pulsung wiederholen sich die Erkenntnisse, die bereits bei 62\,Hz gewonnen wurden. Die 2\,Bar Ausblasung passt die Frequenz im Nachlauf an die gepulste Frequenz an, während die 1\,Bar Ausblasung wieder eine Frequenz von 72\,Hz erzeugt. Die Frequenz der 1\,Bar Ausblasung ist im Spektrum am Rand des Messbereichs noch zu erkennen, spielt aber bei der Ausbildung von Frequenzen im Nachlauf kaum eine Rolle (siehe Abbildung \ref{fig:Vgl_831Bar}). Wie bei allen anderen Messungen verdoppelt sich die Ablösefrequenz wenn man die Mitte des Messbereichs betrachtet.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Spektrum 1Bar 83Hz}
+			\caption{Spektrum 83\,Hz 1\,Bar}
+			\label{fig:Spektrum_831Bar}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Contour plot 1bar 83Hz}
+			\caption{Contour Plot 83\,Hz 1\,Bar}
+			\label{fig:Contour_831Bar}
+		\end{subfigure}
+		\caption{Ausblasung 83\,Hz 1\,Bar}
+		\label{fig:Vgl_831Bar}
+	\end{figure}
+	
+	\textbf{Für die weitere Betrachtung werden wir die 2\,Bar Messreihe sowie den 1\,Bar /2\,Hz Betriebszustand verwenden, da sie als einzige der beiden Messreihen eine wirkliche Veränderung im Nachlauf erzeugt haben.} 
+	
+	Auffällig sind auch die immer wieder auftretenden Frequenzen nahe 0\,Hz (Sr = 0) (siehe Abbildung \ref{fig:Spektrum 0}). Wie diese zu erklären sind ist nicht ganz klar, eine Vermutung ist aber, dass diese die Regelung vom Kanal erfassen. Der Kanal wird seine Geschwindigkeit aufgrund der PID-Steuerung nur mit sehr langsamen aber kontinuierlichen Schwingungen ausgleichen und so, sehr niedrige Frequenzen in das Spektrum mit einbringen.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{Bilder/ohne_1_Bar/Spektrum_0.jpg}
+		\caption{Spektrum mit Frequenzen nahe 0}
+		\label{fig:Spektrum 0}
+	\end{figure}
 	
 	
 	
